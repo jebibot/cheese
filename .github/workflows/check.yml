@@ -1,0 +1,27 @@
+name: Check
+
+on:
+  schedule:
+    - cron: "7/15 * * * *"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: npm
+
+      - run: npm ci
+      - run: npm run start --if-present
+
+      - name: Commit files
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add *.js
+          git commit -F message.txt
+          git push
+        continue-on-error: true
