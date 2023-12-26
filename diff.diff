@@ -1,0 +1,31 @@
+-            PD = "live_chatting_popup_profile_no_menu__OXYo9",
+-            DD = "live_chatting_popup_profile_history__yFNVd",
+-            BD = "live_chatting_popup_profile_is_popup_chat__-fFc6",
+-            jD = "live_chatting_popup_profile_is_bottom__tzoQG",
+-            FD = "live_chatting_popup_profile_is_large__pIWsO",
++            PD = "live_chatting_popup_profile_is_popup_chat__-fFc6",
++            DD = "live_chatting_popup_profile_is_bottom__tzoQG",
++            BD = "live_chatting_popup_profile_is_large__pIWsO",
++            jD = "live_chatting_popup_profile_no_menu__OXYo9",
++            FD = "live_chatting_popup_profile_history__yFNVd",
+
+-            G6 = 1e3,
+-            $6 = function(e) {
++            G6 = function(e) {
+
+-                                            return t > 3e6 || t < G6 ? "후원할 수 없는 금액입니다." : t > n ? "치즈가 부족합니다." : t < e && e > G6 && t >= G6 ? "스트리머 설정에 따라 ".concat(yl(e), " 치즈부터 후원할 수 있어요.") : ""
+-                                        }((null === d || void 0 === d ? void 0 : d.chatMinCurrencyPayAmount) || G6, C, u)
++                                            return t > 3e6 ? "후원할 수 없는 금액입니다." : t > n ? "치즈가 부족합니다." : t < e ? "스트리머 설정에 따라 ".concat(yl(e), " 치즈부터 후원할 수 있어요.") : ""
++                                        }((null === d || void 0 === d ? void 0 : d.chatMinCurrencyPayAmount) || 1e3, C, u)
+
+-                    }), (0, Wi.jsx)(O4, {
+-                        children: (0, Wi.jsx)(j4, (0, Xe.Z)({}, o))
+
+
+-                        children: (0, Wi.jsx)(O4, {
+-                            children: (0, Wi.jsx)(z4, {
++                        children: (0, Wi.jsx)(B4, (0, Xe.Z)({}, o))
++                    }), (0, Wi.jsx)(M4, {
++                        children: (0, Wi.jsx)(_4, {
++                            children: (0, Wi.jsx)(O4, {
+
