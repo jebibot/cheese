@@ -1,7 +1,8 @@
 {
   "name": "cheese",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "diff": "node diff.mjs"
   },
   "dependencies": {
     "got": "^14.0.0",
