@@ -1,0 +1,27 @@
+-                    d = (0, n.useState)(0),
++                    d = (0, un.useRecoilState)(Gn),
+
+-                    h = f[0],
+-                    b = f[1];
++                    h = (f[0], f[1]),
++                    b = (0, un.useRecoilState)(Rn),
++                    v = (0, t.Z)(b, 2),
++                    m = (v[0], v[1]),
++                    y = (0, n.useState)(0),
++                    g = (0, t.Z)(y, 2),
++                    M = g[0],
++                    _ = g[1];
+
+-                        var n, r, i;
++                        var n, r, i, a, s;
+
+-                                    n = t.sent, o(n), p(null === n || void 0 === n ? void 0 : n.chatAvailableGroup), Cl(n.liveTitle), t.next = 13;
+-                                    break;
++                                    return r = t.sent, o(r), p(null === r || void 0 === r ? void 0 : r.chatAvailableGroup), Cl(r.liveTitle), t.next = 10, Iz(e);
+
+-                                    t.prev = 10, t.t0 = t.catch(1), Zy(t.t0) && 9004 === (null === (r = t.t0.response) || void 0 === r || null === (i = r.data) || void 0 === i ? void 0 : i.code) && fp("부적절한 내용이 감지되어 시청이 불가한 영상입니다.", (function(e) {
++                                    i = t.sent, h(i), m(!(null === (n = i.following) || void 0 === n || !n.following)), t.next = 18;
++                                    break;
++                                case 15:
++                                    t.prev = 15, t.t0 = t.catch(1), Zy(t.t0) && 9004 === (null === (a = t.t0.response) || void 0 === a || null === (s = a.data) || void 0 === s ? void 0 : s.code) && fp("부적절한 내용이 감지되어 시청이 불가한 영상입니다.", (function(e) {
+
