@@ -1,0 +1,1482 @@
+-                vt = "checkbox_container__Qv1oU",
+-                mt = "checkbox_disabled__t0e4w",
+-                gt = "checkbox_icon__Bm65m",
+-                yt = "checkbox_input__KvU9b",
+-                _t = "checkbox_check__d4rD7",
+-                bt = "checkbox_label__6eXga",
+-                wt = function(e) {
++                vt = {
++                    container: "checkbox_container__Qv1oU",
++                    icon: "checkbox_icon__Bm65m",
++                    input: "checkbox_input__KvU9b",
++                    check: "checkbox_check__d4rD7",
++                    label: "checkbox_label__6eXga"
++                },
++                mt = function(e) {
+
+-                        className: He()(vt, (0, Fe.Z)({}, mt, i)),
++                        className: He()(vt.container, (0, Fe.Z)({}, vt.disabled, i)),
+
+-                            className: He()(yt, "blind"),
++                            className: He()(vt.input, "blind"),
+
+-                            className: gt,
++                            className: vt.icon,
+
+-                                className: _t
++                                className: vt.check
+
+-                            className: bt,
++                            className: vt.label,
+
+-                    return e.startsWith("dev.") || e.startsWith("alpha-www.") || e.startsWith("nng-m-game.") || e.startsWith("nng-game.") || e.startsWith("nng-glive-center.") ? "dev" : e.startsWith("test-game.") || e.startsWith("test-m-game.") || e.startsWith("nng-game-test.") || e.startsWith("nng-m-game-test.") ? "test" : e.startsWith("test-game2.") || e.startsWith("test-m-game2.") || e.startsWith("nng-game-test2.") || e.startsWith("nng-m-game-test2.") ? "test2" : e.startsWith("stg.") || e.startsWith("stg-") || e.startsWith("beta-") ? "stg" : e.startsWith("local.") ? "dev" : ""
++                    return e.startsWith("dev.") || e.startsWith("alpha-www.") || e.startsWith("nng-m-game.") || e.startsWith("nng-game.") || e.startsWith("nng-glive-center.") || e.startsWith("nng-glive.") || e.startsWith("nng-m-glive.") ? "dev" : e.startsWith("test-game.") || e.startsWith("test-m-game.") || e.startsWith("nng-game-test.") || e.startsWith("nng-m-game-test.") || e.startsWith("nng-glive-center-test.") || e.startsWith("nng-glive-test.") || e.startsWith("nng-m-glive-test.") ? "test" : e.startsWith("test-game2.") || e.startsWith("test-m-game2.") || e.startsWith("nng-game-test2.") || e.startsWith("nng-m-game-test2.") || e.startsWith("nng-glive-center-test2.") || e.startsWith("nng-glive-test2.") || e.startsWith("nng-m-glive-test2.") ? "test2" : e.startsWith("stg.") || e.startsWith("stg-") || e.startsWith("beta-") ? "stg" : e.startsWith("local.") ? "dev" : ""
+
+-                        subDomain: ["/leaveForm", "/:userIdHash?/leaveForm"],
+
+
+-                    LEAVEFORM: {
+-                        domain: "/leaveForm",
+-                        path: "/:userIdHash?/leaveForm",
+-                        title: "스튜디오 탈퇴"
+-                    },
+
+
+
++                    warning: "form_warning__HgAqC",
+
+-                rp = function(e) {
+-                    var t = e.children;
+-                    return (0, et.jsx)("div", {
+-                        className: Mh.box_select,
+-                        children: t
+-                    })
+-                },
+-                ip = function(e) {
++                Qh = function(e) {
+
+-                        className: Mh.confirm,
++                        className: Lh.box_select,
+
+-                ap = function(e) {
++                ep = function(e) {
++                    var t = e.children;
++                    return (0, et.jsx)("p", {
++                        className: Lh.warning,
++                        children: t
++                    })
++                },
++                tp = function(e) {
+
+-                        case Tm.STEP3:
+-                            (0, ht.isNil)(i.myStatus) || i.myStatus.selfRealNameAuth ? u(Tm.STEP4) : (f(y), u(Tm.NOT_YET));
++                        case wm.STEP3:
++                            (0, ht.isNil)(i.myStatus) || i.myStatus.realNameAuth ? u(wm.STEP4) : (f(y), u(wm.NOT_YET));
+
+-                                length: gn()().clone().year() - 2023 + 1
+-                            }, (function(e, t) {
+-                                return (2023 + t).toString()
+-                            }))),
+-                            function() {
+-                                var e = 0,
+-                                    t = [];
+-                                null === n || void 0 === n || n.map((function(n) {
+-                                    e += n.donation.payAmt, e += n.subscription.payAmt, t.push({
+-                                        yearMonth: n.yearMonth,
+-                                        donationPayAmount: n.donation.payAmt,
+-                                        subscriptionPayAmount: n.subscription.payAmt
+-                                    })
+-                                })), g(t), h(e)
+-                            }()
+-                    }), []), (0, et.jsx)(et.Fragment, {
+-                        children: (0, et.jsxs)(Ph, {
+-                            children: [(0, et.jsxs)(Dh, {
+-                                children: [(0, et.jsx)(Fh, {
++                            length: fn()().clone().year() - 2023 + 1
++                        }, (function(e, t) {
++                            return (2023 + t).toString()
++                        })))
++                    }), []), (0, Q.useEffect)((function() {
++                        ! function() {
++                            var e = 0,
++                                t = [];
++                            null === n || void 0 === n || n.map((function(n) {
++                                var r, i;
++                                e += n.donation.payAmt, e += (null === (r = n.subscription) || void 0 === r ? void 0 : r.payAmt) || 0, t.push({
++                                    yearMonth: n.yearMonth,
++                                    donationPayAmount: n.donation.payAmt,
++                                    subscriptionPayAmount: (null === (i = n.subscription) || void 0 === i ? void 0 : i.payAmt) || 0
++                                })
++                            })), g(t), h(e)
++                        }()
++                    }), [n]), (0, et.jsx)(et.Fragment, {
++                        children: (0, et.jsxs)(Oh, {
++                            children: [(0, et.jsxs)(Ih, {
++                                children: [(0, et.jsx)(Rh, {
+
+-            var Tg = Q.forwardRef(Cg),
+-                kg = (n.p, "monthly_area__PQox3"),
+-                Ag = "monthly_box__clTKl",
+-                Lg = "monthly_month__CrQq8",
+-                Og = "monthly_amount__lmJys",
+-                Ig = "monthly_schedule__pZwXg",
+-                Ng = "monthly_fail__tzCS6",
+-                Rg = "monthly_state__m-z8W",
+-                Mg = "monthly_important__mL3e2",
+-                Pg = "monthly_important_schedule__fGnP9",
+-                Dg = "monthly_important_fail__2UrDM",
+-                jg = "monthly_highlight__LtGIk",
+-                Fg = "monthly_icon__Luivs",
+-                Bg = function(e) {
+-                    var t, n = e.revenueSettlementSubItem,
+-                        i = e.uniqueKey,
+-                        o = (0, Q.useState)(0),
+-                        a = (0, r.Z)(o, 2),
+-                        s = a[0],
+-                        u = a[1],
+-                        l = (0, Q.useState)(),
+-                        c = (0, r.Z)(l, 2),
+-                        d = c[0],
+-                        f = c[1],
+-                        h = function(e) {
+-                            return Rh()(e.toString(), /\B(?=(\d{3})+(?!\d))/g, (function(e, t) {
++            var wg = Q.forwardRef(bg),
++                xg = (n.p, "monthly_area__PQox3"),
++                Sg = "monthly_box__clTKl",
++                Eg = "monthly_month__CrQq8",
++                Cg = "monthly_amount__lmJys",
++                Tg = "monthly_schedule__pZwXg",
++                kg = "monthly_fail__tzCS6",
++                Ag = "monthly_state__m-z8W",
++                Lg = "monthly_important__mL3e2",
++                Og = "monthly_important_schedule__fGnP9",
++                Ig = "monthly_important_fail__2UrDM",
++                Ng = "monthly_highlight__LtGIk",
++                Rg = "monthly_icon__Luivs",
++                Mg = function(e) {
++                    var t, n, i, o, a, s, u, l = e.revenueSettlementSubItem,
++                        c = e.uniqueKey,
++                        d = (0, Q.useState)(0),
++                        f = (0, r.Z)(d, 2),
++                        h = f[0],
++                        p = f[1],
++                        v = (0, Q.useState)(),
++                        m = (0, r.Z)(v, 2),
++                        g = m[0],
++                        y = m[1],
++                        _ = function(e) {
++                            return Ah()(e.toString(), /\B(?=(\d{3})+(?!\d))/g, (function(e, t) {
+
+-                            }), !(0, ht.isNil)(n) && !(0, ht.isNil)(n.donation) && !(0, ht.isNil)(n.subscription) && (0, et.jsxs)(Pv, {
+-                                children: [(0, et.jsx)(Fv, {
+-                                    children: (0, et.jsx)(Vv, {
++                            }), !(0, ht.isNil)(l) && !(0, ht.isNil)(l.donation) && (0, et.jsxs)(Ov, {
++                                children: [(0, et.jsx)(Rv, {
++                                    children: (0, et.jsx)(Dv, {
+
+-                                }), (0, et.jsx)(Fv, {
+-                                    children: (0, et.jsxs)(Vv, {
+-                                        children: [h(n.donation.payAmt + n.subscription.payAmt), "원"]
++                                }), (0, et.jsx)(Rv, {
++                                    children: (0, et.jsxs)(Dv, {
++                                        children: [_(l.donation.payAmt + ((null === (n = l.subscription) || void 0 === n ? void 0 : n.payAmt) || 0)), "원"]
+
+-                                }), (0, et.jsx)(Fv, {
+-                                    children: (0, et.jsxs)(Vv, {
+-                                        children: [h(n.donation.feeAmt + n.subscription.feeAmt), "원"]
++                                }), (0, et.jsx)(Rv, {
++                                    children: (0, et.jsxs)(Dv, {
++                                        children: [_(l.donation.feeAmt + ((null === (i = l.subscription) || void 0 === i ? void 0 : i.feeAmt) || 0)), "원"]
+
+-                                }), (0, et.jsx)(Fv, {
+-                                    children: (0, et.jsxs)(Vv, {
+-                                        children: [h(n.donation.payAmt + n.subscription.payAmt), "원"]
++                                }), (0, et.jsx)(Rv, {
++                                    children: (0, et.jsxs)(Dv, {
++                                        children: [_(l.donation.payAmt + ((null === (o = l.subscription) || void 0 === o ? void 0 : o.payAmt) || 0)), "원"]
+
+-                                }), (0, et.jsx)(Fv, {
+-                                    children: (0, et.jsxs)(Vv, {
+-                                        children: [h(n.donation.cpSupplyAmt + n.subscription.cpSupplyAmt), "원"]
++                                }), (0, et.jsx)(Rv, {
++                                    children: (0, et.jsxs)(Dv, {
++                                        children: [_(l.donation.cpSupplyAmt + ((null === (a = l.subscription) || void 0 === a ? void 0 : a.cpSupplyAmt) || 0)), "원"]
+
+-                                }), (0, et.jsx)(Fv, {
+-                                    children: (0, et.jsxs)(Vv, {
+-                                        children: [h(n.donation.cpTaxAmt + n.subscription.cpTaxAmt), "원"]
++                                }), (0, et.jsx)(Rv, {
++                                    children: (0, et.jsxs)(Dv, {
++                                        children: [_(l.donation.cpTaxAmt + ((null === (s = l.subscription) || void 0 === s ? void 0 : s.cpTaxAmt) || 0)), "원"]
+
+-                                }), (0, et.jsx)(Fv, {
+-                                    children: (0, et.jsxs)(Vv, {
+-                                        children: [h(n.donation.cpAmt + n.subscription.cpAmt), "원"]
++                                }), (0, et.jsx)(Rv, {
++                                    children: (0, et.jsxs)(Dv, {
++                                        children: [_(l.donation.cpAmt + ((null === (u = l.subscription) || void 0 === u ? void 0 : u.cpAmt) || 0)), "원"]
+
+-            var ry, iy, oy, ay = Q.forwardRef(ny),
+-                sy = (n.p, {
++            var Qg, Jg = Q.forwardRef(Xg),
++                ey = (n.p, {
+
+-                Ly = Q.memo(Ay),
+-                Oy = "tooltip_container__hrMFQ",
+-                Iy = "tooltip_button__SHxTG",
+-                Ny = "tooltip_tooltip__u7j4w",
+-                Ry = "tooltip_item__KQdS8",
+-                My = "tooltip_button_close__h-Z2x",
+-                Py = ["title", "titleId"];
++                xy = Q.memo(wy),
++                Sy = ["title", "titleId"];
+
+-                }, n) : null, ry || (ry = Q.createElement("path", {
+-                    fillRule: "evenodd",
+-                    clipRule: "evenodd",
+-                    d: "M6.5 12C9.53757 12 12 9.53757 12 6.5C12 3.46243 9.53757 1 6.5 1C3.46243 1 1 3.46243 1 6.5C1 9.53757 3.46243 12 6.5 12ZM6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13Z",
+-                    fill: "#AEB4C2"
+-                })), iy || (iy = Q.createElement("path", {
+-                    fillRule: "evenodd",
+-                    clipRule: "evenodd",
+-                    d: "M6.75457 7.8283C6.85178 7.71763 6.89583 7.56923 6.9081 7.41216L6.90832 7.40866C6.9186 7.20735 6.9575 7.0702 7.04921 6.94489C7.14474 6.81437 7.306 6.6849 7.58734 6.51915C8.19989 6.15254 8.57992 5.64572 8.57992 4.90374C8.57992 4.37697 8.36306 3.9272 7.98945 3.61116C7.61747 3.2965 7.09734 3.12 6.4955 3.12C5.57788 3.12 4.84799 3.50707 4.55084 4.1781C4.46491 4.36453 4.41992 4.53759 4.41992 4.74897C4.41992 4.90832 4.46601 5.05273 4.56862 5.15767C4.67167 5.26306 4.81574 5.31231 4.97883 5.31231C5.10898 5.31231 5.23049 5.2833 5.33328 5.20076C5.43372 5.1201 5.50088 5.00058 5.5492 4.8508L5.55017 4.8475C5.61431 4.62901 5.72363 4.46832 5.86975 4.36142C6.01615 4.25431 6.2099 4.1936 6.4557 4.1936C6.72364 4.1936 6.93876 4.27498 7.08511 4.40507C7.23024 4.53407 7.31618 4.71811 7.31618 4.94353C7.31618 5.13862 7.27418 5.28555 7.1783 5.42035C7.07921 5.55965 6.91581 5.69561 6.6539 5.85362C6.35752 6.03148 6.12808 6.22343 5.97324 6.45265C5.81673 6.68433 5.74203 6.94578 5.74203 7.2517V7.3534C5.74203 7.52076 5.78633 7.68245 5.88823 7.80473C5.99284 7.93027 6.14711 8.00074 6.33632 8.00074C6.51039 8.00074 6.65374 7.94309 6.75457 7.8283Z",
+-                    fill: "#AEB4C2"
+-                })), oy || (oy = Q.createElement("path", {
+-                    fillRule: "evenodd",
+-                    clipRule: "evenodd",
+-                    d: "M6.33632 9.87999C6.73711 9.87999 7.04999 9.57678 7.04999 9.17959C7.04999 8.78239 6.73711 8.47918 6.33632 8.47918C5.94437 8.47918 5.62707 8.78239 5.62707 9.17959C5.62707 9.57678 5.94437 9.87999 6.33632 9.87999Z",
++                }, n) : null, Qg || (Qg = Q.createElement("path", {
++                    d: "M5.18794 5.22896C4.93735 5.47954 4.93735 5.88582 5.18794 6.13641L9.05228 10.0008L5.18818 13.8648C4.9376 14.1154 4.9376 14.5217 5.18818 14.7723C5.43877 15.0229 5.84505 15.0229 6.09564 14.7723L9.95973 10.9082L13.824 14.7724C14.0746 15.023 14.4808 15.023 14.7314 14.7724C14.982 14.5219 14.982 14.1156 14.7314 13.865L10.8672 10.0008L14.7314 6.13653C14.982 5.88594 14.982 5.47966 14.7314 5.22908C14.4808 4.97849 14.0745 4.97849 13.824 5.22908L9.95973 9.0933L6.09539 5.22896C5.84481 4.97837 5.43853 4.97837 5.18794 5.22896Z",
+
+-            var By, Uy = Q.forwardRef(Fy),
+-                Vy = (n.p, ["title", "titleId"]);
++            var ky, Ay, Ly, Oy = Q.forwardRef(Ty),
++                Iy = (n.p, ["title", "titleId"]);
+
+-                }, n) : null, By || (By = Q.createElement("path", {
+-                    d: "M5.18794 5.22896C4.93735 5.47954 4.93735 5.88582 5.18794 6.13641L9.05228 10.0008L5.18818 13.8648C4.9376 14.1154 4.9376 14.5217 5.18818 14.7723C5.43877 15.0229 5.84505 15.0229 6.09564 14.7723L9.95973 10.9082L13.824 14.7724C14.0746 15.023 14.4808 15.023 14.7314 14.7724C14.982 14.5219 14.982 14.1156 14.7314 13.865L10.8672 10.0008L14.7314 6.13653C14.982 5.88594 14.982 5.47966 14.7314 5.22908C14.4808 4.97849 14.0745 4.97849 13.824 5.22908L9.95973 9.0933L6.09539 5.22896C5.84481 4.97837 5.43853 4.97837 5.18794 5.22896Z",
++                }, n) : null, ky || (ky = Q.createElement("path", {
++                    fillRule: "evenodd",
++                    clipRule: "evenodd",
++                    d: "M6.5 12C9.53757 12 12 9.53757 12 6.5C12 3.46243 9.53757 1 6.5 1C3.46243 1 1 3.46243 1 6.5C1 9.53757 3.46243 12 6.5 12ZM6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13Z",
++                    fill: "#AEB4C2"
++                })), Ay || (Ay = Q.createElement("path", {
++                    fillRule: "evenodd",
++                    clipRule: "evenodd",
++                    d: "M6.75457 7.8283C6.85178 7.71763 6.89583 7.56923 6.9081 7.41216L6.90832 7.40866C6.9186 7.20735 6.9575 7.0702 7.04921 6.94489C7.14474 6.81437 7.306 6.6849 7.58734 6.51915C8.19989 6.15254 8.57992 5.64572 8.57992 4.90374C8.57992 4.37697 8.36306 3.9272 7.98945 3.61116C7.61747 3.2965 7.09734 3.12 6.4955 3.12C5.57788 3.12 4.84799 3.50707 4.55084 4.1781C4.46491 4.36453 4.41992 4.53759 4.41992 4.74897C4.41992 4.90832 4.46601 5.05273 4.56862 5.15767C4.67167 5.26306 4.81574 5.31231 4.97883 5.31231C5.10898 5.31231 5.23049 5.2833 5.33328 5.20076C5.43372 5.1201 5.50088 5.00058 5.5492 4.8508L5.55017 4.8475C5.61431 4.62901 5.72363 4.46832 5.86975 4.36142C6.01615 4.25431 6.2099 4.1936 6.4557 4.1936C6.72364 4.1936 6.93876 4.27498 7.08511 4.40507C7.23024 4.53407 7.31618 4.71811 7.31618 4.94353C7.31618 5.13862 7.27418 5.28555 7.1783 5.42035C7.07921 5.55965 6.91581 5.69561 6.6539 5.85362C6.35752 6.03148 6.12808 6.22343 5.97324 6.45265C5.81673 6.68433 5.74203 6.94578 5.74203 7.2517V7.3534C5.74203 7.52076 5.78633 7.68245 5.88823 7.80473C5.99284 7.93027 6.14711 8.00074 6.33632 8.00074C6.51039 8.00074 6.65374 7.94309 6.75457 7.8283Z",
++                    fill: "#AEB4C2"
++                })), Ly || (Ly = Q.createElement("path", {
++                    fillRule: "evenodd",
++                    clipRule: "evenodd",
++                    d: "M6.33632 9.87999C6.73711 9.87999 7.04999 9.57678 7.04999 9.17959C7.04999 8.78239 6.73711 8.47918 6.33632 8.47918C5.94437 8.47918 5.62707 8.78239 5.62707 9.17959C5.62707 9.57678 5.94437 9.87999 6.33632 9.87999Z",
+
+-            var Wy, Gy = Q.forwardRef(Zy),
+-                qy = (n.p, function(e) {
++            var Py, Dy = Q.forwardRef(My),
++                jy = (n.p, "tooltip_container__hrMFQ"),
++                Fy = "tooltip_button__SHxTG",
++                By = "tooltip_tooltip__u7j4w",
++                Uy = "tooltip_text__qcK2v",
++                Vy = "tooltip_list__A5vT1",
++                Hy = "tooltip_item__KQdS8",
++                zy = "tooltip_link__e7fjH",
++                Zy = "tooltip_button_close__h-Z2x",
++                Wy = function(e) {
+
+-                        n = e.list,
+-                        i = (0, Q.useRef)(null),
+-                        o = (0, Q.useState)(!1),
+-                        a = (0, r.Z)(o, 2),
+-                        s = a[0],
+-                        u = a[1],
+-                        l = function() {
+-                            u(!1)
++                        n = e.text,
++                        i = e.link,
++                        o = e.list,
++                        a = e.blank,
++                        s = void 0 !== a && a,
++                        u = (e.positionRight, (0, Q.useRef)(null)),
++                        l = (0, Q.useState)(!1),
++                        c = (0, r.Z)(l, 2),
++                        d = c[0],
++                        f = c[1],
++                        h = function() {
++                            f(!1)
+
+-                                maxWidth: n.length > 1 ? "400px" : "300px"
++                                maxWidth: o ? "400px" : "300px"
+
+-                            ref: i,
+-                            children: [n.length > 1 ? (0, et.jsx)("ul", {
+-                                children: n.map((function(e, n) {
++                            ref: u,
++                            children: [n && (0, et.jsx)("div", {
++                                className: Uy,
++                                children: n
++                            }), o && (0, et.jsx)("ul", {
++                                className: Vy,
++                                children: o.map((function(e, n) {
+
+-                            }) : n[0], (0, et.jsxs)("button", {
++                            }), i && (0, et.jsx)("a", {
++                                href: i,
++                                className: zy,
++                                target: s ? "_blank" : "_self",
++                                children: "자세히 보기"
++                            }), (0, et.jsxs)("button", {
+
+-                }),
+-                $y = Q.memo(qy),
+-                Yy = "chat_sponse_popup_container__YovMl",
+-                Ky = "chat_sponse_popup_text__5XcFw",
+-                Xy = "chat_sponse_popup_box__5bCCe",
+-                Qy = 3e6,
+-                Jy = 1e3,
+-                e_ = function(n) {
++                },
++                Gy = Q.memo(Wy),
++                qy = "chat_sponse_popup_container__YovMl",
++                $y = "chat_sponse_popup_text__5XcFw",
++                Yy = "chat_sponse_popup_box__5bCCe",
++                Ky = 3e6,
++                Xy = 1e3,
++                Qy = function(n) {
+
+-                                                    list: ["과도한 노출, 성적 호기심 유발 콘텐츠, 폭력, 유해하거나 위험한 콘텐츠의 이미지는 경고가 주어질 수 있습니다."]
++                                                    text: "과도한 노출, 성적 호기심 유발 콘텐츠, 폭력, 유해하거나 위험한 콘텐츠의 이미지는 경고가 주어질 수 있습니다."
+
+-                        var r, i, o, a, s, u, l, c, d;
++                        var r, i, o, a, s, u, l, c, d, f;
+
+-                                    return r = n.channelId, i = n.defaultLiveTitle, o = n.defaultThumbnailImageUrl, a = n.categoryType, s = n.liveCategory, u = n.chatActive, l = n.paidPromotion, c = n.chatAvailableGroup, e.next = 3, Us.put("/channels/".concat(r, "/live-setting"), {
++                                    return r = n.channelId, i = n.defaultLiveTitle, o = n.defaultThumbnailImageUrl, a = n.categoryType, s = n.liveCategory, u = n.chatActive, l = n.paidPromotion, c = n.chatAvailableGroup, d = n.adult, e.next = 3, Ps.put("/channels/".concat(r, "/live-setting"), {
+
+-                                        chatAvailableGroup: c
++                                        chatAvailableGroup: c,
++                                        adult: d
+
+-                VT = {
+-                    wrapper: "age_wrapper__5jX6b",
+-                    area: "age_area__nQddc",
+-                    default: "age_default__jLNCs",
+-                    box: "age_box__WfJV6",
+-                    list: "age_list__A4Uzl",
+-                    item: "age_item__f+ert",
+-                    link: "age_link__ysEw3"
+-                },
+-                HT = function(e) {
+-                    var t = e.closeButtonHandler,
+-                        n = (0, Q.useState)(!1),
+-                        i = (0, r.Z)(n, 2),
+-                        o = i[0],
+-                        a = i[1];
+-                    return (0, et.jsx)(en, {
+-                        size: Kt.MEDIUM,
+-                        title: "연령 제한 방송 임시 제한 안내",
+-                        checkbox: {
+-                            id: "age-checkbox",
+-                            label: "다시 보지 않기",
+-                            checked: o,
+-                            onChangeHandler: function(e) {
+-                                a(e)
+-                            }
+-                        },
+-                        closeButtonHandler: function() {
+-                            t(o)
+-                        },
+-                        children: (0, et.jsxs)("div", {
+-                            className: VT.wrapper,
+-                            children: [(0, et.jsx)("p", {
+-                                className: VT.area,
+-                                children: "안녕하세요. 치지직입니다."
+-                            }), (0, et.jsxs)("p", {
+-                                className: VT.area,
+-                                children: [(0, et.jsx)("strong", {
+-                                    children: "19세 미만 연령 제한 기능은 1월 중 이용 가능하도록 준비 중입니다."
+-                                }), (0, et.jsx)("br", {}), "기능이 제공되기 전까지 19세 미만 연령 제한이 필요한 라이브 방송과 동영상 업로드는 금지하고 있으며, 아래에 해당하는 방송을 진행하면 징계 및 불이익을 받을 수 있으니 주의 부탁드립니다."]
+-                            }), (0, et.jsx)("div", {
+-                                className: He()(VT.area, VT.default),
+-                                children: (0, et.jsxs)("div", {
+-                                    className: VT.box,
+-                                    children: [(0, et.jsx)("p", {
+-                                        className: VT.text,
+-                                        children: (0, et.jsx)("strong", {
+-                                            children: "연령 제한 기능 도입 전 라이브 방송 및 동영상 업로드 금지 항목"
+-                                        })
+-                                    }), (0, et.jsxs)("ul", {
+-                                        className: VT.list,
+-                                        children: [(0, et.jsx)("li", {
+-                                            className: VT.item,
+-                                            children: "폭력, 흡연, 음주, 과도한 노출, 성적 콘텐츠, 위험한 활동 묘사, 도박, 사행성 조장"
+-                                        }), (0, et.jsx)("li", {
+-                                            className: VT.item,
+-                                            children: "연령 제한 방송은 1월 중 기능이 적용되면 이용 가능합니다."
+-                                        })]
+-                                    })]
+-                                })
+-                            }), (0, et.jsxs)("p", {
+-                                className: VT.area,
+-                                children: ["보다 자세한 연령 제한 방송 및 위반 시 징계 내용은 '", (0, et.jsx)("a", {
+-                                    href: "/content-guidelines",
+-                                    target: "_blank",
+-                                    rel: "noreferrer",
+-                                    className: VT.link,
+-                                    children: (0, et.jsx)("strong", {
+-                                        children: "치지직 콘텐츠 가이드라인"
+-                                    })
+-                                }), "' 참고 부탁드립니다. 주의 조치에 대한 사유는 당분간 네이버 메일로 안내될 예정입니다."]
+-                            }), (0, et.jsx)("div", {
+-                                className: VT.area,
+-                                children: (0, et.jsx)(ot, {
+-                                    size: tt.MEDIUM,
+-                                    color: nt.LIGHT,
+-                                    type: rt.LINK,
+-                                    target: "_blank",
+-                                    linkUrl: "/content-guidelines",
+-                                    children: "치지직 콘텐츠 가이드라인 보기"
+-                                })
+-                            }), (0, et.jsxs)("p", {
+-                                className: He()(VT.area, VT.default),
+-                                children: ["연령 제한 기능은 빠른 시일 내에 제공될 수 있도록 하겠습니다.", (0, et.jsx)("br", {}), "감사합니다."]
+-                            })]
+-                        })
+-                    })
+-                },
+-                zT = (0, Q.memo)(HT),
+-                ZT = ["title", "titleId"];
++                BT = ["title", "titleId"];
+
+-                        g = m[0],
+-                        y = m[1],
+-                        _ = (0, Q.useState)(!1),
+-                        b = (0, r.Z)(_, 2),
+-                        w = b[0],
+-                        x = b[1],
+-                        S = (0, Q.useState)(),
+-                        E = (0, r.Z)(S, 2),
+-                        C = E[0],
+-                        T = E[1],
+-                        k = (0, Q.useState)(null),
+-                        A = (0, r.Z)(k, 2),
+-                        L = A[0],
+-                        O = A[1],
+-                        I = ge().userIdHash,
++                        g = (m[0], m[1]),
++                        y = (0, Q.useState)(!1),
++                        _ = (0, r.Z)(y, 2),
++                        b = _[0],
++                        w = _[1],
++                        x = (0, Q.useState)(),
++                        S = (0, r.Z)(x, 2),
++                        E = S[0],
++                        C = S[1],
++                        T = (0, Q.useState)(null),
++                        k = (0, r.Z)(T, 2),
++                        A = k[0],
++                        L = k[1],
++                        O = ge().userIdHash,
++                        I = function() {
++                            O && A_(O), p(!1)
++                        },
+
+-                            I && O_(I), p(!1)
++                            w(!1)
+
+-                            x(!1)
+-                        },
+-                        M = function() {
+
+
+-                        }), !(0, ht.isNil)(l) && g && (0, et.jsx)(zT, {
+-                            closeButtonHandler: function(e) {
+-                                y(!1), e && localStorage.setItem("notice_19", "Y")
+-                            }
+-                        }), w && (0, et.jsx)(Sm, {
+-                            closeButtonHandler: R,
++                        }), b && (0, et.jsx)(ym, {
++                            closeButtonHandler: N,
+
+-                ck = Q.memo(lk),
+-                dk = "leave_form_label__Qexcz",
+-                fk = "leave_form_important__2l01n",
+-                hk = "leave_form_information__QIzH2",
+-                pk = "leave_form_link__58eQi",
+-                vk = function() {
+-                    var e = 1e5,
+-                        t = (0, Q.useState)(!1),
+-                        n = (0, r.Z)(t, 2),
+-                        i = n[0],
+-                        o = n[1],
+-                        a = (0, Q.useState)(!1),
+-                        s = (0, r.Z)(a, 2),
+-                        u = s[0],
+-                        l = s[1];
+-                    return (0, et.jsxs)(et.Fragment, {
+-                        children: [(0, et.jsxs)(Bh, {
+-                            children: [(0, et.jsxs)(ip, {
+-                                children: [(0, et.jsx)(xt, {
+-                                    id: "leaveGuide",
+-                                    children: (0, et.jsx)("span", {
+-                                        className: dk,
+-                                        children: "스튜디오 탈퇴 주의사항을 모두 확인하였습니다."
+-                                    })
+-                                }), (0, et.jsx)(ap, {
+-                                    list: ["스튜디오 탈퇴 후 90일간 스튜디오 재가입이 금지됩니다.", "스튜디오 탈퇴가 완료되면 스튜디오의 모든 데이터는 복구가 불가능합니다."]
+-                                })]
+-                            }), (0, et.jsxs)(ip, {
+-                                children: [(0, et.jsx)(xt, {
+-                                    id: "DeleteInformationList",
+-                                    children: (0, et.jsx)("span", {
+-                                        className: dk,
+-                                        children: "스튜디오를 탈퇴하면 아래 내용이 완전히 삭제됩니다."
+-                                    })
+-                                }), (0, et.jsx)(ap, {
+-                                    list: ["내 채널의 모든 동영상, 이미지, 게시글", "스트림 키", "내 팔로워, 구독자", "분석/통계, 구독 내역 등 모든 데이터"]
+-                                })]
+-                            }), (0, et.jsxs)(ip, {
+-                                children: [(0, et.jsx)(xt, {
+-                                    id: "DeleteCashList",
+-                                    disabled: !0,
+-                                    children: (0, et.jsx)("span", {
+-                                        className: dk,
+-                                        children: "스튜디오를 탈퇴하면 아래 내용이 완전히 삭제됩니다."
+-                                    })
+-                                }), (0, et.jsx)(ap, {
+-                                    list: ["정산 완료 후 스튜디오 탈퇴를 진행해주세요.", "정산은 매월 12일 자동 정산됩니다.", (0, et.jsxs)(et.Fragment, {
+-                                        children: ["내 채널 잔여 정산 금액:", " ", (0, et.jsxs)("strong", {
+-                                            className: fk,
+-                                            children: [ir(e), "원"]
+-                                        })]
+-                                    })]
+-                                })]
+-                            }), (0, et.jsx)(ip, {
+-                                children: (0, et.jsxs)("p", {
+-                                    className: hk,
+-                                    children: ["스튜디오 탈퇴 관련 문의는", " ", (0, et.jsx)("a", {
+-                                        href: "/",
+-                                        target: "_blank",
+-                                        className: pk,
+-                                        children: "고객센터"
+-                                    }), " ", "이용 부탁드립니다."]
+-                                })
+-                            })]
+-                        }), u && (0, et.jsx)(en, {
+-                            size: Kt.SMALL,
+-                            title: "스튜디오 탈퇴 안내",
+-                            buttonList: [{
+-                                text: "취소",
+-                                clickHandler: function() {
+-                                    l(!1)
+-                                }
+-                            }, {
+-                                text: "확인",
+-                                clickHandler: function() {
+-                                    l(!1)
+-                                }
+-                            }],
+-                            closeButtonHandler: function() {
+-                                l(!1)
+-                            },
+-                            children: (0, et.jsx)(Qt, {
+-                                hasMinHeight: !0,
+-                                children: (0, et.jsxs)("span", {
+-                                    children: ["스튜디오 관련 모든 정보가 삭제됩니다.", (0, et.jsx)("br", {}), "정말 ", (0, et.jsx)("strong", {
+-                                        className: fk,
+-                                        children: "탈퇴"
+-                                    }), "하시겠습니까?"]
+-                                })
+-                            })
+-                        }), i && (0, et.jsx)(en, {
+-                            size: Kt.SMALL,
+-                            title: "안내",
+-                            buttonList: [{
+-                                text: "확인",
+-                                clickHandler: function() {
+-                                    o(!1)
+-                                }
+-                            }],
+-                            closeButtonHandler: function() {
+-                                o(!1)
+-                            },
+-                            children: (0, et.jsx)(Qt, {
+-                                hasMinHeight: !0,
+-                                children: "모든 항목 확인 후 탈퇴 가능합니다."
+-                            })
+-                        })]
+-                    })
+-                },
+-                mk = Q.memo(vk),
+-                gk = function() {
+-                    var e = wf(),
+-                        t = (0, r.Z)(e, 1)[0];
+-                    return (0, et.jsx)(Xf, {
+-                        subHeader: !0,
+-                        subtitle: Su.LEAVEFORM.title,
+-                        goBackUrl: "".concat((0, ht.isNil)(null === t || void 0 === t ? void 0 : t.from) ? "/my" : "/".concat(null === t || void 0 === t ? void 0 : t.from)),
+-                        target: "replace",
+-                        children: (0, et.jsx)(mk, {})
+-                    })
+-                },
+-                yk = Q.memo(gk),
+-                _k = ["title", "titleId"];
++                ok = Q.memo(ik),
++                ak = ["title", "titleId"];
+
+-                    var i = n.updateButtonHandler,
+-                        o = n.handleChatActive,
+-                        a = (0, Q.useState)(),
+-                        s = (0, r.Z)(a, 2),
+-                        u = s[0],
+-                        l = s[1],
+-                        c = (0, Q.useState)(),
+-                        d = (0, r.Z)(c, 2),
+-                        f = d[0],
+-                        h = d[1],
+-                        p = (0, Q.useState)(),
+-                        v = (0, r.Z)(p, 2),
+-                        m = v[0],
+-                        g = v[1],
+-                        y = (0, Q.useState)(),
+-                        _ = (0, r.Z)(y, 2),
+-                        b = _[0],
+-                        w = _[1],
+-                        x = (0, Q.useState)(),
+-                        S = (0, r.Z)(x, 2),
+-                        E = S[0],
+-                        C = S[1],
+-                        T = (0, Q.useState)(),
+-                        k = (0, r.Z)(T, 2),
+-                        A = k[0],
+-                        L = k[1],
+-                        O = (0, Q.useState)(),
+-                        I = (0, r.Z)(O, 2),
+-                        N = I[0],
+-                        R = I[1],
+-                        M = (0, Q.useState)(),
+-                        P = (0, r.Z)(M, 2),
+-                        D = P[0],
+-                        j = P[1],
+-                        F = (0, Q.useState)(!0),
+-                        B = (0, r.Z)(F, 2),
+-                        U = B[0],
+-                        V = B[1],
+-                        H = (0, Q.useState)(),
+-                        z = (0, r.Z)(H, 2),
+-                        Z = z[0],
+-                        W = z[1],
+-                        G = (0, Q.useState)(),
+-                        q = (0, r.Z)(G, 2),
+-                        $ = q[0],
+-                        Y = q[1],
+-                        K = (0, Q.useState)(!1),
+-                        X = (0, r.Z)(K, 2),
+-                        J = X[0],
+-                        ee = X[1],
+-                        te = (0, Q.useState)(!1),
+-                        ne = (0, r.Z)(te, 2),
+-                        re = ne[0],
+-                        ie = ne[1],
+-                        oe = (0, Q.useState)(!1),
+-                        ae = (0, r.Z)(oe, 2),
+-                        se = ae[0],
+-                        ue = ae[1],
+-                        le = (0, Q.useState)(!1),
+-                        ce = (0, r.Z)(le, 2),
+-                        de = ce[0],
+-                        fe = ce[1],
+-                        he = (0, je.useRecoilValue)(gu),
+-                        pe = (0, Q.useState)(!1),
+-                        ve = (0, r.Z)(pe, 2),
+-                        me = ve[0],
+-                        ye = ve[1],
+-                        _e = ge().userIdHash,
+-                        be = function() {
++                    var i, o = n.updateButtonHandler,
++                        a = n.handleChatActive,
++                        s = (0, Q.useState)(),
++                        u = (0, r.Z)(s, 2),
++                        l = u[0],
++                        c = u[1],
++                        d = (0, Q.useState)(),
++                        f = (0, r.Z)(d, 2),
++                        h = f[0],
++                        p = f[1],
++                        v = (0, Q.useState)(),
++                        m = (0, r.Z)(v, 2),
++                        g = m[0],
++                        y = m[1],
++                        _ = (0, Q.useState)(),
++                        b = (0, r.Z)(_, 2),
++                        w = b[0],
++                        x = b[1],
++                        S = (0, Q.useState)(),
++                        E = (0, r.Z)(S, 2),
++                        C = E[0],
++                        T = E[1],
++                        k = (0, Q.useState)(),
++                        A = (0, r.Z)(k, 2),
++                        L = A[0],
++                        O = A[1],
++                        I = (0, Q.useState)(!0),
++                        N = (0, r.Z)(I, 2),
++                        R = N[0],
++                        M = N[1],
++                        P = (0, Q.useState)(),
++                        D = (0, r.Z)(P, 2),
++                        j = D[0],
++                        F = D[1],
++                        B = (0, Q.useState)(!1),
++                        U = (0, r.Z)(B, 2),
++                        V = U[0],
++                        H = U[1],
++                        z = (0, Q.useState)(!1),
++                        Z = (0, r.Z)(z, 2),
++                        W = Z[0],
++                        G = Z[1],
++                        q = (0, Q.useState)(!1),
++                        $ = (0, r.Z)(q, 2),
++                        Y = $[0],
++                        K = $[1],
++                        X = (0, je.useRecoilValue)(fu),
++                        J = (0, Q.useState)(!1),
++                        ee = (0, r.Z)(J, 2),
++                        te = ee[0],
++                        ne = ee[1],
++                        re = (0, Q.useState)(!1),
++                        ie = (0, r.Z)(re, 2),
++                        oe = ie[0],
++                        ae = ie[1],
++                        se = ge().userIdHash,
++                        ue = function() {
+
+-                                            if ((0, ht.isNil)(he.channelId)) {
+-                                                e.next = 11;
++                                            if ((0, ht.isNil)(X.channelId)) {
++                                                e.next = 12;
+
+-                                            return e.next = 3, HS(he.channelId);
++                                            return e.next = 3, US(X.channelId);
+
+-                                            return n = e.sent, e.next = 6, YS(he.channelId);
++                                            return n = e.sent, e.next = 6, qS(X.channelId);
+
+-                                            r = e.sent, l(n), W(r), Y(r), C(n.category.categoryType);
+-                                        case 11:
++                                            r = e.sent, c(n), p(n), F(r), x(n.category.categoryType), ne(n.adult || !1);
++                                        case 12:
+
+-                        we = function() {
+-                            ie(!1), ee(!1)
++                        le = function() {
++                            G(!1), H(!1)
+
+-                        xe = function(e, t) {
+-                            e && (ye(Z !== t), Y(t))
++                        ce = function(e, t) {
++                            e && ((null === h || void 0 === h ? void 0 : h.chatAvailableGroup) !== t ? ae(!0) : ae(!1), F(t))
+
+-                    }), [he.channelId]), (0, Q.useEffect)((function() {
+-                        u && (h(u.defaultLiveTitle), g(u.defaultLiveTitle), V(u.chatActive), ue(u.paidPromotion), fe(u.paidPromotion), (0, ht.isNil)(o) || o(u.chatActive), R(u.defaultThumbnailImageUrl), j(u.defaultThumbnailImageUrl), w(u.category), L(u.category.liveCategory), W(u.chatAvailableGroup))
+-                    }), [u]);
+-                    var Se = function() {
++                    }), [X.channelId]), (0, Q.useEffect)((function() {
++                        l && (y(l.defaultLiveTitle), M(l.chatActive), K(l.paidPromotion), (0, ht.isNil)(a) || a(l.chatActive), O(l.defaultThumbnailImageUrl), T(l.category.liveCategory))
++                    }), [l]);
++                    var de = function() {
+
+-                                        return e.next = 3, zS({
+-                                            channelId: _e,
+-                                            defaultLiveTitle: f,
+-                                            defaultThumbnailImageUrl: N,
+-                                            categoryType: E,
+-                                            liveCategory: A,
+-                                            chatActive: U,
+-                                            paidPromotion: se,
+-                                            chatAvailableGroup: $ || "ALL"
+-                                        });
++                                        return e.next = 3, VS((0, lu.Z)((0, lu.Z)({}, h), {}, {
++                                            channelId: se,
++                                            defaultLiveTitle: g,
++                                            defaultThumbnailImageUrl: L,
++                                            categoryType: w,
++                                            liveCategory: C,
++                                            chatActive: R,
++                                            paidPromotion: Y,
++                                            chatAvailableGroup: j || "ALL",
++                                            adult: te
++                                        }));
+
+-                                        n = e.sent, l(n);
+-                                    case 5:
++                                        n = e.sent, c(n), p(n);
++                                    case 6:
+
+-                                            (null === b || void 0 === b ? void 0 : b.liveCategoryName) !== e && ((0, ht.isEmpty)(e) ? (ye(!0), C(null), L(e)) : ye(!1))
++                                            var t;
++                                            (null === h || void 0 === h || null === (t = h.category) || void 0 === t ? void 0 : t.liveCategoryName) !== e && ((0, ht.isEmpty)(e) ? (ae(!0), x(null), T(e)) : ae(!1))
+
+-                                            (null === b || void 0 === b ? void 0 : b.liveCategory) !== e.loungeId ? ye(!0) : ye(!1), e && (C("GAME"), L(e.loungeId))
++                                            var t;
++                                            (null === h || void 0 === h || null === (t = h.category) || void 0 === t ? void 0 : t.liveCategory) !== e.loungeId ? ae(!0) : ae(!1), e && (x("GAME"), T(e.loungeId))
+
+-                                            "talk" !== (null === b || void 0 === b ? void 0 : b.liveCategoryName) ? ye(!0): ye(!1), C("ETC"), L("talk")
++                                            var e;
++                                            "talk" !== (null === h || void 0 === h || null === (e = h.category) || void 0 === e ? void 0 : e.liveCategoryName) ? ae(!0): ae(!1), x("ETC"), T("talk")
+
+-                                                            case by.IS_NOT_IMAGE:
+-                                                            case by.DOES_NOT_SUPPORT_TYPE:
+-                                                                ee(!0);
++                                                            case hy.IS_NOT_IMAGE:
++                                                            case hy.DOES_NOT_SUPPORT_TYPE:
++                                                                H(!0);
+
+-                                                            case by.EXCEEDS_MAXIMUM_SIZE:
+-                                                                ie(!0)
++                                                            case hy.EXCEEDS_MAXIMUM_SIZE:
++                                                                G(!0)
+
+-                                                    we(), R(null), (0, ht.isNil)(D) ? ye(!1) : ye(!0)
++                                                    le(), O(null), (0, ht.isNil)(null === h || void 0 === h ? void 0 : h.defaultThumbnailImageUrl) ? ae(!1) : ae(!0)
+
+-                                                        case by.IS_NOT_IMAGE:
+-                                                        case by.DOES_NOT_SUPPORT_TYPE:
+-                                                            ee(!0);
++                                                        case hy.IS_NOT_IMAGE:
++                                                        case hy.DOES_NOT_SUPPORT_TYPE:
++                                                            H(!0);
+
+-                                                        case by.EXCEEDS_MAXIMUM_SIZE:
+-                                                            ie(!0)
++                                                        case hy.EXCEEDS_MAXIMUM_SIZE:
++                                                            G(!0)
+
+-                                    }), re && (0, et.jsx)(op, {
++                                    }), W && (0, et.jsx)(Jh, {
+
+-                            }), (0, et.jsxs)(Uh, {
+-                                children: [(0, et.jsx)(Vh, {
+-                                    children: (0, et.jsxs)(Hh, {
++                            }), (0, et.jsxs)(Ph, {
++                                children: [(0, et.jsx)(Dh, {
++                                    children: (0, et.jsxs)(jh, {
++                                        children: [(0, et.jsx)("label", {
++                                            htmlFor: "ageRestriction",
++                                            children: "연령 제한"
++                                        }), (0, et.jsx)(Gy, {
++                                            id: "age-restriction-tooltip",
++                                            text: "다음과 같은 콘텐츠가 포함되어 있다면 연령 제한 설정이 필요합니다. 다만, 연령 제한을 설정하여도 가이드라인에 위반되는 콘텐츠는 방송할 수 없습니다.",
++                                            list: ["폭력, 음주, 흡연, 과도한 노출, 성적 콘텐츠, 위험한 활동 묘사 등"],
++                                            link: "/content-guidelines",
++                                            blank: !0
++                                        })]
++                                    })
++                                }), (0, et.jsx)(Dh, {
++                                    children: null !== X && void 0 !== X && null !== (i = X.myStatus) && void 0 !== i && i.nineteenAgeOlder ? (0, et.jsxs)(et.Fragment, {
++                                        children: [(0, et.jsx)(up, {
++                                            children: (0, et.jsx)(gt, {
++                                                id: "ageRestriction",
++                                                checked: te,
++                                                onChangeHandler: function(e) {
++                                                    (null === h || void 0 === h ? void 0 : h.adult) !== e ? ae(!0) : ae(!1), ne(e)
++                                                },
++                                                children: "시청자를 19세로 제한하겠습니다."
++                                            })
++                                        }), (0, et.jsx)(tp, {
++                                            list: ["일부 시청자에게 적합하지 않은 콘텐츠가 있다면 설정이 필요합니다."]
++                                        })]
++                                    }) : (0, et.jsxs)(ep, {
++                                        children: ["19세 미만은 연령 제한 방송을 할 수 없습니다.", (0, et.jsx)("br", {}), "연령 제한에 포함되는 방송을 진행하는 경우 영구 정지됩니다."]
++                                    })
++                                })]
++                            }), (0, et.jsxs)(Ph, {
++                                children: [(0, et.jsx)(Dh, {
++                                    children: (0, et.jsxs)(jh, {
+
+-                                            checked: se,
++                                            checked: Y,
+
+-                                                ue(e), ye(de !== e)
++                                                K(e), (null === h || void 0 === h ? void 0 : h.paidPromotion) !== e ? ae(!0) : ae(!1)
+
+-                                                list: ["나를 팔로우 중인 시청자만 실시간 채팅을 이용할 수 있습니다."]
++                                                text: "나를 팔로우 중인 시청자만 실시간 채팅을 이용할 수 있습니다."
+
+-                                                list: ["내 채널 권한 보유자만 채팅을 이용할 수 있습니다."]
++                                                text: "내 채널 권한 보유자만 채팅을 이용할 수 있습니다."
+
+-                                isDisabled: !(f && (m !== f && f.length > 0 || D !== N || me)),
++                                isDisabled: !(g && ((null === h || void 0 === h ? void 0 : h.defaultLiveTitle) !== g && g.length > 0 || (null === h || void 0 === h ? void 0 : h.defaultThumbnailImageUrl) !== L || oe)),
+
+-                                                    className: FW,
+-                                                    children: (0, et.jsx)("label", {
+-                                                        htmlFor: "stream-key",
+-                                                        children: "스트림 키"
+-                                                    })
++                                                    className: CW,
++                                                    children: "스트림 URL"
+
+-                                                    className: jW,
+-                                                    children: [(0, et.jsx)(Yp, {
+-                                                        width: "100%",
+-                                                        id: "stream-key",
+-                                                        value: null === c || void 0 === c ? void 0 : c.streamKey,
+-                                                        showValueForced: !1,
+-                                                        readOnly: !0
++                                                    className: EW,
++                                                    children: [(0, et.jsx)("p", {
++                                                        className: TW,
++                                                        children: null === c || void 0 === c ? void 0 : c.streamUrl
+
+-                                                    className: FW,
+-                                                    children: "스트림 URL"
++                                                    className: CW,
++                                                    children: (0, et.jsx)("label", {
++                                                        htmlFor: "stream-key",
++                                                        children: "스트림 키"
++                                                    })
+
+-                                                    className: jW,
+-                                                    children: [(0, et.jsx)("p", {
+-                                                        className: BW,
+-                                                        children: null === c || void 0 === c ? void 0 : c.streamUrl
++                                                    className: EW,
++                                                    children: [(0, et.jsx)(Zp, {
++                                                        width: "100%",
++                                                        id: "stream-key",
++                                                        value: null === c || void 0 === c ? void 0 : c.streamKey,
++                                                        showValueForced: !1,
++                                                        readOnly: !0
+
+-                                    }), (0, et.jsxs)(op, {
+-                                        showIcon: !1,
+-                                        children: ["\u203b \ub2f9\ubd84\uac04 19\uc138 \ubbf8\ub9cc \uc5f0\ub839 \uc81c\ud55c\uc774 \ud544\uc694\ud55c \ubc29\uc1a1\uc740 \uc9c4\ud589\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.\xa0", (0, et.jsx)("a", {
+-                                            href: "/content-guidelines",
+-                                            target: "_blank",
+-                                            children: "연령 제한 방송 자세히 보기"
+-                                        })]
+
+
+-                        o = e.streamInfo,
+-                        a = e.inputButtonHandler,
+-                        s = e.retryButtonHandler,
+-                        u = e.copyButtonHandler,
+-                        l = e.resetIsShowStreamKey;
+-                    return (0, et.jsxs)(Ph, {
+-                        children: [(0, et.jsx)(Fh, {
++                        o = e.reasonOfReIssueImpossible,
++                        a = void 0 === o ? "" : o,
++                        s = e.streamInfo,
++                        u = e.inputButtonHandler,
++                        l = e.retryButtonHandler,
++                        c = e.copyButtonHandler,
++                        d = e.resetIsShowStreamKey;
++                    return (0, et.jsxs)(Oh, {
++                        children: [(0, et.jsx)(Rh, {
+
+-                        }), (0, et.jsxs)(Bh, {
+-                            children: [(0, et.jsxs)(Uh, {
+-                                children: [(0, et.jsx)(Vh, {
+-                                    children: (0, et.jsx)(Hh, {
++                        }), (0, et.jsxs)(Mh, {
++                            children: [(0, et.jsxs)(Ph, {
++                                children: [(0, et.jsx)(Dh, {
++                                    children: (0, et.jsx)(jh, {
++                                        children: "스트림 URL"
++                                    })
++                                }), (0, et.jsx)(Dh, {
++                                    children: !(0, ht.isNil)(s) && (0, et.jsxs)(Uh, {
++                                        children: [(0, et.jsx)(zh, {
++                                            children: "".concat(s.streamUrl)
++                                        }), (0, et.jsx)(Wh, {
++                                            children: (0, et.jsx)(ot, {
++                                                type: rt.COPY_BUTTON,
++                                                size: tt.LARGE,
++                                                color: nt.LIGHT,
++                                                copyText: null === s || void 0 === s ? void 0 : s.streamUrl,
++                                                onCopyHandler: function() {
++                                                    c()
++                                                },
++                                                children: "복사"
++                                            })
++                                        })]
++                                    })
++                                })]
++                            }), (0, et.jsxs)(Ph, {
++                                children: [(0, et.jsx)(Dh, {
++                                    children: (0, et.jsx)(jh, {
+
+-                                    }), i && (0, et.jsx)(op, {
+-                                        children: "라이브 방송중에는 스트림 키 재발급이 불가능합니다."
+-                                    })]
+-                                })]
+-                            }), (0, et.jsxs)(Uh, {
+-                                children: [(0, et.jsx)(Vh, {
+-                                    children: (0, et.jsx)(Hh, {
+-                                        children: "스트림 URL"
+-                                    })
+-                                }), (0, et.jsxs)(Vh, {
+-                                    children: [!(0, ht.isNil)(o) && (0, et.jsxs)(Wh, {
+-                                        children: [(0, et.jsx)($h, {
+-                                            children: "".concat(o.streamUrl)
+-                                        }), (0, et.jsx)(Kh, {
+-                                            children: (0, et.jsx)(ot, {
+-                                                type: rt.COPY_BUTTON,
+-                                                size: tt.LARGE,
+-                                                color: nt.LIGHT,
+-                                                copyText: null === o || void 0 === o ? void 0 : o.streamUrl,
+-                                                onCopyHandler: function() {
+-                                                    u()
+-                                                },
+-                                                children: "복사"
+-                                            })
+-                                        })]
+-                                    }), (0, et.jsxs)(op, {
+-                                        showIcon: !1,
+-                                        hasPadding: !1,
+-                                        children: ["\u203b \ub2f9\ubd84\uac04 19\uc138 \ubbf8\ub9cc \uc5f0\ub839 \uc81c\ud55c\uc774 \ud544\uc694\ud55c \ubc29\uc1a1\uc740 \uc9c4\ud589\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.\xa0", (0, et.jsx)("a", {
+-                                            href: "/content-guidelines",
+-                                            target: "_blank",
+-                                            children: "연령 제한 방송 자세히 보기"
+-                                        })]
++                                    }), i && (0, et.jsx)(Jh, {
++                                        children: a
+
+-                        L = (0, Q.useState)(),
++                        L = (0, Q.useState)(""),
+
+-                        N = O[1];
++                        N = O[1],
++                        R = (0, Q.useState)(),
++                        M = (0, r.Z)(R, 2),
++                        P = M[0],
++                        D = M[1];
+
+-                                var r;
++                                var r, o, a;
+
+-                                            e.prev = 12, e.t0 = e.catch(0), E(!0), u(!1), alert("라이브 방송중에는 스트림 키 재발급이 불가능합니다.");
++                                            e.prev = 12, e.t0 = e.catch(0), E(!0), u(!1), pm(e.t0) && A(null === e.t0 || void 0 === e.t0 || null === (o = e.t0.response) || void 0 === o || null === (a = o.data) || void 0 === a ? void 0 : a.message);
+
+
++                            reasonOfReIssueImpossible: k,
+
+-                }(B$ || {}),
+-                U$ = function(n) {
+-                    var o = n.mode,
+-                        a = n.item,
+-                        s = n.videoTitle,
+-                        u = n.videoCategory,
+-                        l = n.videoCategoryValue,
+-                        c = n.thumbnailImageUrl,
+-                        d = n.paidPromotion,
+-                        f = n.videoInfo,
+-                        h = n.isLive,
+-                        p = void 0 !== h && h,
+-                        m = n.onChangeTitle,
+-                        g = n.setThumbnailImageUrl,
+-                        y = n.setPaidPromotion,
+-                        _ = n.onChangeCategory,
+-                        b = n.onSelectedCategory,
+-                        w = n.onTalkSelected,
+-                        x = (0, Q.useState)([]),
+-                        S = (0, r.Z)(x, 2),
+-                        E = S[0],
+-                        C = S[1],
+-                        T = (0, Q.useState)(!1),
+-                        k = (0, r.Z)(T, 2),
+-                        A = k[0],
+-                        L = k[1],
+-                        O = (0, Q.useState)(),
+-                        I = (0, r.Z)(O, 2),
+-                        N = I[0],
+-                        R = I[1],
+-                        M = (0, Q.useState)(""),
+-                        P = (0, r.Z)(M, 2),
+-                        D = P[0],
+-                        j = P[1],
+-                        F = (0, Q.useState)(!1),
+-                        B = (0, r.Z)(F, 2),
+-                        U = B[0],
+-                        V = B[1],
+-                        H = (0, Q.useState)(!1),
+-                        z = (0, r.Z)(H, 2),
+-                        Z = z[0],
+-                        W = z[1],
+-                        G = function(e) {
++                }(T$ || {}),
++                k$ = function(n) {
++                    var o, a = n.mode,
++                        s = n.item,
++                        u = n.videoTitle,
++                        l = n.videoCategory,
++                        c = n.videoCategoryValue,
++                        d = n.thumbnailImageUrl,
++                        f = n.paidPromotion,
++                        h = n.videoInfo,
++                        p = n.isLive,
++                        m = void 0 !== p && p,
++                        g = n.adult,
++                        y = n.onChangeTitle,
++                        _ = n.setThumbnailImageUrl,
++                        b = n.setPaidPromotion,
++                        w = n.onChangeCategory,
++                        x = n.onSelectedCategory,
++                        S = n.onTalkSelected,
++                        E = n.onChangeAdult,
++                        C = (0, Q.useState)([]),
++                        T = (0, r.Z)(C, 2),
++                        k = T[0],
++                        A = T[1],
++                        L = (0, Q.useState)(!1),
++                        O = (0, r.Z)(L, 2),
++                        I = O[0],
++                        N = O[1],
++                        R = (0, Q.useState)(),
++                        M = (0, r.Z)(R, 2),
++                        P = M[0],
++                        D = M[1],
++                        j = (0, Q.useState)(""),
++                        F = (0, r.Z)(j, 2),
++                        B = F[0],
++                        U = F[1],
++                        V = (0, Q.useState)(!1),
++                        H = (0, r.Z)(V, 2),
++                        z = H[0],
++                        Z = H[1],
++                        W = (0, Q.useState)(!1),
++                        G = (0, r.Z)(W, 2),
++                        q = G[0],
++                        $ = G[1],
++                        Y = (0, je.useRecoilValue)(fu),
++                        K = function(e) {
+
+-                        }), (0, et.jsxs)(Uh, {
++                        }), (0, et.jsxs)(Ph, {
++                            direction: "vertical",
++                            children: [(0, et.jsx)(Dh, {
++                                children: (0, et.jsxs)(jh, {
++                                    children: [(0, et.jsx)("label", {
++                                        htmlFor: "ageRestriction",
++                                        children: "연령 제한"
++                                    }), (0, et.jsx)(Gy, {
++                                        id: "age-restriction-tooltip",
++                                        text: "다음과 같은 콘텐츠가 포함되어 있다면 연령 제한 설정이 필요합니다. 다만, 연령 제한을 설정하여도 가이드라인에 위반되는 콘텐츠는 방송할 수 없습니다.",
++                                        list: ["폭력, 음주, 흡연, 과도한 노출, 성적 콘텐츠, 위험한 활동 묘사 등"],
++                                        link: "/content-guidelines",
++                                        blank: !0
++                                    })]
++                                })
++                            }), (0, et.jsx)(Dh, {
++                                children: null !== Y && void 0 !== Y && null !== (o = Y.myStatus) && void 0 !== o && o.nineteenAgeOlder ? (0, et.jsxs)(et.Fragment, {
++                                    children: [(0, et.jsx)(up, {
++                                        children: (0, et.jsx)(gt, {
++                                            id: "ageRestriction",
++                                            checked: g,
++                                            onChangeHandler: function(e) {
++                                                E && E(e)
++                                            },
++                                            children: "시청자를 19세로 제한하겠습니다."
++                                        })
++                                    }), (0, et.jsx)(tp, {
++                                        list: ["일부 시청자에게 적합하지 않은 콘텐츠가 있다면 설정이 필요합니다."]
++                                    })]
++                                }) : (0, et.jsxs)(ep, {
++                                    children: ["19세 미만은 연령 제한 방송을 할 수 없습니다.", (0, et.jsx)("br", {}), "연령 제한에 포함되는 방송을 진행하는 경우 영구 정지됩니다."]
++                                })
++                            })]
++                        }), (0, et.jsxs)(Ph, {
+
+-                        F = (0, Q.useState)(""),
++                        F = (0, Q.useState)(),
+
+-                        H = (0, Q.useState)(),
++                        H = (0, Q.useState)("GAME"),
+
+-                        G = (0, Q.useState)("GAME"),
++                        G = (0, Q.useState)(""),
+
+-                        oe = (0, Q.useState)(""),
++                        oe = (0, Q.useState)(),
+
+-                        he = (0, Q.useState)(),
++                        he = (0, Q.useState)(!1),
+
+-                        ye = (0, Q.useState)(!1),
++                        ye = (0, Q.useState)(),
+
+-                        xe = (0, Q.useState)(),
++                        xe = (0, Q.useState)(!1),
+
+-                                                categoryType: $,
+-                                                videoCategory: J,
+-                                                paidPromotion: Ae
++                                                categoryType: Z,
++                                                videoCategory: $,
++                                                paidPromotion: Ee,
++                                                adult: Ne
+
+-                                                categoryType: $,
+-                                                videoCategory: J,
+-                                                paidPromotion: Ae
++                                                categoryType: Z,
++                                                videoCategory: $,
++                                                paidPromotion: Ee,
++                                                adult: Ne
+
+-                                            i = e.sent, (0, ht.isNil)(i) || (j(i.videoTitle), V(i.videoTitle), ee(i.videoCategory), ie(i.videoCategory), o = new DOMParser, a = o.parseFromString(i.videoCategoryValue, "text/html"), s = a.body.textContent, ue(null !== s && void 0 !== s ? s : ""), Y(i.categoryType), W(ll(i.thumbnailImageUrl, sl.BLUR)), R(i.exposure), fe(i.videoNo), Le(i.paidPromotion), ge(i), (0, ht.isNil)(h) || h(i.vodStatus)), e.next = 12;
++                                            i = e.sent, (0, ht.isNil)(i) || (j(i.videoTitle), Y(i.videoCategory), Re(i.adult || !1), o = new DOMParser, a = o.parseFromString(i.videoCategoryValue, "text/html"), s = a.body.textContent, ee(null !== s && void 0 !== s ? s : ""), W(i.categoryType), V(il(i.thumbnailImageUrl, nl.BLUR)), R(i.exposure), ie(i.videoNo), Ce(i.paidPromotion), ue(i), fe(i), (0, ht.isNil)(h) || h(i.vodStatus)), e.next = 12;
+
+-                        }();
++                        }(),
++                        $e = function() {
++                            return (null === de || void 0 === de ? void 0 : de.videoTitle) !== D || (null === de || void 0 === de ? void 0 : de.adult) !== Ne || de.videoCategory !== $ || de.paidPromotion !== Ee || de.thumbnailImageUrl !== U || de.exposure !== N
++                        };
+
+
++                        ge($e())
++                    }), [D, Ne, $, Ee, U, N]), (0, Q.useEffect)((function() {
+
+-                                    videoCategory: J,
+-                                    videoCategoryValue: se,
+-                                    thumbnailImageUrl: Z,
+-                                    videoInfo: ve,
++                                    videoCategory: $,
++                                    videoCategoryValue: J,
++                                    thumbnailImageUrl: U,
++                                    videoInfo: se,
++                                    paidPromotion: Ee,
++                                    adult: Ne,
+
+-                                        D !== e && we(!0), U === e && we(!1), j(e)
++                                        j(e)
+
+-                                        (0, ht.isNil)(e) || "" === e ? we(!1) : Z !== e && we(!0), W(e)
++                                        V(e)
+
+-                                        J !== e && we(!0), ee(e)
++                                        Y(e)
+
+-                                    paidPromotion: Ae,
+
+
+-                                        Ae !== e && we(!0), Le(e)
++                                        Ce(e)
+
+-                                        re !== e && ((0, ht.isEmpty)(e) ? (we(!0), Y(null), ee(e)) : we(!1))
++                                        (null === de || void 0 === de ? void 0 : de.videoCategory) !== e && (0, ht.isEmpty)(e) && (W(null), Y(e))
+
+-                                        J !== e.loungeId ? we(!0) : we(!1), e && (Y("GAME"), ee(e.loungeId))
++                                        e && (W("GAME"), Y(e.loungeId))
+
+-                                        we("talk" !== re), Y("ETC"), ee("talk")
++                                        W("ETC"), Y("talk")
++                                    },
++                                    onChangeAdult: function(e) {
++                                        Re(e)
+
+-                                            var t = "공개" === e;
+-                                            we("WRITE" === a || N !== t), R(t)
++                                            R("공개" === e)
+
+-                                        isDisabled: !be || "WRITE" === a && !(null !== l && void 0 !== l && l.isVideoHeaderUpdateComplete && null !== l && void 0 !== l && l.isThumbnailsUpdateComplete),
++                                        isDisabled: !$e() || "WRITE" === a && !(null !== l && void 0 !== l && l.isVideoHeaderUpdateComplete && null !== l && void 0 !== l && l.isThumbnailsUpdateComplete),
+
+-                                    case Su.DASHBOARD.path:
+-                                        return (0, et.jsx)(ck, {});
+-                                    case Su.LIVE.path:
+-                                        return (0, et.jsx)(GW, {});
+-                                    case Su.SETTING.path:
+-                                        return (0, et.jsx)(QG, {});
+-                                    case Su.NOTIFICATION.path:
+-                                        return (0, et.jsx)(vG, {});
+-                                    case Su.LIVE_ANALYSIS.path:
+-                                        return (0, et.jsx)(vA, {});
+-                                    case Su.VOD_ANALYSIS.path:
+-                                        return (0, et.jsx)(pq, {});
+-                                    case Su.LIVE_DETAIL.path:
+-                                        return (0, et.jsx)(qH, {});
+-                                    case Su.VOD_DETAIL.path:
+-                                        return (0, et.jsx)(mq, {});
+-                                    case Su.FOLLOWER.path:
+-                                        return (0, et.jsx)(ix, {});
+-                                    case Su.BLOCKLIST.path:
+-                                        return (0, et.jsx)(lg, {});
+-                                    case Su.VOD.path:
+-                                        return (0, et.jsx)(fK, {});
+-                                    case Su.VOD_MANAGE.path:
+-                                        return (0, et.jsx)(eY, {});
+-                                    case Su.VOD_UPLOAD.path:
+-                                        return (0, et.jsx)(xX, {});
+-                                    case Su.CREATE_PROFIT.path:
++                                    case yu.DASHBOARD.path:
++                                        return (0, et.jsx)(ok, {});
++                                    case yu.LIVE.path:
++                                        return (0, et.jsx)(RW, {});
++                                    case yu.SETTING.path:
++                                        return (0, et.jsx)(BG, {});
++                                    case yu.NOTIFICATION.path:
++                                        return (0, et.jsx)(nG, {});
++                                    case yu.LIVE_ANALYSIS.path:
++                                        return (0, et.jsx)(nA, {});
++                                    case yu.VOD_ANALYSIS.path:
++                                        return (0, et.jsx)(tq, {});
++                                    case yu.LIVE_DETAIL.path:
++                                        return (0, et.jsx)(MH, {});
++                                    case yu.VOD_DETAIL.path:
++                                        return (0, et.jsx)(rq, {});
++                                    case yu.FOLLOWER.path:
++                                        return (0, et.jsx)(nx, {});
++                                    case yu.BLOCKLIST.path:
++                                        return (0, et.jsx)(ig, {});
++                                    case yu.VOD.path:
++                                        return (0, et.jsx)(JY, {});
++                                    case yu.VOD_MANAGE.path:
++                                        return (0, et.jsx)(V$, {});
++                                    case yu.VOD_UPLOAD.path:
++                                        return (0, et.jsx)(lX, {});
++                                    case yu.CREATE_PROFIT.path:
++                                        return (0, et.jsx)(Pw, {});
++                                    case yu.REGISTER_PARTNER.path:
++                                        return (0, et.jsx)(kG, {});
++                                    case yu.SPONSE_DETAIL.path:
++                                        return (0, et.jsx)(GG, {});
++                                    case yu.SUBSCRIBE_DETAIL.path:
++                                        return (0, et.jsx)(JG, {});
++                                    case yu.CHAT_SPONSE.path:
++                                        return (0, et.jsx)(c_, {});
++                                    case yu.AUTHORITY.path:
++                                        return (0, et.jsx)(nm, {});
++                                    case yu.CALCULATE.path:
++                                        return (0, et.jsx)(Wg, {});
++                                    case yu.PROHIBIT_WORD.path:
++                                        return (0, et.jsx)(SG, {});
++                                    case yu.MY.path:
++                                        return (0, et.jsx)(XW, {});
++                                    case yu.ERROR.path:
+
+-                                    case Su.REGISTER_PARTNER.path:
+-                                        return (0, et.jsx)(UG, {});
+-                                    case Su.SPONSE_DETAIL.path:
+-                                        return (0, et.jsx)(oq, {});
+-                                    case Su.SUBSCRIBE_DETAIL.path:
+-                                        return (0, et.jsx)(fq, {});
+-                                    case Su.CHAT_SPONSE.path:
+-                                        return (0, et.jsx)(f_, {});
+-                                    case Su.AUTHORITY.path:
+-                                        return (0, et.jsx)(sm, {});
+-                                    case Su.CALCULATE.path:
+-                                        return (0, et.jsx)(Kg, {});
+-                                    case Su.PROHIBIT_WORD.path:
+-                                        return (0, et.jsx)(DG, {});
+-                                    case Su.MY.path:
+-                                        return (0, et.jsx)(cG, {});
+-                                    case Su.LEAVEFORM.path:
+-                                        return (0, et.jsx)(yk, {});
+-                                    case Su.ERROR.path:
+-                                        return (0, et.jsx)(Bw, {});
+
+
+-                                    path: Su.DASHBOARD.path,
+-                                    element: EX(Su.DASHBOARD.path)
+-                                }), (0, et.jsx)(Ae, {
+-                                    path: Su.LIVE.path,
+-                                    element: EX(Su.LIVE.path)
++                                    path: yu.DASHBOARD.path,
++                                    element: dX(yu.DASHBOARD.path)
+
+-                                    path: Su.SETTING.path,
+-                                    element: EX(Su.SETTING.path)
++                                    path: yu.LIVE.path,
++                                    element: dX(yu.LIVE.path)
+
+-                                    path: Su.NOTIFICATION.path,
+-                                    element: EX(Su.NOTIFICATION.path)
++                                    path: yu.SETTING.path,
++                                    element: dX(yu.SETTING.path)
+
+-                                    path: Su.LIVE_ANALYSIS.path,
+-                                    element: EX(Su.LIVE_ANALYSIS.path)
++                                    path: yu.NOTIFICATION.path,
++                                    element: dX(yu.NOTIFICATION.path)
+
+-                                    path: Su.VOD_ANALYSIS.path,
+-                                    element: EX(Su.VOD_ANALYSIS.path)
++                                    path: yu.LIVE_ANALYSIS.path,
++                                    element: dX(yu.LIVE_ANALYSIS.path)
+
+-                                    path: Su.LIVE_DETAIL.path,
+-                                    element: EX(Su.LIVE_DETAIL.path)
++                                    path: yu.VOD_ANALYSIS.path,
++                                    element: dX(yu.VOD_ANALYSIS.path)
+
+-                                    path: Su.VOD_DETAIL.path,
+-                                    element: EX(Su.VOD_DETAIL.path)
++                                    path: yu.LIVE_DETAIL.path,
++                                    element: dX(yu.LIVE_DETAIL.path)
+
+-                                    path: Su.FOLLOWER.path,
+-                                    element: EX(Su.FOLLOWER.path)
++                                    path: yu.VOD_DETAIL.path,
++                                    element: dX(yu.VOD_DETAIL.path)
+
+-                                    path: Su.BLOCKLIST.path,
+-                                    element: EX(Su.BLOCKLIST.path)
++                                    path: yu.FOLLOWER.path,
++                                    element: dX(yu.FOLLOWER.path)
+
+-                                    path: Su.VOD.path,
+-                                    element: EX(Su.VOD.path)
++                                    path: yu.BLOCKLIST.path,
++                                    element: dX(yu.BLOCKLIST.path)
+
+-                                    path: Su.VOD_MANAGE.path,
+-                                    element: EX(Su.VOD_MANAGE.path)
++                                    path: yu.VOD.path,
++                                    element: dX(yu.VOD.path)
+
+-                                    path: Su.CREATE_PROFIT.path,
+-                                    element: EX(Su.CREATE_PROFIT.path)
++                                    path: yu.VOD_UPLOAD.path,
++                                    element: dX(yu.VOD_UPLOAD.path)
+
+-                                    path: Su.REGISTER_PARTNER.path,
+-                                    element: EX(Su.REGISTER_PARTNER.path)
++                                    path: yu.CREATE_PROFIT.path,
++                                    element: dX(yu.CREATE_PROFIT.path)
+
+-                                    path: Su.SPONSE_DETAIL.path,
+-                                    element: EX(Su.SPONSE_DETAIL.path)
++                                    path: yu.REGISTER_PARTNER.path,
++                                    element: dX(yu.REGISTER_PARTNER.path)
+
+-                                    path: Su.SUBSCRIBE_DETAIL.path,
+-                                    element: EX(Su.SUBSCRIBE_DETAIL.path)
++                                    path: yu.SPONSE_DETAIL.path,
++                                    element: dX(yu.SPONSE_DETAIL.path)
+
+-                                    path: Su.CHAT_SPONSE.path,
+-                                    element: EX(Su.CHAT_SPONSE.path)
++                                    path: yu.SUBSCRIBE_DETAIL.path,
++                                    element: dX(yu.SUBSCRIBE_DETAIL.path)
+
+-                                    path: Su.AR_SPONSE.path,
+-                                    element: EX(Su.AR_SPONSE.path)
++                                    path: yu.CHAT_SPONSE.path,
++                                    element: dX(yu.CHAT_SPONSE.path)
+
+-                                    path: Su.PROHIBIT_WORD.path,
+-                                    element: EX(Su.PROHIBIT_WORD.path)
++                                    path: yu.AUTHORITY.path,
++                                    element: dX(yu.AUTHORITY.path)
+
+-                                    path: Su.MY.path,
+-                                    element: EX(Su.MY.path)
++                                    path: yu.PROHIBIT_WORD.path,
++                                    element: dX(yu.PROHIBIT_WORD.path)
+
+-                                    path: Su.LEAVEFORM.path,
+-                                    element: EX(Su.LEAVEFORM.path)
++                                    path: yu.MY.path,
++                                    element: dX(yu.MY.path)
+
