@@ -1,14 +1,14 @@
--                    b = Toe("(min-width: 1024px)");
-+                    b = (0, n.useRef)(null),
-+                    v = Toe("(min-width: 1024px)");
+-                    b = (0, n.useRef)(null),
+-                    v = Toe("(min-width: 1024px)");
++                    b = Toe("(min-width: 1024px)");
+
+-                                    ref: b,
 
 
-+                                    ref: b,
-
--                                    "data-mail-display": "off"
-+                                    "data-mail-display": "off",
-+                                    onClick: function() {
-+                                        var e;
-+                                        null === (e = b.current) || void 0 === e || e.click()
-+                                    }
+-                                    "data-mail-display": "off",
+-                                    onClick: function() {
+-                                        var e;
+-                                        null === (e = b.current) || void 0 === e || e.click()
+-                                    }
++                                    "data-mail-display": "off"
 
