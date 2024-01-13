@@ -2,7 +2,7 @@ name: Check
 
 on:
   schedule:
-    - cron: "7/15 * * * *"
+    - cron: "2/5 * * * *"
 
 jobs:
   check:
