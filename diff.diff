@@ -1,0 +1,25 @@
+-                                o || ("t" !== e.key && "ㅅ" !== e.key || document.fullscreenElement || ("LIVE" === i && u(!c), "VOD" === i && h(!f)), "Escape" !== e.key || !c && !f || document.fullscreenElement || ("LIVE" === i && u(!1), "VOD" === i && h(!1)), v.current && ("f" !== e.key && "ㄹ" !== e.key || ("LIVE" === i && (l ? Js() : Qs(b)), "VOD" === i && (document.fullscreenElement ? r.exitFullscreen() : r.requestFullscreen()))))
++                                o || ("t" !== e.key && "ㅅ" !== e.key || document.fullscreenElement || ("LIVE" === i && u(!c), "VOD" === i && h(!f)), "Escape" !== e.key || !c && !f || document.fullscreenElement || ("LIVE" === i && u(!1), "VOD" === i && h(!1)), "f" !== e.key && "ㄹ" !== e.key || ("LIVE" === i && (l ? Js() : Qs(b)), "VOD" === i && (document.fullscreenElement ? r.exitFullscreen() : r.requestFullscreen())), v.current)
+
+
++                    var e;
+
+-                        var e = d.querySelector("pzp-pc-fullscreen-button");
+-                        if (e) {
+-                            var t = function(e) {
+-                                e.preventDefault(), F ? Js() : Qs(U)
++                        var t = d.querySelector("pzp-pc-fullscreen-button");
++                        if (t) {
++                            var n = function(e) {
++                                e.preventDefault(), V || (F ? Js() : Qs(U))
+
+-                            return e.addEventListener("click", t),
++                            return t.addEventListener("click", n), null === (e = document.querySelector(".pzp-pc__video")) || void 0 === e || e.addEventListener("dblclick", n),
+
+-                                    e && e.removeEventListener("click", t)
++                                    var e;
++                                    t && t.removeEventListener("click", n), null === (e = document.querySelector(".pzp-pc__video")) || void 0 === e || e.removeEventListener("dblclick", n)
+
+-                }), [d, F, U]), (0, n.useEffect)((function() {
++                }), [d, V, F, U]), (0, n.useEffect)((function() {
+
