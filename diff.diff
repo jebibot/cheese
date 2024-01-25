@@ -1,0 +1,11 @@
+-                    D = (0, n.useCallback)((function(e) {
++                    D = (0, pn.useRecoilValue)(mn),
++                    B = (0, n.useCallback)((function(e) {
+
+
++                    D || j(!1)
++                }), [D]), (0, n.useEffect)((function() {
+
+-                                0 !== e.length && (N.current = e[0].isIntersecting, N.current ? L(!1) : L(!0))
++                                0 !== e.length && (N.current = e[0].isIntersecting, N.current ? (j(I.current > 0), L(!1)) : L(!0))
+
