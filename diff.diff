@@ -1,0 +1,69 @@
+-                            localStorage.setItem("player-volume-muted", JSON.stringify(d.muted))
++                            setTimeout((function() {
++                                localStorage.setItem("player-volume-muted", JSON.stringify(d.muted))
++                            }), 100)
+
+-                    Hi = (0, n.useCallback)((function() {
++                    Hi = (0, n.useCallback)((0, Ge.Z)((0, Ze.Z)().mark((function e() {
++                        var t, n;
++                        return (0, Ze.Z)().wrap((function(e) {
++                            for (;;) switch (e.prev = e.next) {
++                                case 0:
++                                    if (l) {
++                                        e.next = 2;
++                                        break
++                                    }
++                                    return e.abrupt("return");
++                                case 2:
++                                    return e.next = 4, NM(l);
++                                case 4:
++                                    t = e.sent, n = t.channel.personalData.following, $t((null === n || void 0 === n ? void 0 : n.following) || !1);
++                                case 7:
++                                case "end":
++                                    return e.stop()
++                            }
++                        }), e)
++                    }))), [l]),
++                    Zi = (0, n.useCallback)((function() {
+
+-                    io = (0, n.useCallback)((function(e) {
+-                        (0, tr.isNil)(e.registerNickname) || (0, tr.isEmpty)(e.registerNickname) || l === M.userIdHash || e.userIdHash !== M.userIdHash || (mo(e.registerNickname, e.userRoleType), Vi())
+-                    }), [l, M, Vi]),
+
+
+
++                        (0, tr.isNil)(e.registerNickname) || (0, tr.isEmpty)(e.registerNickname) || l === M.userIdHash || e.userIdHash !== M.userIdHash || (yo(e.registerNickname, e.userRoleType), Vi())
++                    }), [l, M, Vi]),
++                    ao = (0, n.useCallback)((function(e) {
+
+-                    co = function() {
+-                        uo(), de(!pe)
+-                    },
+
+
+-                        Ce(!1), de(!1), me(!1), ze(!1), xe(!1), Se(!1), jr(!1), Hr(!1), $r(!1), Jr(!1), pi(!1), bi(!1)
++                        lo(), de(!pe)
+
+-                        if (uo(), M.loggedIn || ve) {
++                        Ce(!1), de(!1), me(!1), ze(!1), xe(!1), Se(!1), jr(!1), Hr(!1), $r(!1), Jr(!1), pi(!1), bi(!1)
++                    },
++                    po = function() {
++                        if (lo(), M.loggedIn || ve) {
+
+-                    a && Vi()
++                    a && (Vi(), Hi())
+
+
++                    if (b && b.querySelector("pzp-pc-volume-button")) {
++                        var e = function() {
++                            setTimeout((function() {
++                                localStorage.setItem("player-volume-muted", JSON.stringify(b.muted))
++                            }), 100)
++                        };
++                        return b.addEventListener("click", e),
++                            function() {
++                                b.removeEventListener("click", e)
++                            }
++                    }
++                }), [b]), (0, n.useEffect)((function() {
+
