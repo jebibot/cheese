@@ -1,0 +1,16 @@
+-                                    return e.next = 4, NM(l);
+-                                case 4:
+-                                    t = e.sent, n = t.channel.personalData.following, $t((null === n || void 0 === n ? void 0 : n.following) || !1);
+-                                case 7:
++                                    if (!M.loggedIn) {
++                                        e.next = 10;
++                                        break
++                                    }
++                                    return e.next = 5, NM(l);
++                                case 5:
++                                    t = e.sent, n = t.channel.personalData.following, $t((null === n || void 0 === n ? void 0 : n.following) || !1), e.next = 11;
++                                    break;
++                                case 10:
++                                    $t(!1);
++                                case 11:
+
