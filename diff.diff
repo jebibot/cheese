@@ -1,0 +1,230 @@
+-                        i = e.previousType,
+-                        o = e.corporationProfitPaymentInformation,
+-                        a = e.previousBizLicenseMultipartFileList,
+-                        s = e.previousLegalMultipartFileList,
+-                        u = e.onChangedData,
+-                        l = e.onAllIsDone,
+-                        c = (0, Q.useState)(),
+-                        d = (0, r.Z)(c, 2),
+-                        f = d[0],
+-                        h = d[1],
+-                        p = (0, Q.useState)(),
+-                        v = (0, r.Z)(p, 2),
+-                        m = v[0],
+-                        g = v[1],
+-                        y = (0, Q.useState)(),
+-                        _ = (0, r.Z)(y, 2),
+-                        b = _[0],
+-                        w = _[1],
+-                        x = (0, Q.useState)(),
+-                        S = (0, r.Z)(x, 2),
+-                        E = S[0],
+-                        C = S[1],
+-                        T = (0, Q.useState)(),
+-                        k = (0, r.Z)(T, 2),
+-                        A = k[0],
+-                        L = k[1],
+-                        O = (0, Q.useState)(),
+-                        I = (0, r.Z)(O, 2),
+-                        N = I[0],
+-                        R = I[1],
+-                        P = (0, Q.useState)(),
+-                        M = (0, r.Z)(P, 2),
+-                        D = M[0],
+-                        j = M[1],
+-                        F = (0, Q.useState)(),
+-                        B = (0, r.Z)(F, 2),
+-                        U = B[0],
+-                        V = B[1],
+-                        H = (0, Q.useState)(),
+-                        z = (0, r.Z)(H, 2),
+-                        Z = z[0],
+-                        W = z[1],
+-                        G = (0, Q.useState)(),
+-                        q = (0, r.Z)(G, 2),
+-                        $ = q[0],
+-                        Y = q[1],
+-                        K = (0, Q.useState)(),
+-                        X = (0, r.Z)(K, 2),
+-                        J = X[0],
+-                        ee = X[1],
+-                        te = (0, Q.useState)(),
+-                        ne = (0, r.Z)(te, 2),
+-                        re = ne[0],
+-                        ie = ne[1],
+-                        oe = (0, Q.useState)(),
+-                        ae = (0, r.Z)(oe, 2),
+-                        se = ae[0],
+-                        ue = ae[1],
+-                        le = (0, Q.useState)(),
+-                        ce = (0, r.Z)(le, 2),
+-                        de = ce[0],
+-                        fe = ce[1],
+-                        he = (0, Q.useCallback)((function(e, t) {
+-                            e.target.files && (h(e.target.files), C(t))
+-                        }), [f]),
+-                        pe = function(e, t) {
+-                            C(t), "business" === t ? R((function(t) {
++                        i = (e.previousType, e.corporationProfitPaymentInformation),
++                        o = e.previousBizLicenseMultipartFileList,
++                        a = e.previousLegalMultipartFileList,
++                        s = e.onChangedData,
++                        u = e.onAllIsDone,
++                        l = (0, Q.useState)(),
++                        c = (0, r.Z)(l, 2),
++                        d = c[0],
++                        f = c[1],
++                        h = (0, Q.useState)(),
++                        p = (0, r.Z)(h, 2),
++                        v = p[0],
++                        m = p[1],
++                        g = (0, Q.useState)(),
++                        y = (0, r.Z)(g, 2),
++                        _ = y[0],
++                        b = y[1],
++                        w = (0, Q.useState)(),
++                        x = (0, r.Z)(w, 2),
++                        S = x[0],
++                        E = x[1],
++                        C = (0, Q.useState)(),
++                        T = (0, r.Z)(C, 2),
++                        k = T[0],
++                        A = T[1],
++                        L = (0, Q.useState)(),
++                        O = (0, r.Z)(L, 2),
++                        I = O[0],
++                        N = O[1],
++                        R = (0, Q.useState)(),
++                        P = (0, r.Z)(R, 2),
++                        M = P[0],
++                        D = P[1],
++                        j = (0, Q.useState)(),
++                        F = (0, r.Z)(j, 2),
++                        B = F[0],
++                        U = F[1],
++                        V = (0, Q.useState)(),
++                        H = (0, r.Z)(V, 2),
++                        z = H[0],
++                        Z = H[1],
++                        W = (0, Q.useState)(),
++                        G = (0, r.Z)(W, 2),
++                        q = G[0],
++                        $ = G[1],
++                        Y = (0, Q.useState)(),
++                        K = (0, r.Z)(Y, 2),
++                        X = K[0],
++                        J = K[1],
++                        ee = (0, Q.useState)(),
++                        te = (0, r.Z)(ee, 2),
++                        ne = te[0],
++                        re = te[1],
++                        ie = (0, Q.useState)(),
++                        oe = (0, r.Z)(ie, 2),
++                        ae = oe[0],
++                        se = oe[1],
++                        ue = (0, Q.useState)(),
++                        le = (0, r.Z)(ue, 2),
++                        ce = le[0],
++                        de = le[1],
++                        fe = (0, Q.useCallback)((function(e, t) {
++                            e.target.files && (f(e.target.files), E(t))
++                        }), [d]),
++                        he = function(e, t) {
++                            E(t), "business" === t ? N((function(t) {
+
+-                    }), [f]), (0, Q.useEffect)((function() {
+-                        i !== n && (L(void 0), R(void 0), j(void 0), V(void 0))
+-                    }), [n]), (0, Q.useEffect)((function() {
++                    }), [d]), (0, Q.useEffect)((function() {
+
+-                            if ((n === iw.PERSON_CORP || n === iw.CORP) && !(0, ht.isNil)(a) && !(0, ht.isNil)(N) && a.length > 0) e && (e = a[0].name === (null === (r = N[0]) || void 0 === r ? void 0 : r.name));
+-                            if (n === iw.CORP && !(0, ht.isNil)(s) && !(0, ht.isNil)(U) && s.length > 0) e && (e = s[0].name === (null === (i = U[0]) || void 0 === i ? void 0 : i.name));
+-                            (0, ht.isNil)(a) && e && (e = !(0, ht.isNil)(A)), n === iw.CORP && (0, ht.isNil)(s) && (e && (e = !(0, ht.isNil)(A)), e && (e = !(0, ht.isNil)(D)))
+-                        } else e && (e = !(0, ht.isNil)(A)), e && (e = n === iw.PERSON_CORP || !(0, ht.isNil)(D));
+-                        l(e), u({
+-                            corpName: m,
+-                            billingResNo: b,
+-                            bizLicenseMultipartFile: A,
+-                            legalMultipartFile: D,
+-                            bizLicenseFileName: (null === A || void 0 === A ? void 0 : A.name) || (!(0, ht.isNil)(N) && N.length > 0 ? N[0].name : void 0),
+-                            legalFileName: (null === D || void 0 === D ? void 0 : D.name) || (!(0, ht.isNil)(U) && U.length > 0 ? U[0].name : void 0),
+-                            presidentName: J,
+-                            bizCondition: se,
+-                            bizType: de,
+-                            addrDetail: re
++                            if ((n === iw.PERSON_CORP || n === iw.CORP) && !(0, ht.isNil)(o) && !(0, ht.isNil)(I) && o.length > 0) e && (e = o[0].name === (null === (r = I[0]) || void 0 === r ? void 0 : r.name));
++                            if (n === iw.CORP && !(0, ht.isNil)(a) && !(0, ht.isNil)(B) && a.length > 0) e && (e = a[0].name === (null === (i = B[0]) || void 0 === i ? void 0 : i.name));
++                            (0, ht.isNil)(o) && e && (e = !(0, ht.isNil)(k)), n === iw.CORP && (0, ht.isNil)(a) && e && (e = !(0, ht.isNil)(M))
++                        } else e && (e = !(0, ht.isNil)(k)), e && (e = n === iw.PERSON_CORP || !(0, ht.isNil)(M));
++                        u(e), s({
++                            corpName: v,
++                            billingResNo: _,
++                            bizLicenseMultipartFile: k,
++                            legalMultipartFile: M,
++                            bizLicenseFileName: (null === k || void 0 === k ? void 0 : k.name) || (!(0, ht.isNil)(I) && I.length > 0 ? I[0].name : void 0),
++                            legalFileName: (null === M || void 0 === M ? void 0 : M.name) || (!(0, ht.isNil)(B) && B.length > 0 ? B[0].name : void 0),
++                            presidentName: X,
++                            bizCondition: ae,
++                            bizType: ce,
++                            addrDetail: ne
+
+-                    }), [m, b, A, U, D, N, J, se, de, re]), (0, Q.useEffect)((function() {
+-                        if (!(0, ht.isNil)(o) && "EDIT" === t) {
+-                            var e = o.corpName,
+-                                n = o.billingResNo,
+-                                r = o.presidentName,
+-                                i = o.addrDetail,
+-                                a = o.bizCondition,
+-                                s = o.bizType;
+-                            g(e), w(n), ee(r), ie(i), ue(a), fe(s)
+-                        }
+-                    }), [o]), (0, Q.useEffect)((function() {
+-                        R(a), V(s)
+-                    }), [a, s]), (0, et.jsxs)(et.Fragment, {
++                    }), [v, _, k, B, M, I, X, ae, ce, ne]), (0, Q.useEffect)((function() {
++                        if (!(0, ht.isNil)(i) && "EDIT" === t) {
++                            var e = i.corpName,
++                                n = i.billingResNo,
++                                r = i.presidentName,
++                                o = i.addrDetail,
++                                a = i.bizCondition,
++                                s = i.bizType;
++                            m(e), b(n), J(r), re(o), se(a), de(s)
++                        }
++                    }), [i]), (0, Q.useEffect)((function() {
++                        N(o), U(a)
++                    }), [o, a]), (0, et.jsxs)(et.Fragment, {
+
+-                                        return ee(e)
++                                        return J(e)
+
+-                            if (R(s), C(f), ue(d), Y(u), W(l), ee(c), j(a), ie(i), _e) {
+-                                var h = _e.find((function(e) {
+-                                    return e.bankCode === c
+-                                }));
+-                                (0, ht.isNil)(h) || V(h.bankName)
+-                            }
+-                            if ("PERSON" === r) w(iw.PERSON), g(iw.PERSON);
++                            if (R(s), C(f), ue(d), Y(u), W(l), ee(c), j(a), ie(i), "PERSON" === r) w(iw.PERSON), g(iw.PERSON);
+
+-                    }), [ct, _e]), (0, Q.useEffect)((function() {
+-                        m !== b && (Ae(void 0), Ne(void 0), wt(void 0), Ct(void 0))
+-                    }), [b]), (0, et.jsxs)(et.Fragment, {
++                    }), [ct]), (0, Q.useEffect)((function() {
++                        if (_e) {
++                            var e = _e.find((function(e) {
++                                return e.bankCode === J
++                            }));
++                            (0, ht.isNil)(e) || V(e.bankName)
++                        }
++                    }), [_e]), (0, et.jsxs)(et.Fragment, {
+
+-                                            if (K !== iw.CORP) {
++                                            if (K !== iw.CORP && K !== iw.PERSON_CORP) {
+
+-                                text: "수정",
++                                text: "".concat("EDIT" === T ? "수정" : "저장"),
+
+-                                            if (N !== iw.CORP) {
++                                            if (N !== iw.CORP && N !== iw.PERSON_CORP) {
+
