@@ -1722,40 +1722,6 @@
 -}
 
 
--                return e.startsWith("nng-glive.") || e.startsWith("nng-glive-center.") || e.startsWith("nng-m-glive.") ? "dev" : e.startsWith("test-game.") || e.startsWith("test-m-game.") || e.startsWith("nng-game-test.") || e.startsWith("nng-m-game-test.") || e.startsWith("nng-glive-center-test.") || e.startsWith("nng-glive-test.") || e.startsWith("nng-m-glive-test.") ? "test" : e.startsWith("test-game2.") || e.startsWith("test-m-game2.") || e.startsWith("nng-game-test2.") || e.startsWith("nng-m-game-test2.") || e.startsWith("nng-glive-center-test2.") || e.startsWith("nng-glive-test2.") || e.startsWith("nng-m-glive-test2.") ? "test2" : e.startsWith("stg.") || e.startsWith("stg-") || e.startsWith("beta-") ? "stg" : e.startsWith("local.") ? "local" : ""
-+                return e.startsWith("nng-glive.") || e.startsWith("nng-glive-center.") || e.startsWith("nng-m-glive.") ? "dev" : e.startsWith("test-game.") || e.startsWith("test-m-game.") || e.startsWith("nng-game-test.") || e.startsWith("nng-m-game-test.") || e.startsWith("nng-glive-center-test.") || e.startsWith("nng-glive-test.") || e.startsWith("nng-m-glive-test.") ? "test" : e.startsWith("test-game2.") || e.startsWith("test-m-game2.") || e.startsWith("nng-game-test2.") || e.startsWith("nng-m-game-test2.") || e.startsWith("nng-glive-center-test2.") || e.startsWith("nng-glive-test2.") || e.startsWith("nng-m-glive-test2.") ? "test2" : e.startsWith("stg.") || e.startsWith("stg-") || e.startsWith("beta-") ? "stg" : e.startsWith("local.") ? "test" : ""
-
--                    re = (0, vt.useRecoilValue)(Tn),
--                    ie = (0, vt.useRecoilValue)(ip),
--                    oe = (0, n.useMemo)((function() {
-+                    re = ((0, vt.useRecoilValue)(Tn), (0, vt.useRecoilValue)(ip)),
-+                    ie = (0, n.useMemo)((function() {
-
--                    }), [X, D, U, W, R, N]),
--                    le = (0, n.useMemo)((function() {
--                        var e;
--                        return "STREAMER" === (null === re || void 0 === re || null === (e = re.userRole) || void 0 === e ? void 0 : e.toUpperCase())
--                    }), [re]);
-+                    }), [X, D, U, W, R, N]);
-
--                    h && X && le && gA(h).then((function(e) {
-+                    h && X && (re.beforeLoaded || re.userIdHash === h && gA(h).then((function(e) {
-
--                    }))
--                }), [h, X, le]), (0, n.useEffect)((function() {
--                    h && X && D && le && gA(h, D.id).then((function(e) {
-+                    })))
-+                }), [h, X, re]), (0, n.useEffect)((function() {
-+                    h && X && D && (re.beforeLoaded || re.userIdHash === h && gA(h, D.id).then((function(e) {
-
--                    }))
--                }), [h, X, D, le]), (0, cs.jsxs)(PT, {
-+                    })))
-+                }), [h, X, D, re]), (0, cs.jsxs)(PT, {
-
--                    }), ie.userIdHash === h && le && (0, cs.jsxs)(WT, {
-+                    }), re.userIdHash === h && (0, cs.jsxs)(WT, {
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
