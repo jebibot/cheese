@@ -1305,6 +1305,9 @@
 +.channel_home_cafe_container__rlEkD {
 +  margin-top: 38px;
 +}
++.channel_home_cafe_container__rlEkD:first-child {
++  margin-top: 0;
++}
 
 -.channel_manage_basic_count__MDz3T {
 +.channel_manage_basic_count__MDz3T {
@@ -1722,136 +1725,9 @@
 -}
 
 
--                return e.startsWith("nng-glive.") || e.startsWith("nng-glive-center.") || e.startsWith("nng-m-glive.") ? "dev" : e.startsWith("test-game.") || e.startsWith("test-m-game.") || e.startsWith("nng-game-test.") || e.startsWith("nng-m-game-test.") || e.startsWith("nng-glive-center-test.") || e.startsWith("nng-glive-test.") || e.startsWith("nng-m-glive-test.") ? "test" : e.startsWith("test-game2.") || e.startsWith("test-m-game2.") || e.startsWith("nng-game-test2.") || e.startsWith("nng-m-game-test2.") || e.startsWith("nng-glive-center-test2.") || e.startsWith("nng-glive-test2.") || e.startsWith("nng-m-glive-test2.") ? "test2" : e.startsWith("stg.") || e.startsWith("stg-") || e.startsWith("beta-") ? "stg" : e.startsWith("local.") ? "test" : ""
-+                return e.startsWith("nng-glive.") || e.startsWith("nng-glive-center.") || e.startsWith("nng-m-glive.") ? "dev" : e.startsWith("test-game.") || e.startsWith("test-m-game.") || e.startsWith("nng-game-test.") || e.startsWith("nng-m-game-test.") || e.startsWith("nng-glive-center-test.") || e.startsWith("nng-glive-test.") || e.startsWith("nng-m-glive-test.") ? "test" : e.startsWith("test-game2.") || e.startsWith("test-m-game2.") || e.startsWith("nng-game-test2.") || e.startsWith("nng-m-game-test2.") || e.startsWith("nng-glive-center-test2.") || e.startsWith("nng-glive-test2.") || e.startsWith("nng-m-glive-test2.") ? "test2" : e.startsWith("stg.") || e.startsWith("stg-") || e.startsWith("beta-") ? "stg" : e.startsWith("local.") ? "local" : ""
-
--            fT = function() {
--                var e = "cafeWebkit",
--                    r = fe().channelId,
--                    i = (0, n.useState)(!1),
--                    o = (0, t.Z)(i, 2),
--                    a = o[0],
--                    s = o[1],
--                    c = (0, n.useState)(),
--                    u = (0, t.Z)(c, 2),
--                    l = u[0],
--                    p = u[1],
--                    d = (0, n.useState)(),
--                    f = (0, t.Z)(d, 2),
--                    h = f[0],
--                    b = f[1],
--                    v = (0, n.useState)(!1),
--                    m = (0, t.Z)(v, 2),
--                    y = m[0],
--                    g = m[1],
--                    M = (0, n.useRef)(null);
-+            fT = function(e) {
-+                var r = e.cafeConnection,
-+                    i = "cafeWebkit",
-+                    o = (0, n.useState)(!1),
-+                    a = (0, t.Z)(o, 2),
-+                    s = a[0],
-+                    c = a[1],
-+                    u = (0, n.useState)(),
-+                    l = (0, t.Z)(u, 2),
-+                    p = l[0],
-+                    d = l[1],
-+                    f = (0, n.useState)(),
-+                    h = (0, t.Z)(f, 2),
-+                    b = h[0],
-+                    v = h[1],
-+                    m = (0, n.useState)(!1),
-+                    y = (0, t.Z)(m, 2),
-+                    g = y[0],
-+                    M = y[1],
-+                    _ = (0, n.useRef)(null);
-
--                    p(void 0), b(void 0)
--                }), [r]), (0, n.useEffect)((function() {
--                    r && MA(r).then((function(e) {
--                        var t, n;
--                        null !== (t = e.cafe) && void 0 !== t && t.id && p(e.cafe.id), null !== (n = e.menu) && void 0 !== n && n.id && b(e.menu.id)
--                    }))
-+                    var e, t;
-+                    d(null === (e = r.cafe) || void 0 === e ? void 0 : e.id), v(null === (t = r.menu) || void 0 === t ? void 0 : t.id)
-
--                    if (r && a && l && h) return window.webkitCafe.draw({
--                            selector: "#".concat(e),
-+                    if (s && p && b) return window.webkitCafe.draw({
-+                            selector: "#".concat(i),
-
--                }), [a, r, l, h]), (0, cs.jsx)("div", {
--                    className: Ye()(y && dT),
-+                }), [s, p, b]), (0, cs.jsx)("div", {
-+                    className: Ye()(g && dT),
-
--                    b = (0, n.useState)([]),
-+                    b = (0, n.useState)(),
-
--                    z = (0, vt.useRecoilState)(Ln("home")),
-+                    z = (0, n.useState)([]),
-
--                    S = (0, vt.useRecoilValue)(Tn),
--                    E = (0, vt.useRecoilValue)(En),
--                    C = rx("channelLive"),
--                    k = C.adult,
--                    T = C.setUserAdultInfo,
--                    L = (0, n.useCallback)(function() {
-+                    S = (0, vt.useRecoilState)(Ln("home")),
-+                    E = (0, t.Z)(S, 2),
-+                    C = E[0],
-+                    k = E[1],
-+                    T = (0, vt.useRecoilValue)(Tn),
-+                    L = (0, vt.useRecoilValue)(En),
-+                    q = rx("channelLive"),
-+                    R = q.adult,
-+                    N = q.setUserAdultInfo,
-+                    W = (0, n.useCallback)(function() {
-+                        var e = (0, Ge.Z)((0, Ze.Z)().mark((function e(t) {
-+                            var n;
-+                            return (0, Ze.Z)().wrap((function(e) {
-+                                for (;;) switch (e.prev = e.next) {
-+                                    case 0:
-+                                        return e.next = 2, a(MA(t));
-+                                    case 2:
-+                                        n = e.sent, y(n);
-+                                    case 4:
-+                                    case "end":
-+                                        return e.stop()
-+                                }
-+                            }), e)
-+                        })));
-+                        return function(t) {
-+                            return e.apply(this, arguments)
-+                        }
-+                    }(), [a]),
-+                    I = (0, n.useCallback)(function() {
-
--                    R = (0, n.useMemo)((function() {
--                        var e = (null === f || void 0 === f ? void 0 : f.fixedVideo) || (null === f || void 0 === f ? void 0 : f.latestVideo) || (null === f || void 0 === f ? void 0 : f.openLive);
--                        return !o && !e && !(null !== _ && void 0 !== _ && _.length) && !(null !== u && void 0 !== u && u.length) && !(null !== m && void 0 !== m && m.length)
--                    }), [o, _, m, u, f]);
-+                    D = (0, n.useMemo)((function() {
-+                        var e, t, n = (null === f || void 0 === f ? void 0 : f.fixedVideo) || (null === f || void 0 === f ? void 0 : f.latestVideo) || (null === f || void 0 === f ? void 0 : f.openLive),
-+                            r = (null === m || void 0 === m || null === (e = m.cafe) || void 0 === e ? void 0 : e.id) && (null === (t = m.menu) || void 0 === t ? void 0 : t.id);
-+                        return !o && !n && !(null !== x && void 0 !== x && x.length) && !(null !== u && void 0 !== u && u.length) && !(null !== _ && void 0 !== _ && _.length) && !r
-+                    }), [o, x, _, u, f, m]);
-
--                    r && (T(rp.NONE, !1), q(r), L(r))
--                }), [r, q, L]), (0, n.useEffect)((function() {
-+                    r && (N(rp.NONE, !1), P(r), I(r), W(r))
-+                }), [r, P, I, W]), (0, n.useEffect)((function() {
-
--                        }), (0, cs.jsx)(hT, {}), (0, cs.jsx)(yC, {
--                            vods: _
-+                        }), m && (0, cs.jsx)(hT, {
-+                            cafeConnection: m
-+                        }), (0, cs.jsx)(yC, {
-+                            vods: x
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+c6e299f1 4f955fc6 a01b7b3e
++c6e299f1 4f955fc6 f028bd9f
 
