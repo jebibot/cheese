@@ -1,6 +1,100 @@
+-                                                                L(!0), i = new o$, (0, fs.isNil)(h) || (a = 0, i.playTts({
+-                                                                    message: ly((null !== (o = t.donationText) && void 0 !== o ? o : "").replace(/(<|>|&|"|')/gi, "")),
+-                                                                    donationId: s,
+-                                                                    alertType: t.type,
+-                                                                    alertSoundUrl: D((null === h || void 0 === h ? void 0 : h.donationChatSetList) || [], t.payAmount),
+-                                                                    alertVolume: (null === h || void 0 === h ? void 0 : h.alertVolume) || 0,
+-                                                                    ttsVolume: !1 === t.useSpeech ? 0 : (null === h || void 0 === h ? void 0 : h.ttsVolume) || 0,
+-                                                                    ttsSpeed: (null === h || void 0 === h ? void 0 : h.ttsSpeed) || 1,
+-                                                                    onend: function() {
+-                                                                        setTimeout((function() {
++                                                                    L(!0), i = new o$, (0, fs.isNil)(h) || (a = 0, i.playTts({
++                                                                        message: ly((null !== (o = t.donationText) && void 0 !== o ? o : "").replace(/(<|>|&|"|')/gi, "")),
++                                                                        donationId: s,
++                                                                        alertType: t.type,
++                                                                        alertSoundUrl: D((null === h || void 0 === h ? void 0 : h.donationChatSetList) || [], t.payAmount),
++                                                                        alertVolume: (null === h || void 0 === h ? void 0 : h.alertVolume) || 0,
++                                                                        ttsVolume: !1 === t.useSpeech ? 0 : (null === h || void 0 === h ? void 0 : h.ttsVolume) || 0,
++                                                                        ttsSpeed: (null === h || void 0 === h ? void 0 : h.ttsSpeed) || 1,
++                                                                        onend: function() {
++                                                                            setTimeout((function() {
++                                                                                N(), e()
++                                                                            }), P(t.payAmount, a))
++                                                                        },
++                                                                        onplay: function(e, t) {
++                                                                            a = t.duration(e), k$ = t
++                                                                        }
++                                                                    }).then((function(n) {
++                                                                        n || setTimeout((function() {
+
+-                                                                    },
+-                                                                    onplay: function(e, t) {
+-                                                                        a = t.duration(e), k$ = t
+-                                                                    }
+-                                                                }).then((function(n) {
+-                                                                    n || setTimeout((function() {
+-                                                                        N(), e()
+-                                                                    }), P(t.payAmount, a))
+-                                                                })).catch((function() {
++                                                                    })).catch((function() {
++                                                                        n(e, W(t.payAmount) || 0)
++                                                                    })))
++                                                                } catch (l) {
+
+-                                                                })))
+-                                                            } catch (l) {
+-                                                                n(e, W(t.payAmount) || 0)
+-                                                            } else if (!r$(t) && !(0, fs.isNil)(t.subscriptionText) && t.subscriptionText.length > 0 && t.ttsOn) try {
+-                                                                L(!0), c = new o$, (0, fs.isNil)(g) || (0, c.playTts({
+-                                                                    message: ly((null !== (u = t.subscriptionText) && void 0 !== u ? u : "").replace(/(<|>|&|"|')/gi, "")),
+-                                                                    donationId: s,
+-                                                                    alertSoundUrl: null === g || void 0 === g ? void 0 : g.alertSoundUrl,
+-                                                                    alertVolume: (null === g || void 0 === g ? void 0 : g.alertVolume) || 0,
+-                                                                    ttsVolume: (null === g || void 0 === g ? void 0 : g.ttsVolume) || 0,
+-                                                                    onend: function() {
+-                                                                        setTimeout((function() {
+-                                                                            N(), e()
+-                                                                        }), R$)
+-                                                                    },
+-                                                                    onplay: function(e, t) {
+-                                                                        t.duration(e), k$ = t
+-                                                                    }
+-                                                                }))
+-                                                            } catch (l) {
+-                                                                n(e, R$)
+-                                                            } else L(!0), setTimeout((function() {
+-                                                                N(), e()
+-                                                            }), r$(t) ? W(t.payAmount) : R$);
+-                                                        case 3:
+-                                                        case "end":
+-                                                            return r.stop()
++                                                                } else if (r$(t)) L(!0), setTimeout((function() {
++                                                                    N(), e()
++                                                                }), r$(t) ? W(t.payAmount) : R$);
++                                                                else try {
++                                                                    L(!0), c = new o$, (0, fs.isNil)(g) || (0, c.playTts({
++                                                                        message: ly((null !== (u = t.subscriptionText) && void 0 !== u ? u : "").replace(/(<|>|&|"|')/gi, "")),
++                                                                        donationId: s,
++                                                                        alertSoundUrl: null === g || void 0 === g ? void 0 : g.alertSoundUrl,
++                                                                        alertVolume: (null === g || void 0 === g ? void 0 : g.alertVolume) || 0,
++                                                                        ttsVolume: null !== t && void 0 !== t && t.ttsOn && (null === g || void 0 === g ? void 0 : g.ttsVolume) || 0,
++                                                                        onend: function() {
++                                                                            setTimeout((function() {
++                                                                                N(), e()
++                                                                            }), R$)
++                                                                        },
++                                                                        onplay: function(e, t) {
++                                                                            t.duration(e), k$ = t
++                                                                        }
++                                                                    }))
++                                                                } catch (l) {
++                                                                    n(e, R$)
++                                                                }
++                                                            case 3: case "end": return r.stop()
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+1d3b2e75 c8f86a18 079d69da
++7ffbea18 c8f86a18 079d69da
 
