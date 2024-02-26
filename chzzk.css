@@ -6885,19 +6885,6 @@ input {
   text-align: center;
   width: 100%;
 }
-.badge_twitch__ilQuU {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  -ms-flex: none;
-  flex: none;
-  font-size: 11px;
-  line-height: 16px;
-  margin-left: 4px;
-  padding: 1px 4px;
-}
-.badge_icon__5Ywp7 {
-  margin: 1px 2px 0 0;
-}
 .badge_tail__EYM2A {
   color: #dfe2ea;
   position: absolute;
@@ -6938,14 +6925,12 @@ input {
 .name_icon__zdbVH {
   background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_official.a53d1555f8f4796d7862.png)
     no-repeat 50% / cover;
-  display: inline-block;
   margin-left: 3px;
   vertical-align: top;
 }
-.live_chatting_username_container__m1-i5 {
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  line-break: anywhere;
+.live_chatting_username_container__m1-i5,
+.name_icon__zdbVH {
+  display: inline-block;
 }
 .live_chatting_username_container__m1-i5:not(
     .live_chatting_username_is_overlay__A8Xmr
@@ -7255,6 +7240,25 @@ input {
   right: -12px;
   top: -9px;
   z-index: 1;
+}
+.live_chatting_username_twitch__I3J2E {
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: none;
+  flex: none;
+  font-size: 11px;
+  line-height: 16px;
+  margin-left: 4px;
+  padding: 1px 4px;
+}
+.live_chatting_username_icon_twitch__31bKv {
+  -ms-flex: none;
+  flex: none;
+  margin-right: 2px;
 }
 .live_chatting_popup_my_profile_container__qxt53 {
   background-color: #292b2f;
