@@ -1,6 +1,428 @@
+
++  -moz-appearance: textfield;
+
+-                if (!e.includes("nng") || !t) return e;
++                if (!e.includes("nng") && !["video-phinf.pstatic.net", "ssl.phinf.net/video"].some((function(t) {
++                        return e.startsWith("https://".concat(t))
++                    })) || !t) return e;
+
+-                            src: r.thumbnailImageUrl,
++                            src: Pm(r.thumbnailImageUrl, "o500x280_blur"),
+
+-                            backgroundImage: r.thumbnailImageUrl ? "url(".concat(r.thumbnailImageUrl, ")") : void 0
++                            backgroundImage: r.thumbnailImageUrl ? "url(".concat(Pm(r.thumbnailImageUrl, "o500x280_blur"), ")") : void 0
+
+-            cC = "video_card_container__urjO6",
+-            uC = "video_card_more_button__yXWHm",
+-            lC = "video_card_horizontal__-+L1b",
+-            pC = "video_card_thumbnail__QXYT8",
+-            dC = "video_card_badge__w02UD",
+-            fC = "video_card_description__2sUfw",
+-            hC = "video_card_wrapper__M6XT7",
+-            bC = "video_card_title__Amjk2",
+-            vC = "video_card_name__Y3icO",
+-            mC = "video_card_channel__AjQ+P",
+-            yC = "video_card_category__xQ15T",
+-            gC = "video_card_item__lOC8Y",
+-            MC = "video_card_is_search__1EvHc",
+-            _C = "video_card_is_adult__f3RBL",
+-            OC = "video_card_is_dimmed__9YEzr",
+-            zC = "video_card_is_search_main__83xrn",
+-            AC = "video_card_count__rW6hF",
+-            xC = "video_card_vertical__+gTMT",
+-            wC = "video_card_image__yHXqv",
+-            SC = "video_card_profile__QHbN7",
+-            EC = "video_card_layer__WHTbQ",
+-            CC = "video_card_block_description__6Jexm",
+-            kC = "video_card_is_block__cGuyo",
+-            TC = "video_card_area__FtMQV",
+-            LC = "video_card_information__1w2l-",
+-            qC = ["title", "titleId"];
+-
+-        function RC() {
+-            return RC = Object.assign ? Object.assign.bind() : function(e) {
++            cC = function() {
++                Mp({
++                    scene_id: "chzzk_home",
++                    action_id: "scene_enter",
++                    classifier: "chzzk_home"
++                })
++            },
++            uC = function() {
++                Mp({
++                    scene_id: "chzzk_home",
++                    action_id: "click",
++                    classifier: "my_cheeze_check"
++                })
++            },
++            lC = function(e) {
++                Mp({
++                    scene_id: "chzzk_home",
++                    action_id: "click",
++                    classifier: "chzzk_profile",
++                    extra: {
++                        section_id: e
++                    }
++                })
++            },
++            pC = function(e) {
++                Mp({
++                    scene_id: "chzzk_home",
++                    action_id: "click",
++                    classifier: "chzzk_video",
++                    extra: {
++                        section_id: e
++                    }
++                })
++            },
++            dC = ["title", "titleId"];
++
++        function fC() {
++            return fC = Object.assign ? Object.assign.bind() : function(e) {
+
+-        var WC, PC, DC, jC = n.forwardRef(IC),
+-            BC = (__webpack_require__.p, ["title", "titleId"]);
++        var vC, mC, yC, gC, MC, _C = n.forwardRef(bC),
++            OC = (__webpack_require__.p, ["title", "titleId"]);
+
+-            }, r) : null, WC || (WC = n.createElement("circle", {
+-                cx: 12.5,
+-                cy: 12.5,
+-                r: 2,
+-                stroke: "#9DA5B6",
++            }, r) : null, vC || (vC = n.createElement("path", {
++                d: "M7.61908 18.0983L6.75507 6.7H18.2449L17.3809 18.0983C17.3295 18.7762 16.7645 19.3 16.0846 19.3H8.91536C8.2355 19.3 7.67046 18.7762 7.61908 18.0983Z",
++                stroke: "#FF6969",
++                strokeWidth: 1.4
++            })), mC || (mC = n.createElement("rect", {
++                x: 5,
++                y: 6,
++                width: 15,
++                height: 1.4,
++                rx: .7,
++                fill: "#FF6969"
++            })), yC || (yC = n.createElement("rect", {
++                x: 10.2,
++                y: 9.75,
++                width: 1.4,
++                height: 6,
++                rx: .7,
++                fill: "#FF6969"
++            })), gC || (gC = n.createElement("rect", {
++                x: 13.4,
++                y: 9.75,
++                width: 1.4,
++                height: 6,
++                rx: .7,
++                fill: "#FF6969"
++            })), MC || (MC = n.createElement("path", {
++                d: "M10.2 5C10.2 4.83431 10.3343 4.7 10.5 4.7H14.5C14.6657 4.7 14.8 4.83431 14.8 5V6.7H10.2V5Z",
++                stroke: "#FF6969",
+
+-            })), PC || (PC = n.createElement("path", {
+-                d: "M19.5 12.5C18.8153 9.64365 15.9401 7.5 12.4973 7.5C9.06349 7.5 6.19447 9.63233 5.5 12.4774",
+-                stroke: "#9DA5B6",
+-                strokeWidth: 1.4,
+-                strokeLinecap: "round",
+-                strokeLinejoin: "round"
+-            })), DC || (DC = n.createElement("path", {
+-                d: "M19.5 12.5C18.8153 15.3564 15.9401 17.5 12.4973 17.5C9.06349 17.5 6.19447 15.3677 5.5 12.5226",
+-                stroke: "#9DA5B6",
+-                strokeWidth: 1.4,
+-                strokeLinecap: "round",
+-                strokeLinejoin: "round"
+
+
+-        var ZC, HC, XC, GC, KC, $C = n.forwardRef(UC),
+-            YC = (__webpack_require__.p, ["title", "titleId"]);
++        var wC, SC, EC, CC = n.forwardRef(xC),
++            kC = (__webpack_require__.p, ["title", "titleId"]);
+
+-            }, r) : null, ZC || (ZC = n.createElement("path", {
+-                d: "M7.61908 18.0983L6.75507 6.7H18.2449L17.3809 18.0983C17.3295 18.7762 16.7645 19.3 16.0846 19.3H8.91536C8.2355 19.3 7.67046 18.7762 7.61908 18.0983Z",
+-                stroke: "#FF6969",
+-                strokeWidth: 1.4
+-            })), HC || (HC = n.createElement("rect", {
+-                x: 5,
+-                y: 6,
+-                width: 15,
+-                height: 1.4,
+-                rx: .7,
+-                fill: "#FF6969"
+-            })), XC || (XC = n.createElement("rect", {
+-                x: 10.2,
+-                y: 9.75,
+-                width: 1.4,
+-                height: 6,
+-                rx: .7,
+-                fill: "#FF6969"
+-            })), GC || (GC = n.createElement("rect", {
+-                x: 13.4,
+-                y: 9.75,
+-                width: 1.4,
+-                height: 6,
+-                rx: .7,
+-                fill: "#FF6969"
+-            })), KC || (KC = n.createElement("path", {
+-                d: "M10.2 5C10.2 4.83431 10.3343 4.7 10.5 4.7H14.5C14.6657 4.7 14.8 4.83431 14.8 5V6.7H10.2V5Z",
+-                stroke: "#FF6969",
++            }, r) : null, wC || (wC = n.createElement("circle", {
++                cx: 12.5,
++                cy: 12.5,
++                r: 2,
++                stroke: "#9DA5B6",
+
+
++            })), SC || (SC = n.createElement("path", {
++                d: "M19.5 12.5C18.8153 9.64365 15.9401 7.5 12.4973 7.5C9.06349 7.5 6.19447 9.63233 5.5 12.4774",
++                stroke: "#9DA5B6",
++                strokeWidth: 1.4,
++                strokeLinecap: "round",
++                strokeLinejoin: "round"
++            })), EC || (EC = n.createElement("path", {
++                d: "M19.5 12.5C18.8153 15.3564 15.9401 17.5 12.4973 17.5C9.06349 17.5 6.19447 15.3677 5.5 12.5226",
++                stroke: "#9DA5B6",
++                strokeWidth: 1.4,
++                strokeLinecap: "round",
++                strokeLinejoin: "round"
+
+-        var sk, ck, uk, lk = n.forwardRef(ak),
+-            pk = (__webpack_require__.p, function(e) {
+-                var r = e.src,
+-                    i = e.show,
+-                    o = e.children,
+-                    a = (0, n.useState)(),
+-                    s = (0, t.Z)(a, 2),
+-                    c = s[0],
+-                    u = s[1],
+-                    l = (0, n.useState)(!1),
+-                    p = (0, t.Z)(l, 2),
+-                    d = p[0],
+-                    f = p[1],
+-                    h = (0, n.useRef)(null),
+-                    b = (0, n.useCallback)((function() {
+-                        f(!1)
+-                    }), []);
+-                return (0, n.useEffect)((function() {
+-                    i ? u((function(e) {
+-                        var t;
+-                        if (e) return e;
+-                        var n = new WS.CorePlayer;
+-                        return n.addEventListener("ended", b), null === (t = h.current) || void 0 === t || t.appendChild(n.shadowRoot), n
+-                    })) : (f(!1), c && (c.removeEventListener("ended", b), c.srcObject = null), u(void 0))
+-                }), [i, c, b]), (0, n.useEffect)((function() {
+-                    return function() {
+-                        null === c || void 0 === c || c.removeEventListener("ended", b)
+-                    }
+-                }), [c, b]), (0, n.useEffect)((function() {
+-                    c && i && (c.srcObject = new WS.VODTrailerProvider({
+-                        videoTracks: [{
+-                            src: r,
+-                            width: 1280,
+-                            height: 780,
+-                            duration: 100,
+-                            selected: !0
+-                        }],
+-                        qoe: {
+-                            vid: "",
+-                            sid: 0
+-                        }
+-                    }), c.muted = !0, c.play().then((function(e) {
+-                        f(!0)
+-                    })).catch((function(e) {
+-                        20 !== e.code && console.error(e)
+-                    })))
+-                }), [c, i, r]), (0, bd.jsxs)(bd.Fragment, {
+-                    children: [i && (0, bd.jsx)("div", {
+-                        id: "player_layout",
+-                        style: {
+-                            position: "absolute",
+-                            width: "100%",
+-                            height: "100%",
+-                            top: 0,
+-                            left: 0,
+-                            zIndex: 1,
+-                            background: "#000",
+-                            visibility: d ? "visible" : "hidden"
+-                        },
+-                        children: (0, bd.jsx)("pzp-pc-layout", {
+-                            ref: h,
+-                            style: {
+-                                width: "100%",
+-                                height: "100%"
+-                            }
+-                        })
+-                    }), o]
+-                })
+-            }),
+-            dk = function() {
++        var jC, BC, FC, VC = n.forwardRef(DC),
++            UC = (__webpack_require__.p, function() {
+
+-            }(),
+-            fk = [{
++            }()),
++            ZC = [{
+
+-            bk = n.memo(hk),
+-            vk = function() {
+-                Mp({
+-                    scene_id: "chzzk_home",
+-                    action_id: "scene_enter",
+-                    classifier: "chzzk_home"
+-                })
+-            },
+-            mk = function() {
+-                Mp({
+-                    scene_id: "chzzk_home",
+-                    action_id: "click",
+-                    classifier: "my_cheeze_check"
+-                })
+-            },
+-            yk = function(e) {
+-                Mp({
+-                    scene_id: "chzzk_home",
+-                    action_id: "click",
+-                    classifier: "chzzk_profile",
+-                    extra: {
+-                        section_id: e
+-                    }
+-                })
+-            },
+-            gk = function(e) {
+-                Mp({
+-                    scene_id: "chzzk_home",
+-                    action_id: "click",
+-                    classifier: "chzzk_video",
+-                    extra: {
+-                        section_id: e
++            XC = n.memo(HC),
++            GC = function(e) {
++                var r = e.src,
++                    i = e.show,
++                    o = e.children,
++                    a = (0, n.useState)(),
++                    s = (0, t.Z)(a, 2),
++                    c = s[0],
++                    u = s[1],
++                    l = (0, n.useState)(!1),
++                    p = (0, t.Z)(l, 2),
++                    d = p[0],
++                    f = p[1],
++                    h = (0, n.useRef)(null),
++                    b = (0, n.useCallback)((function() {
++                        f(!1)
++                    }), []);
++                return (0, n.useEffect)((function() {
++                    i ? u((function(e) {
++                        var t;
++                        if (e) return e;
++                        var n = new WS.CorePlayer;
++                        return n.addEventListener("ended", b), null === (t = h.current) || void 0 === t || t.appendChild(n.shadowRoot), n
++                    })) : (f(!1), c && (c.removeEventListener("ended", b), c.srcObject = null), u(void 0))
++                }), [i, c, b]), (0, n.useEffect)((function() {
++                    return function() {
++                        null === c || void 0 === c || c.removeEventListener("ended", b)
+
+
++                }), [c, b]), (0, n.useEffect)((function() {
++                    c && i && (c.srcObject = new WS.VODTrailerProvider({
++                        videoTracks: [{
++                            src: r,
++                            width: 1280,
++                            height: 780,
++                            duration: 100,
++                            selected: !0
++                        }],
++                        qoe: {
++                            vid: "",
++                            sid: 0
++                        }
++                    }), c.muted = !0, c.play().then((function(e) {
++                        f(!0)
++                    })).catch((function(e) {
++                        20 !== e.code && console.error(e)
++                    })))
++                }), [c, i, r]), (0, bd.jsxs)(bd.Fragment, {
++                    children: [i && (0, bd.jsx)("div", {
++                        id: "player_layout",
++                        style: {
++                            position: "absolute",
++                            width: "100%",
++                            height: "100%",
++                            top: 0,
++                            left: 0,
++                            zIndex: 1,
++                            background: "#000",
++                            visibility: d ? "visible" : "hidden"
++                        },
++                        children: (0, bd.jsx)("pzp-pc-layout", {
++                            ref: h,
++                            style: {
++                                width: "100%",
++                                height: "100%"
++                            }
++                        })
++                    }), o]
+
+
++            KC = "video_card_container__urjO6",
++            $C = "video_card_more_button__yXWHm",
++            YC = "video_card_horizontal__-+L1b",
++            QC = "video_card_thumbnail__QXYT8",
++            JC = "video_card_badge__w02UD",
++            ek = "video_card_description__2sUfw",
++            tk = "video_card_wrapper__M6XT7",
++            nk = "video_card_title__Amjk2",
++            rk = "video_card_name__Y3icO",
++            ik = "video_card_channel__AjQ+P",
++            ok = "video_card_category__xQ15T",
++            ak = "video_card_item__lOC8Y",
++            sk = "video_card_is_search__1EvHc",
++            ck = "video_card_is_adult__f3RBL",
++            uk = "video_card_is_dimmed__9YEzr",
++            lk = "video_card_is_search_main__83xrn",
++            pk = "video_card_count__rW6hF",
++            dk = "video_card_vertical__+gTMT",
++            fk = "video_card_image__yHXqv",
++            hk = "video_card_profile__QHbN7",
++            bk = "video_card_layer__WHTbQ",
++            vk = "video_card_block_description__6Jexm",
++            mk = "video_card_is_block__cGuyo",
++            yk = "video_card_area__FtMQV",
++            gk = "video_card_information__1w2l-",
+
+-                                    src: J,
+-                                    className: wC,
++                                    src: Pm(J, "o500x280_blur"),
++                                    className: fk,
+
+-                                src: J,
+-                                className: wC,
++                                src: Pm(J, "o500x280_blur"),
++                                className: fk,
+
+-                            var n, r, i, o, a;
++                            var n, r, i, o, a, s;
+
+
++                                    verifiedMark: null === e || void 0 === e || null === (a = e.channel) || void 0 === a ? void 0 : a.verifiedMark,
+
+-                            var n, r, i, o, a;
++                            var n, r, i, o, a, s;
+
+
++                                    verifiedMark: null === e || void 0 === e || null === (a = e.channel) || void 0 === a ? void 0 : a.verifiedMark,
+
+
++                            var n;
+
+
++                                    verifiedMark: null === e || void 0 === e || null === (n = e.channel) || void 0 === n ? void 0 : n.verifiedMark,
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+2128a859 c8f86a18 c4a39205
++1d3b2e75 c8f86a18 079d69da
 
