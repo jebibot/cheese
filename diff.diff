@@ -4,26 +4,3 @@
 
 +7ffbea18 f4e1726a 079d69da
 
--                                    return n = t.channelId, r = t.size, i = void 0 === r ? 20 : r, o = t.newsFeedNo, a = t.typeFilterList, s = Tt({
-+                                    return n = t.channelId, r = t.size, i = void 0 === r ? 20 : r, o = t.newsFeedNo, a = t.typeFilters, s = Tt({
-
--                                        typeFilterList: void 0 === a ? "DONATION, FOLLOW, SUBSCRIPTION" : a
-+                                        typeFilters: void 0 === a ? "DONATION, FOLLOW, SUBSCRIPTION" : a
-
--                                }), !Ae() && (0, Qe.jsx)(Ep, {
-+                                }), !Ae() && (0, Qe.jsxs)(Ep, {
-
--                                    children: "※ 현재 광고는 수익 창출 대상이 아니며, 추후 제공될 예정입니다."
-+                                    children: ["※ 동영상 광고 수익은 추후 안내 및 정산 진행될 예정입니다. ", (0, Qe.jsx)("a", {
-+                                        href: "https://game.naver.com/lounge/chzzk/board/detail/3644082",
-+                                        target: "_blank",
-+                                        rel: "noreferrer",
-+                                        children: "자세히 보기"
-+                                    })]
-
--                                                typeFilterList: te
-+                                                typeFilters: te
-
--                                            typeFilterList: "DONATION, SUBSCRIPTION"
-+                                            typeFilters: "DONATION, SUBSCRIPTION"
-
