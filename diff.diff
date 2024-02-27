@@ -1,6 +1,391 @@
+-                var r, i, o, a, s, c, u, l, p, d, f, h, b = e.chatMessage,
+-                    v = e.isMyProfile,
+-                    m = e.isPopupChat,
+-                    y = e.closeButtonHandler,
+-                    g = (e.closeAllMenus, e.listRef),
+-                    M = e.messageRef,
+-                    _ = e.newWindow,
+-                    O = void 0 !== _ && _,
+-                    z = e.userIdHash,
+-                    A = e.targetChannelId,
+-                    x = e.targetChatChannelId,
+-                    w = (0, bt.useRecoilValue)(Mt),
+-                    S = (0, bt.useRecoilValue)(_t),
+-                    E = (0, n.useRef)(null),
+-                    C = (0, bt.useRecoilValue)(Rm),
+-                    k = (0, bt.useRecoilValue)(mt),
+-                    T = (0, n.useState)(),
+-                    L = (0, t.Z)(T, 2),
+-                    q = L[0],
+-                    R = L[1],
+-                    N = (0, n.useState)([]),
+-                    I = (0, t.Z)(N, 2),
+-                    W = I[0],
+-                    P = I[1],
+-                    D = (0, n.useState)(),
+-                    j = (0, t.Z)(D, 2),
+-                    B = j[0],
+-                    F = j[1],
+-                    V = (0, bt.useRecoilState)(KF),
+-                    U = (0, t.Z)(V, 2),
+-                    Z = U[0],
+-                    H = U[1],
+-                    X = (0, n.useState)(!1),
+-                    G = (0, t.Z)(X, 2),
+-                    K = G[0],
+-                    $ = G[1],
+-                    Y = (0, n.useState)(!1),
+-                    Q = (0, t.Z)(Y, 2),
+-                    J = Q[0],
+-                    ee = Q[1],
+-                    te = (0, n.useState)(!1),
+-                    ne = (0, t.Z)(te, 2),
+-                    re = ne[0],
+-                    ie = ne[1],
+-                    oe = (0, n.useState)(void 0),
+-                    ae = (0, t.Z)(oe, 2),
+-                    se = ae[0],
+-                    ce = ae[1],
+-                    ue = (0, n.useState)(!1),
+-                    le = (0, t.Z)(ue, 2),
+-                    pe = le[0],
+-                    de = le[1],
+-                    he = (0, n.useState)(!1),
+-                    be = (0, t.Z)(he, 2),
+-                    ve = be[0],
+-                    me = be[1],
+-                    ye = (0, n.useState)(!1),
+-                    ge = (0, t.Z)(ye, 2),
+-                    Me = ge[0],
+-                    _e = ge[1],
+-                    Oe = (0, n.useState)(!1),
+-                    ze = (0, t.Z)(Oe, 2),
+-                    Ae = ze[0],
+-                    xe = ze[1],
+-                    we = (0, n.useState)(!1),
+-                    Se = (0, t.Z)(we, 2),
+-                    Ee = Se[0],
+-                    Ce = Se[1],
+-                    ke = (0, n.useState)(!1),
+-                    Te = (0, t.Z)(ke, 2),
+-                    Le = Te[0],
+-                    qe = Te[1],
+-                    Re = (0, n.useState)(!1),
+-                    Ne = (0, t.Z)(Re, 2),
+-                    Ie = Ne[0],
+-                    We = Ne[1],
+-                    Pe = (0, n.useState)(!1),
+-                    De = (0, t.Z)(Pe, 2),
+-                    je = De[0],
+-                    Be = De[1],
+-                    Fe = (0, bt.useRecoilState)(Vt),
+-                    Ve = (0, t.Z)(Fe, 2)[1],
+-                    Ue = (0, n.useState)(!1),
+-                    Ze = (0, t.Z)(Ue, 2),
+-                    Xe = Ze[0],
+-                    $e = Ze[1],
+-                    Qe = (0, bt.useRecoilState)(Ut),
+-                    Je = (0, t.Z)(Qe, 2)[1],
+-                    et = (0, n.useState)(),
+-                    tt = (0, t.Z)(et, 2),
+-                    nt = tt[0],
+-                    rt = tt[1],
+-                    it = (0, bt.useRecoilState)(qt),
+-                    ot = (0, t.Z)(it, 2),
+-                    at = (ot[0], ot[1]),
+-                    st = (0, bt.useSetRecoilState)(Rt),
+-                    ct = (0, n.useState)(),
+-                    ut = (0, t.Z)(ct, 2),
+-                    lt = ut[0],
+-                    pt = ut[1],
+-                    dt = (0, n.useState)(),
+-                    ft = (0, t.Z)(dt, 2),
+-                    ht = ft[0],
+-                    vt = ft[1],
+-                    yt = (0, n.useState)(),
+-                    gt = (0, t.Z)(yt, 2),
+-                    Ot = gt[0],
+-                    zt = gt[1],
+-                    At = (0, n.useState)(),
+-                    xt = (0, t.Z)(At, 2),
+-                    wt = xt[0],
+-                    St = xt[1],
+-                    Et = (0, n.useState)(null),
+-                    Ct = (0, t.Z)(Et, 2),
+-                    kt = Ct[0],
+-                    Tt = Ct[1],
+-                    Lt = (0, n.useState)(!1),
+-                    Nt = (0, t.Z)(Lt, 2),
+-                    It = Nt[0],
+-                    Wt = Nt[1],
+-                    Pt = (0, n.useState)(!1),
+-                    Dt = (0, t.Z)(Pt, 2),
+-                    jt = Dt[0],
+-                    Bt = Dt[1],
+-                    Ft = fe().channelId,
+-                    Zt = (0, n.useState)(null),
+-                    Ht = (0, t.Z)(Zt, 2),
+-                    Xt = (Ht[0], Ht[1]),
+-                    Gt = (0, n.useMemo)((function() {
+-                        return (O ? A : Ft) || ""
+-                    }), [O, Ft, A]),
+-                    Kt = (0, n.useMemo)((function() {
+-                        return (O ? x : null === k || void 0 === k ? void 0 : k.chatChannelId) || ""
+-                    }), [O, x, k]),
+-                    $t = (0, n.useMemo)((function() {
+-                        return (O ? z : null === b || void 0 === b ? void 0 : b.user) || ""
+-                    }), [O, b, z]),
+-                    Yt = function() {
++                var r, i, o, a, s, c, u, l, p, d, f, h, b, v, m, y = e.chatMessage,
++                    g = e.isMyProfile,
++                    M = e.isPopupChat,
++                    _ = e.closeButtonHandler,
++                    O = (e.closeAllMenus, e.listRef),
++                    z = e.messageRef,
++                    A = e.newWindow,
++                    x = void 0 !== A && A,
++                    w = e.userIdHash,
++                    S = e.targetChannelId,
++                    E = e.targetChatChannelId,
++                    C = (0, bt.useRecoilValue)(Mt),
++                    k = (0, bt.useRecoilValue)(_t),
++                    T = (0, n.useRef)(null),
++                    L = (0, bt.useRecoilValue)(Rm),
++                    q = (0, bt.useRecoilValue)(mt),
++                    R = (0, n.useState)(),
++                    N = (0, t.Z)(R, 2),
++                    I = N[0],
++                    W = N[1],
++                    P = (0, n.useState)([]),
++                    D = (0, t.Z)(P, 2),
++                    j = D[0],
++                    B = D[1],
++                    F = (0, n.useState)(),
++                    V = (0, t.Z)(F, 2),
++                    U = V[0],
++                    Z = V[1],
++                    H = (0, bt.useRecoilState)(KF),
++                    X = (0, t.Z)(H, 2),
++                    G = X[0],
++                    K = X[1],
++                    $ = (0, n.useState)(!1),
++                    Y = (0, t.Z)($, 2),
++                    Q = Y[0],
++                    J = Y[1],
++                    ee = (0, n.useState)(!1),
++                    te = (0, t.Z)(ee, 2),
++                    ne = te[0],
++                    re = te[1],
++                    ie = (0, n.useState)(!1),
++                    oe = (0, t.Z)(ie, 2),
++                    ae = oe[0],
++                    se = oe[1],
++                    ce = (0, n.useState)(void 0),
++                    ue = (0, t.Z)(ce, 2),
++                    le = ue[0],
++                    pe = ue[1],
++                    de = (0, n.useState)(!1),
++                    he = (0, t.Z)(de, 2),
++                    be = he[0],
++                    ve = he[1],
++                    me = (0, n.useState)(!1),
++                    ye = (0, t.Z)(me, 2),
++                    ge = ye[0],
++                    Me = ye[1],
++                    _e = (0, n.useState)(!1),
++                    Oe = (0, t.Z)(_e, 2),
++                    ze = Oe[0],
++                    Ae = Oe[1],
++                    xe = (0, n.useState)(!1),
++                    we = (0, t.Z)(xe, 2),
++                    Se = we[0],
++                    Ee = we[1],
++                    Ce = (0, n.useState)(!1),
++                    ke = (0, t.Z)(Ce, 2),
++                    Te = ke[0],
++                    Le = ke[1],
++                    qe = (0, n.useState)(!1),
++                    Re = (0, t.Z)(qe, 2),
++                    Ne = Re[0],
++                    Ie = Re[1],
++                    We = (0, n.useState)(!1),
++                    Pe = (0, t.Z)(We, 2),
++                    De = Pe[0],
++                    je = Pe[1],
++                    Be = (0, n.useState)(!1),
++                    Fe = (0, t.Z)(Be, 2),
++                    Ve = Fe[0],
++                    Ue = Fe[1],
++                    Ze = (0, bt.useRecoilState)(Vt),
++                    Xe = (0, t.Z)(Ze, 2)[1],
++                    $e = (0, n.useState)(!1),
++                    Qe = (0, t.Z)($e, 2),
++                    Je = Qe[0],
++                    et = Qe[1],
++                    tt = (0, bt.useRecoilState)(Ut),
++                    nt = (0, t.Z)(tt, 2)[1],
++                    rt = (0, n.useState)(),
++                    it = (0, t.Z)(rt, 2),
++                    ot = it[0],
++                    at = it[1],
++                    st = (0, bt.useRecoilState)(qt),
++                    ct = (0, t.Z)(st, 2),
++                    ut = (ct[0], ct[1]),
++                    lt = (0, bt.useSetRecoilState)(Rt),
++                    pt = (0, n.useState)(),
++                    dt = (0, t.Z)(pt, 2),
++                    ft = dt[0],
++                    ht = dt[1],
++                    vt = (0, n.useState)(),
++                    yt = (0, t.Z)(vt, 2),
++                    gt = yt[0],
++                    Ot = yt[1],
++                    zt = (0, n.useState)(),
++                    At = (0, t.Z)(zt, 2),
++                    xt = At[0],
++                    wt = At[1],
++                    St = (0, n.useState)(),
++                    Et = (0, t.Z)(St, 2),
++                    Ct = Et[0],
++                    kt = Et[1],
++                    Tt = (0, n.useState)(null),
++                    Lt = (0, t.Z)(Tt, 2),
++                    Nt = Lt[0],
++                    It = Lt[1],
++                    Wt = (0, n.useState)(!1),
++                    Pt = (0, t.Z)(Wt, 2),
++                    Dt = Pt[0],
++                    jt = Pt[1],
++                    Bt = (0, n.useState)(!1),
++                    Ft = (0, t.Z)(Bt, 2),
++                    Zt = Ft[0],
++                    Ht = Ft[1],
++                    Xt = fe().channelId,
++                    Gt = (0, n.useState)(null),
++                    Kt = (0, t.Z)(Gt, 2),
++                    $t = (Kt[0], Kt[1]),
++                    Yt = (0, n.useMemo)((function() {
++                        return (x ? S : Xt) || ""
++                    }), [x, Xt, S]),
++                    Qt = (0, n.useMemo)((function() {
++                        return (x ? E : null === q || void 0 === q ? void 0 : q.chatChannelId) || ""
++                    }), [x, E, q]),
++                    Jt = (0, n.useMemo)((function() {
++                        return (x ? w : null === y || void 0 === y ? void 0 : y.user) || ""
++                    }), [x, y, w]),
++                    en = function() {
+
+-                var Qt = function() {
+-                        de(!1)
+-                    },
+-                    Jt = function() {
+-                        _e(!1)
+-                    },
+-                    en = function() {
+-                        C.loggedIn ? me(!0) : ry()
+-                    },
+-                    tn = function() {
+-                        me(!1)
++                var tn = function() {
++                        ve(!1)
+
+-                        Ce(!1)
++                        L.loggedIn ? Me(!0) : ry()
+
+-                    cn = function(e) {
+-                        O ? (rt(e), $e(!0)) : (Je(e), Ve(!0))
++                    cn = function() {
++                        Ie(!1)
+
+-                        var e, t, n, r;
+-                        return "STREAMER" === (null === B || void 0 === B || null === (e = B.userRole) || void 0 === e ? void 0 : e.toUpperCase()) || "MANAGER" === (null === B || void 0 === B || null === (t = B.userRole) || void 0 === t ? void 0 : t.toUpperCase()) || "STREAMING_CHANNEL_MANAGER" === (null === B || void 0 === B || null === (n = B.userRole) || void 0 === n ? void 0 : n.toUpperCase()) || "STREAMING_CHAT_MANAGER" === (null === B || void 0 === B || null === (r = B.userRole) || void 0 === r ? void 0 : r.toUpperCase())
++                        je(!1)
+
+-                        var e, t, n, r;
+-                        return "STREAMER" === (null === q || void 0 === q || null === (e = q.userRoleCode) || void 0 === e ? void 0 : e.toUpperCase()) || "MANAGER" === (null === q || void 0 === q || null === (t = q.userRoleCode) || void 0 === t ? void 0 : t.toUpperCase()) || "STREAMING_CHANNEL_MANAGER" === (null === q || void 0 === q || null === (n = q.userRoleCode) || void 0 === n ? void 0 : n.toUpperCase()) || "STREAMING_CHAT_MANAGER" === (null === q || void 0 === q || null === (r = q.userRoleCode) || void 0 === r ? void 0 : r.toUpperCase())
++                        Ue(!1)
+
+-                        pt(lt === e ? void 0 : e)
++                        x ? (at(e), et(!0)) : (nt(e), Xe(!0))
+
+
++                        var e, t, n, r;
++                        return "STREAMER" === (null === U || void 0 === U || null === (e = U.userRole) || void 0 === e ? void 0 : e.toUpperCase()) || "MANAGER" === (null === U || void 0 === U || null === (t = U.userRole) || void 0 === t ? void 0 : t.toUpperCase()) || "STREAMING_CHANNEL_MANAGER" === (null === U || void 0 === U || null === (n = U.userRole) || void 0 === n ? void 0 : n.toUpperCase()) || "STREAMING_CHAT_MANAGER" === (null === U || void 0 === U || null === (r = U.userRole) || void 0 === r ? void 0 : r.toUpperCase())
++                    },
++                    fn = function() {
++                        var e, t, n, r;
++                        return "STREAMER" === (null === I || void 0 === I || null === (e = I.userRoleCode) || void 0 === e ? void 0 : e.toUpperCase()) || "MANAGER" === (null === I || void 0 === I || null === (t = I.userRoleCode) || void 0 === t ? void 0 : t.toUpperCase()) || "STREAMING_CHANNEL_MANAGER" === (null === I || void 0 === I || null === (n = I.userRoleCode) || void 0 === n ? void 0 : n.toUpperCase()) || "STREAMING_CHAT_MANAGER" === (null === I || void 0 === I || null === (r = I.userRoleCode) || void 0 === r ? void 0 : r.toUpperCase())
++                    },
++                    hn = function(e) {
++                        ht(ft === e ? void 0 : e)
++                    },
++                    bn = function() {
+
+-                    if (null !== g && void 0 !== g && g.current && null !== M && void 0 !== M && M.current && E.current && q && J) {
++                    if (null !== O && void 0 !== O && O.current && null !== z && void 0 !== z && z.current && T.current && I && ne) {
+
+-                }), [q, J, lt]), (0, n.useEffect)((function() {
++                }), [I, ne, ft]), (0, n.useEffect)((function() {
+
+-                    children: [J && (0, bd.jsxs)("div", {
+-                        ref: E,
+-                        className: Ye()(UV, (r = {}, (0, Ke.Z)(r, XV, v && !un()), (0, Ke.Z)(r, KV, m), (0, Ke.Z)(r, $V, K), (0, Ke.Z)(r, ZV, O), (0, Ke.Z)(r, YV, w || S), r)),
++                    children: [ne && (0, bd.jsxs)("div", {
++                        ref: T,
++                        className: Ye()(UV, (r = {}, (0, Ke.Z)(r, XV, g && !dn()), (0, Ke.Z)(r, KV, M), (0, Ke.Z)(r, $V, Q), (0, Ke.Z)(r, ZV, x), (0, Ke.Z)(r, YV, C || k), r)),
+
+-                            }), (0, bd.jsxs)("div", {
++                            }), ((null === I || void 0 === I || null === (i = I.streamingProperty) || void 0 === i ? void 0 : i.subscription) || (null === I || void 0 === I || null === (o = I.streamingProperty) || void 0 === o || null === (a = o.following) || void 0 === a ? void 0 : a.followDate)) && (0, bd.jsxs)("div", {
+
+-                    q = T$(h),
+-                    R = (T$(g), function(e) {
++                    q = (T$(h), T$(g), function(e) {
+
+-                                                                        ttsVolume: !1 === t.useSpeech ? 0 : (null === h || void 0 === h ? void 0 : h.ttsVolume) || 0,
++                                                                        ttsVolume: !1 !== (null === t || void 0 === t ? void 0 : t.useSpeech) && null !== h && void 0 !== h && h.ttsActive && (null === h || void 0 === h ? void 0 : h.ttsVolume) || 0,
+
+-                    console.log("### donationSetting CHANGED!!: \n", {
+-                        prevDonationSetting: q,
+-                        donationSetting: h
+-                    })
+-                }), [h]), (0, n.useEffect)((function() {
+
+
+-                                    className: g$,
+-                                    children: [(0, bd.jsxs)("strong", {
+-                                        children: [l.month, "개월"]
+-                                    }), "동안 정기구독 중입니다!"]
+-                                })]
+-                            }), (0, bd.jsxs)("p", {
+-                                className: Ye()(g$, M$),
+-                                children: [(0, bd.jsxs)("span", {
+-                                    className: O$,
+-                                    children: [(0, bd.jsxs)("em", {
+-                                        children: [l.month, "개월"]
+-                                    }), " \ub3d9\uc548\xa0"]
+-                                }), (0, bd.jsx)("em", {
+-                                    className: _$,
+-                                    children: l.tierName
+-                                }), (0, bd.jsx)("span", {
+-                                    className: O$,
+-                                    children: "\xa0\uc815\uae30\uad6c\ub3c5 \uc911\uc785\ub2c8\ub2e4!"
++                                    className: Ye()(g$, M$),
++                                    children: [(0, bd.jsxs)("span", {
++                                        className: O$,
++                                        children: [(0, bd.jsxs)("em", {
++                                            children: [l.month, "개월"]
++                                        }), " \ub3d9\uc548\xa0"]
++                                    }), (0, bd.jsx)("em", {
++                                        className: _$,
++                                        children: l.tierName
++                                    }), (0, bd.jsx)("span", {
++                                        className: O$,
++                                        children: "\xa0\uc815\uae30\uad6c\ub3c5 \uc911\uc785\ub2c8\ub2e4!"
++                                    })]
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+ddf66c3f 4a2a6c58 17867962
++153089d9 4a2a6c58 17867962
 
