@@ -4,13 +4,3 @@
 
 +ddf66c3f 4a2a6c58 17867962
 
--                                            Rm("저장하였습니다.");
--                                        case 8:
--                                            e.next = 13;
-+                                            Rm("저장하였습니다."), d(p);
-+                                        case 9:
-+                                            e.next = 14;
-
--                                                            isDisabled: !(c !== p && !k && !b && p > gb),
-+                                                            isDisabled: !(c !== p && !k && !b && p >= gb),
-
