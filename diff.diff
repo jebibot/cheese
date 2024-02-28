@@ -2,5 +2,64 @@
 
 
 
-+5281d181 4a2a6c58 17867962
++5281d181 258cc390 17867962
+
+-                        a === lr.START && (0, ur.Z)((0, sr.Z)().mark((function e() {
++                        (0, ur.Z)((0, sr.Z)().mark((function e() {
+
+-                            }()), pe.on("subscribe", function() {
++                            }()), pe.on("subscription", function() {
+
+-                        F = (0, Me.useRecoilState)(_E),
+-                        B = (0, e.Z)(F, 2),
+-                        U = (B[0], B[1], (0, Me.useRecoilState)(BC)),
++                        F = (0, Me.useRecoilState)(BC),
++                        B = (0, e.Z)(F, 2)[1],
++                        U = (0, Me.useRecoilState)(UC),
+
+-                        ae = (0, Me.useRecoilState)(YC),
+-                        se = (0, e.Z)(ae, 2)[1],
+-                        ue = (0, t.useState)([]),
+-                        le = (0, e.Z)(ue, 2),
+-                        ce = le[0],
+-                        de = le[1],
+-                        fe = function() {
++                        ae = (0, t.useState)([]),
++                        se = (0, e.Z)(ae, 2),
++                        ue = se[0],
++                        le = se[1],
++                        ce = function() {
+
+-                            var t, n, r, i, o;
++                            var t, n, r, i;
+
+-                                        if ("OPEN" !== (t = e.sent).status || !t.livePlaybackJson) {
+-                                            e.next = 13;
++                                        if (!(t = e.sent) || !t.newsFeedSessionIOChannelId) {
++                                            e.next = 9;
+
+-                                        return e.next = 7, CT(j.channelId);
++                                        return e.next = 7, TT(t.newsFeedSessionIOChannelId);
+
+-                                        if (!(n = e.sent) || !n.newsFeedSessionIOChannelId) {
+-                                            e.next = 13;
+-                                            break
+-                                        }
+-                                        return e.next = 11, TT(n.newsFeedSessionIOChannelId);
+-                                    case 11:
+-                                        r = e.sent, (0, dt.isNil)(r) || (i = {
++                                        n = e.sent, (0, dt.isNil)(n) || (r = {
+
+-                                    case 13:
+-                                        he();
+-                                    case 14:
++                                    case 9:
++                                        de();
++                                    case 10:
+
+-                            }()), M.on("subscribe", function() {
++                            }()), M.on("subscription", function() {
+
+-                                                "VIDEO" === (null === (n = JSON.parse(t)) || void 0 === n ? void 0 : n.donationType) && (null !== n && void 0 !== n && n.hasOwnProperty("alertVolume") && H(null === n || void 0 === n ? void 0 : n.alertVolume), null !== n && void 0 !== n && n.hasOwnProperty("videoVolume") && Z(null === n || void 0 === n ? void 0 : n.videoVolume), null !== n && void 0 !== n && n.hasOwnProperty("alertActive") && W(null === n || void 0 === n ? void 0 : n.alertActive)), "CHAT" === (null === n || void 0 === n ? void 0 : n.donationType) && (null !== n && void 0 !== n && n.hasOwnProperty("alertVolume") && J(null === n || void 0 === n ? void 0 : n.alertVolume), null !== n && void 0 !== n && n.hasOwnProperty("ttsVolume") && Y(null === n || void 0 === n ? void 0 : n.ttsVolume), null !== n && void 0 !== n && n.hasOwnProperty("alertActive") && X(null === n || void 0 === n ? void 0 : n.alertActive), null !== n && void 0 !== n && n.hasOwnProperty("ttsActive") && $(null === n || void 0 === n ? void 0 : n.ttsActive)), "SUBSCRIPTION" === (null === n || void 0 === n ? void 0 : n.donationType) && (null !== n && void 0 !== n && n.hasOwnProperty("alertVolume") && re(null === n || void 0 === n ? void 0 : n.alertVolume), null !== n && void 0 !== n && n.hasOwnProperty("ttsVolume") && oe(null === n || void 0 === n ? void 0 : n.ttsVolume), null !== n && void 0 !== n && n.hasOwnProperty("alertActive") && te(null === n || void 0 === n ? void 0 : n.alertActive), null !== n && void 0 !== n && n.hasOwnProperty("ttsActive") && se(null === n || void 0 === n ? void 0 : n.ttsActive));
++                                                "VIDEO" === (null === (n = JSON.parse(t)) || void 0 === n ? void 0 : n.donationType) && (null !== n && void 0 !== n && n.hasOwnProperty("alertVolume") && B(null === n || void 0 === n ? void 0 : n.alertVolume), null !== n && void 0 !== n && n.hasOwnProperty("videoVolume") && H(null === n || void 0 === n ? void 0 : n.videoVolume), null !== n && void 0 !== n && n.hasOwnProperty("alertActive") && Z(null === n || void 0 === n ? void 0 : n.alertActive)), "CHAT" === (null === n || void 0 === n ? void 0 : n.donationType) && (null !== n && void 0 !== n && n.hasOwnProperty("alertVolume") && X(null === n || void 0 === n ? void 0 : n.alertVolume), null !== n && void 0 !== n && n.hasOwnProperty("ttsVolume") && $(null === n || void 0 === n ? void 0 : n.ttsVolume), null !== n && void 0 !== n && n.hasOwnProperty("alertActive") && Y(null === n || void 0 === n ? void 0 : n.alertActive), null !== n && void 0 !== n && n.hasOwnProperty("ttsActive") && W(null === n || void 0 === n ? void 0 : n.ttsActive)), "SUBSCRIPTION" === (null === n || void 0 === n ? void 0 : n.donationType) && (null !== n && void 0 !== n && n.hasOwnProperty("alertVolume") && te(null === n || void 0 === n ? void 0 : n.alertVolume), null !== n && void 0 !== n && n.hasOwnProperty("ttsVolume") && re(null === n || void 0 === n ? void 0 : n.ttsVolume), null !== n && void 0 !== n && n.hasOwnProperty("alertActive") && J(null === n || void 0 === n ? void 0 : n.alertActive), null !== n && void 0 !== n && n.hasOwnProperty("ttsActive") && oe(null === n || void 0 === n ? void 0 : n.ttsActive));
 
