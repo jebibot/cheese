@@ -4,8 +4,3 @@
 
 +fd28c9f5 5d444074 17867962
 
--                                            children: (0, Qe.jsx)(pm, {
--                                                children: "".concat(i(r), "원")
-+                                            children: (0, Qe.jsxs)(pm, {
-+                                                children: [i(r), "원"]
-
