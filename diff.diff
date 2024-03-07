@@ -1,9 +1,3 @@
--                                showAd: (null === e || void 0 === e ? void 0 : e.channel.channelId) !== o.userIdHash && (null === i || void 0 === i ? void 0 : i.channelId) === (null === e || void 0 === e ? void 0 : e.channel.channelId) && !i.subscribing,
-+                                showAd: !o.beforeLoaded && !o.loggedIn || (null === e || void 0 === e ? void 0 : e.channel.channelId) !== o.userIdHash && (null === i || void 0 === i ? void 0 : i.channelId) === (null === e || void 0 === e ? void 0 : e.channel.channelId) && !i.subscribing,
-
--                            showAd: _.channelId !== w.userIdHash && (null === C || void 0 === C ? void 0 : C.channelId) === _.channelId && !C.subscribing,
-+                            showAd: !w.beforeLoaded && !w.loggedIn || _.channelId !== w.userIdHash && (null === C || void 0 === C ? void 0 : C.channelId) === _.channelId && !C.subscribing,
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
