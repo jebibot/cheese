@@ -1,8 +1,3 @@
--                if (Xl() && !["/chat/", "/donation/", "/subs_integration", "/subs_integration_result", "/partner"].some((function(e) {
--                        return window.location.pathname.startsWith(e)
-+                if (Xl() && !["/chat", "/donation", "/video-donation", "/subs_integration", "/subs_integration_result", "/partner"].some((function(e) {
-+                        return window.location.pathname.includes(e)
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
