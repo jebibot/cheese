@@ -1,6 +1,24 @@
+-                            var n, r, i, c, u, l, p, d, f, h, b, v, m, y, g, M, _, z, A, x;
++                            var n, r, i, c, u, l, p, d, f, h, b, v, m, y, g, M;
+
+-                                        t.prev = 17, t.t2 = t.catch(8), Wh(t.t2) && (403 !== (null === (f = t.t2.response) || void 0 === f || null === (h = f.data) || void 0 === h ? void 0 : h.code) && 9005 !== (null === (b = t.t2.response) || void 0 === b || null === (v = b.data) || void 0 === v ? void 0 : v.code) || Ad("채널 관리 권한이 없습니다."), 9011 === (null === (m = t.t2.response) || void 0 === m || null === (y = m.data) || void 0 === y ? void 0 : y.code) && (null === (g = (M = o.current).setNickErrorMessage) || void 0 === g || g.call(M, "이미 존재하는 닉네임 입니다."), (null === (_ = t.t2.response) || void 0 === _ || null === (z = _.data) || void 0 === z ? void 0 : z.message) && Ad(null === (A = t.t2.response) || void 0 === A || null === (x = A.data) || void 0 === x ? void 0 : x.message)));
+-                                    case 20:
++                                        if (t.prev = 17, t.t2 = t.catch(8), !Wh(t.t2) || null === (f = t.t2.response) || void 0 === f || null === (h = f.data) || void 0 === h || !h.code) {
++                                            t.next = 26;
++                                            break
++                                        }
++                                        if (v = null === (b = t.t2.response) || void 0 === b ? void 0 : b.data, m = v.code, y = v.message, ![403, 9005].includes(m)) {
++                                            t.next = 24;
++                                            break
++                                        }
++                                        return Ad("채널 관리 권한이 없습니다."), t.abrupt("return");
++                                    case 24:
++                                        9011 === m && (null === (g = (M = o.current).setNickErrorMessage) || void 0 === g || g.call(M, "이미 존재하는 닉네임 입니다.")), y && Ad(y);
++                                    case 26:
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+5f1a79b7 c927636f 17867962
++1033b5ea c927636f 17867962
 
