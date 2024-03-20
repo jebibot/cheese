@@ -1,6 +1,9 @@
+-                if (Xl() && !["/chat", "/donation", "/video-donation", "/subs_integration", "/subs_integration_result", "/partner"].some((function(e) {
++                if (Xl() && !["/chat", "/donation", "/video-donation", "/subs_integration", "/subs_integration_result", "/partner", "/profile"].some((function(e) {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+1033b5ea c927636f 17867962
++90d5d410 c927636f 17867962
 
