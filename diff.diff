@@ -1,6 +1,3 @@
--                            page: v.page + 1
-+                            page: v.page + 1 || 1
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
