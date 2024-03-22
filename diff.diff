@@ -1,6 +1,196 @@
+
++.live_alarm_contents__8QTfz.live_alarm_play_video_large__tfN6c {
++  font-size: 36px;
++  line-height: 46px;
++}
++.live_alarm_contents__8QTfz.live_alarm_play_video_large__tfN6c
++  .live_alarm_icon_cheese__N\+Pu2 {
++  height: 32px;
++  margin: 0 8px;
++  width: 32px;
++}
++.live_alarm_contents__8QTfz.live_alarm_play_video_large__tfN6c
++  .live_alarm_video_title__P2\+Cc {
++  height: 46px;
++  line-height: 46px;
++  margin-top: 8px;
++}
++.live_alarm_contents__8QTfz.live_alarm_play_video_large__tfN6c
++  .live_alarm_video_title__P2\+Cc
++  span {
++  line-height: 46px;
++}
+
+-            OY = "live_alarm_wrapper__FeK26",
+-            zY = "live_alarm_text__DNfRG",
+-            AY = "live_alarm_default__roOf2",
+-            xY = "live_alarm_ellipsis__dtK9C",
+-            wY = "live_alarm_word__TlCO-",
+-            SY = "live_alarm_money__lya-g",
+-            EY = "live_alarm_message__AITHv",
+-            CY = "live_alarm_is_short__adliD",
+-            kY = "live_alarm_is_medium__mri5D",
+-            TY = "live_alarm_is_long__qMwB-",
+-            LY = "live_alarm_is_longest__3HGzf",
+-            qY = [],
++            OY = "live_alarm_play_video_large__tfN6c",
++            zY = "live_alarm_wrapper__FeK26",
++            AY = "live_alarm_text__DNfRG",
++            xY = "live_alarm_default__roOf2",
++            wY = "live_alarm_ellipsis__dtK9C",
++            SY = "live_alarm_word__TlCO-",
++            EY = "live_alarm_money__lya-g",
++            CY = "live_alarm_message__AITHv",
++            kY = "live_alarm_is_short__adliD",
++            TY = "live_alarm_is_medium__mri5D",
++            LY = "live_alarm_is_long__qMwB-",
++            qY = "live_alarm_is_longest__3HGzf",
+
+-            NY = function() {
++            NY = [],
++            IY = function() {
+
+-            k2 = function(e) {
+-                return e[e.GAME = 0] = "GAME", e[e.CHANNEL = 1] = "CHANNEL", e
+-            }(k2 || {}),
+
+
+
++                return e[e.GAME = 0] = "GAME", e[e.CHANNEL = 1] = "CHANNEL", e
++            }(T2 || {}),
++            L2 = function(e) {
+
+-        var K9, $9, Y9, Q9 = n.forwardRef(G9),
+-            J9 = (__webpack_require__.p, ["title", "titleId"]);
++        var $9, Y9, Q9, J9 = n.forwardRef(K9),
++            eee = (__webpack_require__.p, ["title", "titleId"]);
+
+-                o = tee(e, J9);
+-            return n.createElement("svg", eee({
++                o = nee(e, eee);
++            return n.createElement("svg", tee({
+
+-                            case Dne:
+-                                return "";
+
+
+-                                return " 5분";
++                                return "";
+
+-                                return " 10분";
++                                return " 5분";
+
+-                                return " 1일";
++                                return " 1시간";
+
+-                                return " 1주일";
++                                return " 1일";
+
+
++                                return " 1주일";
++                            case Xne:
+
+-                                                        isSelected: "FOLLOWER" === C && q === Dne,
+-                                                        clickHandler: function() {
+-                                                            te("FOLLOWER", Dne)
+-                                                        }
+-                                                    }, {
+-                                                        contents: "5분",
+
+
+-                                                        contents: "10분",
++                                                        contents: "5분",
+
+-                                                        contents: "1일",
++                                                        contents: "1시간",
+
+-                                                        contents: "1주일",
++                                                        contents: "1일",
+
+
++                                                    }, {
++                                                        contents: "1개월",
++                                                        isSelected: "FOLLOWER" === C && q === Xne,
++                                                        clickHandler: function() {
++                                                            te("FOLLOWER", Xne)
++                                                        }
+
+-        var dre, fre, hre, bre = n.forwardRef(pre),
+-            vre = (__webpack_require__.p, "live_chatting_donation_message_container__r01qB"),
+-            mre = "live_chatting_donation_message_level0__rgSs0",
+-            yre = "live_chatting_donation_message_level1__tE0x8",
+-            gre = "live_chatting_donation_message_level2__Z5FQn",
+-            Mre = "live_chatting_donation_message_level3__kpyCB",
+-            _re = "live_chatting_donation_message_is_input__a1c07",
+-            Ore = "live_chatting_donation_message_bottom__uR1tP",
+-            zre = "live_chatting_donation_message_is_overlay__RItjd",
+-            Are = "live_chatting_donation_message_wrapper__SNoBH",
+-            xre = "live_chatting_donation_message_header__O3BVA",
+-            wre = "live_chatting_donation_message_text__XbDKP",
+-            Sre = "live_chatting_donation_message_money__fE2UC",
+-            Ere = "live_chatting_donation_message_input_wrapper__04s9x",
+-            Cre = "live_chatting_donation_message_input__3X7ug",
+-            kre = "live_chatting_donation_message_emoticon_button__qp8ge",
+-            Tre = "live_chatting_donation_message_emoticon__I319n",
+-            Lre = 0,
+-            qre = !1,
++        var fre, hre, bre, vre = n.forwardRef(dre),
++            mre = (__webpack_require__.p, "live_chatting_donation_message_container__r01qB"),
++            yre = "live_chatting_donation_message_level0__rgSs0",
++            gre = "live_chatting_donation_message_level1__tE0x8",
++            Mre = "live_chatting_donation_message_level2__Z5FQn",
++            _re = "live_chatting_donation_message_level3__kpyCB",
++            Ore = "live_chatting_donation_message_is_input__a1c07",
++            zre = "live_chatting_donation_message_bottom__uR1tP",
++            Are = "live_chatting_donation_message_is_overlay__RItjd",
++            xre = "live_chatting_donation_message_wrapper__SNoBH",
++            wre = "live_chatting_donation_message_header__O3BVA",
++            Sre = "live_chatting_donation_message_text__XbDKP",
++            Ere = "live_chatting_donation_message_money__fE2UC",
++            Cre = "live_chatting_donation_message_input_wrapper__04s9x",
++            kre = "live_chatting_donation_message_input__3X7ug",
++            Tre = "live_chatting_donation_message_emoticon_button__qp8ge",
++            Lre = "live_chatting_donation_message_emoticon__I319n",
++            qre = 0,
+
+-            Nre = function(e) {
++            Nre = !1,
++            Ire = function(e) {
+
+-                                        className: Xpe
+-                                    }) : (0, Od.jsx)("i", {
+
+
+
++                                    }) : (0, Od.jsx)("i", {
++                                        className: Kpe
+
+
++                    }), (0, Od.jsx)(qpe, {
++                        children: (0, Od.jsx)(ede, (0, Xe.Z)({}, o))
+
+-                        children: (0, Od.jsx)(Jpe, (0, Xe.Z)({}, o))
+-                    }), (0, Od.jsx)(Tpe, {
+-                        children: (0, Od.jsx)(Lpe, {
+-                            children: (0, Od.jsx)(qpe, {
++                        children: (0, Od.jsx)(qpe, {
++                            children: (0, Od.jsx)(Rpe, {
+
+-            Ife = [],
+
+
+-            Pfe = 3e3,
+-            Dfe = function() {
++            Pfe = [],
++            Dfe = 3e3,
++            jfe = function() {
+
+-                            className: Ye()(yY, (null === S || void 0 === S ? void 0 : S.videoId) && gY),
++                            className: Ye()(yY, (null === S || void 0 === S ? void 0 : S.videoId) && (null !== V && void 0 !== V && V.h && Number(null === V || void 0 === V ? void 0 : V.h) > 700 ? OY : gY)),
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+86462fbf f06a8abe dc5558d9
++63903066 f06a8abe cb0f9f29
 
