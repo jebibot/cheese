@@ -1,16 +1,3 @@
-
-+  color: var(--color-content-01-fixed);
-+  position: relative;
-+}
-+.theme_dark .live_chatting_donation_message_container__r01qB {
-
--  color: var(--color-content-01-fixed);
--  position: relative;
-
-
--                                cachedDisplayNicknameColor: c.displayNicknameColor[A],
-+                                cachedDisplayNicknameColor: c.displayNicknameColor.dark,
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
