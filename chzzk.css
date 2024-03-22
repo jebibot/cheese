@@ -20716,14 +20716,16 @@ a.news_profile__73Esm {
     linear-gradient(90deg, transparent 0, rgba(0, 0, 0, 0.2) 100%),
     var(--color-content-card-anonymity);
   border-radius: 8px;
+  color: var(--color-content-01-fixed);
+  position: relative;
+}
+.theme_dark .live_chatting_donation_message_container__r01qB {
   -webkit-box-shadow:
     0 6px 10px rgba(0, 0, 0, 0.5),
     inset 1px 1px 1px hsla(0, 0%, 100%, 0.1);
   box-shadow:
     0 6px 10px rgba(0, 0, 0, 0.5),
     inset 1px 1px 1px hsla(0, 0%, 100%, 0.1);
-  color: var(--color-content-01-fixed);
-  position: relative;
 }
 .live_chatting_donation_message_container__r01qB.live_chatting_donation_message_level0__rgSs0 {
   background-color: var(--color-content-card-1000);
