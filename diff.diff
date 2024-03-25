@@ -4,14 +4,3 @@
 
 +802ec87f 515b2f6d cb0f9f29
 
--                            var t;
-
-
--                                        (0, dt.isNil)(u.myRole) || ("STREAMER" !== u.myRole.userRole || (null === (t = u.myContractInfo) || void 0 === t ? void 0 : t.streamerCurrentGrade) === Tf.GRADE_3 || !(0, dt.isNil)(u.myContractInfo) && !u.myContractInfo.cpAvailable ? (o(!1), l("/error/permission", {
-+                                        (0, dt.isNil)(u.myRole) || ("STREAMER" !== u.myRole.userRole ? (o(!1), l("/error/permission", {
-
--                                        })) : o(!0));
-+                                        })) : (0, dt.isNil)(u.myContractInfo) || u.myContractInfo.cpAvailable ? o(!0) : (o(!1), l("/error/permission", {
-+                                            replace: !0
-+                                        })));
-
