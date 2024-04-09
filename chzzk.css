@@ -20626,6 +20626,7 @@ a.news_profile__73Esm {
   content: "(F)";
 }
 .pzp-pc-setting-playbackrate-pane__list {
+  max-height: none;
   overflow: hidden;
 }
 .live_information_video_container__E3LbD {
