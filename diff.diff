@@ -4,16 +4,3 @@
 
 +5f9d4fe0 6a10a177 150fbccd
 
--                                children: nh(null === n || void 0 === n ? void 0 : n.title)
-+                                children: nh(uh()(null === n || void 0 === n ? void 0 : n.title))
-
--                                children: (null === a || void 0 === a ? void 0 : a.mainText) && nh(null === a || void 0 === a || null === (o = a.mainText) || void 0 === o ? void 0 : o.replace(new RegExp("\r?\n", "g"), "<br />"))
-+                                children: (null === a || void 0 === a ? void 0 : a.mainText) && nh(uh()(null === a || void 0 === a || null === (o = a.mainText) || void 0 === o ? void 0 : o.replace(new RegExp("\r?\n", "g"), "<br />"), {
-+                                    whiteList: {
-+                                        a: ["href", "title", "target"],
-+                                        b: [],
-+                                        br: [],
-+                                        strong: []
-+                                    }
-+                                }))
-
