@@ -1,6 +1,9 @@
+-                    v = (0, bt.useRecoilState)(Hs("VIDEO_END")),
++                    v = (0, bt.useRecoilState)(Hs("live" === u ? "LIVE_END" : "VIDEO_END")),
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+c5c21001 e12cad6e 150fbccd
++4a000501 e12cad6e 150fbccd
 
