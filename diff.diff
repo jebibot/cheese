@@ -2,5 +2,71 @@
 
 
 
-+4a000501 e12cad6e 150fbccd
++4a000501 1cad14d2 150fbccd
+
+-                R0 = t.memo(N0);
++                R0 = t.memo(N0),
++                P0 = function(e) {
++                    var t = e.children;
++                    return (0, Ol.createPortal)((0, It.jsx)("p", {
++                        className: Iy,
++                        role: "alert",
++                        children: t
++                    }), document.body)
++                },
++                M0 = t.memo(P0);
+
+-            var o1 = t.forwardRef(i1),
+-                a1 = (n.p, "remote_control_aside_container__MKvKQ"),
+-                s1 = "remote_control_aside_content__QEP9Z",
+-                u1 = "remote_control_aside_title_area__m+6Zy",
+-                l1 = "remote_control_aside_arrow__cIvB+",
+-                c1 = "remote_control_aside_title__uk7UM",
+-                d1 = "remote_control_aside_right__kfwth",
+-                f1 = "remote_control_aside_box__gMzRZ",
+-                h1 = "remote_control_aside_area__c9dbl",
+-                p1 = "remote_control_aside_range__p0jX3",
+-                v1 = "remote_control_aside_disabled__uIo3a",
+-                m1 = "remote_control_aside_label__50Yx1",
+-                g1 = "remote_control_aside_icon__GA++p",
+-                y1 = "remote_control_aside_button_area__hUn8s",
+-                _1 = "remote_control_aside_button__Khhjh",
+-                b1 = function(e) {
+-                    var t = e.children;
+-                    return (0, Ol.createPortal)((0, It.jsx)("p", {
+-                        className: Iy,
+-                        role: "alert",
+-                        children: t
+-                    }), document.body)
+-                },
+-                x1 = t.memo(b1),
++            var s1 = t.forwardRef(a1),
++                u1 = (n.p, "remote_control_aside_container__MKvKQ"),
++                l1 = "remote_control_aside_content__QEP9Z",
++                c1 = "remote_control_aside_title_area__m+6Zy",
++                d1 = "remote_control_aside_arrow__cIvB+",
++                f1 = "remote_control_aside_title__uk7UM",
++                h1 = "remote_control_aside_right__kfwth",
++                p1 = "remote_control_aside_box__gMzRZ",
++                v1 = "remote_control_aside_area__c9dbl",
++                m1 = "remote_control_aside_range__p0jX3",
++                g1 = "remote_control_aside_disabled__uIo3a",
++                y1 = "remote_control_aside_label__50Yx1",
++                _1 = "remote_control_aside_icon__GA++p",
++                b1 = "remote_control_aside_button_area__hUn8s",
++                x1 = "remote_control_aside_button__Khhjh",
+
+
++                                                        if (!ce) {
++                                                            e.next = 4;
++                                                            break
++                                                        }
++                                                        nc("후원 알림 일시 정지 중입니다."), e.next = 7;
++                                                        break;
++                                                    case 4:
+
+-                    return (0, It.jsx)(B1, {})
++                    return (0, It.jsxs)(It.Fragment, {
++                        children: [(0, It.jsx)(B1, {}), (0, It.jsx)(ac, {})]
++                    })
 
