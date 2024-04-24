@@ -1,16 +1,3 @@
-
-+                                            categoryId: e.liveCategory,
-+                                            categoryType: e.categoryType,
-
--                        D(""), c([]), j("/tags/".concat(e))
-+                        (0, gs.isEmpty)(e) || (j("/tags/".concat(e)), D(""), c([]))
-
--                        v(e), F(), g([]), O(null)
-+                        e !== h && (v(e), F(), g([]), O(null))
-
--                        c([]), D(""), L(!1), j("/tags/".concat(e))
-+                        (0, gs.isEmpty)(e) || (j("/tags/".concat(e)), c([]), D(""), L(!1))
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
