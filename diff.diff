@@ -1,6 +1,29 @@
+-                                        })
++                                        }, t)
+
+-                    notUseP2P: _,
++                    closeP2PGuide: _,
+
+-                    a = t.notUseP2P,
++                    a = t.closeP2PGuide,
+
+-                        if (a(), null !== e && void 0 !== e && e.current) {
+-                            var t = e.current.getSelectedVideoTrack();
+-                            kve(t)
+-                        }
++                        var t;
++                        a();
++                        var n = null === e || void 0 === e || null === (t = e.current) || void 0 === t ? void 0 : t.getSelectedVideoTrack();
++                        n && kve(n)
+
+-                    s && c()
+-                }), [s, c]), i ? (0, wp.jsx)("div", {
++                    s && i && c()
++                }), [s, i, c]), i ? (0, wp.jsx)("div", {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+75cbd0f5 cdd5feda a73dfc41
++e676bf1e cdd5feda a73dfc41
 
