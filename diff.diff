@@ -1,6 +1,37 @@
+-        var XOe, GOe, KOe, YOe = r.forwardRef(HOe),
+-            $Oe = (__webpack_require__.p, function(e) {
++        var XOe, GOe, KOe, YOe, $Oe, QOe, JOe = r.forwardRef(HOe),
++            eze = (__webpack_require__.p, function(e) {
+
+-                            var t, n, r, i, o, a, s, u, c, l, d, p, f, h, v, b, m, g, _, M, A, O, z, x, w;
++                            var t, n, r, i, o, a, s, u, c, l, d, p, f, h, v, b, m, g, _, M, A, O, z, x, w, E, S;
+
+-                                        if ((0, gs.isNil)(y) || (0, gs.isNil)(N) || (0, gs.isNil)(Wr)) {
++                                        if ((0, gs.isNil)(y) || (0, gs.isNil)(N) || (0, gs.isNil)($Oe)) {
+
+-                                            isAnonymous: ei,
++                                            isAnonymous: KOe,
+
+-                                        }, Ur ? {
+-                                            voiceSpeakerType: null === Wr || void 0 === Wr ? void 0 : Wr.type,
+-                                            useSpeech: Ur
++                                        }, YOe ? {
++                                            voiceSpeakerType: null === (u = $Oe) || void 0 === u ? void 0 : u.type,
++                                            useSpeech: !0
+
+-                                        ay(null === N || void 0 === N || null === (p = N.channel) || void 0 === p ? void 0 : p.channelId, null === N || void 0 === N ? void 0 : N.liveId, Or || "", zr || "", "CHAT" === Uo ? parseInt(ye || "0", 10) : (null === Zo || void 0 === Zo ? void 0 : Zo.payAmount) || 0, Ur && "CHAT" === Uo ? "on" : "off", "CHAT" === Uo ? null === Wr || void 0 === Wr ? void 0 : Wr.type : null, (null === (f = window) || void 0 === f || null === (h = f.__workingChat) || void 0 === h || null === (v = h.replace(/&nbsp;/g, " ")) || void 0 === v || null === (b = v.trim()) || void 0 === b ? void 0 : b.length) > 0 ? "True" : "False", ei ? "on" : "off", "VIDEO" === Uo ? "on" : "off", Uo.toLowerCase(), JSON.stringify(m));
++                                        ay(null === N || void 0 === N || null === (f = N.channel) || void 0 === f ? void 0 : f.channelId, null === N || void 0 === N ? void 0 : N.liveId, Or || "", zr || "", "CHAT" === Uo ? parseInt(ye || "0", 10) : (null === Zo || void 0 === Zo ? void 0 : Zo.payAmount) || 0, Ur && "CHAT" === Uo ? "on" : "off", "CHAT" === Uo ? null === (h = $Oe) || void 0 === h ? void 0 : h.type : null, (null === (v = window) || void 0 === v || null === (b = v.__workingChat) || void 0 === b || null === (m = b.replace(/&nbsp;/g, " ")) || void 0 === m || null === (g = m.trim()) || void 0 === g ? void 0 : g.length) > 0 ? "True" : "False", ei ? "on" : "off", "VIDEO" === Uo ? "on" : "off", Uo.toLowerCase(), JSON.stringify(_));
+
+
++                    KOe = ei, YOe = Ur, $Oe = Wr
++                }), [ei, Ur, Wr]), (0, r.useEffect)((function() {
+
+-                                svc: "chzzk_live",
++                                svc: "chzzk_video",
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+20f90d0c ba83ac47 a73dfc41
++431e6278 ba83ac47 a73dfc41
 
