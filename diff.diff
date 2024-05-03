@@ -1,6 +1,11 @@
+-                            var e;
+-                            Ive.send(Rve.ERROR, null === (e = t.error) || void 0 === e ? void 0 : e.message)
++                            var e, n = null === (e = t.error) || void 0 === e ? void 0 : e.message;
++                            (Ive.send(Rve.ERROR, n), "P2P_SESSION_CLOSED_BY_OTHER" === n) && (t.querySelector("pzp-pc-error-dialog").href = "https://help.naver.com/service/23946/contents/23231?lang=ko")
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+39c202d9 84f931f8 b34b0b92
++94a029a0 84f931f8 b34b0b92
 
