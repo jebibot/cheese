@@ -4,12 +4,3 @@
 
 +94a029a0 99b5e177 b34b0b92
 
--                        J = (0, t.useState)("DONATION, FOLLOW, SUBSCRIPTION"),
-+                        J = (0, t.useState)("DONATION, FOLLOW, SUBSCRIPTION, VIDEO"),
-
--                        ne("".concat(B ? "FOLLOW" : "").concat($ ? "".concat(B ? ", " : "", "DONATION") : "").concat(V ? "".concat(B || $ ? ", " : "", "SUBSCRIPTION") : ""))
-+                        ne("".concat(B ? "FOLLOW" : "").concat($ ? "".concat(B ? ", " : "", "DONATION, VIDEO") : "").concat(V ? "".concat(B || $ ? ", " : "", "SUBSCRIPTION") : ""))
-
--                                            typeFilters: "DONATION, SUBSCRIPTION"
-+                                            typeFilters: "DONATION, SUBSCRIPTION, VIDEO"
-
