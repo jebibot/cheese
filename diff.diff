@@ -1,6 +1,155 @@
+
++  vertical-align: top;
++}
++.rolling_number_box__NZddB.rolling_number_playing__odTiX {
+
+-  vertical-align: top;
+-}
+-.rolling_number_box__NZddB.rolling_number_hours_first__QpwPB {
+-  -webkit-transition-delay: 0.1s;
+-  transition-delay: 0.1s;
+-}
+-.rolling_number_box__NZddB.rolling_number_hours_second__-CxEd {
+-  -webkit-transition-delay: 0.08s;
+-  transition-delay: 0.08s;
+-}
+-.rolling_number_box__NZddB.rolling_number_minutes_first__Og--K {
+-  -webkit-transition-delay: 0.06s;
+-  transition-delay: 0.06s;
+-}
+-.rolling_number_box__NZddB.rolling_number_minutes_second__lHvim {
+-  -webkit-transition-delay: 0.04s;
+-  transition-delay: 0.04s;
+
+
+-@-webkit-keyframes rolling_number_isZero__9E4bR {
+-  0% {
+-    -webkit-transform: translateY(100%);
+-    transform: translateY(100%);
+-  }
+-  to {
+-    -webkit-transform: translateY(0);
+-    transform: translateY(0);
+-  }
+-}
+-@keyframes rolling_number_isZero__9E4bR {
+-  0% {
+-    -webkit-transform: translateY(100%);
+-    transform: translateY(100%);
+-  }
+-  to {
+-    -webkit-transform: translateY(0);
+-    transform: translateY(0);
+-  }
+-}
+
+
+-                hours_first: "rolling_number_hours_first__QpwPB",
+-                hours_second: "rolling_number_hours_second__-CxEd",
+-                minutes_first: "rolling_number_minutes_first__Og--K",
+-                minutes_second: "rolling_number_minutes_second__lHvim",
++                playing: "rolling_number_playing__odTiX",
+
+-                number: "rolling_number_number__hFzjZ",
+-                isZero: "rolling_number_isZero__9E4bR"
++                number: "rolling_number_number__hFzjZ"
+
+-                    u = (0, r.useState)(!1),
+-                    c = (0, n.Z)(u, 2),
+-                    l = c[0],
+-                    d = c[1];
++                    u = e.stopMotion,
++                    c = (0, r.useState)(!1),
++                    l = (0, n.Z)(c, 2),
++                    d = l[0],
++                    p = l[1];
+
+-                    className: Qe()(OR.box, (t = {}, (0, $e.Z)(t, OR.hours_first, "hours_first" === i), (0, $e.Z)(t, OR.hours_second, "hours_second" === i), (0, $e.Z)(t, OR.minutes_first, "minutes_first" === i), (0, $e.Z)(t, OR.minutes_second, "minutes_second" === i), (0, $e.Z)(t, OR.seconds_first, "seconds_first" === i), (0, $e.Z)(t, OR.seconds_second, "seconds_second" === i), (0, $e.Z)(t, OR.is_zero, l), t)),
++                    className: Qe()(OR.box, (t = {}, (0, $e.Z)(t, OR.playing, !u), (0, $e.Z)(t, OR.seconds_first, "seconds_first" === i), (0, $e.Z)(t, OR.seconds_second, "seconds_second" === i), (0, $e.Z)(t, OR.is_zero, d), t)),
+
+-                    u = o > 0;
++                    u = o > 0,
++                    c = t > 10;
+
+-                            isOverlay: n
++                            isOverlay: n,
++                            stopMotion: c
+
+-                            isOverlay: n
++                            isOverlay: n,
++                            stopMotion: c
+
+-                        isOverlay: n
++                        isOverlay: n,
++                        stopMotion: c
+
+-                        isOverlay: n
++                        isOverlay: n,
++                        stopMotion: c
+
+-                        isOverlay: n
++                        isOverlay: n,
++                        stopMotion: c
+
+-                        isOverlay: n
++                        isOverlay: n,
++                        stopMotion: c
+
+-                    b = (0, r.useState)(null),
++                    b = (0, r.useState)([]),
+
+-                    M = (0, r.useState)(0),
++                    M = (0, r.useState)(null),
+
+-                    w = (0, r.useMemo)((function() {
+-                        return v.length - x + Math.floor(x / 2)
+-                    }), [v, x]),
+-                    E = (0, r.useState)(!1),
+-                    S = (0, n.Z)(E, 2),
+-                    k = S[0],
+-                    T = S[1],
+-                    z = (0, r.useState)(u.get("query") || ""),
++                    w = (0, r.useState)(0),
++                    E = (0, n.Z)(w, 2),
++                    S = E[0],
++                    k = E[1],
++                    T = (0, r.useMemo)((function() {
++                        return g.length - S + Math.floor(S / 2)
++                    }), [g, S]),
++                    z = (0, r.useState)(!1),
+
+-                    I = KM(),
+-                    D = I.firstLoading,
+-                    N = I.initFirstLoading,
+-                    P = I.fetching,
+-                    q = pe(),
+-                    F = (0, r.useRef)(null);
+-                Lp(F, (function() {
+-                    T(!1)
+-                }));
+-                var B = function(e) {
+-                        p(e), N(), m([]), _(null), e === Wje.RECOMMEND && W()
++                    I = (0, r.useState)(u.get("query") || ""),
++                    D = (0, n.Z)(I, 2),
++                    N = D[0],
++                    P = D[1],
++                    q = KM(),
++                    F = q.firstLoading,
++                    B = q.initFirstLoading,
++                    W = q.fetching,
++                    j = pe(),
++                    U = (0, r.useRef)(null);
++                Lp(U, (function() {
++                    R(!1)
++                })), (0, r.useEffect)((function() {
++                    m(d)
++                }), [d]);
++                var V = function(e) {
++                        p(e), B(), _([]), O(null), v === Wje.RECOMMEND && e === Wje.RECOMMEND && H()
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+03411e54 95cec7d1 bd6762d1
++6217a699 95cec7d1 3d2ca6d4
 

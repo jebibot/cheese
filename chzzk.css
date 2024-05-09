@@ -11107,29 +11107,15 @@ a.video_card_channel__AjQ\+P:hover {
 }
 .rolling_number_box__NZddB {
   display: inline-block;
+  vertical-align: top;
+}
+.rolling_number_box__NZddB.rolling_number_playing__odTiX {
   -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition:
     transform 0.3s ease-out,
     -webkit-transform 0.3s ease-out;
-  vertical-align: top;
-}
-.rolling_number_box__NZddB.rolling_number_hours_first__QpwPB {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-.rolling_number_box__NZddB.rolling_number_hours_second__-CxEd {
-  -webkit-transition-delay: 0.08s;
-  transition-delay: 0.08s;
-}
-.rolling_number_box__NZddB.rolling_number_minutes_first__Og--K {
-  -webkit-transition-delay: 0.06s;
-  transition-delay: 0.06s;
-}
-.rolling_number_box__NZddB.rolling_number_minutes_second__lHvim {
-  -webkit-transition-delay: 0.04s;
-  transition-delay: 0.04s;
 }
 .rolling_number_box__NZddB.rolling_number_seconds_first__s2Yw0 {
   -webkit-transition-delay: 0.02s;
@@ -11148,26 +11134,6 @@ a.video_card_channel__AjQ\+P:hover {
 .rolling_number_number__hFzjZ {
   display: block;
   text-align: center;
-}
-@-webkit-keyframes rolling_number_isZero__9E4bR {
-  0% {
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
-  to {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@keyframes rolling_number_isZero__9E4bR {
-  0% {
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
-  to {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
 }
 .live_chatting_mission_message_container__05yWF {
   position: relative;
