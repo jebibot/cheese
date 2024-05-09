@@ -4,6 +4,3 @@
 
 +5a75a99f 95cec7d1 bd6762d1
 
--                                return t === Ci.GRADE_2 && n && (s = n >= 50 ? 61 : 15), (r = o.isAfter(a) ? o.clone().add(s, "days") : a.clone().add(s, "days")).format("YYYYMMDD") === i.format("YYYYMMDD") ? "곧 삭제 예정" : "".concat(r.format("M월 D일"), " 삭제 예정")
-+                                return t === Ci.GRADE_2 && (s = (n || 0) >= 50 ? 61 : 15), (r = o.isAfter(a) ? o.clone().add(s, "days") : a.clone().add(s, "days")).format("YYYYMMDD") <= i.format("YYYYMMDD") ? "곧 삭제 예정" : "".concat(r.format("M월 D일"), " 삭제 예정")
-
