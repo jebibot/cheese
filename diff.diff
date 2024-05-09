@@ -1,6 +1,316 @@
+-                    l = (0, r.useState)(0),
+-                    d = (0, n.Z)(l, 2),
+-                    p = d[0],
+-                    f = d[1],
+-                    h = (0, r.useState)(0),
+-                    v = (0, n.Z)(h, 2),
+-                    m = v[0],
+-                    b = v[1],
+-                    y = (0, r.useState)(0),
+-                    g = (0, n.Z)(y, 2),
+-                    _ = g[0],
+-                    M = g[1],
+-                    A = (0, r.useState)(0),
+-                    x = (0, n.Z)(A, 2),
+-                    O = x[0],
+-                    w = x[1],
+-                    E = (0, r.useState)(""),
+-                    S = (0, n.Z)(E, 2),
+-                    k = S[0],
+-                    T = S[1],
+-                    z = (0, r.useState)({
++                    l = 10,
++                    d = (0, r.useState)(0),
++                    p = (0, n.Z)(d, 2),
++                    f = p[0],
++                    h = p[1],
++                    v = (0, r.useState)(0),
++                    m = (0, n.Z)(v, 2),
++                    b = m[0],
++                    y = m[1],
++                    g = (0, r.useState)(0),
++                    _ = (0, n.Z)(g, 2),
++                    M = _[0],
++                    A = _[1],
++                    x = (0, r.useState)(0),
++                    O = (0, n.Z)(x, 2),
++                    w = O[0],
++                    E = O[1],
++                    S = (0, r.useState)(""),
++                    k = (0, n.Z)(S, 2),
++                    T = k[0],
++                    z = k[1],
++                    C = (0, r.useState)({
+
+-                    Y = (0, n.Z)($, 2),
+-                    Q = Y[0],
+-                    J = Y[1],
+-                    ee = (0, r.useState)({}),
+-                    te = (0, n.Z)(ee, 2),
+-                    ne = te[0],
+-                    re = te[1],
+-                    ie = (0, r.useState)({}),
+-                    oe = (0, n.Z)(ie, 2),
+-                    ae = oe[0],
+-                    se = oe[1],
+-                    ue = (0, r.useState)({}),
+-                    ce = (0, n.Z)(ue, 2),
+-                    le = ce[0],
+-                    de = ce[1],
+-                    pe = (0, r.useState)({}),
+-                    fe = (0, n.Z)(pe, 2),
+-                    he = fe[0],
+-                    ve = fe[1],
+-                    me = (0, r.useState)(!1),
+-                    be = (0, n.Z)(me, 2),
+-                    ye = be[0],
+-                    ge = be[1],
+-                    _e = (0, r.useState)(!1),
+-                    Me = (0, n.Z)(_e, 2),
+-                    Ae = Me[0],
+-                    xe = Me[1],
+-                    Oe = (0, r.useRef)(null),
+-                    we = (0, r.useCallback)((function(e) {
++                    Q = (0, n.Z)(Y, 2),
++                    J = Q[0],
++                    ee = Q[1],
++                    te = (0, r.useState)({
++                        x: 0,
++                        y: 0
++                    }),
++                    ne = (0, n.Z)(te, 2),
++                    re = ne[0],
++                    ie = ne[1],
++                    oe = (0, r.useState)({
++                        left: 0,
++                        top: 0,
++                        right: 0,
++                        bottom: 0
++                    }),
++                    ae = (0, n.Z)(oe, 2),
++                    se = ae[0],
++                    ue = ae[1],
++                    ce = (0, r.useState)({
++                        width: 0,
++                        height: 0
++                    }),
++                    le = (0, n.Z)(ce, 2),
++                    de = le[0],
++                    pe = le[1],
++                    fe = (0, r.useState)({}),
++                    he = (0, n.Z)(fe, 2),
++                    ve = he[0],
++                    me = he[1],
++                    be = (0, r.useState)({}),
++                    ye = (0, n.Z)(be, 2),
++                    ge = ye[0],
++                    _e = ye[1],
++                    Me = (0, r.useState)({}),
++                    Ae = (0, n.Z)(Me, 2),
++                    xe = Ae[0],
++                    Oe = Ae[1],
++                    we = (0, r.useState)(!1),
++                    Ee = (0, n.Z)(we, 2),
++                    Se = Ee[0],
++                    ke = Ee[1],
++                    Te = (0, r.useState)(!1),
++                    ze = (0, n.Z)(Te, 2),
++                    Ce = ze[0],
++                    Le = ze[1],
++                    Re = (0, r.useRef)(null),
++                    Ie = (0, r.useCallback)((function(e) {
+
+-                    Ce = (0, r.useCallback)((function(e) {
+-                        if (e.preventDefault(), e.stopPropagation(), ye) {
+-                            var t = Se(e),
+-                                n = s + Ee(t),
+-                                r = Math.round(m - p);
+-                            n < p ? (f(n), b(n + r)) : n > m && (f(n - r), b(n)), M(n), w(n)
+-                        }
+-                    }), [ye, p, m, s, Se, Ee]),
+-                    Le = (0, r.useCallback)((function(e, t) {
+-                        e.preventDefault(), e.stopPropagation(), xe(!0)
++                    Be = (0, r.useCallback)((function(e) {
++                        if (e.preventDefault(), e.stopPropagation(), Se) {
++                            var t = Ne(e),
++                                n = s + De(t),
++                                r = Math.round(b - f);
++                            n < f ? (h(n), y(n + r)) : n > b && (h(n - r), y(n)), A(n), E(n)
++                        }
++                    }), [Se, f, b, s, Ne, De]),
++                    We = (0, r.useCallback)((function(e, t) {
++                        e.preventDefault(), e.stopPropagation()
+
+-                    Ie = (0, r.useCallback)((function(e, t) {
+-                        e.preventDefault(), e.stopPropagation(), f((function(e) {
+-                            return e + Ee(t.deltaX)
+-                        }))
+-                    }), [Ee]),
+-                    De = (0, r.useCallback)((function(e, t) {
+-                        e.preventDefault(), e.stopPropagation(), b((function(e) {
+-                            return e + Ee(t.deltaX)
+-                        }))
+-                    }), [Ee]);
++                    Ue = (0, r.useCallback)((function(e, t) {
++                        e.preventDefault(), e.stopPropagation(), Le(!0);
++                        var n = f + De(t.deltaX),
++                            r = b - n;
++                        h(n), A(n), E(n), r > 60 ? y(n + 60) : r < l && y(n + l)
++                    }), [De, f, b]),
++                    Ve = (0, r.useCallback)((function(e, t) {
++                        e.preventDefault(), e.stopPropagation(), Le(!0);
++                        var n = b + De(t.deltaX),
++                            r = n - f;
++                        y(n), A(n), E(n), r > 60 ? h(n - 60) : r < l && h(n - l)
++                    }), [De, f, b]),
++                    He = (0, r.useCallback)((function(e, t) {
++                        e.preventDefault(), e.stopPropagation(), Le(!0);
++                        var n = De(t.deltaX);
++                        h(f + n), y(b + n), A(f + n), E(f + n)
++                    }), [De, f, b]);
+
+-                    }), J({
++                    }), ee({
+
+-                    }), re({
++                    }), ie({
++                        x: e,
++                        y: 0
++                    }), pe({
++                        width: o - 28,
++                        height: a
++                    }), me({
+
+-                    }), de({
+-                        left: e,
+-                        top: 0,
+-                        width: o - 28,
+-                        height: a
+-                    }), ve({
++                    }), Oe({
+
+-                    f(e), b(t), M(e), w(e)
+-                }), [s, u, we, B.width]), (0, r.useEffect)((function() {
+-                    var e = we(p - s),
+-                        t = we(Math.max(m - 60, s) - s),
+-                        n = we(Math.max(m - 10, s) - s);
+-                    R((function(t) {
++                    h(e), y(t), A(e), E(e)
++                }), [s, u, Ie, W.width]), (0, r.useEffect)((function() {
++                    var e = Ie(f - s),
++                        t = Ie(u - s - l);
++                    I((function(t) {
+
+-                }), [p, m, s, we]), (0, r.useEffect)((function() {
+-                    var e = B.width,
+-                        t = we(m - s) + e,
+-                        n = we(Math.min(p + 10, u) - s) + e,
+-                        r = we(Math.min(p + 60, u) - s) + e;
+-                    H((function(e) {
++                }), [f, b, s, u, Ie]), (0, r.useEffect)((function() {
++                    var e = W.width,
++                        t = Ie(b - s) + e,
++                        n = Ie(l) + e,
++                        r = Ie(u - s) + e;
++                    Z((function(e) {
+
+-                }), [p, m, s, u, we, B.width]), (0, r.useEffect)((function() {
+-                    var e = we(_ - s) + B.width - 2;
+-                    ve((function(t) {
+-                        return (0, Xe.Z)((0, Xe.Z)({}, t), {}, {
+-                            left: e
++                }), [f, b, s, u, Ie, W.width]), (0, r.useEffect)((function() {
++                    var e = W.width,
++                        t = Ie(b - f),
++                        n = Ie(f - s) + e,
++                        r = e,
++                        i = Ie(u - s) - t + e;
++                    ie((function(e) {
++                        return (0, Xe.Z)((0, Xe.Z)({}, e), {}, {
++                            x: n
+
+-                    }))
+-                }), [_, s, we, B.width]), (0, r.useEffect)((function() {
+-                    var e = we(p - s) + B.width,
+-                        t = we(m - p);
+-                    de((function(n) {
+-                        return (0, Xe.Z)((0, Xe.Z)({}, n), {}, {
+-                            left: e,
++                    })), ue((function(e) {
++                        return (0, Xe.Z)((0, Xe.Z)({}, e), {}, {
++                            left: r,
++                            right: i
++                        })
++                    })), pe((function(e) {
++                        return (0, Xe.Z)((0, Xe.Z)({}, e), {}, {
+
+-                }), [p, m, s, we, B.width]), (0, r.useEffect)((function() {
+-                    var e = Ls()(1e3 * (p - s)).format("mm:ss.S"),
+-                        t = Ls()(1e3 * (m - s)).format("mm:ss.S"),
+-                        n = (m - p).toFixed(1);
+-                    T("".concat(e, "~").concat(t, " (").concat(n, "s)"))
+-                }), [p, m, s]), (0, r.useEffect)((function() {
+-                    _ < p ? (M(p), w(p)) : _ > m && (M(m), w(m))
+-                }), [p, m, _]), (0, r.useEffect)((function() {
+-                    return ye && document.addEventListener("mouseup", ze),
++                }), [f, b, s, u, Ie, W.width]), (0, r.useEffect)((function() {
++                    var e = Ie(M - s) + W.width - 2;
++                    Oe((function(t) {
++                        return (0, Xe.Z)((0, Xe.Z)({}, t), {}, {
++                            left: e
++                        })
++                    }))
++                }), [M, s, Ie, W.width]), (0, r.useEffect)((function() {
++                    var e = Ls()(1e3 * (f - s)).format("mm:ss.S"),
++                        t = Ls()(1e3 * (b - s)).format("mm:ss.S"),
++                        n = (b - f).toFixed(1);
++                    z("".concat(e, "~").concat(t, " (").concat(n, "s)"))
++                }), [f, b, s]), (0, r.useEffect)((function() {
++                    M < f ? (A(f), E(f)) : M > b && (A(b), E(b))
++                }), [f, b, M]), (0, r.useEffect)((function() {
++                    return Se && document.addEventListener("mouseup", Fe),
+
+-                        }), (0, Pp.jsxs)("span", {
+-                            className: iEe,
+-                            style: (0, Xe.Z)({}, le),
+-                            children: [(0, Pp.jsx)("span", {
+-                                className: "blind",
+-                                children: "재생 영역"
+-                            }), (0, Pp.jsx)("div", {
+-                                className: oEe,
+-                                children: k
+-                            })]
++                        }), (0, Pp.jsx)(fwe(), {
++                            position: re,
++                            bounds: se,
++                            onStart: We,
++                            onStop: je,
++                            onDrag: He,
++                            children: (0, Pp.jsxs)("span", {
++                                className: iEe,
++                                style: (0, Xe.Z)({}, de),
++                                children: [(0, Pp.jsx)("span", {
++                                    className: "blind",
++                                    children: "재생 영역"
++                                }), (0, Pp.jsx)("div", {
++                                    className: oEe,
++                                    children: T
++                                })]
++                            })
+
+-                        M.current && (FEe.G6 || FEe.w1 || FEe.vU ? Zp("".concat(FEe.KC, "에서는 클립을 만들 수 없습니다.\n다른 브라우저를 이용해주세요.")) : M.current.openClipEditor())
++                        M.current && (FEe.G6 || FEe.w1 || FEe.vU ? Zp("".concat(FEe.KC, "에서는 클립을 만들 수 없습니다.\n다른 브라우저를 이용해주세요.")) : ! function() {
++                            try {
++                                var e = document.createElement("canvas");
++                                return !(!window.WebGLRenderingContext || !e.getContext("webgl") && !e.getContext("experimental-webgl"))
++                            } catch (t) {
++                                return !1
++                            }
++                        }() ? Zp("브라우저 하드웨어 가속이 꺼져있어\n클립을 만들 수 없습니다.") : M.current.openClipEditor())
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+5a75a99f 95cec7d1 bd6762d1
++03411e54 95cec7d1 bd6762d1
 
