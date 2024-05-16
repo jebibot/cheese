@@ -1,6 +1,328 @@
+-            UL = 1,
+-            VL = 10,
+-            HL = 11,
+-            ZL = 30,
+-            GL = 1e4,
+-            XL = 10001,
+-            KL = 10002,
+-            $L = "NORMAL",
+-            YL = "BLIND",
+-            QL = "CBOTBLIND",
+-            JL = "CANCEL",
+-            eR = "CHANGE_DONATION_ACTIVE",
+-            tR = "CHANGE_VIDEO_DONATION_SETTING",
+-            nR = "CHANGE_MISSION_DONATION_SETTING",
+-            rR = "TEMPORARY_RESTRICT",
+-            iR = "RESTRICT_USER",
+-            oR = "CHANGE_CHAT_MODE",
+-            aR = "LIVE_BLOCK",
+-            sR = "IIMS_PENALTY",
+-            uR = "CHANGE_EMOJI_PACK",
+-            cR = "CHANGE_MIN_PAY_AMOUNT",
+-            lR = "ADULT_LIVE",
+-            dR = "ROLE_ADD",
+-            pR = "RELEASE_RESTRICT_USER",
+-            fR = "WARN_LIVE",
+-            hR = "DONATION_MISSION_IN_PROGRESS",
+-            vR = 42601,
+-            mR = 42603,
+-            bR = {
++            UL = function(e) {
++                return e.INFO = "INFO", e.DEBUG = "DEBUG", e.ERROR = "ERROR", e
++            }({}),
++            VL = Ts() ? "https://dev-col-tcp.nelo.navercorp.com/_store" : "https://kr-col-ext.nelo.navercorp.com/_store",
++            HL = Ts() ? "20974eb743bf45ebb7aff519353c8af0" : "4d82d7d6ac304ac39a05387c9ad5d807",
++            ZL = {
++                send: function() {
++                    var e = (0, Ke.Z)((0, Ge.Z)().mark((function e(t, n) {
++                        return (0, Ge.Z)().wrap((function(e) {
++                            for (;;) switch (e.prev = e.next) {
++                                case 0:
++                                    return e.next = 2, od.post(VL, {
++                                        projectName: "P519917_glive-fe-pc",
++                                        projectVersion: "0.0.1",
++                                        txtToken: HL,
++                                        logLevel: t,
++                                        userAgent: navigator.userAgent.toLowerCase() || "__UNKNOWN__",
++                                        body: n
++                                    });
++                                case 2:
++                                case "end":
++                                    return e.stop()
++                            }
++                        }), e)
++                    })));
++                    return function(t, n) {
++                        return e.apply(this, arguments)
++                    }
++                }()
++            },
++            GL = 1,
++            XL = 10,
++            KL = 11,
++            $L = 30,
++            YL = 1e4,
++            QL = 10001,
++            JL = 10002,
++            eR = "NORMAL",
++            tR = "BLIND",
++            nR = "CBOTBLIND",
++            rR = "CANCEL",
++            iR = "CHANGE_DONATION_ACTIVE",
++            oR = "CHANGE_VIDEO_DONATION_SETTING",
++            aR = "CHANGE_MISSION_DONATION_SETTING",
++            sR = "TEMPORARY_RESTRICT",
++            uR = "RESTRICT_USER",
++            cR = "CHANGE_CHAT_MODE",
++            lR = "LIVE_BLOCK",
++            dR = "IIMS_PENALTY",
++            pR = "CHANGE_EMOJI_PACK",
++            fR = "CHANGE_MIN_PAY_AMOUNT",
++            hR = "ADULT_LIVE",
++            vR = "ROLE_ADD",
++            mR = "RELEASE_RESTRICT_USER",
++            bR = "WARN_LIVE",
++            yR = "DONATION_MISSION_IN_PROGRESS",
++            gR = 42601,
++            _R = 42603,
++            MR = {
+
+-                                t.accessToken = r, t.profile = i, t.blockUserIdHashSet = o, t.chatClient = new _C.ChatClient(s.route.url, a, s), t.chatClient.on("connected", t.connectedListener), t.chatClient.on("close", t.closeListener), t.chatClient.on("responseGetProfile", t.responseGetProfileListener), t.chatClient.on("notiSendLive", t.notiSendLiveListener), t.chatClient.on("notiForceSendLive", t.notiForceSendLiveListener), t.chatClient.on("notiNotice", t.notiNoticeListener), t.chatClient.on("notiBlind", t.notiBlindListener), t.chatClient.on("notiPenalty", t.notiPenaltyListener), t.chatClient.on("notiEvent", t.notiEventListener), t.chatClient.connectAsync().catch((function(e) {
+-                                    t.handleError()
++                                t.accessToken = r, t.profile = i, t.blockUserIdHashSet = o, t.chatClient = new _C.ChatClient(s.route.url, a, s), t.chatClient.on("connected", t.connectedListener), t.chatClient.on("close", t.closeListener), t.chatClient.on("responseGetProfile", t.responseGetProfileListener), t.chatClient.on("notiSendLive", t.notiSendLiveListener), t.chatClient.on("notiForceSendLive", t.notiForceSendLiveListener), t.chatClient.on("notiNotice", t.notiNoticeListener), t.chatClient.on("notiBlind", t.notiBlindListener), t.chatClient.on("notiPenalty", t.notiPenaltyListener), t.chatClient.on("notiEvent", t.notiEventListener), t.chatClient.connectAsync().catch((function(n) {
++                                    t.handleError(), ZL.send(UL.ERROR, "CHAT CLIENT_CONNECT ERROR, useIdHash: " + e.userIdHash + ", chatChannelId: " + e.chatChannelId + ", streamingChannelId: " + e.streamingChannelId + ", error: " + n)
+
+-                            t.handleError()
++                            if (t.handleError(), iv(n)) {
++                                var o, a = n;
++                                ZL.send(UL.ERROR, "CHAT CALL_API ERROR, useIdHash: " + e.userIdHash + ", chatChannelId: " + e.chatChannelId + ", streamingChannelId: " + e.streamingChannelId + ", url: " + a.request.responseURL + ", response: " + (null === (o = a.response) || void 0 === o ? void 0 : o.data) + ", error: " + n)
++                            }
+
+-                        })).catch((function() {
+-                            n.handleError()
++                        })).catch((function(t) {
++                            n.handleError(), ZL.send(UL.ERROR, "CHAT SEND_MESSAGE ERROR, useIdHash: " + e.userIdHash + ", chatChannelId: " + e.chatChannelId + ", streamingChannelId: " + e.streamingChannelId + ", error: " + t)
+
+-            K9 = new V9.xQ,
+-            $9 = function(e) {
+-                return K9.subscribe((function(t) {
++            J9 = new X9.xQ,
++            eee = function(e) {
++                return J9.subscribe((function(t) {
+
+-            Y9 = "item_container__TTa1x",
+-            Q9 = "item_thumbnail__5gRlB",
+-            J9 = "item_image__Y45no",
+-            eee = "item_icon_new__xxTkd",
+-            tee = "item_name__TJ8Np",
+-            nee = "item_icon_official__wIgq2",
+-            ree = ["title", "titleId"];
++            tee = "item_container__TTa1x",
++            nee = "item_thumbnail__5gRlB",
++            ree = "item_image__Y45no",
++            iee = "item_icon_new__xxTkd",
++            oee = "item_name__TJ8Np",
++            aee = "item_icon_official__wIgq2",
++            see = ["title", "titleId"];
+
+-                    className: Y9,
++                    className: tee,
+
+-                        className: Q9,
++                        className: nee,
+
+-                            className: J9,
++                            className: ree,
+
+-                                n = $9((function(e) {
++                                n = eee((function(e) {
+
+-        var lfe = 3e5,
+-            dfe = 0,
+-            pfe = 2,
+-            ffe = 5,
+-            hfe = 0,
+-            vfe = 1,
++        var hfe = 3e5,
++            vfe = 0,
+
+-            bfe = function() {
++            bfe = 5,
++            yfe = 0,
++            gfe = 1,
++            _fe = 2,
++            Mfe = function() {
+
+-                            case Qfe:
+-                            case Jfe:
+-                            case ehe:
+
+
+-                                this.state = Yfe
++                            case ihe:
++                            case ahe:
++                            case she:
++                                this.state = the
+
+-            rge = function(e) {
+-                return e.INFO = "INFO", e.DEBUG = "DEBUG", e.ERROR = "ERROR", e
+-            }({}),
+-            ige = Ts() ? "https://dev-col-tcp.nelo.navercorp.com/_store" : "https://kr-col-tcp.nelo.navercorp.com/_store",
+-            oge = {
+-                send: function() {
+-                    var e = (0, Ke.Z)((0, Ge.Z)().mark((function e(t, n) {
+-                        return (0, Ge.Z)().wrap((function(e) {
+-                            for (;;) switch (e.prev = e.next) {
+-                                case 0:
+-                                    return e.next = 2, od.post(ige, {
+-                                        projectName: "P519917_glive-fe-pc",
+-                                        projectVersion: "0.0.1",
+-                                        logLevel: t,
+-                                        userAgent: navigator.userAgent.toLowerCase() || "__UNKNOWN__",
+-                                        body: "CHZZKPlayerError ".concat(n)
+-                                    });
+-                                case 2:
+-                                case "end":
+-                                    return e.stop()
+-                            }
+-                        }), e)
+-                    })));
+-                    return function(t, n) {
+-                        return e.apply(this, arguments)
+-                    }
+-                }()
+-            },
+-            age = function(e) {
++            sge = function(e) {
+
+-                            (oge.send(rge.ERROR, n), "P2P_SESSION_CLOSED_BY_OTHER" === n) && (t.querySelector("pzp-pc-error-dialog").href = "https://help.naver.com/service/23946/contents/23231?lang=ko")
++                            (ZL.send(UL.ERROR, "CHZZKPlayerError ".concat(n)), "P2P_SESSION_CLOSED_BY_OTHER" === n) && (t.querySelector("pzp-pc-error-dialog").href = "https://help.naver.com/service/23946/contents/23231?lang=ko")
+
+-                            case lke:
+-                                return "";
+
+
+-                                return " 5분";
++                                return "";
+
+-                                return " 10분";
++                                return " 5분";
+
+-                                return " 1일";
++                                return " 1시간";
+
+-                                return " 1주일";
++                                return " 1일";
+
+
++                                return " 1주일";
++                            case yke:
+
+-                                                        isSelected: "FOLLOWER" === T && R === lke,
+-                                                        clickHandler: function() {
+-                                                            te("FOLLOWER", lke)
+-                                                        }
+-                                                    }, {
+-                                                        contents: "5분",
+
+
+-                                                        contents: "10분",
++                                                        contents: "5분",
+
+-                                                        contents: "1일",
++                                                        contents: "1시간",
+
+-                                                        contents: "1주일",
++                                                        contents: "1일",
+
+
++                                                    }, {
++                                                        contents: "1개월",
++                                                        isSelected: "FOLLOWER" === T && R === yke,
++                                                        clickHandler: function() {
++                                                            te("FOLLOWER", yke)
++                                                        }
+
+-        var Pke, qke, Fke, Bke = r.forwardRef(Nke),
+-            Wke = (__webpack_require__.p, "live_chatting_donation_message_container__r01qB"),
+-            jke = "live_chatting_donation_message_level0__rgSs0",
+-            Uke = "live_chatting_donation_message_level1__tE0x8",
+-            Vke = "live_chatting_donation_message_level2__Z5FQn",
+-            Hke = "live_chatting_donation_message_level3__kpyCB",
+-            Zke = "live_chatting_donation_message_is_input__a1c07",
+-            Gke = "live_chatting_donation_message_bottom__uR1tP",
+-            Xke = "live_chatting_donation_message_is_overlay__RItjd",
+-            Kke = "live_chatting_donation_message_wrapper__SNoBH",
+-            $ke = "live_chatting_donation_message_header__O3BVA",
+-            Yke = "live_chatting_donation_message_text__XbDKP",
+-            Qke = "live_chatting_donation_message_money__fE2UC",
+-            Jke = "live_chatting_donation_message_input_wrapper__04s9x",
+-            eTe = "live_chatting_donation_message_input__3X7ug",
+-            tTe = "live_chatting_donation_message_emoticon_button__qp8ge",
+-            nTe = "live_chatting_donation_message_emoticon__I319n",
+-            rTe = 0,
+-            iTe = !1,
++        var qke, Fke, Bke, Wke = r.forwardRef(Pke),
++            jke = (__webpack_require__.p, "live_chatting_donation_message_container__r01qB"),
++            Uke = "live_chatting_donation_message_level0__rgSs0",
++            Vke = "live_chatting_donation_message_level1__tE0x8",
++            Hke = "live_chatting_donation_message_level2__Z5FQn",
++            Zke = "live_chatting_donation_message_level3__kpyCB",
++            Gke = "live_chatting_donation_message_is_input__a1c07",
++            Xke = "live_chatting_donation_message_bottom__uR1tP",
++            Kke = "live_chatting_donation_message_is_overlay__RItjd",
++            $ke = "live_chatting_donation_message_wrapper__SNoBH",
++            Yke = "live_chatting_donation_message_header__O3BVA",
++            Qke = "live_chatting_donation_message_text__XbDKP",
++            Jke = "live_chatting_donation_message_money__fE2UC",
++            eTe = "live_chatting_donation_message_input_wrapper__04s9x",
++            tTe = "live_chatting_donation_message_input__3X7ug",
++            nTe = "live_chatting_donation_message_emoticon_button__qp8ge",
++            rTe = "live_chatting_donation_message_emoticon__I319n",
++            iTe = 0,
+
+-            aTe = function(e) {
++            aTe = !1,
++            sTe = function(e) {
+
+-                                        className: PFe
+-                                    }) : (0, Pp.jsx)("i", {
+
+
+
++                                    }) : (0, Pp.jsx)("i", {
++                                        className: FFe
+
+
++                    }), (0, Pp.jsx)(MFe, {
++                        children: (0, Pp.jsx)(VFe, (0, Xe.Z)({}, i))
+
+-                        children: (0, Pp.jsx)(UFe, (0, Xe.Z)({}, i))
+-                    }), (0, Pp.jsx)(gFe, {
+-                        children: (0, Pp.jsx)(_Fe, {
+-                            children: (0, Pp.jsx)(MFe, {
++                        children: (0, Pp.jsx)(MFe, {
++                            children: (0, Pp.jsx)(AFe, {
+
+-            SWe = [],
+
+
+-            TWe = 3e3,
+-            zWe = function() {
++            TWe = [],
++            zWe = 3e3,
++            CWe = function() {
+
+-            KWe = [],
+
+
+-            YWe = function() {
++            YWe = [],
++            QWe = function() {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+931a009c 106e19ea 6222caa4
++c1713d58 106e19ea 6222caa4
 
