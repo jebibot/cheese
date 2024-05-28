@@ -2,5 +2,27 @@
 
 
 
-+2970d97b bc32e35b c966bbc7
++2970d97b b72c0dc9 c966bbc7
+
+
++                                                }), q === BO.PERSON_CORP && W === Ni.E_CHZZK && (0, kt.jsx)(Ba, {
++                                                    list: ["채널 소유자의 계좌로만 정산금 지급이 가능합니다."]
+
+-                            (0, Fe.isNil)(e) || (e === Ly.NO_PROFIT ? Nl("수익 발생 후 등록 가능합니다.") : e === Ly.UNAUTHENTICATED ? Nl("네이버 2단계 인증 설정 완료 후 다시 시도해 주세요.") : e === Ly.REQUIRED ? Ee("WRITE") : e === Ly.NOT_ACCEPTED ? Ee("EDIT") : !0 === (null === i || void 0 === i ? void 0 : i.status) ? setTimeout((function() {
++                            (0, Fe.isNil)(e) || (e === Ly.NO_PROFIT ? Nl("수익 발생 후 등록 가능합니다.") : e === Ly.UNAUTHENTICATED ? Nl("네이버 2단계 인증 설정 완료 후 다시 시도해 주세요.") : e === Ly.REQUIRED ? Ee("WRITE") : e === Ly.NOT_ACCEPTED || le ? Ee("EDIT") : !0 === (null === i || void 0 === i ? void 0 : i.status) ? setTimeout((function() {
+
+-                            }), 0) : le ? Ee("EDIT") : he && Nl("정산 정보를 검토 중입니다. 영업일 기준 3일 정도 소요될 수 있습니다."))
++                            }), 0) : he && Nl("정산 정보를 검토 중입니다. 영업일 기준 3일 정도 소요될 수 있습니다."))
+
+-                        (0, Fe.isNil)(i) || (i === Ly.NO_PROFIT || i === Ly.UNAUTHENTICATED || i === Ly.REQUIRED || i === Ly.NOT_ACCEPTED || !0 === (null === a || void 0 === a ? void 0 : a.status) ? E(ky.DISABLED) : l ? E(ky.ON) : c && E(ky.COMPLETED))
++                        (0, Fe.isNil)(i) || (i === Ly.NO_PROFIT || i === Ly.UNAUTHENTICATED || i === Ly.REQUIRED || i === Ly.NOT_ACCEPTED ? E(ky.DISABLED) : c ? E(ky.COMPLETED) : !0 === (null === a || void 0 === a ? void 0 : a.status) ? E(ky.DISABLED) : l && E(ky.ON))
+
+-                                    }), R() && (0, kt.jsxs)("button", {
++                                    }), !c && R() && (0, kt.jsxs)("button", {
+
+-                                }), R() && (0, kt.jsx)(_o, {
++                                }), !c && R() && (0, kt.jsx)(_o, {
+
+-                                }), !1 === (null === a || void 0 === a ? void 0 : a.status) && !0 === c && (0, kt.jsx)(_o, {
++                                }), !0 === c && (0, kt.jsx)(_o, {
 
