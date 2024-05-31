@@ -1,6 +1,9 @@
+-                                        children: "bitrate : 10Mbps 이하"
++                                        children: "bitrate : 8,000kbps 이하"
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+2970d97b bd885515 c966bbc7
++4661fa7b bd885515 c966bbc7
 
