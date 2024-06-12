@@ -1,6 +1,37 @@
+-                    b = function() {
++                    b = (0, mt.useRecoilValue)(ny),
++                    y = function() {
+
+-                                            userIdHash: null
++                                            userIdHash: (null === b || void 0 === b ? void 0 : b.userIdHash) || null
+
+
++                                    if (null === b || void 0 === b || !b.beforeLoaded) {
++                                        t.next = 2;
++                                        break
++                                    }
++                                    return t.abrupt("return");
++                                case 2:
+
+-                                case 5:
+-                                    return t.next = 7, tK(e);
+
+
+
++                                    return t.next = 9, tK(e);
++                                case 9:
+
+-                                        userIdHash: null
+-                                    }, u.isSameConfig(r) || p(r)), CX = setInterval(b, 1e4), t.abrupt("return", (function() {
++                                        userIdHash: (null === b || void 0 === b ? void 0 : b.userIdHash) || null
++                                    }, u.isSameConfig(r) || p(r)), CX = setInterval(y, 1e4), t.abrupt("return", (function() {
+
+-                }), [e]), (0, r.useEffect)((function() {
++                }), [e, null === b || void 0 === b ? void 0 : b.beforeLoaded]), (0, r.useEffect)((function() {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+4661fa7b f1ddb235 c966bbc7
++5b3854e3 f1ddb235 c966bbc7
 
