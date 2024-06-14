@@ -1,6 +1,9 @@
+-                    J && (s ? z(s) : g.current = 1)
++                    J && (s && s.id ? (z(s), _.current = s.id) : g.current = 1)
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+69f3d239 dbb378fc 6dcdcdfa
++5d389778 dbb378fc 6dcdcdfa
 
