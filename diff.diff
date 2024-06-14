@@ -1,8 +1,3 @@
--                    }(), (0, af.jsxs)(af.Fragment, {
-+                    }(), (0, r.useEffect)((function() {
-+                        document.body.setAttribute("chzzkext_dl", "")
-+                    }), []), (0, af.jsxs)(af.Fragment, {
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
