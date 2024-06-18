@@ -2,5 +2,30 @@
 
 
 
-+5d389778 dbb378fc 6dcdcdfa
++5d389778 76a1d088 6dcdcdfa
+
+-                        }), (0, ct.jsxs)(dn, {
+-                            direction: "vertical",
+-                            children: [(0, ct.jsx)(pn, {
+-                                children: (0, ct.jsx)(fn, {
+-                                    children: "댓글 사용 여부"
+-                                })
+-                            }), (0, ct.jsxs)(pn, {
+-                                children: [(0, ct.jsx)(vn, {
+-                                    children: (0, ct.jsx)(er, {
+-                                        name: "useComment",
+-                                        id: "use-comment",
+-                                        checked: !0,
+-                                        children: "사용"
+-                                    })
+-                                }), (0, ct.jsx)(vn, {
+-                                    children: (0, ct.jsx)(er, {
+-                                        name: "useComment",
+-                                        id: "unused-comment",
+-                                        checked: !1,
+-                                        children: "미사용"
+-                                    })
+-                                })]
+-                            })]
+
 
