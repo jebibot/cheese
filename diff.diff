@@ -1,31 +1,156 @@
+-                                i.spi = n, i.sdkVersion = "4.8.0-SNAPSHOT", i.osVer = I(), i.devName = R(), "object" === ("undefined" === typeof Intl ? "undefined" : a(Intl)) && "function" === typeof Intl.DateTimeFormat ? (i.locale = Intl.DateTimeFormat().resolvedOptions().locale, i.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone) : (i.locale = null, i.timezone = null), i.jsonClient = null, i.state = "closed", i.autoReconnect = z(r.autoReconnect, !0);
++                                i.spi = n, i.sdkVersion = "4.9.3", i.osVer = I(), i.devName = R(), "object" === ("undefined" === typeof Intl ? "undefined" : a(Intl)) && "function" === typeof Intl.DateTimeFormat ? (i.locale = Intl.DateTimeFormat().resolvedOptions().locale, i.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone) : (i.locale = null, i.timezone = null), i.jsonClient = null, i.state = "closed", i.autoReconnect = z(r.autoReconnect, !0);
+
+-                                }, !o.numRetries && r.autoReconnect && (i.reconnect.numRetries = 1), i.callbackTimeout = z(r.callbackTimeout, 5e3), i.noPingPong = z(r.noPingPong, !1), i.pingInterval = z(r.pingInterval, 2e4), i.pingTimeout = z(r.pingTimeout, 1e4), i.debug = z(r.debug, !1), i.auth = z(r.auth, "SEND"), i._pingTimer = null, i._ackTimer = null, i._firstAckFlag = !0, i._minAckTargetNo = null, i._lastAckData = null, i._pendingAckData = null, i._pendingAckResponses = [], i._connStatus = 1, i.connectRetryCount = 0, i._nextTidValue = 1, i.callbacks = {}, i.ver = "2", i.svcid = r.svcid, i.cid = r.cid, i.uid = r.uid, i.channelType = r.channelType, i.sid = null, i.ssid = null, i.uuid = null;
++                                }, !o.numRetries && r.autoReconnect && (i.reconnect.numRetries = 1), i.callbackTimeout = z(r.callbackTimeout, 5e3), i.noPingPong = z(r.noPingPong, !1), i.pingInterval = z(r.pingInterval, 2e4), i.pingTimeout = z(r.pingTimeout, 1e4), i.debug = z(r.debug, !1), i.auth = z(r.auth, "SEND"), i._pingTimer = null, i._ackTimer = null, i._firstAckFlag = !0, i._minAckTargetNo = null, i._lastAckData = null, i._pendingAckData = null, i._pendingAckResponses = [], i._connStatus = 1, i.connectRetryCount = 0, i._nextTidValue = 1, i.callbacks = {}, i._indicatorContext = {
++                                    canSendIndicator: !0,
++                                    previousText: "",
++                                    indicatedUsers: [],
++                                    indicatedUserCheckInterval: null
++                                }, i.ver = "3", i.svcid = r.svcid, i.cid = r.cid, i.uid = r.uid, i.channelType = r.channelType, i.sid = null, i.ssid = null, i.uuid = null;
+
+-                                    this._clearAckTimer(), this._clearPingTimer(), this._dropJsonClient(), "closed" !== this.state && (this.state = "closed", e || (e = {
++                                    this._clearAckTimer(), this._clearPingTimer(), this._clearIndicatedUserCheckInterval(), this._dropJsonClient(), "closed" !== this.state && (this.state = "closed", e || (e = {
+
+-                                                    s = i.retMsg,
+-                                                    u = new Error("Error response: retCode = ".concat(a, ", retMsg = ").concat(s));
++                                                    s = i.retMsg;
++                                                302 !== a && 303 !== a && 304 !== a || t.connectAsync();
++                                                var u = new Error("Error response: retCode = ".concat(a, ", retMsg = ").concat(s));
+
+
++                                key: "sendIndicatorAsync",
++                                value: function() {
++                                    var e = d(M.mark((function e(t) {
++                                        var n, r, i = this;
++                                        return M.wrap((function(e) {
++                                            for (;;) switch (e.prev = e.next) {
++                                                case 0:
++                                                    if (n = this._indicatorContext.previousText, this._indicatorContext.previousText = t.text, t.text) {
++                                                        e.next = 4;
++                                                        break
++                                                    }
++                                                    return e.abrupt("return");
++                                                case 4:
++                                                    if (!n) {
++                                                        e.next = 11;
++                                                        break
++                                                    }
++                                                    if (!this._indicatorContext.canSendIndicator) {
++                                                        e.next = 10;
++                                                        break
++                                                    }
++                                                    this._indicatorContext.canSendIndicator = !1, setTimeout((function() {
++                                                        i._indicatorContext.canSendIndicator = !0
++                                                    }), 5e3), e.next = 11;
++                                                    break;
++                                                case 10:
++                                                    return e.abrupt("return");
++                                                case 11:
++                                                    return r = {
++                                                        ver: this.ver,
++                                                        cmd: 3013,
++                                                        svcid: this.svcid,
++                                                        cid: this.cid,
++                                                        sid: this.sid,
++                                                        bdy: t
++                                                    }, e.next = 14, this.sendRequestAsync(r);
++                                                case 14:
++                                                case "end":
++                                                    return e.stop()
++                                            }
++                                        }), e, this)
++                                    })));
++
++                                    function t(t) {
++                                        return e.apply(this, arguments)
++                                    }
++                                    return t
++                                }()
++                            }, {
+
+-                                                if (e.emit("notiSend", t.bdy), "MEMBER" === e.channelType && t.bdy) {
++                                                if (e.emit("notiSend", t.bdy), e._removeIndicatedUser(t.bdy.uid), "MEMBER" === e.channelType && t.bdy) {
+
+
++                                            case 93013:
++                                                t.bdy.userId && e._addIndicatedUser(t.bdy.userId), e._indicatorContext.indicatedUserCheckInterval || (e._indicatorContext.indicatedUserCheckInterval = e._setIndicatedUserCheckInterval());
++                                                break;
+
+
++                            }, {
++                                key: "_addIndicatedUser",
++                                value: function(e) {
++                                    if (e !== this.userId) {
++                                        var t = Date.now() + 7e3;
++                                        this._existIndicatedUser(e) ? this._indicatorContext.indicatedUsers = this._indicatorContext.indicatedUsers.map((function(n) {
++                                            return n.userId === e && (n.expiredTime = t), n
++                                        })) : (this._indicatorContext.indicatedUsers.push({
++                                            userId: e,
++                                            expiredTime: t
++                                        }), this.emit("notiIndicator", this._indicatorContext.indicatedUsers.map((function(e) {
++                                            return e.userId
++                                        }))))
++                                    }
++                                }
++                            }, {
++                                key: "_removeIndicatedUser",
++                                value: function(e) {
++                                    e !== this.userId && this._existIndicatedUser(e) && (this._indicatorContext.indicatedUsers = this._indicatorContext.indicatedUsers.filter((function(t) {
++                                        return t.userId !== e
++                                    })), this.emit("notiIndicator", this._indicatorContext.indicatedUsers.map((function(e) {
++                                        return e.userId
++                                    }))))
++                                }
++                            }, {
++                                key: "_existIndicatedUser",
++                                value: function(e) {
++                                    return this._indicatorContext.indicatedUsers.some((function(t) {
++                                        return t.userId === e
++                                    }))
++                                }
++                            }, {
++                                key: "_setIndicatedUserCheckInterval",
++                                value: function() {
++                                    var e = this;
++                                    return setInterval((function() {
++                                        var t = Date.now();
++                                        e._indicatorContext.indicatedUsers.forEach((function(n) {
++                                            n.expiredTime < t && e._removeIndicatedUser(n.userId)
++                                        }))
++                                    }), 1e3)
++                                }
++                            }, {
++                                key: "_clearIndicatedUserCheckInterval",
++                                value: function() {
++                                    this._indicatorContext.indicatedUserCheckInterval && (clearInterval(this._indicatorContext.indicatedUserCheckInterval), this._indicatorContext = {
++                                        canSendIndicator: !0,
++                                        previousText: "",
++                                        indicatedUsers: [],
++                                        indicatedUserCheckInterval: null
++                                    })
++                                }
+
+-                            if (this.sdkVersion = "4.8.0-SNAPSHOT", this.svcid = t.svcid, this.channelType = t.channelType, this.env = t.env, this.uid = t.uid, this.selectPopHost = z(t.selectPopHost, "MEMBER" === this.channelType ? "hash" : "random"), this.numTries = z(t.numTries, 1), this.callTimeoutMillis = z(t.callTimeoutMillis, 1500), this.url = t.url, this.useDefaultFallback = z(t.useDefaultFallback, !0), this.useForceConnect = z(t.useForceConnect, !1), this.forceConnectSessionServerUrl = t.forceConnectSessionServerUrl, this._chatStorage = localStorage, n) this.logger = n;
++                            if (this.sdkVersion = "4.9.3", this.svcid = t.svcid, this.channelType = t.channelType, this.env = t.env, this.uid = t.uid, this.selectPopHost = z(t.selectPopHost, "MEMBER" === this.channelType ? "hash" : "random"), this.numTries = z(t.numTries, 1), this.callTimeoutMillis = z(t.callTimeoutMillis, 1500), this.url = t.url, this.useDefaultFallback = z(t.useDefaultFallback, !0), this.useForceConnect = z(t.useForceConnect, !1), this.forceConnectSessionServerUrl = t.forceConnectSessionServerUrl, this._chatStorage = localStorage, n) this.logger = n;
+
+-                                                                n = '{"sessionServerList":["kr-ss1.chat.naver.com","kr-ss2.chat.naver.com","kr-ss3.chat.naver.com","kr-ss4.chat.naver.com","kr-ss5.chat.naver.com","kr-ss6.chat.naver.com","kr-ss7.chat.naver.com","kr-ss8.chat.naver.com","kr-ss9.chat.naver.com","kr-ss10.chat.naver.com"],"proxyServerList":["kr-ss1.chat.naver.com","kr-ss2.chat.naver.com","kr-ss3.chat.naver.com","kr-ss4.chat.naver.com","kr-ss5.chat.naver.com","kr-ss6.chat.naver.com","kr-ss7.chat.naver.com","kr-ss8.chat.naver.com","kr-ss9.chat.naver.com","kr-ss10.chat.naver.com"],"expireTime":10800}'
++                                                                n = '{"sessionServerList":["kr-ss1.chat.naver.com","kr-ss2.chat.naver.com","kr-ss3.chat.naver.com","kr-ss4.chat.naver.com","kr-ss5.chat.naver.com"],"proxyServerList":["kr-ss1.chat.naver.com","kr-ss2.chat.naver.com","kr-ss3.chat.naver.com","kr-ss4.chat.naver.com","kr-ss5.chat.naver.com"],"expireTime":10800}'
+
+-                                                    }(), !(this.numTries > 0)) {
++                                                    }(this.svcid, this.env), !(this.numTries > 0)) {
+
+
++                                    case "alpha":
++                                        e = "wss://alpha-ss.chat.naver.com/chat";
++                                        break;
+
+-                        return zs() ? (n = "wss://dev-ss.chat.naver.com/chat", r = "dev") : Cs() && (n = "wss://stg-ss.chat.naver.com/chat", r = "stg"), {
++                        return zs() && (n = "wss://dev-ss.chat.naver.com/chat", r = "dev"), {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+5d389778 76a1d088 6dcdcdfa
-
--                        }), (0, ct.jsxs)(dn, {
--                            direction: "vertical",
--                            children: [(0, ct.jsx)(pn, {
--                                children: (0, ct.jsx)(fn, {
--                                    children: "댓글 사용 여부"
--                                })
--                            }), (0, ct.jsxs)(pn, {
--                                children: [(0, ct.jsx)(vn, {
--                                    children: (0, ct.jsx)(er, {
--                                        name: "useComment",
--                                        id: "use-comment",
--                                        checked: !0,
--                                        children: "사용"
--                                    })
--                                }), (0, ct.jsx)(vn, {
--                                    children: (0, ct.jsx)(er, {
--                                        name: "useComment",
--                                        id: "unused-comment",
--                                        checked: !1,
--                                        children: "미사용"
--                                    })
--                                })]
--                            })]
-
++5aac9487 76a1d088 6dcdcdfa
 
