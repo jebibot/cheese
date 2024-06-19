@@ -1,6 +1,3013 @@
+-.pzp-ui-setting-pane-item {
++.pzp-ui-setting-pane-header {
+
+
++  -ms-flex-pack: justify;
+
+
++  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
++  -webkit-box-sizing: border-box;
++  box-sizing: border-box;
+
+-  height: 42px;
++  font-family: Helvetica, sans-serif;
++  height: 48px;
++  justify-content: space-between;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++  position: relative;
++  width: 100%;
++}
++.pzp-ui-setting-pane-header:focus,
++.pzp-ui-setting-pane-header:hover {
++  background-color: hsla(0, 0%, 100%, 0.05);
++  outline: none;
++}
++.pzp-ui-setting-pane-header:active {
++  background-color: hsla(0, 0%, 100%, 0.1);
++}
++.pzp-ui-setting-pane-header:active .pzp-pc-ui-setting-pane__header-icon,
++.pzp-ui-setting-pane-header:focus .pzp-pc-ui-setting-pane__header-icon,
++.pzp-ui-setting-pane-header:hover .pzp-pc-ui-setting-pane__header-icon {
++  opacity: 0.8;
++}
++.pzp-ui-setting-pane-header:active .pzp-pc-ui-setting-pane__header-title,
++.pzp-ui-setting-pane-header:focus .pzp-pc-ui-setting-pane__header-title,
++.pzp-ui-setting-pane-header:hover .pzp-pc-ui-setting-pane__header-title {
++  color: hsla(0, 0%, 100%, 0.8);
++}
++.pzp-ui-setting-pane-header__icon {
++  display: inline;
++  height: 27px;
++  margin: 10px 4px 10px 10px;
++  width: 27px;
++}
++.pzp-ui-setting-pane-header__icon svg {
++  display: inline;
++}
++.pzp-ui-setting-pane-header__container {
++  -ms-flex-align: center;
++  align-items: center;
++  color: #fff;
++  color: hsla(0, 0%, 100%, 0.9);
++  display: -ms-flexbox;
++  display: flex;
++  font-size: 16px;
++  margin: 0;
++}
++.pzp-ui-setting-pane-header__container,
++.pzp-ui-setting-pane-header__option {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  padding: 0;
++}
++.pzp-ui-setting-pane-header__option {
++  color: #fff;
++  color: #888;
++  font-family: SFProDisplay;
++  font-size: 14px;
++  font-stretch: normal;
++  font-style: normal;
++  font-weight: 400;
++  letter-spacing: normal;
++  margin: 0 5px 0 0;
++}
++.pzp-ui-setting-pane-header__title {
++  font-size: 16px;
++  font-weight: 500;
++  padding: 0;
++}
++.pzp-ui-setting-pane-header__title,
++.pzp-ui-setting-pane-item {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
+
+-  list-style: none;
+
+
+
++}
++.pzp-ui-setting-pane-item {
++  -ms-flex-align: center;
++  align-items: center;
++  cursor: pointer;
++  display: -ms-flexbox;
++  display: flex;
++  height: 42px;
++  list-style: none;
+
+-.pzp-ui-setting-pane-header,
+
+
+-.pzp-ui-setting-pane-header {
+-  -ms-flex-pack: justify;
+-  -ms-flex-align: center;
+-  align-items: center;
+-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+-  -webkit-box-sizing: border-box;
+-  box-sizing: border-box;
+-  cursor: pointer;
+-  display: -ms-flexbox;
+-  display: flex;
+-  font-family: Helvetica, sans-serif;
+-  height: 48px;
+-  justify-content: space-between;
+-  position: relative;
+-  width: 100%;
+-}
+-.pzp-ui-setting-pane-header:focus,
+-.pzp-ui-setting-pane-header:hover {
+-  background-color: hsla(0, 0%, 100%, 0.05);
+-  outline: none;
+-}
+-.pzp-ui-setting-pane-header:active {
+-  background-color: hsla(0, 0%, 100%, 0.1);
+-}
+-.pzp-ui-setting-pane-header:active .pzp-pc-ui-setting-pane__header-icon,
+-.pzp-ui-setting-pane-header:focus .pzp-pc-ui-setting-pane__header-icon,
+-.pzp-ui-setting-pane-header:hover .pzp-pc-ui-setting-pane__header-icon {
+-  opacity: 0.8;
+-}
+-.pzp-ui-setting-pane-header:active .pzp-pc-ui-setting-pane__header-title,
+-.pzp-ui-setting-pane-header:focus .pzp-pc-ui-setting-pane__header-title,
+-.pzp-ui-setting-pane-header:hover .pzp-pc-ui-setting-pane__header-title {
+-  color: hsla(0, 0%, 100%, 0.8);
+-}
+-.pzp-ui-setting-pane-header__icon {
+-  display: inline;
+-  height: 27px;
+-  margin: 10px 4px 10px 10px;
+-  width: 27px;
+-}
+-.pzp-ui-setting-pane-header__icon svg {
+-  display: inline;
+-}
+-.pzp-ui-setting-pane-header__container {
+-  -ms-flex-align: center;
+-  align-items: center;
+-  color: #fff;
+-  color: hsla(0, 0%, 100%, 0.9);
+-  display: -ms-flexbox;
+-  display: flex;
+-  font-size: 16px;
+-  margin: 0;
+-}
+-.pzp-ui-setting-pane-header__container,
+-.pzp-ui-setting-pane-header__option {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  line-height: normal;
+-  padding: 0;
+-}
+-.pzp-ui-setting-pane-header__option {
+-  color: #fff;
+-  color: #888;
+-  font-family: SFProDisplay;
+-  font-size: 14px;
+-  font-stretch: normal;
+-  font-style: normal;
+-  font-weight: 400;
+-  letter-spacing: normal;
+-  margin: 0 5px 0 0;
+-}
+-.pzp-ui-setting-pane-header__title {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  color: #fff;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  font-size: 16px;
+-  font-weight: 500;
+-  line-height: normal;
+-  margin: 0;
+-  padding: 0;
+-}
+
+
+
++.pzp-pc-setting-fansubtitle-list {
++  overflow: auto;
++}
+
+
++  list-style: none;
++  margin: 0;
++  max-height: 310px;
++}
++.pzp-pc-setting-fansubtitle-list,
++.pzp-pc-setting-subtitle-list,
++.pzp-pc-ui-setting-subtitle-item__lang {
+
+-  list-style: none;
+-  margin: 0;
+-  max-height: 310px;
+
+
+-.pzp-pc-setting-fansubtitle-list {
+-  overflow: auto;
+-}
+
+
+-.pzp-pc-ui-setting-subtitle-item__author,
+-.pzp-pc-ui-setting-subtitle-item__lang {
++.pzp-pc-ui-setting-subtitle-item__author {
+
+-  padding: 0;
+-}
+-.pzp-pc-ui-setting-subtitle-item__author {
+
+
+
++  padding: 0;
+
+-}
+-.pzp-pc-ui-setting-pane-header__title,
+-.pzp-pc-ui-setting-playbackrate-item__value {
+
+
+-.pzp-pc-ui-setting-playbackrate-item__value,
+
+
+
++.pzp-pc-ui-setting-playbackrate-item__value {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++}
+
+-.pzp-pc-highlight-point {
+-  bottom: 0;
+-  position: absolute;
+-  top: 0;
+-}
+-.pzp-pc-highlight-point,
+-.pzp-pc-highlight-point__button {
++.pzp-pc-ui-recommend-card {
+
+
++  background-color: #212224;
++  border-radius: 5px;
++  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
++  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+
+
++  display: inline-block;
+
+
++  height: 100%;
+
+-  margin: 0;
+-  padding: 0;
+-  width: 4px;
+-}
+-.pzp-pc-highlight-point__button {
+-  background-color: #fff;
+-  display: block;
+-  height: 100%;
+-}
+-.pzp-pc-highlight-point--expanded,
+-.pzp-pc-highlight-point--expanded .pzp-pc-highlight-point__button {
+-  height: 6px;
+-}
+-.pzp-pc-highlight-point--expanded.pzp-pc-highlight-point--snapped
+-  .pzp-pc-highlight-point__button {
+-  -webkit-transform: scale(2, 1.3333333333);
+-  transform: scale(2, 1.3333333333);
+-  -webkit-transform-origin: center;
+-  transform-origin: center;
+-}
+-.pzp-pc-highlight-point--passed .pzp-pc-highlight-point__button {
+-  background-color: rgba(0, 0, 0, 0.5);
+-}
+-.pzp-pc-highlight-point__tooltip {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  -webkit-animation-delay: 1s;
+-  animation-delay: 1s;
+-  -webkit-animation-duration: 0.25s;
+-  animation-duration: 0.25s;
+-  -webkit-animation-fill-mode: forwards;
+-  animation-fill-mode: forwards;
+-  -webkit-animation-iteration-count: 1;
+-  animation-iteration-count: 1;
+-  -webkit-animation-timing-function: linear;
+-  animation-timing-function: linear;
+-  background-color: rgba(0, 248, 137, 0.7);
+-  border-radius: 13px;
+-  bottom: 25px;
+-  -webkit-box-sizing: border-box;
+-  box-sizing: border-box;
+-  color: #fff;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  font-family: Apple SD Gothic Neo;
+-  font-size: 12px;
+-  font-weight: 700;
+-  height: 25px;
+-  left: 50%;
+-  line-height: normal;
+-  line-height: 27px;
+-  margin: 0 0 0 -20px;
+-  min-width: 41px;
+-  padding: 0 10px;
+-  pointer-events: none;
+-  position: absolute;
+-  text-align: center;
+-  white-space: nowrap;
+-}
+-.pzp-pc-highlight-point__tooltip--hidden {
+-  display: none;
+-}
+-.pzp-pc-highlight-point__tooltip:after {
+-  border-color: #00f889 transparent transparent;
+-  border-style: solid;
+-  border-width: 6px 4px 0;
+-  bottom: -6px;
+-  content: "";
+-  left: 16px;
+-  opacity: 0.7;
+-  position: absolute;
+-}
+-.pzp-pc-highlight-point:hover .pzp-pc-highlight-point__button {
+-  background-color: #fff;
+-}
+-.pzp-pc-ui-recommend-card {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  background-color: #212224;
+-  border-radius: 5px;
+-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+-  color: #fff;
+-  display: inline-block;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  height: 100%;
+-  line-height: normal;
+-  margin: 0 6px;
+-  overflow: hidden;
++  margin: 0 6px;
++  overflow: hidden;
+
+
++.pzp-pc-highlight-point {
++  bottom: 0;
++  position: absolute;
++  top: 0;
++}
++.pzp-pc-highlight-point,
++.pzp-pc-highlight-point__button {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++  width: 4px;
++}
++.pzp-pc-highlight-point__button {
++  background-color: #fff;
++  display: block;
++  height: 100%;
++}
++.pzp-pc-highlight-point--expanded,
++.pzp-pc-highlight-point--expanded .pzp-pc-highlight-point__button {
++  height: 6px;
++}
++.pzp-pc-highlight-point--expanded.pzp-pc-highlight-point--snapped
++  .pzp-pc-highlight-point__button {
++  -webkit-transform: scale(2, 1.3333333333);
++  transform: scale(2, 1.3333333333);
++  -webkit-transform-origin: center;
++  transform-origin: center;
++}
++.pzp-pc-highlight-point--passed .pzp-pc-highlight-point__button {
++  background-color: rgba(0, 0, 0, 0.5);
++}
++.pzp-pc-highlight-point__tooltip {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  -webkit-animation-delay: 1s;
++  animation-delay: 1s;
++  -webkit-animation-duration: 0.25s;
++  animation-duration: 0.25s;
++  -webkit-animation-fill-mode: forwards;
++  animation-fill-mode: forwards;
++  -webkit-animation-iteration-count: 1;
++  animation-iteration-count: 1;
++  -webkit-animation-timing-function: linear;
++  animation-timing-function: linear;
++  background-color: rgba(0, 248, 137, 0.7);
++  border-radius: 13px;
++  bottom: 25px;
++  -webkit-box-sizing: border-box;
++  box-sizing: border-box;
++  color: #fff;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  font-family: Apple SD Gothic Neo;
++  font-size: 12px;
++  font-weight: 700;
++  height: 25px;
++  left: 50%;
++  line-height: normal;
++  line-height: 27px;
++  margin: 0 0 0 -20px;
++  min-width: 41px;
++  padding: 0 10px;
++  pointer-events: none;
++  position: absolute;
++  text-align: center;
++  white-space: nowrap;
++}
++.pzp-pc-highlight-point__tooltip--hidden {
++  display: none;
++}
++.pzp-pc-highlight-point__tooltip:after {
++  border-color: #00f889 transparent transparent;
++  border-style: solid;
++  border-width: 6px 4px 0;
++  bottom: -6px;
++  content: "";
++  left: 16px;
++  opacity: 0.7;
++  position: absolute;
++}
++.pzp-pc-highlight-point:hover .pzp-pc-highlight-point__button {
++  background-color: #fff;
++}
+
+
++.pzp-pc-channel-logo {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  display: inline-block;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++}
++.pzp-pc-channel-logo,
++.pzp-pc-channel-logo:hover {
++  text-decoration: none;
++}
++.pzp-pc-channel-logo__image {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  border: 0;
++  border-radius: 50%;
++  color: #fff;
++  display: block;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  height: 100%;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++  width: 100%;
++}
++.pzp-pc-channel-logo__icon {
++  bottom: -4px;
++  height: 19px;
++  position: absolute;
++  right: -4px;
++  width: 19px;
++}
++.pzp-pc-channel-logo__icon,
++.pzp-pc-subscribe-button {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  display: inline-block;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++}
+
+-  display: inline-block;
+
+
+-.pzp-pc-subscribe-button,
+
+
+-.pzp-pc-channel-logo {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  color: #fff;
+-  display: inline-block;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  line-height: normal;
+-  margin: 0;
+-  padding: 0;
+-}
+-.pzp-pc-channel-logo,
+-.pzp-pc-channel-logo:hover {
+-  text-decoration: none;
+-}
+-.pzp-pc-channel-logo__image {
+-  border: 0;
+-  border-radius: 50%;
+-  display: block;
+-  height: 100%;
+-  width: 100%;
+-}
+-.pzp-pc-channel-logo__icon,
+-.pzp-pc-channel-logo__image {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  color: #fff;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  line-height: normal;
+-  margin: 0;
+-  padding: 0;
+-}
+-.pzp-pc-channel-logo__icon {
+-  bottom: -4px;
+-  display: inline-block;
+-  height: 19px;
+-  position: absolute;
+-  right: -4px;
+-  width: 19px;
+-}
+
+
+
++.pzp-pc-viewmode-button__icon,
+
+-.pzp-pc-ui-top-shadow {
+-  background-image: -webkit-gradient(
+-    linear,
+-    left top,
+-    left bottom,
+-    from(transparent),
+-    to(rgba(0, 0, 0, 0.6))
+-  );
+-  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6));
+-  display: inline-block;
+-  pointer-events: none;
+-  -webkit-transform: rotate(-180deg);
+-  transform: rotate(-180deg);
+-  -webkit-user-select: none;
+-  -moz-user-select: none;
+-  -ms-user-select: none;
+-  user-select: none;
+-}
+-.pzp-pc-ui-top-shadow,
+-.pzp-pc-upnext-endscreen {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  color: #fff;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  line-height: normal;
+-  margin: 0;
+-  padding: 0;
+-  width: 100%;
+-}
+
+
+
++  width: 100%;
+
+
++.pzp-pc-upnext-endscreen,
+
+-  -webkit-appearance: none;
+-  -moz-appearance: none;
+-  appearance: none;
+-  background: transparent;
+-  border: 0;
+
+
+-  cursor: pointer;
+
+
+
++.pzp-pc-upnext-endscreen__cancel-button,
++.pzp-pc-upnext-endscreen__next-button {
++  -webkit-appearance: none;
++  -moz-appearance: none;
++  appearance: none;
++  background: transparent;
++  border: 0;
++  cursor: pointer;
++}
+
+-.pzp-pc-viewmode-button__icon {
+-  height: 36px;
+-  width: 36px;
++.pzp-pc-ui-top-shadow {
++  background-image: -webkit-gradient(
++    linear,
++    left top,
++    left bottom,
++    from(transparent),
++    to(rgba(0, 0, 0, 0.6))
++  );
++  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6));
++  display: inline-block;
++  padding: 0;
++  pointer-events: none;
++  -webkit-transform: rotate(-180deg);
++  transform: rotate(-180deg);
++  -webkit-user-select: none;
++  -moz-user-select: none;
++  -ms-user-select: none;
++  user-select: none;
++  width: 100%;
+
+-.pzp-pc-mute-indicator {
++.pzp-pc-mute-indicator,
++.pzp-pc-ui-top-shadow {
+
+-  background-color: rgba(25, 25, 28, 0.9);
+-  border-radius: 5px;
+-  -webkit-box-sizing: border-box;
+-  box-sizing: border-box;
+
+
+-  height: 40px;
+
+
+
++}
++.pzp-pc-mute-indicator {
++  background-color: rgba(25, 25, 28, 0.9);
++  border-radius: 5px;
++  -webkit-box-sizing: border-box;
++  box-sizing: border-box;
++  height: 40px;
+
+-.pzp-pc-setting-pane-header-optgroup-button {
+-  background: 0 0;
+-  border: 0;
+-  color: #888;
+-  font-size: 14px;
+-  height: auto;
+-  line-height: 28px;
+-  padding: 10px;
+-  text-indent: 0;
+-  width: auto;
+-}
+-.pzp-pc-setting-pane-header-optgroup-button:active,
+-.pzp-pc-setting-pane-header-optgroup-button:hover {
+-  opacity: 0.8;
+-}
+
+
+
++.pzp-pc-setting-pane-header-optgroup-button {
++  background: 0 0;
++  border: 0;
++  color: #888;
++  font-size: 14px;
++  height: auto;
++  line-height: 28px;
++  padding: 10px;
++  text-indent: 0;
++  width: auto;
++}
++.pzp-pc-setting-pane-header-optgroup-button:active,
++.pzp-pc-setting-pane-header-optgroup-button:hover {
++  opacity: 0.8;
++}
+
+-.pzp-pc-setting-playbackrate-pane,
+-.pzp-pc-setting-quality-pane__list-container {
++.pzp-pc-setting-quality-pane__list-container,
++.pzp-pc-settings {
+
+
++.pzp-pc-settings {
++  scrollbar-face-color: hsla(0, 0%, 100%, 0.1);
++  scrollbar-3dlight-color: transparent;
++  scrollbar-highlight-color: transparent;
++  scrollbar-track-color: rgba(25, 25, 28, 0.1);
++  scrollbar-arrow-color: transparent;
++  scrollbar-shadow-color: transparent;
++  scrollbar-dark-shadow-color: transparent;
++  background-color: rgba(25, 25, 28, 0.9);
++  border-radius: 5px;
++  display: inline-block;
++  max-height: 100%;
++  padding: 8px 0 !important;
++}
++.pzp-pc-settings::-webkit-scrollbar {
++  width: 14px;
++}
++.pzp-pc-settings::-webkit-scrollbar-thumb {
++  background-clip: padding-box;
++  background-color: hsla(0, 0%, 100%, 0.1);
++  border: 1px solid transparent;
++  border-width: 13px 5px;
++}
++.pzp-pc-settings::-webkit-scrollbar-track {
++  background-color: transparent;
++}
+
+
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
++  color: #fff;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
+
+-.pzp-pc-settings {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  scrollbar-face-color: hsla(0, 0%, 100%, 0.1);
+-  scrollbar-3dlight-color: transparent;
+-  scrollbar-highlight-color: transparent;
+-  scrollbar-track-color: rgba(25, 25, 28, 0.1);
+-  scrollbar-arrow-color: transparent;
+-  scrollbar-shadow-color: transparent;
+-  scrollbar-dark-shadow-color: transparent;
+-  background-color: rgba(25, 25, 28, 0.9);
+-  border-radius: 5px;
+-  color: #fff;
+-  display: inline-block;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  line-height: normal;
+-  margin: 0;
+-  max-height: 100%;
+-  padding: 0;
+-  padding: 8px 0 !important;
+-}
+-.pzp-pc-settings::-webkit-scrollbar {
+-  width: 14px;
++.pzp-pc-playback-switch__icon {
++  height: 40px;
++  width: 40px;
+
+-.pzp-pc-settings::-webkit-scrollbar-thumb {
+-  background-clip: padding-box;
+-  background-color: hsla(0, 0%, 100%, 0.1);
+-  border: 1px solid transparent;
+-  border-width: 13px 5px;
++.pzp-pc-playback-switch__pause-icon {
++  height: 42px;
++  width: 42px;
+
+-.pzp-pc-settings::-webkit-scrollbar-track {
+-  background-color: transparent;
++.pzp-pc--fullscreen .pzp-pc-playback-switch__icon {
++  height: inherit;
++  width: inherit;
+
+-.pzp-pc-progress-slider {
+-  -webkit-box-sizing: border-box;
+-  box-sizing: border-box;
+-}
+-.pzp-pc-recommend-endscreen {
+-  position: absolute;
++.pzp-pc-ui-playlist {
++  margin: 0;
+
+-.pzp-pc-recommend-endscreen,
+-.pzp-pc-recommend-endscreen__list {
++.pzp-pc-ui-playlist,
++.pzp-pc-ui-playlist__page {
+
+-  margin: 0;
+
+
+-.pzp-pc-recommend-endscreen__inner {
+-  -ms-flex-align: end;
+-  align-items: flex-end;
++.pzp-pc-ui-playlist__page {
++  display: inline-block;
++  margin: 0 0 182px;
++  width: 100%;
++}
++.pzp-pc-ui-playlist__page .pzp-pc-ui-recommend-card:first-child {
++  margin-left: 0;
++}
++.pzp-pc-ui-playlist__page .pzp-pc-ui-recommend-card:last-child {
++  margin-right: 0;
++}
++.pzp-pc-ui-playlist__item--hidden {
++  -webkit-box-shadow: none;
++  box-shadow: none;
++}
++.pzp-pc-ui-playlist__inner {
+
+-  padding: 0;
+
+
+-.pzp-pc-recommend-endscreen__inner,
+-.pzp-pc-recommend-endscreen__wrap {
++.pzp-pc-ui-playlist__inner,
++.pzp-pc-ui-playlist__wrap {
+
+
++  padding: 0;
+
+-.pzp-pc-recommend-endscreen__wrap {
++.pzp-pc-ui-playlist__wrap {
+
+-  padding: 0 20px;
+
+
+-.pzp-pc-recommend-endscreen__box {
++.pzp-pc-ui-playlist__box {
+
+-.pzp-pc-recommend-endscreen__slide {
++.pzp-pc-ui-playlist__slide {
+
+-  text-align: center;
+-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+-  transition: -webkit-transform 0.2s ease-in-out;
+-  transition: transform 0.2s ease-in-out;
+-  transition:
+-    transform 0.2s ease-in-out,
+-    -webkit-transform 0.2s ease-in-out;
+-  white-space: nowrap;
+
+
+-.pzp-pc-recommend-endscreen__next,
+-.pzp-pc-recommend-endscreen__prev,
+-.pzp-pc-recommend-endscreen__slide {
++.pzp-pc-ui-playlist__next,
++.pzp-pc-ui-playlist__prev,
++.pzp-pc-ui-playlist__slide {
+
+-.pzp-pc-recommend-endscreen__next,
+-.pzp-pc-recommend-endscreen__prev {
++.pzp-pc-ui-playlist__next,
++.pzp-pc-ui-playlist__prev {
++  -ms-flex-negative: 0;
++  -ms-flex-positive: 0;
++  -webkit-appearance: none;
++  -moz-appearance: none;
++  appearance: none;
++  background: transparent;
++  border: 0;
+
+
++  flex-grow: 0;
++  flex-shrink: 0;
+
+-.pzp-pc-recommend-endscreen__next:hover,
+-.pzp-pc-recommend-endscreen__prev:hover {
++.pzp-pc-ui-playlist__next:hover,
++.pzp-pc-ui-playlist__prev:hover {
+
+-.pzp-pc-recommend-endscreen__next:active,
+-.pzp-pc-recommend-endscreen__prev:active {
++.pzp-pc-ui-playlist__next:active,
++.pzp-pc-ui-playlist__prev:active {
+
+-.pzp-pc-recommend-endscreen__next[aria-disabled="true"],
+-.pzp-pc-recommend-endscreen__prev[aria-disabled="true"] {
++.pzp-pc-ui-playlist__next[disabled],
++.pzp-pc-ui-playlist__prev[disabled] {
+
+-.pzp-pc-recommend-endscreen__next[aria-disabled="true"]:active,
+-.pzp-pc-recommend-endscreen__next[aria-disabled="true"]:hover,
+-.pzp-pc-recommend-endscreen__prev[aria-disabled="true"]:active,
+-.pzp-pc-recommend-endscreen__prev[aria-disabled="true"]:hover {
++.pzp-pc-ui-playlist__next[disabled]:active,
++.pzp-pc-ui-playlist__next[disabled]:hover,
++.pzp-pc-ui-playlist__prev[disabled]:active,
++.pzp-pc-ui-playlist__prev[disabled]:hover {
+
+-.pzp-pc-recommend-endscreen__prev {
+-  margin-right: 24px;
++.pzp-pc-ui-playlist__next-btn-icon,
++.pzp-pc-ui-playlist__prev-btn-icon {
++  height: 39px;
++  width: 39px;
+
+-.pzp-pc-recommend-endscreen__next {
+-  margin-left: 24px;
++.pzp-pc-ui-playlist__prev {
++  margin-right: 30px;
+
+-.pzp-pc--size-m .pzp-pc-recommend-endscreen-inner,
+-.pzp-pc--size-medium .pzp-pc-recommend-endscreen-inner {
+-  padding-bottom: 65px;
++.pzp-pc-ui-playlist__next {
++  margin-left: 30px;
+
+-.pzp-pc--size-m .pzp-pc-recommend-endscreen-prev,
+-.pzp-pc--size-medium .pzp-pc-recommend-endscreen-prev {
++.pzp-pc--size-m .pzp-pc-ui-playlist__prev,
++.pzp-pc--size-medium .pzp-pc-ui-playlist__prev {
+
+-.pzp-pc--size-m .pzp-pc-recommend-endscreen-next,
+-.pzp-pc--size-medium .pzp-pc-recommend-endscreen-next {
++.pzp-pc--size-m .pzp-pc-ui-playlist__next,
++.pzp-pc--size-medium .pzp-pc-ui-playlist__next {
+
+-.pzp-pc--size-m .pzp-pc-recommend-endscreen__wrap,
+-.pzp-pc--size-medium .pzp-pc-recommend-endscreen__wrap {
+-  padding: 0 19px;
+-}
+-.pzp-pc--size-m .pzp-pc-recommend-endscreen__slide,
+-.pzp-pc--size-medium .pzp-pc-recommend-endscreen__slide {
++.pzp-pc--size-m .pzp-pc-ui-playlist__slide,
++.pzp-pc--size-medium .pzp-pc-ui-playlist__slide {
+
+-.pzp-pc--size-s .pzp-pc-recommend-endscreen,
+-.pzp-pc--size-small .pzp-pc-recommend-endscreen {
+-  display: none;
++.pzp-pc--size-m .pzp-pc-ui-playlist__page,
++.pzp-pc--size-medium .pzp-pc-ui-playlist__page {
++  margin-bottom: 126px;
+
+-.pzp-pc-ui-playlist {
+-  margin: 0;
++.pzp-pc-recommend-endscreen {
++  position: absolute;
+
+-.pzp-pc-ui-playlist,
+-.pzp-pc-ui-playlist__page {
++.pzp-pc-recommend-endscreen,
++.pzp-pc-recommend-endscreen__list {
+
+
++  margin: 0;
+
+-.pzp-pc-ui-playlist__page {
+-  display: inline-block;
+-  margin: 0 0 182px;
+-  width: 100%;
+-}
+-.pzp-pc-ui-playlist__page .pzp-pc-ui-recommend-card:first-child {
+-  margin-left: 0;
+-}
+-.pzp-pc-ui-playlist__page .pzp-pc-ui-recommend-card:last-child {
+-  margin-right: 0;
+-}
+-.pzp-pc-ui-playlist__item--hidden {
+-  -webkit-box-shadow: none;
+-  box-shadow: none;
+-}
+-.pzp-pc-ui-playlist__inner {
++.pzp-pc-recommend-endscreen__inner {
++  -ms-flex-align: end;
++  align-items: flex-end;
+
+
++  padding: 0;
+
+-.pzp-pc-ui-playlist__inner,
+-.pzp-pc-ui-playlist__wrap {
++.pzp-pc-recommend-endscreen__inner,
++.pzp-pc-recommend-endscreen__wrap {
+
+-  padding: 0;
+
+
+-.pzp-pc-ui-playlist__wrap {
++.pzp-pc-recommend-endscreen__wrap {
+
+
++  padding: 0 20px;
+
+-.pzp-pc-ui-playlist__box {
++.pzp-pc-recommend-endscreen__box {
+
+-.pzp-pc-ui-playlist__slide {
++.pzp-pc-recommend-endscreen__slide {
+
+
++  text-align: center;
++  -webkit-transition: -webkit-transform 0.2s ease-in-out;
++  transition: -webkit-transform 0.2s ease-in-out;
++  transition: transform 0.2s ease-in-out;
++  transition:
++    transform 0.2s ease-in-out,
++    -webkit-transform 0.2s ease-in-out;
++  white-space: nowrap;
+
+-.pzp-pc-ui-playlist__next,
+-.pzp-pc-ui-playlist__prev,
+-.pzp-pc-ui-playlist__slide {
++.pzp-pc-recommend-endscreen__next,
++.pzp-pc-recommend-endscreen__prev,
++.pzp-pc-recommend-endscreen__slide {
+
+-.pzp-pc-ui-playlist__next,
+-.pzp-pc-ui-playlist__prev {
+-  -ms-flex-negative: 0;
+-  -ms-flex-positive: 0;
+-  -webkit-appearance: none;
+-  -moz-appearance: none;
+-  appearance: none;
+-  background: transparent;
+-  border: 0;
++.pzp-pc-recommend-endscreen__next,
++.pzp-pc-recommend-endscreen__prev {
+
+-  flex-grow: 0;
+-  flex-shrink: 0;
+
+
+-.pzp-pc-ui-playlist__next:hover,
+-.pzp-pc-ui-playlist__prev:hover {
++.pzp-pc-recommend-endscreen__next:hover,
++.pzp-pc-recommend-endscreen__prev:hover {
+
+-.pzp-pc-ui-playlist__next:active,
+-.pzp-pc-ui-playlist__prev:active {
++.pzp-pc-recommend-endscreen__next:active,
++.pzp-pc-recommend-endscreen__prev:active {
+
+-.pzp-pc-ui-playlist__next[disabled],
+-.pzp-pc-ui-playlist__prev[disabled] {
++.pzp-pc-recommend-endscreen__next[aria-disabled="true"],
++.pzp-pc-recommend-endscreen__prev[aria-disabled="true"] {
+
+-.pzp-pc-ui-playlist__next[disabled]:active,
+-.pzp-pc-ui-playlist__next[disabled]:hover,
+-.pzp-pc-ui-playlist__prev[disabled]:active,
+-.pzp-pc-ui-playlist__prev[disabled]:hover {
++.pzp-pc-recommend-endscreen__next[aria-disabled="true"]:active,
++.pzp-pc-recommend-endscreen__next[aria-disabled="true"]:hover,
++.pzp-pc-recommend-endscreen__prev[aria-disabled="true"]:active,
++.pzp-pc-recommend-endscreen__prev[aria-disabled="true"]:hover {
+
+-.pzp-pc-ui-playlist__next-btn-icon,
+-.pzp-pc-ui-playlist__prev-btn-icon {
+-  height: 39px;
+-  width: 39px;
+-}
+-.pzp-pc-ui-playlist__prev {
+-  margin-right: 30px;
++.pzp-pc-recommend-endscreen__prev {
++  margin-right: 24px;
+
+-.pzp-pc-ui-playlist__next {
+-  margin-left: 30px;
++.pzp-pc-recommend-endscreen__next {
++  margin-left: 24px;
+
+-.pzp-pc--size-m .pzp-pc-ui-playlist__prev,
+-.pzp-pc--size-medium .pzp-pc-ui-playlist__prev {
++.pzp-pc--size-m .pzp-pc-recommend-endscreen-inner,
++.pzp-pc--size-medium .pzp-pc-recommend-endscreen-inner {
++  padding-bottom: 65px;
++}
++.pzp-pc--size-m .pzp-pc-recommend-endscreen-prev,
++.pzp-pc--size-medium .pzp-pc-recommend-endscreen-prev {
+
+-.pzp-pc--size-m .pzp-pc-ui-playlist__next,
+-.pzp-pc--size-medium .pzp-pc-ui-playlist__next {
++.pzp-pc--size-m .pzp-pc-recommend-endscreen-next,
++.pzp-pc--size-medium .pzp-pc-recommend-endscreen-next {
+
+-.pzp-pc--size-m .pzp-pc-ui-playlist__slide,
+-.pzp-pc--size-medium .pzp-pc-ui-playlist__slide {
+-  height: 126px;
+-}
+-.pzp-pc--size-m .pzp-pc-ui-playlist__page,
+-.pzp-pc--size-medium .pzp-pc-ui-playlist__page {
+-  margin-bottom: 126px;
++.pzp-pc--size-m .pzp-pc-recommend-endscreen__wrap,
++.pzp-pc--size-medium .pzp-pc-recommend-endscreen__wrap {
++  padding: 0 19px;
+
+-.pzp-pc-playback-switch__icon {
+-  height: 40px;
+-  width: 40px;
++.pzp-pc--size-m .pzp-pc-recommend-endscreen__slide,
++.pzp-pc--size-medium .pzp-pc-recommend-endscreen__slide {
++  height: 126px;
+
+-.pzp-pc-playback-switch__pause-icon {
+-  height: 42px;
+-  width: 42px;
++.pzp-pc--size-s .pzp-pc-recommend-endscreen,
++.pzp-pc--size-small .pzp-pc-recommend-endscreen {
++  display: none;
+
+-.pzp-pc--fullscreen .pzp-pc-playback-switch__icon {
+-  height: inherit;
+-  width: inherit;
++.pzp-pc-progress-slider {
++  -webkit-box-sizing: border-box;
++  box-sizing: border-box;
+
+-.pzp-pc-like-button {
+-  color: #fff;
+-}
+-.pzp-pc-like-button--checked svg {
+-  color: #ff5858;
+-  -webkit-transition: color 0.5s linear 0.5s;
+-  transition: color 0.5s linear 0.5s;
+-}
+-.pzp-pc-like-button__icon {
++.pzp-pc-later-button__icon {
+
+-.pzp-pc-like-button__progress-icon {
+-  -webkit-animation: pzp-pc-like-button__progress-icon--spin-animation 7s linear
+-    infinite;
+-  animation: pzp-pc-like-button__progress-icon--spin-animation 7s linear
++.pzp-pc-later-button__progress-icon {
++  -webkit-animation: pzp-pc-later-button__progress-icon--spin-animation 7s
++    linear infinite;
++  animation: pzp-pc-later-button__progress-icon--spin-animation 7s linear
+
+-@-webkit-keyframes pzp-pc-like-button__progress-icon--spin-animation {
++@-webkit-keyframes pzp-pc-later-button__progress-icon--spin-animation {
+
+-@keyframes pzp-pc-like-button__progress-icon--spin-animation {
++@keyframes pzp-pc-later-button__progress-icon--spin-animation {
+
+-.pzp-pc-later-button__icon {
++.pzp-pc-like-button {
++  color: #fff;
++}
++.pzp-pc-like-button--checked svg {
++  color: #ff5858;
++  -webkit-transition: color 0.5s linear 0.5s;
++  transition: color 0.5s linear 0.5s;
++}
++.pzp-pc-like-button__icon {
+
+-.pzp-pc-later-button__progress-icon {
+-  -webkit-animation: pzp-pc-later-button__progress-icon--spin-animation 7s
+-    linear infinite;
+-  animation: pzp-pc-later-button__progress-icon--spin-animation 7s linear
++.pzp-pc-like-button__progress-icon {
++  -webkit-animation: pzp-pc-like-button__progress-icon--spin-animation 7s linear
++    infinite;
++  animation: pzp-pc-like-button__progress-icon--spin-animation 7s linear
+
+-@-webkit-keyframes pzp-pc-later-button__progress-icon--spin-animation {
++@-webkit-keyframes pzp-pc-like-button__progress-icon--spin-animation {
+
+-@keyframes pzp-pc-later-button__progress-icon--spin-animation {
++@keyframes pzp-pc-like-button__progress-icon--spin-animation {
+
+-.pzp-pc-content-title {
+-  display: -ms-flexbox;
+-  display: flex;
+-  height: 28px;
+-}
+-.pzp-pc-content-title,
+-.pzp-pc-content-title__anchor {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  color: #fff;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  line-height: normal;
+-  margin: 0;
+-  padding: 0;
+-}
+-.pzp-pc-content-title__anchor {
+-  -ms-flex-align: center;
+-  align-items: center;
+-  display: block;
+-  font-family: SFProDisplay;
+-  font-size: 16px;
+-  font-stretch: normal;
+-  font-style: normal;
+-  height: 100%;
+-  letter-spacing: normal;
+-  line-height: 28px;
+-  overflow: hidden;
+-  text-overflow: ellipsis;
+-  white-space: nowrap;
+-}
+-.pzp-pc-content-title__anchor,
+-.pzp-pc-content-title__anchor:hover {
+-  text-decoration: none;
+-}
+-.pzp-pc-channel-name {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  color: #fff;
+-  display: inline;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  font-family: SFProDisplay;
+-  font-size: 13px;
+-  font-stretch: normal;
+-  font-style: normal;
+-  font-weight: 600;
+-  letter-spacing: normal;
+-  line-height: normal;
+-  margin: 0;
+-  padding: 0;
+-}
+-.pzp-pc-channel-name,
+-.pzp-pc-channel-name:hover {
+-  text-decoration: none;
+-}
+-.pzp-pc-channel-name:not(:last-child):after {
+-  background-color: #fff;
+-  content: "";
+-  display: inline-block;
+-  height: 11px;
+-  margin-left: 6px;
+-  margin-right: 4px;
+-  opacity: 0.3;
+-  width: 1px;
+-}
+
+
+
++.pzp-pc-content-title {
++  display: -ms-flexbox;
++  display: flex;
++  height: 28px;
++}
++.pzp-pc-content-title,
++.pzp-pc-content-title__anchor {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++}
++.pzp-pc-content-title__anchor {
++  -ms-flex-align: center;
++  align-items: center;
++  display: block;
++  font-family: SFProDisplay;
++  font-size: 16px;
++  font-stretch: normal;
++  font-style: normal;
++  height: 100%;
++  letter-spacing: normal;
++  line-height: 28px;
++  overflow: hidden;
++  text-overflow: ellipsis;
++  white-space: nowrap;
++}
++.pzp-pc-content-title__anchor,
++.pzp-pc-content-title__anchor:hover {
++  text-decoration: none;
++}
++.pzp-pc-channel-name {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  display: inline;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  font-family: SFProDisplay;
++  font-size: 13px;
++  font-stretch: normal;
++  font-style: normal;
++  font-weight: 600;
++  letter-spacing: normal;
++  line-height: normal;
++  margin: 0;
++  padding: 0;
++}
++.pzp-pc-channel-name,
++.pzp-pc-channel-name:hover {
++  text-decoration: none;
++}
++.pzp-pc-channel-name:not(:last-child):after {
++  background-color: #fff;
++  content: "";
++  display: inline-block;
++  height: 11px;
++  margin-left: 6px;
++  margin-right: 4px;
++  opacity: 0.3;
++  width: 1px;
++}
+
+
++.pzp-layout-scrollview {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  line-height: normal;
++  margin: 0;
++  overflow-x: auto;
++  overflow-y: hidden;
++  padding: 0;
++  white-space: nowrap;
++}
++.pzp-layout-scrollview::-webkit-scrollbar {
++  display: none;
++}
+
+-.pzp-layout-scrollview,
++.pzp-ui-live-badge,
+
+-.pzp-layout-scrollview {
+-  overflow-x: auto;
+-  overflow-y: hidden;
+-  white-space: nowrap;
+-}
+-.pzp-layout-scrollview::-webkit-scrollbar {
+-  display: none;
+-}
+
+
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
+-  color: #fff;
+
+
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+
+
+-  line-height: normal;
+-  margin: 0;
+
+
+-  padding: 0;
+
+
+-.pzp-pip-button__icon {
++.pzp-pip-button__icon,
++.pzp-ui-toolbar-expand-button__icon {
+
+-.pzp-ui-toolbar-close-button__icon,
+-.pzp-ui-toolbar-expand-button__icon {
++.pzp-ui-toolbar-close-button__icon {
+
+
++.pzp-setting-button__icon,
+
+-.pzp-setting-button__icon {
+-  display: inline-block;
+-}
+
+
+-.pzp-recomm-replay-button {
+-  width: 50px;
+-}
+-.pzp-recomm-replay-button__icon {
+-  height: 50px;
+-  width: 50px;
+-}
+-.pzp-recomm-replay-button__text {
+-  color: #fff;
+-  color: hsla(0, 0%, 100%, 0.8);
+-  display: block;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  font-family:
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  font-size: 13px;
+-  line-height: normal;
+-  line-height: 16px;
+-  margin: 7px -1px 0;
+-  text-align: center;
+-}
+-.pzp-recomm-list,
+-.pzp-recomm-replay-button__text {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  padding: 0;
+-}
+
+
+
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
++  padding: 0;
+
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
+-  padding: 0;
+
+
+
++.pzp-recomm-replay-button {
++  width: 50px;
++}
++.pzp-recomm-replay-button__icon {
++  height: 50px;
++  width: 50px;
++}
++.pzp-recomm-replay-button__text {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  color: hsla(0, 0%, 100%, 0.8);
++  display: block;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  font-family:
++    Apple SD Gothic Neo,
++    sans-serif;
++  font-size: 13px;
++  line-height: normal;
++  line-height: 16px;
++  margin: 7px -1px 0;
++  padding: 0;
++  text-align: center;
++}
+
+
++.pzp-next-button:active {
++  opacity: 0.7;
++}
++.pzp-next-button:disabled {
++  opacity: 0.3;
++}
+
+-.pzp-next-button:active {
+-  opacity: 0.7;
+-}
+-.pzp-next-button:disabled {
+-  opacity: 0.3;
+-}
+
+
+
++.pzp-brand-playback-button__icon {
++  display: inline-block;
++  height: inherit;
++  vertical-align: top;
++  width: inherit;
++}
+
+
++.pzp-content-channel-name {
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
++  color: #fff;
++  display: block;
++  font-family:
++    -apple-system,
++    BlinkMacSystemFont,
++    Helvetica,
++    Apple SD Gothic Neo,
++    sans-serif;
++  font-size: 12px;
++  line-height: normal;
++  line-height: 15px;
++  margin: 0 6px 0 0;
++  min-width: 15px;
++  opacity: 0.6;
++  overflow: hidden;
++  padding: 0;
++  text-overflow: ellipsis;
++  white-space: nowrap;
++}
++.pzp-content-channel-name,
++.pzp-content-channel-name:hover {
++  text-decoration: none;
++}
+
+-.pzp-content-channel-name {
++.pzp-app-link-button__icon {
++  display: inline-block;
++  height: 16px;
++  width: 31px;
++}
++.pzp-ad-break-indicator,
++.pzp-ad-break-indicator__text {
+
+-  display: block;
+
+
+-  font-size: 12px;
+
+
+-  line-height: 15px;
+-  margin: 0 6px 0 0;
+-  min-width: 15px;
+-  opacity: 0.6;
+-  overflow: hidden;
++  margin: 0;
+
+-  text-overflow: ellipsis;
+-  white-space: nowrap;
+
+
+-.pzp-content-channel-name,
+-.pzp-content-channel-name:hover {
+-  text-decoration: none;
++.pzp-ad-break-indicator__text {
++  -webkit-animation-duration: 1s;
++  animation-duration: 1s;
++  -webkit-animation-fill-mode: forwards;
++  animation-fill-mode: forwards;
++  -webkit-animation-name: pzp-anime__ad-break-indicator--fadein;
++  animation-name: pzp-anime__ad-break-indicator--fadein;
++  -webkit-animation-timing-function: linear;
++  animation-timing-function: linear;
++  color: hsla(0, 0%, 100%, 0.5);
++}
++@-webkit-keyframes pzp-anime__ad-break-indicator--fadein {
++  0% {
++    color: hsla(0, 0%, 100%, 0.5);
++  }
++  to {
++    color: #fff;
++  }
++}
++@keyframes pzp-anime__ad-break-indicator--fadein {
++  0% {
++    color: hsla(0, 0%, 100%, 0.5);
++  }
++  to {
++    color: #fff;
++  }
+
+-.pzp-brand-playback-button__icon {
+-  display: inline-block;
+-  height: inherit;
+-  vertical-align: top;
+-  width: inherit;
+-}
+-.pzp-app-link-button__icon {
+-  display: inline-block;
+-  height: 16px;
+-  width: 31px;
+-}
+
+
+-.pzp-ad-break-indicator,
+-.pzp-ad-break-indicator__text {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-  color: #fff;
+-  font-family:
+-    -apple-system,
+-    BlinkMacSystemFont,
+-    Helvetica,
+-    Apple SD Gothic Neo,
+-    sans-serif;
+-  line-height: normal;
+-  margin: 0;
+-  padding: 0;
+-}
+-.pzp-ad-break-indicator__text {
+-  -webkit-animation-duration: 1s;
+-  animation-duration: 1s;
+-  -webkit-animation-fill-mode: forwards;
+-  animation-fill-mode: forwards;
+-  -webkit-animation-name: pzp-anime__ad-break-indicator--fadein;
+-  animation-name: pzp-anime__ad-break-indicator--fadein;
+-  -webkit-animation-timing-function: linear;
+-  animation-timing-function: linear;
+-  color: hsla(0, 0%, 100%, 0.5);
+-}
+-@-webkit-keyframes pzp-anime__ad-break-indicator--fadein {
+-  0% {
+-    color: hsla(0, 0%, 100%, 0.5);
+-  }
+-  to {
+-    color: #fff;
+-  }
+-}
+-@keyframes pzp-anime__ad-break-indicator--fadein {
+-  0% {
+-    color: hsla(0, 0%, 100%, 0.5);
+-  }
+-  to {
+-    color: #fff;
+-  }
+-}
+
+
+-.pzp-mobile-bottom {
+-  -ms-flex-pack: end;
+-  -ms-flex-align: center;
+-  align-items: center;
+-  display: -ms-flexbox;
+-  display: flex;
+-  justify-content: flex-end;
+-}
+
+
+
++.pzp-mobile-bottom {
++  -ms-flex-pack: end;
++  -ms-flex-align: center;
++  align-items: center;
++  display: -ms-flexbox;
++  display: flex;
++  justify-content: flex-end;
++}
+
+-                            5488: function(e, t, n) {
++                            35115: function(e, t, n) {
+
+-                                    o = n(9975),
++                                    o = n(73538),
+
+-                                    L = n(88762),
+-                                    R = n(70064),
+-                                    I = n(53608),
+-                                    D = n(64429),
+-                                    N = n(27284),
+-                                    P = n(5488),
++                                    L = n(60359),
++                                    R = n(84921),
++                                    I = n(69678),
++                                    D = n(7842),
++                                    N = n(65737),
++                                    P = n(35115),
+
+-                                    j = n(9975),
++                                    j = n(73538),
+
+-                                    Z = n(52190),
+-                                    H = n(25194),
++                                    Z = n(26064),
++                                    H = n(8793),
+
+-                            6110: function(e, t, n) {
++                            79776: function(e, t, n) {
+
+-                                var r = n(65944),
+-                                    i = n(5488),
+-                                    o = n(70064),
+-                                    a = n(45423),
+-                                    s = n(95047),
+-                                    u = n(25194),
++                                var r = n(20092),
++                                    i = n(35115),
++                                    o = n(84921),
++                                    a = n(54742),
++                                    s = n(25278),
++                                    u = n(8793),
+
+-                            918: function(e, t, n) {
++                            8322: function(e, t, n) {
+
+-                            15230: function(e, t, n) {
++                            4432: function(e, t, n) {
+
+-                                    d = n(918),
+-                                    p = n(83173),
+-                                    f = n(19566),
+-                                    h = n(67880),
+-                                    v = n(95047),
++                                    d = n(8322),
++                                    p = n(35125),
++                                    f = n(49892),
++                                    h = n(29899),
++                                    v = n(25278),
+
+-                            25194: function(e, t, n) {
++                            8793: function(e, t, n) {
+
+-                                    c = n(918),
+-                                    l = n(83173),
+-                                    d = n(19566),
+-                                    p = n(67880),
++                                    c = n(8322),
++                                    l = n(35125),
++                                    d = n(49892),
++                                    p = n(29899),
+
+-                                var a = n(8149),
+-                                    s = n(86977),
+-                                    u = n(52659),
++                                var a = n(41120),
++                                    s = n(69162),
++                                    u = n(84522),
+
+-                                    _ = n(79962),
+-                                    M = n(96617),
+-                                    A = n(77116),
+-                                    x = n(40609),
+-                                    O = n(51561),
+-                                    w = n(45180),
+-                                    E = n(89287),
+-                                    k = n(43961);
++                                    _ = n(66436),
++                                    M = n(6871),
++                                    A = n(26025),
++                                    x = n(33078),
++                                    O = n(39605),
++                                    w = n(7103),
++                                    E = n(13686),
++                                    k = n(30800);
+
+-                                    b = n(83722),
+-                                    y = n(8149),
+-                                    g = n(52659),
+-                                    _ = n(51561),
+-                                    M = n(89287),
+-                                    A = n(43961);
++                                    b = n(51464),
++                                    y = n(41120),
++                                    g = n(84522),
++                                    _ = n(39605),
++                                    M = n(13686),
++                                    A = n(30800);
+
+-                            8149: function(e, t, n) {
++                            41120: function(e, t, n) {
+
+-                            96617: function(e, t, n) {
++                            6871: function(e, t, n) {
+
+-                            45180: function(e, t, n) {
++                            7103: function(e, t, n) {
+
+-                            60213: function(e, t, n) {
++                            7392: function(e, t, n) {
+
+-                            53128: function(e, t, n) {
++                            5102: function(e, t, n) {
+
+-                                    V = n(78213),
+-                                    Z = n(9779),
+-                                    H = n(49861),
+-                                    G = n(59660),
+-                                    X = n(69497),
+-                                    K = n(66046),
+-                                    $ = n(26417),
+-                                    Y = n(98496),
+-                                    Q = n(85519),
+-                                    J = n(81501),
+-                                    ee = n(46869),
+-                                    te = n(28964),
++                                    V = n(91507),
++                                    Z = n(19280),
++                                    H = n(99550),
++                                    G = n(54423),
++                                    X = n(2359),
++                                    K = n(30872),
++                                    $ = n(77021),
++                                    Y = n(39939),
++                                    Q = n(88395),
++                                    J = n(94630),
++                                    ee = n(41039),
++                                    te = n(19031),
+
+-                                    Ue = n(34454),
++                                    Ue = n(1017),
+
+-                            34454: function(e, t, n) {
++                            1017: function(e, t, n) {
+
+-                                    h = n(41699),
+-                                    v = n(66046),
++                                    h = n(1007),
++                                    v = n(30872),
+
+-                            4950: function(e, t, n) {
++                            47188: function(e, t, n) {
+
+-                                (r = (0, n(36346).Z)().TextDecoder) || (r = function() {
++                                (r = (0, n(1641).Z)().TextDecoder) || (r = function() {
+
+-                            9975: function(e, t, n) {
++                            73538: function(e, t, n) {
+
+-                                (r = (0, n(36346).Z)().TextEncoder) || (r = function() {
++                                (r = (0, n(1641).Z)().TextEncoder) || (r = function() {
+
+-                            64429: function(e, t, n) {
++                            7842: function(e, t, n) {
+
+-                            36346: function(e, t, n) {
++                            1641: function(e, t, n) {
+
+-                            69497: function(e, t) {
++                            2359: function(e, t) {
+
+-                            41699: function(e, t, n) {
++                            1007: function(e, t, n) {
+
+-                                    de = n(19950),
+-                                    pe = n(85519),
+-                                    fe = n(40124),
+-                                    he = n(70719),
+-                                    ve = n(81501),
+-                                    me = n(34454),
+-                                    be = n(99650);
++                                    de = n(81492),
++                                    pe = n(88395),
++                                    fe = n(91991),
++                                    he = n(17522),
++                                    ve = n(94630),
++                                    me = n(1017),
++                                    be = n(22758);
+
+-                                    ze = n(74739),
+-                                    Ce = n(5254),
+-                                    Le = n(53608),
+-                                    Re = n(64260),
++                                    ze = n(44921),
++                                    Ce = n(74104),
++                                    Le = n(69678),
++                                    Re = n(26890),
+
+-                                    st = n(979),
++                                    st = n(47073),
+
+-                                var mt, bt = n(6971),
+-                                    yt = n(2336),
+-                                    gt = n(83445),
+-                                    _t = n(28626),
++                                var mt, bt = n(88267),
++                                    yt = n(2476),
++                                    gt = n(53301),
++                                    _t = n(74652),
+
+-                                var St = n(9779);
++                                var St = n(19280);
+
+-                            5254: function(e, t, n) {
++                            74104: function(e, t, n) {
+
+-                            7924: function(e, t, n) {
++                            66661: function(e, t, n) {
+
+-                                    o = n(90848),
+-                                    a = n(41699),
++                                    o = n(62806),
++                                    a = n(1007),
+
+-                                var l = n(55699),
+-                                    d = n(51649),
+-                                    p = n(21530),
+-                                    f = n(63673),
+-                                    h = n(65513),
+-                                    v = n(6110),
+-                                    m = n(26634);
++                                var l = n(60124),
++                                    d = n(70357),
++                                    p = n(39289),
++                                    f = n(66945),
++                                    h = n(20920),
++                                    v = n(79776),
++                                    m = n(26590);
+
+-                                    v = n(979),
+-                                    m = n(16235),
++                                    v = n(47073),
++                                    m = n(77426),
+
+-                                    y = n(88762),
+-                                    g = n(53608),
+-                                    _ = n(27284),
+-                                    M = n(9975),
++                                    y = n(60359),
++                                    g = n(69678),
++                                    _ = n(65737),
++                                    M = n(73538),
+
+-                                    Mo = n(69497),
++                                    Mo = n(2359),
+
+-                                    Bo = n(53608),
+-                                    Wo = n(9779),
++                                    Bo = n(69678),
++                                    Wo = n(19280),
+
+-                                var ea = n(53128),
++                                var ea = n(5102),
+
+
++                                                    if (e.details === _o.Hls.ErrorDetails.MANIFEST_LOAD_ERROR || e.details === _o.Hls.ErrorDetails.MANIFEST_LOAD_TIMEOUT) return t._hls.stopLoad(), void t._loadSource();
+
+-                                    Ds = n(60213),
++                                    Ds = n(7392),
+
+-                                    nu = n(93653),
+-                                    ru = n(87528),
+-                                    iu = n(83538),
+-                                    ou = n(23603),
+-                                    au = n(14259),
+-                                    su = n(40609),
+-                                    uu = n(45180),
++                                    nu = n(65849),
++                                    ru = n(87560),
++                                    iu = n(90612),
++                                    ou = n(82248),
++                                    au = n(94780),
++                                    su = n(33078),
++                                    uu = n(7103),
+
+-                                    bu = n(19436),
+-                                    yu = n(86977),
+-                                    gu = n(79962),
+-                                    _u = n(96617),
+-                                    Mu = n(77116),
++                                    bu = n(29779),
++                                    yu = n(69162),
++                                    gu = n(66436),
++                                    _u = n(6871),
++                                    Mu = n(26025),
+
+-                                var kc = n(5254),
+-                                    Sc = n(64260),
+-                                    Tc = n(74739),
++                                var kc = n(74104),
++                                    Sc = n(26890),
++                                    Tc = n(44921),
+
+-                            979: function(e, t, n) {
++                            47073: function(e, t, n) {
+
+-                            38214: function(e, t, n) {
++                            6146: function(e, t, n) {
+
+-                                var Te = n(15230),
+-                                    ze = n(52190),
+-                                    Ce = n(19950),
+-                                    Le = n(82730),
+-                                    Re = n(26417),
+-                                    Ie = n(71408),
+-                                    De = n(70719),
+-                                    Ne = n(90848),
+-                                    Pe = n(10056),
+-                                    qe = n(52377),
+-                                    Fe = n(53472),
+-                                    Be = n(59660),
+-                                    We = n(81327),
+-                                    je = n(88881),
+-                                    Ue = n(69467),
+-                                    Ve = n(9975),
+-                                    Ze = n(53608),
+-                                    He = n(75622),
+-                                    Ge = n(99650),
+-                                    Xe = n(37104),
+-                                    Ke = n(27284);
++                                var Te = n(4432),
++                                    ze = n(26064),
++                                    Ce = n(81492),
++                                    Le = n(61860),
++                                    Re = n(77021),
++                                    Ie = n(63397),
++                                    De = n(17522),
++                                    Ne = n(62806),
++                                    Pe = n(57568),
++                                    qe = n(40050),
++                                    Fe = n(45357),
++                                    Be = n(54423),
++                                    We = n(26840),
++                                    je = n(39663),
++                                    Ue = n(48152),
++                                    Ve = n(73538),
++                                    Ze = n(69678),
++                                    He = n(19471),
++                                    Ge = n(22758),
++                                    Xe = n(12914),
++                                    Ke = n(65737);
+
+-                                var Ye, Qe = n(98678),
+-                                    Je = n(38214),
+-                                    et = n(50133),
+-                                    tt = n(28999),
+-                                    nt = n(96162),
+-                                    rt = n(23300);
++                                var Ye, Qe = n(35247),
++                                    Je = n(6146),
++                                    et = n(1558),
++                                    tt = n(31303),
++                                    nt = n(99584),
++                                    rt = n(86086);
+
+-                                    Yt = n(92406),
+-                                    Qt = n(4950);
++                                    Yt = n(58220),
++                                    Qt = n(47188);
+
+-                                    on = n(7254),
+-                                    an = n(64004),
++                                    on = n(53384),
++                                    an = n(86467),
+
+-                                    ar = n(35819),
+-                                    sr = n(23603),
+-                                    ur = n(53128),
+-                                    cr = n(89039),
+-                                    lr = n(68151);
++                                    ar = n(36057),
++                                    sr = n(82248),
++                                    ur = n(5102),
++                                    cr = n(9038),
++                                    lr = n(47233);
+
+-                                    Or = n(66536),
++                                    Or = n(9450),
+
+-                                var r = n(83445),
+-                                    i = n(50361),
+-                                    o = n(7254),
+-                                    a = n(66536),
+-                                    s = n(25453)
++                                var r = n(53301),
++                                    i = n(14042),
++                                    o = n(53384),
++                                    a = n(9450),
++                                    s = n(42559)
+
+-                            7254: function(e, t, n) {
++                            53384: function(e, t, n) {
+
+-                            66536: function(e, t, n) {
++                            9450: function(e, t, n) {
+
+-                            6971: function(e, t, n) {
++                            88267: function(e, t, n) {
+
+-                                    Oe = n(61658),
+-                                    we = n(65944),
+-                                    Ee = n(74789),
+-                                    ke = n(15230),
+-                                    Se = n(52190),
+-                                    Te = n(19950),
+-                                    ze = n(60213),
+-                                    Ce = n(26477),
+-                                    Le = n(71408),
+-                                    Re = n(70719),
+-                                    Ie = n(93653),
+-                                    De = n(90848),
+-                                    Ne = n(10056),
++                                    Oe = n(81074),
++                                    we = n(20092),
++                                    Ee = n(63167),
++                                    ke = n(4432),
++                                    Se = n(26064),
++                                    Te = n(81492),
++                                    ze = n(7392),
++                                    Ce = n(22543),
++                                    Le = n(63397),
++                                    Re = n(17522),
++                                    Ie = n(65849),
++                                    De = n(62806),
++                                    Ne = n(57568),
+
+-                                    Fe = n(61677),
+-                                    Be = n(69467),
+-                                    We = n(9975),
+-                                    je = n(53608),
+-                                    Ue = n(89500),
+-                                    Ve = n(12169),
+-                                    Ze = n(99650),
+-                                    He = n(37104),
+-                                    Ge = n(98678),
++                                    Fe = n(81373),
++                                    Be = n(48152),
++                                    We = n(73538),
++                                    je = n(69678),
++                                    Ue = n(19234),
++                                    Ve = n(71968),
++                                    Ze = n(22758),
++                                    He = n(12914),
++                                    Ge = n(35247),
+
+-                                    Ke = n(38214),
+-                                    $e = n(53887),
++                                    Ke = n(6146),
++                                    $e = n(95558),
+
+-                                var nt = n(70243),
+-                                    rt = n(11871),
+-                                    it = n(78540),
+-                                    ot = n(36116),
+-                                    at = n(50133),
+-                                    st = n(89039);
++                                var nt = n(31075),
++                                    rt = n(16379),
++                                    it = n(73680),
++                                    ot = n(49676),
++                                    at = n(1558),
++                                    st = n(9038);
+
+-                                var ct = n(56117),
+-                                    lt = n(17782),
+-                                    dt = n(45173),
+-                                    pt = n(2197),
+-                                    ft = n(79433),
+-                                    ht = n(68447);
++                                var ct = n(63357),
++                                    lt = n(20629),
++                                    dt = n(70177),
++                                    pt = n(92997),
++                                    ft = n(17516),
++                                    ht = n(67871);
+
+-                                var u = n(64429),
++                                var u = n(7842),
+
+-                            50133: function(e, t, n) {
++                            1558: function(e, t, n) {
+
+-                                var u = n(69497),
+-                                    c = n(61114),
+-                                    l = n(46647),
++                                var u = n(2359),
++                                    c = n(41422),
++                                    l = n(28377),
+
+-                            89039: function(e, t, n) {
++                            9038: function(e, t, n) {
+
+-                                var r = n(6971)
++                                var r = n(88267)
+
+-                            2197: function(e, t, n) {
++                            92997: function(e, t, n) {
+
+-                                    Ke = n(52190),
+-                                    $e = n(65944),
+-                                    Ye = n(15230),
+-                                    Qe = n(23603),
+-                                    Je = n(14259),
+-                                    et = n(42994),
+-                                    tt = n(52659),
+-                                    nt = n(96617),
+-                                    rt = n(40609),
+-                                    it = n(45180);
++                                    Ke = n(26064),
++                                    $e = n(20092),
++                                    Ye = n(4432),
++                                    Qe = n(82248),
++                                    Je = n(94780),
++                                    et = n(45540),
++                                    tt = n(84522),
++                                    nt = n(6871),
++                                    rt = n(33078),
++                                    it = n(7103);
+
+-                                    pt = n(19950),
+-                                    ft = n(19626),
+-                                    ht = n(60213),
+-                                    vt = n(26477),
+-                                    mt = n(71408),
+-                                    bt = n(90848),
+-                                    yt = n(10056),
+-                                    gt = n(83762),
+-                                    _t = n(52377),
+-                                    Mt = n(53472),
+-                                    At = n(11534),
+-                                    xt = n(59660),
+-                                    Ot = n(41699),
+-                                    wt = n(88881),
+-                                    Et = n(69467),
+-                                    kt = n(16164),
+-                                    St = n(53608),
+-                                    Tt = n(89500),
+-                                    zt = n(99650),
+-                                    Ct = n(37104),
+-                                    Lt = n(10540),
+-                                    Rt = n(38214),
+-                                    It = n(70243),
+-                                    Dt = n(36116),
+-                                    Nt = n(50133),
+-                                    Pt = n(89039),
+-                                    qt = n(56117),
+-                                    Ft = n(17782),
+-                                    Bt = n(45173);
++                                    pt = n(81492),
++                                    ft = n(71626),
++                                    ht = n(7392),
++                                    vt = n(22543),
++                                    mt = n(63397),
++                                    bt = n(62806),
++                                    yt = n(57568),
++                                    gt = n(78469),
++                                    _t = n(40050),
++                                    Mt = n(45357),
++                                    At = n(52582),
++                                    xt = n(54423),
++                                    Ot = n(1007),
++                                    wt = n(39663),
++                                    Et = n(48152),
++                                    kt = n(48870),
++                                    St = n(69678),
++                                    Tt = n(19234),
++                                    zt = n(22758),
++                                    Ct = n(12914),
++                                    Lt = n(59945),
++                                    Rt = n(6146),
++                                    It = n(31075),
++                                    Dt = n(49676),
++                                    Nt = n(1558),
++                                    Pt = n(9038),
++                                    qt = n(63357),
++                                    Ft = n(20629),
++                                    Bt = n(70177);
+
+-                                var jt = n(2197),
+-                                    Ut = n(79433),
+-                                    Vt = n(68447),
+-                                    Zt = n(23300),
+-                                    Ht = n(82711),
+-                                    Gt = n(78540);
++                                var jt = n(92997),
++                                    Ut = n(17516),
++                                    Vt = n(67871),
++                                    Zt = n(86086),
++                                    Ht = n(70049),
++                                    Gt = n(73680);
+
+-                                var Kt = n(4950);
++                                var Kt = n(47188);
+
+-                            9779: function(e, t, n) {
++                            19280: function(e, t, n) {
+
+-                                r.__exportStar(n(32785), t), r.__exportStar(n(7924), t), r.__exportStar(n(15134), t), r.__exportStar(n(70392), t)
++                                r.__exportStar(n(82602), t), r.__exportStar(n(66661), t), r.__exportStar(n(15134), t), r.__exportStar(n(70392), t)
+
+-                                        var S, T, z, C, L, R, I, D, N, P, q, F, B, W, j, U, V;
++                                        var S, T, z, C, L, R, I, D, N, P, q, F, B, W, j, U, V, Z;
+
+-                                                    else e.commit("setResponsiveWidth", U), e.commit("setResponsiveHeight", V);
+-                                                    return e.commit("setSelectedVideoTrackIndex", null === (w = t.videoTracks) || void 0 === w ? void 0 : w.selectedIndex), P = t.adsController.srcObject ? t.adsController.pictureInPictureSupported : document.pictureInPictureEnabled, e.commit("setPictureInPictureSupported", P), [3, 22];
++                                                    else e.commit("setResponsiveWidth", V), e.commit("setResponsiveHeight", Z);
++                                                    return e.commit("setSelectedVideoTrackIndex", null === (w = t.videoTracks) || void 0 === w ? void 0 : w.selectedIndex), P = function() {
++                                                        var e = t.adsController._client;
++                                                        return !!e && !!e._videoAdScheduleMgr
++                                                    }, q = t.adsController.srcObject && P() ? t.adsController.pictureInPictureSupported : document.pictureInPictureEnabled, e.commit("setPictureInPictureSupported", q), [3, 22];
+
+-                                n(8921);
++                                n(28964);
+
+-                            8921: function(e, t, n) {
++                            28964: function(e, t, n) {
+
+-                            5488: function(e, t, n) {
++                            35115: function(e, t, n) {
+
+-                                    o = n(9975),
++                                    o = n(73538),
+
+-                                    L = n(88762),
+-                                    R = n(70064),
+-                                    I = n(53608),
+-                                    D = n(64429),
+-                                    N = n(27284),
+-                                    P = n(5488),
++                                    L = n(60359),
++                                    R = n(84921),
++                                    I = n(69678),
++                                    D = n(7842),
++                                    N = n(65737),
++                                    P = n(35115),
+
+-                                    j = n(9975),
++                                    j = n(73538),
+
+-                                    Z = n(52190),
+-                                    H = n(25194),
++                                    Z = n(26064),
++                                    H = n(8793),
+
+-                            6110: function(e, t, n) {
++                            79776: function(e, t, n) {
+
+-                                var r = n(65944),
+-                                    i = n(5488),
+-                                    o = n(70064),
+-                                    a = n(45423),
+-                                    s = n(95047),
+-                                    u = n(25194),
++                                var r = n(20092),
++                                    i = n(35115),
++                                    o = n(84921),
++                                    a = n(54742),
++                                    s = n(25278),
++                                    u = n(8793),
+
+-                            918: function(e, t, n) {
++                            8322: function(e, t, n) {
+
+-                            15230: function(e, t, n) {
++                            4432: function(e, t, n) {
+
+-                                    d = n(918),
+-                                    p = n(83173),
+-                                    f = n(19566),
+-                                    h = n(67880),
+-                                    v = n(95047),
++                                    d = n(8322),
++                                    p = n(35125),
++                                    f = n(49892),
++                                    h = n(29899),
++                                    v = n(25278),
+
+-                            25194: function(e, t, n) {
++                            8793: function(e, t, n) {
+
+-                                    c = n(918),
+-                                    l = n(83173),
+-                                    d = n(19566),
+-                                    p = n(67880),
++                                    c = n(8322),
++                                    l = n(35125),
++                                    d = n(49892),
++                                    p = n(29899),
+
+-                                var a = n(8149),
+-                                    s = n(86977),
+-                                    u = n(52659),
++                                var a = n(41120),
++                                    s = n(69162),
++                                    u = n(84522),
+
+-                                    _ = n(79962),
+-                                    M = n(96617),
+-                                    A = n(77116),
+-                                    x = n(40609),
+-                                    O = n(51561),
+-                                    w = n(45180),
+-                                    E = n(89287),
+-                                    k = n(43961);
++                                    _ = n(66436),
++                                    M = n(6871),
++                                    A = n(26025),
++                                    x = n(33078),
++                                    O = n(39605),
++                                    w = n(7103),
++                                    E = n(13686),
++                                    k = n(30800);
+
+-                                    b = n(83722),
+-                                    y = n(8149),
+-                                    g = n(52659),
+-                                    _ = n(51561),
+-                                    M = n(89287),
+-                                    A = n(43961);
++                                    b = n(51464),
++                                    y = n(41120),
++                                    g = n(84522),
++                                    _ = n(39605),
++                                    M = n(13686),
++                                    A = n(30800);
+
+-                            8149: function(e, t, n) {
++                            41120: function(e, t, n) {
+
+-                            96617: function(e, t, n) {
++                            6871: function(e, t, n) {
+
+-                            45180: function(e, t, n) {
++                            7103: function(e, t, n) {
+
+-                            60213: function(e, t, n) {
++                            7392: function(e, t, n) {
+
+-                            53128: function(e, t, n) {
++                            5102: function(e, t, n) {
+
+-                                    V = n(78213),
+-                                    Z = n(9779),
+-                                    H = n(49861),
+-                                    G = n(59660),
+-                                    X = n(69497),
+-                                    K = n(66046),
+-                                    $ = n(26417),
+-                                    Y = n(98496),
+-                                    Q = n(85519),
+-                                    J = n(81501),
+-                                    ee = n(46869),
+-                                    te = n(28964),
++                                    V = n(91507),
++                                    Z = n(19280),
++                                    H = n(99550),
++                                    G = n(54423),
++                                    X = n(2359),
++                                    K = n(30872),
++                                    $ = n(77021),
++                                    Y = n(39939),
++                                    Q = n(88395),
++                                    J = n(94630),
++                                    ee = n(41039),
++                                    te = n(19031),
+
+-                                    Ue = n(34454),
++                                    Ue = n(1017),
+
+-                            34454: function(e, t, n) {
++                            1017: function(e, t, n) {
+
+-                                    h = n(41699),
+-                                    v = n(66046),
++                                    h = n(1007),
++                                    v = n(30872),
+
+-                            4950: function(e, t, n) {
++                            47188: function(e, t, n) {
+
+-                                (r = (0, n(36346).Z)().TextDecoder) || (r = function() {
++                                (r = (0, n(1641).Z)().TextDecoder) || (r = function() {
+
+-                            9975: function(e, t, n) {
++                            73538: function(e, t, n) {
+
+-                                (r = (0, n(36346).Z)().TextEncoder) || (r = function() {
++                                (r = (0, n(1641).Z)().TextEncoder) || (r = function() {
+
+-                            64429: function(e, t, n) {
++                            7842: function(e, t, n) {
+
+-                            36346: function(e, t, n) {
++                            1641: function(e, t, n) {
+
+-                            69497: function(e, t) {
++                            2359: function(e, t) {
+
+-                            41699: function(e, t, n) {
++                            1007: function(e, t, n) {
+
+-                                    de = n(19950),
+-                                    pe = n(85519),
+-                                    fe = n(40124),
+-                                    he = n(70719),
+-                                    ve = n(81501),
+-                                    me = n(34454),
+-                                    be = n(99650);
++                                    de = n(81492),
++                                    pe = n(88395),
++                                    fe = n(91991),
++                                    he = n(17522),
++                                    ve = n(94630),
++                                    me = n(1017),
++                                    be = n(22758);
+
+-                                    ze = n(74739),
+-                                    Ce = n(5254),
+-                                    Le = n(53608),
+-                                    Re = n(64260),
++                                    ze = n(44921),
++                                    Ce = n(74104),
++                                    Le = n(69678),
++                                    Re = n(26890),
+
+-                                    st = n(979),
++                                    st = n(47073),
+
+-                                var mt, bt = n(6971),
+-                                    yt = n(2336),
+-                                    gt = n(83445),
+-                                    _t = n(28626),
++                                var mt, bt = n(88267),
++                                    yt = n(2476),
++                                    gt = n(53301),
++                                    _t = n(74652),
+
+-                                var St = n(9779);
++                                var St = n(19280);
+
+-                            5254: function(e, t, n) {
++                            74104: function(e, t, n) {
+
+-                            7924: function(e, t, n) {
++                            66661: function(e, t, n) {
+
+-                                    o = n(90848),
+-                                    a = n(41699),
++                                    o = n(62806),
++                                    a = n(1007),
+
+-                                var l = n(55699),
+-                                    d = n(51649),
+-                                    p = n(21530),
+-                                    f = n(63673),
+-                                    h = n(65513),
+-                                    v = n(6110),
+-                                    m = n(26634);
++                                var l = n(60124),
++                                    d = n(70357),
++                                    p = n(39289),
++                                    f = n(66945),
++                                    h = n(20920),
++                                    v = n(79776),
++                                    m = n(26590);
+
+-                                    v = n(979),
+-                                    m = n(16235),
++                                    v = n(47073),
++                                    m = n(77426),
+
+-                                    y = n(88762),
+-                                    g = n(53608),
+-                                    _ = n(27284),
+-                                    M = n(9975),
++                                    y = n(60359),
++                                    g = n(69678),
++                                    _ = n(65737),
++                                    M = n(73538),
+
+-                                    Mo = n(69497),
++                                    Mo = n(2359),
+
+-                                    Bo = n(53608),
+-                                    Wo = n(9779),
++                                    Bo = n(69678),
++                                    Wo = n(19280),
+
+-                                var ea = n(53128),
++                                var ea = n(5102),
+
+
++                                                    if (e.details === _o.Hls.ErrorDetails.MANIFEST_LOAD_ERROR || e.details === _o.Hls.ErrorDetails.MANIFEST_LOAD_TIMEOUT) return t._hls.stopLoad(), void t._loadSource();
+
+-                                    Ds = n(60213),
++                                    Ds = n(7392),
+
+-                                    nu = n(93653),
+-                                    ru = n(87528),
+-                                    iu = n(83538),
+-                                    ou = n(23603),
+-                                    au = n(14259),
+-                                    su = n(40609),
+-                                    uu = n(45180),
++                                    nu = n(65849),
++                                    ru = n(87560),
++                                    iu = n(90612),
++                                    ou = n(82248),
++                                    au = n(94780),
++                                    su = n(33078),
++                                    uu = n(7103),
+
+-                                    bu = n(19436),
+-                                    yu = n(86977),
+-                                    gu = n(79962),
+-                                    _u = n(96617),
+-                                    Mu = n(77116),
++                                    bu = n(29779),
++                                    yu = n(69162),
++                                    gu = n(66436),
++                                    _u = n(6871),
++                                    Mu = n(26025),
+
+-                                var kc = n(5254),
+-                                    Sc = n(64260),
+-                                    Tc = n(74739),
++                                var kc = n(74104),
++                                    Sc = n(26890),
++                                    Tc = n(44921),
+
+-                            979: function(e, t, n) {
++                            47073: function(e, t, n) {
+
+-                            38214: function(e, t, n) {
++                            6146: function(e, t, n) {
+
+-                                var Te = n(15230),
+-                                    ze = n(52190),
+-                                    Ce = n(19950),
+-                                    Le = n(82730),
+-                                    Re = n(26417),
+-                                    Ie = n(71408),
+-                                    De = n(70719),
+-                                    Ne = n(90848),
+-                                    Pe = n(10056),
+-                                    qe = n(52377),
+-                                    Fe = n(53472),
+-                                    Be = n(59660),
+-                                    We = n(81327),
+-                                    je = n(88881),
+-                                    Ue = n(69467),
+-                                    Ve = n(9975),
+-                                    Ze = n(53608),
+-                                    He = n(75622),
+-                                    Ge = n(99650),
+-                                    Xe = n(37104),
+-                                    Ke = n(27284);
++                                var Te = n(4432),
++                                    ze = n(26064),
++                                    Ce = n(81492),
++                                    Le = n(61860),
++                                    Re = n(77021),
++                                    Ie = n(63397),
++                                    De = n(17522),
++                                    Ne = n(62806),
++                                    Pe = n(57568),
++                                    qe = n(40050),
++                                    Fe = n(45357),
++                                    Be = n(54423),
++                                    We = n(26840),
++                                    je = n(39663),
++                                    Ue = n(48152),
++                                    Ve = n(73538),
++                                    Ze = n(69678),
++                                    He = n(19471),
++                                    Ge = n(22758),
++                                    Xe = n(12914),
++                                    Ke = n(65737);
+
+-                                var Ye, Qe = n(98678),
+-                                    Je = n(38214),
+-                                    et = n(50133),
+-                                    tt = n(28999),
+-                                    nt = n(96162),
+-                                    rt = n(23300);
++                                var Ye, Qe = n(35247),
++                                    Je = n(6146),
++                                    et = n(1558),
++                                    tt = n(31303),
++                                    nt = n(99584),
++                                    rt = n(86086);
+
+-                                    Yt = n(92406),
+-                                    Qt = n(4950);
++                                    Yt = n(58220),
++                                    Qt = n(47188);
+
+-                                    on = n(7254),
+-                                    an = n(64004),
++                                    on = n(53384),
++                                    an = n(86467),
+
+-                                    ar = n(35819),
+-                                    sr = n(23603),
+-                                    ur = n(53128),
+-                                    cr = n(89039),
+-                                    lr = n(68151);
++                                    ar = n(36057),
++                                    sr = n(82248),
++                                    ur = n(5102),
++                                    cr = n(9038),
++                                    lr = n(47233);
+
+-                                    Or = n(66536),
++                                    Or = n(9450),
+
+-                                var r = n(83445),
+-                                    i = n(50361),
+-                                    o = n(7254),
+-                                    a = n(66536),
+-                                    s = n(25453)
++                                var r = n(53301),
++                                    i = n(14042),
++                                    o = n(53384),
++                                    a = n(9450),
++                                    s = n(42559)
+
+-                            7254: function(e, t, n) {
++                            53384: function(e, t, n) {
+
+-                            66536: function(e, t, n) {
++                            9450: function(e, t, n) {
+
+-                            6971: function(e, t, n) {
++                            88267: function(e, t, n) {
+
+-                                    Oe = n(61658),
+-                                    we = n(65944),
+-                                    Ee = n(74789),
+-                                    ke = n(15230),
+-                                    Se = n(52190),
+-                                    Te = n(19950),
+-                                    ze = n(60213),
+-                                    Ce = n(26477),
+-                                    Le = n(71408),
+-                                    Re = n(70719),
+-                                    Ie = n(93653),
+-                                    De = n(90848),
+-                                    Ne = n(10056),
++                                    Oe = n(81074),
++                                    we = n(20092),
++                                    Ee = n(63167),
++                                    ke = n(4432),
++                                    Se = n(26064),
++                                    Te = n(81492),
++                                    ze = n(7392),
++                                    Ce = n(22543),
++                                    Le = n(63397),
++                                    Re = n(17522),
++                                    Ie = n(65849),
++                                    De = n(62806),
++                                    Ne = n(57568),
+
+-                                    Fe = n(61677),
+-                                    Be = n(69467),
+-                                    We = n(9975),
+-                                    je = n(53608),
+-                                    Ue = n(89500),
+-                                    Ve = n(12169),
+-                                    Ze = n(99650),
+-                                    He = n(37104),
+-                                    Ge = n(98678),
++                                    Fe = n(81373),
++                                    Be = n(48152),
++                                    We = n(73538),
++                                    je = n(69678),
++                                    Ue = n(19234),
++                                    Ve = n(71968),
++                                    Ze = n(22758),
++                                    He = n(12914),
++                                    Ge = n(35247),
+
+-                                    Ke = n(38214),
+-                                    $e = n(53887),
++                                    Ke = n(6146),
++                                    $e = n(95558),
+
+-                                var nt = n(70243),
+-                                    rt = n(11871),
+-                                    it = n(78540),
+-                                    ot = n(36116),
+-                                    at = n(50133),
+-                                    st = n(89039);
++                                var nt = n(31075),
++                                    rt = n(16379),
++                                    it = n(73680),
++                                    ot = n(49676),
++                                    at = n(1558),
++                                    st = n(9038);
+
+-                                var ct = n(56117),
+-                                    lt = n(17782),
+-                                    dt = n(45173),
+-                                    pt = n(2197),
+-                                    ft = n(79433),
+-                                    ht = n(68447);
++                                var ct = n(63357),
++                                    lt = n(20629),
++                                    dt = n(70177),
++                                    pt = n(92997),
++                                    ft = n(17516),
++                                    ht = n(67871);
+
+-                                var u = n(64429),
++                                var u = n(7842),
+
+-                            50133: function(e, t, n) {
++                            1558: function(e, t, n) {
+
+-                                var u = n(69497),
+-                                    c = n(61114),
+-                                    l = n(46647),
++                                var u = n(2359),
++                                    c = n(41422),
++                                    l = n(28377),
+
+-                            89039: function(e, t, n) {
++                            9038: function(e, t, n) {
+
+-                                var r = n(6971)
++                                var r = n(88267)
+
+-                            2197: function(e, t, n) {
++                            92997: function(e, t, n) {
+
+-                                    Ke = n(52190),
+-                                    $e = n(65944),
+-                                    Ye = n(15230),
+-                                    Qe = n(23603),
+-                                    Je = n(14259),
+-                                    et = n(42994),
+-                                    tt = n(52659),
+-                                    nt = n(96617),
+-                                    rt = n(40609),
+-                                    it = n(45180);
++                                    Ke = n(26064),
++                                    $e = n(20092),
++                                    Ye = n(4432),
++                                    Qe = n(82248),
++                                    Je = n(94780),
++                                    et = n(45540),
++                                    tt = n(84522),
++                                    nt = n(6871),
++                                    rt = n(33078),
++                                    it = n(7103);
+
+-                                    pt = n(19950),
+-                                    ft = n(19626),
+-                                    ht = n(60213),
+-                                    vt = n(26477),
+-                                    mt = n(71408),
+-                                    bt = n(90848),
+-                                    yt = n(10056),
+-                                    gt = n(83762),
+-                                    _t = n(52377),
+-                                    Mt = n(53472),
+-                                    At = n(11534),
+-                                    xt = n(59660),
+-                                    Ot = n(41699),
+-                                    wt = n(88881),
+-                                    Et = n(69467),
+-                                    kt = n(16164),
+-                                    St = n(53608),
+-                                    Tt = n(89500),
+-                                    zt = n(99650),
+-                                    Ct = n(37104),
+-                                    Lt = n(10540),
+-                                    Rt = n(38214),
+-                                    It = n(70243),
+-                                    Dt = n(36116),
+-                                    Nt = n(50133),
+-                                    Pt = n(89039),
+-                                    qt = n(56117),
+-                                    Ft = n(17782),
+-                                    Bt = n(45173);
++                                    pt = n(81492),
++                                    ft = n(71626),
++                                    ht = n(7392),
++                                    vt = n(22543),
++                                    mt = n(63397),
++                                    bt = n(62806),
++                                    yt = n(57568),
++                                    gt = n(78469),
++                                    _t = n(40050),
++                                    Mt = n(45357),
++                                    At = n(52582),
++                                    xt = n(54423),
++                                    Ot = n(1007),
++                                    wt = n(39663),
++                                    Et = n(48152),
++                                    kt = n(48870),
++                                    St = n(69678),
++                                    Tt = n(19234),
++                                    zt = n(22758),
++                                    Ct = n(12914),
++                                    Lt = n(59945),
++                                    Rt = n(6146),
++                                    It = n(31075),
++                                    Dt = n(49676),
++                                    Nt = n(1558),
++                                    Pt = n(9038),
++                                    qt = n(63357),
++                                    Ft = n(20629),
++                                    Bt = n(70177);
+
+-                                var jt = n(2197),
+-                                    Ut = n(79433),
+-                                    Vt = n(68447),
+-                                    Zt = n(23300),
+-                                    Ht = n(82711),
+-                                    Gt = n(78540);
++                                var jt = n(92997),
++                                    Ut = n(17516),
++                                    Vt = n(67871),
++                                    Zt = n(86086),
++                                    Ht = n(70049),
++                                    Gt = n(73680);
+
+-                                var Kt = n(4950);
++                                var Kt = n(47188);
+
+-                            9779: function(e, t, n) {
++                            19280: function(e, t, n) {
+
+-                                r.__exportStar(n(32785), t), r.__exportStar(n(7924), t), r.__exportStar(n(15134), t), r.__exportStar(n(70392), t)
++                                r.__exportStar(n(82602), t), r.__exportStar(n(66661), t), r.__exportStar(n(15134), t), r.__exportStar(n(70392), t)
+
+-                                        var S, T, z, C, L, R, I, D, N, P, q, F, B, W, j, U, V;
++                                        var S, T, z, C, L, R, I, D, N, P, q, F, B, W, j, U, V, Z;
+
+-                                                    else e.commit("setResponsiveWidth", U), e.commit("setResponsiveHeight", V);
+-                                                    return e.commit("setSelectedVideoTrackIndex", null === (w = t.videoTracks) || void 0 === w ? void 0 : w.selectedIndex), P = t.adsController.srcObject ? t.adsController.pictureInPictureSupported : document.pictureInPictureEnabled, e.commit("setPictureInPictureSupported", P), [3, 22];
++                                                    else e.commit("setResponsiveWidth", V), e.commit("setResponsiveHeight", Z);
++                                                    return e.commit("setSelectedVideoTrackIndex", null === (w = t.videoTracks) || void 0 === w ? void 0 : w.selectedIndex), P = function() {
++                                                        var e = t.adsController._client;
++                                                        return !!e && !!e._videoAdScheduleMgr
++                                                    }, q = t.adsController.srcObject && P() ? t.adsController.pictureInPictureSupported : document.pictureInPictureEnabled, e.commit("setPictureInPictureSupported", q), [3, 22];
+
+-                    return function() {
+-                        oie && clearTimeout(oie), aie && clearTimeout(aie)
+-                    }
++                    return KS.LiveProvider[KS.LIVE_PROVIDER_EXPERIMENTAL_USER_AGENT_STRING] = !0,
++                        function() {
++                            oie && clearTimeout(oie), aie && clearTimeout(aie)
++                        }
+
+-                        KS.LiveProvider[KS.LIVE_PROVIDER_EXPERIMENTAL_USER_AGENT_STRING] = null;
+
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+5aac9487 0da9ee9b 6dcdcdfa
++2ded1dec 0da9ee9b 314a8d7e
 
