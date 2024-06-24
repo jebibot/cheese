@@ -4,6 +4,3 @@
 
 +2ded1dec cdf1e0fb 314a8d7e
 
--                                    return e.next = 2, ws.get("/lives/".concat(t, "/ad-timeline"));
-+                                    return e.next = 2, ws.get("/channels/".concat(t, "/ad-timeline"));
-
