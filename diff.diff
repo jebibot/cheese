@@ -2,5 +2,1002 @@
 
 
 
-+c75d5db5 764d540a e6acfc5d
++c75d5db5 c31a652f e6acfc5d
+
+
++                                            }), (0, vt.jsx)(An, {
++                                                children: (0, vt.jsx)(cr, {
++                                                    name: "advertisement-cycle",
++                                                    id: "advertisement-cycle-60m",
++                                                    checked: 60 === (null === i || void 0 === i ? void 0 : i.liveAdIntervalMinute),
++                                                    onSelectedHandler: function(e) {
++                                                        e && u({
++                                                            liveAdIntervalMinute: 60
++                                                        })
++                                                    },
++                                                    children: "60분 간격"
++                                                })
+
+
++                                        }), 60 === i.liveAdIntervalMinute && (0, vt.jsxs)(vt.Fragment, {
++                                            children: [(0, vt.jsx)("div", {
++                                                className: wr,
++                                                style: {
++                                                    left: 0
++                                                },
++                                                children: (0, vt.jsx)("div", {
++                                                    className: Qe()(Er, Sr),
++                                                    children: (0, vt.jsx)("span", {
++                                                        className: "blind",
++                                                        children: "재생 전 광고"
++                                                    })
++                                                })
++                                            }), (0, vt.jsxs)("div", {
++                                                className: wr,
++                                                style: {
++                                                    left: "100%"
++                                                },
++                                                children: [(0, vt.jsx)("div", {
++                                                    className: Qe()(Er, Tr),
++                                                    children: (0, vt.jsx)("span", {
++                                                        className: "blind",
++                                                        children: "중간 광고"
++                                                    })
++                                                }), (0, vt.jsx)("div", {
++                                                    className: Qe()(Er, Tr),
++                                                    children: (0, vt.jsx)("span", {
++                                                        className: "blind",
++                                                        children: "중간 광고"
++                                                    })
++                                                })]
++                                            })]
+
+
++                    key: "$realRemainingHour",
++                    get: function(e) {
++                        var t = e.get;
++                        return t(uy) ? String(Math.floor(t(uy) / 36e5 % 60)).padStart(2, "0") : "00"
++                    }
++                }),
++                fy = (0, Xe.selector)({
+
+-                gE = function(e) {
+-                    return e.DISABLED = "DISABLED", e.ON = "ON", e.COMPLETED = "COMPLETED", e
+-                }(gE || {}),
+
+
+
++                    return e.DISABLED = "DISABLED", e.ON = "ON", e.COMPLETED = "COMPLETED", e
++                }(ME || {}),
++                OE = function(e) {
+
+-                                    return wT;
+-                                case "earn":
+
+
+-                                case "partner":
++                                case "earn":
+
+-                                case "update":
++                                case "partner":
+
+
++                                case "update":
++                                    return CT;
+
+-            var gI = o.forwardRef(mI),
+-                MI = (n.p, "list_date__Am1dX"),
+-                OI = "list_diary__2DsWV",
+-                _I = "list_detail__JqFvA",
+-                yI = function(e) {
+-                    return e[e.ASCENDING = 0] = "ASCENDING", e[e.DESCENDING = 1] = "DESCENDING", e
+-                }(yI || {}),
++            var MI = o.forwardRef(gI),
++                OI = (n.p, "list_date__Am1dX"),
++                _I = "list_diary__2DsWV",
++                yI = "list_detail__JqFvA",
+
+
++                    return e[e.ASCENDING = 0] = "ASCENDING", e[e.DESCENDING = 1] = "DESCENDING", e
++                }(zI || {}),
++                AI = function(e) {
+
+-                AI = o.memo(zI),
+-                xI = "calendar_layer__XzwN0",
+-                wI = "calendar_item__kwdZk",
+-                EI = "calendar_option__Q8x8K",
+-                SI = "calendar_wrapper__lXcOP",
+-                TI = "calendar_list__uMD3E",
+-                CI = "calendar_content__Vx99z",
+-                RI = "calendar_footer__nbG5y",
+-                LI = "calendar_text__v8UID",
+-                qI = "calendar_box__3mAC+",
+-                kI = "calendar_button__NVZHh",
+-                NI = function(e) {
+-                    return e[e.LAST_WEEK = 0] = "LAST_WEEK", e[e.LAST_MONTH = 1] = "LAST_MONTH", e[e.THIS_WEEK = 2] = "THIS_WEEK", e[e.THIS_MONTH = 3] = "THIS_MONTH", e[e.THE_LAST_WEEK = 4] = "THE_LAST_WEEK", e[e.THE_LAST_MONTH = 5] = "THE_LAST_MONTH", e[e.SELECT_PERIOD = 6] = "SELECT_PERIOD", e
+-                }(NI || {}),
++                xI = o.memo(AI),
++                wI = "calendar_layer__XzwN0",
++                EI = "calendar_item__kwdZk",
++                SI = "calendar_option__Q8x8K",
++                TI = "calendar_wrapper__lXcOP",
++                CI = "calendar_list__uMD3E",
++                RI = "calendar_content__Vx99z",
++                LI = "calendar_footer__nbG5y",
++                qI = "calendar_text__v8UID",
++                kI = "calendar_box__3mAC+",
++                NI = "calendar_button__NVZHh",
+
+
++                    return e[e.LAST_WEEK = 0] = "LAST_WEEK", e[e.LAST_MONTH = 1] = "LAST_MONTH", e[e.THIS_WEEK = 2] = "THIS_WEEK", e[e.THIS_MONTH = 3] = "THIS_MONTH", e[e.THE_LAST_WEEK = 4] = "THE_LAST_WEEK", e[e.THE_LAST_MONTH = 5] = "THE_LAST_MONTH", e[e.SELECT_PERIOD = 6] = "SELECT_PERIOD", e
++                }(II || {}),
++                WI = function(e) {
+
+-                lW = o.memo(uW),
+-                dW = "table_container__tjSiW",
+-                pW = "table_button__kiJos",
+-                fW = "table_icon__hFDmF",
+-                hW = "table_flip__ZN9W4",
+-                bW = "table_detail__xt1Ai",
+-                vW = function(e) {
+-                    return e[e.ASCENDING = 0] = "ASCENDING", e[e.DESCENDING = 1] = "DESCENDING", e
+-                }(vW || {}),
++                dW = o.memo(lW),
++                pW = "table_container__tjSiW",
++                fW = "table_button__kiJos",
++                hW = "table_icon__hFDmF",
++                bW = "table_flip__ZN9W4",
++                vW = "table_detail__xt1Ai",
+
+
++                    return e[e.ASCENDING = 0] = "ASCENDING", e[e.DESCENDING = 1] = "DESCENDING", e
++                }(mW || {}),
++                gW = function(e) {
+
+-            function uP(e) {
+-                return e.replace(sP, "\\$&")
+-            }
+-
+
+
+-                return new RegExp("^(?:" + e.map(uP).join("|") + ")", "i")
++                return e.replace(cP, "\\$&")
+
+
++                return new RegExp("^(?:" + e.map(lP).join("|") + ")", "i")
++            }
++
++            function pP(e) {
+
+-            function LP(e, t) {
+-                return cP(e.getDate(), t, 2)
+-            }
+-
+
+
+-                return cP(e.getHours(), t, 2)
++                return uP(e.getDate(), t, 2)
+
+-                return cP(e.getHours() % 12 || 12, t, 2)
++                return uP(e.getHours(), t, 2)
+
+-                return cP(1 + ZW.count(GW(e), e), t, 3)
++                return uP(e.getHours() % 12 || 12, t, 2)
+
+-                return cP(e.getMilliseconds(), t, 3)
++                return uP(1 + VW.count(YW(e), e), t, 3)
+
+-                return IP(e, t) + "000"
++                return uP(e.getMilliseconds(), t, 3)
+
+-                return cP(e.getMonth() + 1, t, 2)
++                return WP(e, t) + "000"
+
+-                return cP(e.getMinutes(), t, 2)
++                return uP(e.getMonth() + 1, t, 2)
+
+-            function BP(e) {
++            function BP(e, t) {
++                return uP(e.getSeconds(), t, 2)
++            }
++
++            function FP(e) {
+
+-            function VP(e, t) {
+-                return cP(RW.count(GW(e) - 1, e), t, 2)
+-            }
+-
+
+
+-                return cP(e.getFullYear() % 100, t, 2)
++                return uP(LW.count(YW(e) - 1, e), t, 2)
+
+-                return cP((e = UP(e)).getFullYear() % 100, t, 2)
++                return uP(e.getFullYear() % 100, t, 2)
+
+-                return cP(e.getFullYear() % 1e4, t, 4)
++                return uP((e = HP(e)).getFullYear() % 100, t, 2)
+
+-                var n = e.getDay();
+-                return cP((e = n >= 4 || 0 === n ? kW(e) : kW.ceil(e)).getFullYear() % 1e4, t, 4)
++                return uP(e.getFullYear() % 1e4, t, 4)
+
+-            function KP(e) {
+-                var t = e.getTimezoneOffset();
+-                return (t > 0 ? "-" : (t *= -1, "+")) + cP(t / 60 | 0, "0", 2) + cP(t % 60, "0", 2)
++            function KP(e, t) {
++                var n = e.getDay();
++                return uP((e = n >= 4 || 0 === n ? NW(e) : NW.ceil(e)).getFullYear() % 1e4, t, 4)
+
+-            function QP(e, t) {
+-                return cP(e.getUTCDate(), t, 2)
++            function QP(e) {
++                var t = e.getTimezoneOffset();
++                return (t > 0 ? "-" : (t *= -1, "+")) + uP(t / 60 | 0, "0", 2) + uP(t % 60, "0", 2)
+
+-                return cP(e.getUTCHours(), t, 2)
++                return uP(e.getUTCDate(), t, 2)
+
+-                return cP(e.getUTCHours() % 12 || 12, t, 2)
++                return uP(e.getUTCHours(), t, 2)
+
+-                return cP(1 + VW.count(YW(e), e), t, 3)
++                return uP(e.getUTCHours() % 12 || 12, t, 2)
+
+-                return nj(e, t) + "000"
++                return uP(e.getUTCMilliseconds(), t, 3)
+
+-                return cP(e.getUTCMonth() + 1, t, 2)
++                return rj(e, t) + "000"
+
+-                return cP(e.getUTCMinutes(), t, 2)
++                return uP(e.getUTCMonth() + 1, t, 2)
+
+-                return cP(e.getUTCSeconds(), t, 2)
++                return uP(e.getUTCMinutes(), t, 2)
++            }
++
++            function sj(e, t) {
++                return uP(e.getUTCSeconds(), t, 2)
+
+-            function pj(e, t) {
+-                return cP(jW.count(YW(e) - 1, e), t, 2)
+-            }
+-
+
+
+-                return cP(e.getUTCFullYear() % 100, t, 2)
++                return uP(DW.count($W(e) - 1, e), t, 2)
+
+-                return cP((e = uj(e)).getUTCFullYear() % 100, t, 2)
++                return uP(e.getUTCFullYear() % 100, t, 2)
+
+-                return cP(e.getUTCFullYear() % 1e4, t, 4)
++                return uP((e = lj(e)).getUTCFullYear() % 100, t, 2)
+
+
++                return uP(e.getUTCFullYear() % 1e4, t, 4)
++            }
++
++            function mj(e, t) {
+
+-            function rD(e) {
+-                return e.trim().split(/^|\s+/)
+-            }
+-
+
+
+-                return e.classList || new oD(e)
++                return e.trim().split(/^|\s+/)
+
+-                this._node = e, this._names = rD(e.getAttribute("class") || "")
++                return e.classList || new aD(e)
+
+-            function aD(e, t) {
+-                for (var n = iD(e), r = -1, i = t.length; ++r < i;) n.add(t[r])
++            function aD(e) {
++                this._node = e, this._names = iD(e.getAttribute("class") || "")
+
+-                for (var n = iD(e), r = -1, i = t.length; ++r < i;) n.remove(t[r])
++                for (var n = oD(e), r = -1, i = t.length; ++r < i;) n.add(t[r])
+
+-            function cD(e) {
+-                return function() {
+-                    aD(this, e)
+-                }
++            function cD(e, t) {
++                for (var n = oD(e), r = -1, i = t.length; ++r < i;) n.remove(t[r])
+
+-            function lD(e, t) {
++            function lD(e) {
+
+-                    (t.apply(this, arguments) ? aD : sD)(this, e)
++                    cD(this, e)
+
+-            function dD() {
++            function dD(e, t) {
++                return function() {
++                    (t.apply(this, arguments) ? sD : cD)(this, e)
++                }
++            }
++
++            function pD() {
+
+-            var XB, GB, YB = 0,
+-                $B = 0,
++            var GB, YB, $B = 0,
+
+-                QB = 1e3,
+-                JB = 0,
++                QB = 0,
++                JB = 1e3,
+
+-                nF = "object" === typeof performance && performance.now ? performance : Date,
+-                rF = "object" === typeof window && window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : function(e) {
++                nF = 0,
++                rF = "object" === typeof performance && performance.now ? performance : Date,
++                iF = "object" === typeof window && window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : function(e) {
+
+-            function iF() {
+-                return eF || (rF(oF), eF = nF.now() + tF)
+-            }
+-
+
+
+-                eF = 0
++                return tF || (iF(aF), tF = rF.now() + nF)
+
+
++                tF = 0
++            }
++
++            function sF() {
+
+-            function oU(e) {
+-                return [iU(e[0]), iU(e[1])]
+-            } ["w", "e"].map(aU), ["n", "s"].map(aU), ["n", "w", "e", "s", "nw", "ne", "sw", "se"].map(aU);
+-
+
+
+
++                return [oU(e[0]), oU(e[1])]
++            } ["w", "e"].map(sU), ["n", "s"].map(sU), ["n", "w", "e", "s", "nw", "ne", "sw", "se"].map(sU);
++
++            function sU(e) {
+
+-            function IZ(e) {
+-                this._context = e
+-            }
+-
+
+
+-                this._context = new PZ(e)
++                this._context = e
+
+-                this._context = e
++                this._context = new jZ(e)
+
+-                return new IZ(e)
++                this._context = e
+
+-                this._context = e
++                return new PZ(e)
+
+
++                this._context = e
++            }
++
++            function UZ(e) {
+
+-            function UZ(e) {
+-                return new BZ(e)
+-            }
+-
+
+
+-                this._context = e
++                return new FZ(e)
+
+-                return new HZ(e)
++                this._context = e
+
+-                this._context = e
++                return new ZZ(e)
+
+-                return new VZ(e)
++                this._context = e
+
+-            function GZ(e, t) {
+-                this._context = e, this._t = t
++            function GZ(e) {
++                return new XZ(e)
+
+-            function YZ(e) {
+-                return new GZ(e, .5)
++            function YZ(e, t) {
++                this._context = e, this._t = t
+
+-                return new GZ(e, 0)
++                return new YZ(e, .5)
+
+-                return new GZ(e, 1)
++                return new YZ(e, 0)
++            }
++
++            function QZ(e) {
++                return new YZ(e, 1)
+
+-            function WV(e) {
+-                return IV(wV, e)
+-            }
+-
+
+
+-                return IV(TV, e)
++                return WV(TV, e)
++            }
++
++            function BV(e) {
++                return WV(CV, e)
+
+-                vX = function(e) {
+-                    return "function" === typeof e
+-                },
+
+
+-                    return "string" === typeof e
++                    return "function" === typeof e
+
+-                    return "undefined" === typeof e
++                    return "number" === typeof e
+
+-                    return "boolean" === typeof e
++                    return "undefined" !== typeof e
+
+-                    return Math.ceil(e) + .5
++                    return "boolean" === typeof e
+
+-                    return e[1] - e[0]
++                    return Math.ceil(e) + .5
+
+-                    return "object" === typeof e
++                    return e[1] - e[0]
+
+-                    return MX(e) || null === e || mX(e) && 0 === e.length || AX(e) && !(e instanceof Date) && 0 === Object.keys(e).length || gX(e) && isNaN(e)
++                    return "object" === typeof e
+
+-                    return !xX(e)
++                    return OX(e) || null === e || gX(e) && 0 === e.length || xX(e) && !(e instanceof Date) && 0 === Object.keys(e).length || MX(e) && isNaN(e)
+
+-                    return Array.isArray(e)
++                    return !wX(e)
+
+-                    return e && !(null === e || void 0 === e ? void 0 : e.nodeType) && AX(e) && !EX(e)
++                    return Array.isArray(e)
++                },
++                TX = function(e) {
++                    return e && !(null === e || void 0 === e ? void 0 : e.nodeType) && xX(e) && !SX(e)
+
+-                VY = {
+-                    axis: ZY
+-                },
+
+
+
++                    axis: VY
++                },
++                GY = {
+
+-                f$ = function(e) {
+-                    return bX(e.position) || "end"
+-                },
+
+
+
++                    return vX(e.position) || "end"
++                },
++                b$ = function(e) {
+
+-                SQ = o.memo(EQ),
+-                TQ = function(e) {
+-                    return e.OFFLINE = "OFFLINE", e.WAIT = "WAIT", e.PLAYING = "PLAYING", e.NOT_ALLOWED = "NOT_ALLOWED", e.ROOKIE = "ROOKIE", e
+-                }(TQ || {}),
++                TQ = o.memo(SQ),
+
+
++                    return e.OFFLINE = "OFFLINE", e.WAIT = "WAIT", e.PLAYING = "PLAYING", e.NOT_ALLOWED = "NOT_ALLOWED", e.ROOKIE = "ROOKIE", e
++                }(CQ || {}),
++                RQ = function(e) {
+
+-                        f = (0, Xe.useRecoilValue)(py),
+-                        h = (0, Xe.useRecoilValue)(ry),
+-                        b = (0, Xe.useRecoilValue)(fy),
+-                        v = (0, Xe.useRecoilValue)(ay),
+-                        m = (0, Xe.useRecoilValue)(ly),
+-                        g = (0, Xe.useRecoilValue)(hy),
+-                        M = ((0, Xe.useRecoilValue)(iy), (0, Xe.useRecoilState)(wR)),
+-                        O = (0, r.Z)(M, 2),
+-                        _ = O[0],
+-                        y = (O[1], (0, o.useState)(TQ.OFFLINE)),
+-                        z = (0, r.Z)(y, 2),
+-                        A = z[0],
+-                        x = z[1],
+-                        w = (0, o.useState)(0),
+-                        E = (0, r.Z)(w, 2),
+-                        S = E[0],
+-                        T = E[1],
+-                        C = (0, Xe.useRecoilValue)(Za),
+-                        R = function() {
++                        f = (0, Xe.useRecoilValue)(fy),
++                        h = (0, Xe.useRecoilValue)(py),
++                        b = (0, Xe.useRecoilValue)(ry),
++                        v = (0, Xe.useRecoilValue)(hy),
++                        m = (0, Xe.useRecoilValue)(ay),
++                        g = (0, Xe.useRecoilValue)(ly),
++                        M = (0, Xe.useRecoilValue)(by),
++                        O = ((0, Xe.useRecoilValue)(iy), (0, Xe.useRecoilState)(ER)),
++                        _ = (0, r.Z)(O, 2),
++                        y = _[0],
++                        z = (_[1], (0, o.useState)(CQ.OFFLINE)),
++                        A = (0, r.Z)(z, 2),
++                        x = A[0],
++                        w = A[1],
++                        E = (0, o.useState)(0),
++                        S = (0, r.Z)(E, 2),
++                        T = S[0],
++                        C = S[1],
++                        R = (0, Xe.useRecoilValue)(Za),
++                        L = function() {
+
+-                                        children: [f, " : ", b]
++                                        children: [h, " : ", f, " : ", v]
+
+-            function $5(e) {
+-                Y5(e.prototype)
+-            }
+-
+
+
+-                return new Z5(e)
++                $5(e.prototype)
+
+
++                return new V5(e)
++            }
++
++            function J5(e) {
+
+-                w6 = {},
+-                E6 = function(e, t) {
+-                    return w6[t] || (w6[t] = C6(t)), w6[t](e)
+-                },
++                E6 = {},
+
+-                    return e && t ? y6(e, (function(e, n) {
+-                        return E6(e, "number" === typeof t ? t : t[n])
++                    return E6[t] || (E6[t] = R6(t)), E6[t](e)
++                },
++                T6 = function(e, t) {
++                    return e && t ? z6(e, (function(e, n) {
++                        return S6(e, "number" === typeof t ? t : t[n])
+
+-                D7 = function(e, t) {
+-                    return R7(e < 0 ? e + t : e, 0, t)
+-                },
+
+
+
++                    return L7(e < 0 ? e + t : e, 0, t)
++                },
++                F7 = function(e, t) {
+
+-                                case Z8.IDLE:
+-                                    n = new s9;
+-                                    break;
+-                                case Z8.HOLDING:
++                                case V8.IDLE:
+
+-                                case Z8.DRAGGING:
++                                case V8.HOLDING:
+
+-                                case Z8.ANIMATING:
++                                case V8.DRAGGING:
+
+-                                case Z8.DISABLED:
+-                                    n = new d9
++                                case V8.ANIMATING:
++                                    n = new d9;
++                                    break;
++                                case V8.DISABLED:
++                                    n = new p9
+
+-                            if (n.length <= 0) return e.prev || (t.trigger(new g5(g7.NEED_PANEL, {
+-                                direction: y7
+-                            })), e.prev = !0), void(e.next || (t.trigger(new g5(g7.NEED_PANEL, {
++                            if (n.length <= 0) return e.prev || (t.trigger(new M5(M7.NEED_PANEL, {
+
+
++                            })), e.prev = !0), void(e.next || (t.trigger(new M5(M7.NEED_PANEL, {
++                                direction: A7
+
+-                            if (!e.prev)(s <= u.range.min + a || r <= o.min + a) && (t.trigger(new g5(g7.NEED_PANEL, {
+-                                direction: y7
+-                            })), e.prev = !0);
+-                            if (!e.next)(c >= l.range.max - a || r >= o.max - a) && (t.trigger(new g5(g7.NEED_PANEL, {
++                            if (!e.prev)(s <= u.range.min + a || r <= o.min + a) && (t.trigger(new M5(M7.NEED_PANEL, {
+
+
++                            })), e.prev = !0);
++                            if (!e.next)(c >= l.range.max - a || r >= o.max - a) && (t.trigger(new M5(M7.NEED_PANEL, {
++                                direction: A7
+
+-                            case x7.SNAP:
+-                                return new v9(i);
+-                            case x7.FREE_SCROLL:
++                            case w7.SNAP:
+
+-                            case x7.STRICT:
+-                                return new g9(i)
++                            case w7.FREE_SCROLL:
++                                return new g9(i);
++                            case w7.STRICT:
++                                return new M9(i)
+
+-                        case O7:
+-                            return "50%";
+
+
+
++                            return "50%";
++                        case y7:
+
+-                J9 = function(e) {
++                eee = function(e) {
+
+-                                            children: [(0, vt.jsxs)(J9, {
++                                            children: [(0, vt.jsxs)(eee, {
+
+-                                    }), (0, vt.jsxs)(J9, {
++                                    }), (0, vt.jsxs)(eee, {
+
+-                                    }), (0, vt.jsxs)(J9, {
++                                    }), (0, vt.jsxs)(eee, {
+
+-                                                        case Gee.CHATTING:
+-                                                            return $3;
+-                                                        case Gee.VIDEO:
++                                                        case Yee.CHATTING:
+
+-                                                        case Gee.MISSION:
++                                                        case Yee.VIDEO:
+
+-                                                        case Gee.SUBSCRIBE:
++                                                        case Yee.MISSION:
+
+
++                                                        case Yee.SUBSCRIBE:
++                                                            return e4;
+
+-                        u = (0, Xe.useRecoilValue)(ly),
+-                        l = (0, Xe.useRecoilValue)(hy),
+-                        d = (0, Xe.useRecoilValue)(Za),
+-                        p = (0, Xe.useRecoilValue)(ry),
+-                        f = (0, Xe.useRecoilState)(zC),
+-                        h = (0, r.Z)(f, 2),
+-                        b = h[0],
+-                        v = h[1],
+-                        m = (0, Xe.useRecoilState)(_C),
+-                        g = (0, r.Z)(m, 2),
+-                        M = g[0],
+-                        O = g[1],
+-                        _ = (0, Xe.useRecoilState)(yC),
+-                        y = (0, r.Z)(_, 2),
+-                        z = y[0],
+-                        A = y[1],
+-                        x = (0, Xe.useRecoilState)(OC),
+-                        w = (0, r.Z)(x, 2),
+-                        E = w[0],
+-                        S = w[1],
+-                        T = (0, o.useState)(!1),
+-                        C = (0, r.Z)(T, 2),
+-                        R = C[0],
+-                        L = C[1],
+-                        q = (0, Xe.useRecoilState)(mC),
+-                        k = (0, r.Z)(q, 2),
+-                        N = k[0],
+-                        I = k[1],
+-                        W = (0, Xe.useRecoilState)(bC),
+-                        P = (0, r.Z)(W, 2),
+-                        j = P[0],
+-                        D = P[1],
+-                        B = (0, Xe.useRecoilState)(vC),
+-                        F = (0, r.Z)(B, 2),
+-                        U = F[0],
+-                        H = F[1],
+-                        Z = (0, Xe.useRecoilState)(gC),
+-                        V = (0, r.Z)(Z, 2),
+-                        X = V[0],
+-                        G = V[1],
+-                        Y = (0, Xe.useRecoilState)(MC),
+-                        $ = (0, r.Z)(Y, 2),
+-                        K = $[0],
+-                        Q = $[1],
+-                        J = (0, Xe.useRecoilState)(wC),
+-                        ee = (0, r.Z)(J, 2),
+-                        te = ee[0],
+-                        ne = ee[1],
+-                        re = (0, Xe.useRecoilState)(AC),
+-                        ie = (0, r.Z)(re, 2),
+-                        oe = ie[0],
+-                        ae = ie[1],
+-                        se = (0, Xe.useRecoilState)(xC),
+-                        ce = (0, r.Z)(se, 2),
+-                        ue = ce[0],
+-                        le = ce[1],
+-                        de = (0, Xe.useRecoilState)(EC),
+-                        pe = (0, r.Z)(de, 2),
+-                        fe = pe[0],
+-                        he = pe[1],
+-                        be = (0, o.useState)(!0),
+-                        me = (0, r.Z)(be, 2),
+-                        ge = me[0],
+-                        Me = me[1],
+-                        Oe = (0, o.useState)(!0),
+-                        _e = (0, r.Z)(Oe, 2),
+-                        ye = _e[0],
+-                        ze = _e[1],
+-                        Ae = (0, o.useState)(70),
+-                        xe = (0, r.Z)(Ae, 2),
+-                        we = (xe[0], xe[1], (0, o.useState)(70)),
+-                        Ee = (0, r.Z)(we, 2),
+-                        Se = (Ee[0], Ee[1], (0, o.useState)(!0)),
+-                        Te = (0, r.Z)(Se, 2),
+-                        Ce = Te[0],
+-                        Re = Te[1],
+-                        Le = (0, Xe.useRecoilState)(pC),
+-                        qe = (0, r.Z)(Le, 2),
+-                        ke = qe[0],
+-                        Ne = qe[1],
+-                        Ie = (0, Xe.useRecoilValue)(ay),
+-                        We = (0, Xe.useRecoilState)(dC),
+-                        Pe = (0, r.Z)(We, 2)[1];
++                        u = (0, Xe.useRecoilValue)(hy),
++                        l = (0, Xe.useRecoilValue)(ly),
++                        d = (0, Xe.useRecoilValue)(by),
++                        p = (0, Xe.useRecoilValue)(Za),
++                        f = (0, Xe.useRecoilValue)(ry),
++                        h = (0, Xe.useRecoilState)(AC),
++                        b = (0, r.Z)(h, 2),
++                        v = b[0],
++                        m = b[1],
++                        g = (0, Xe.useRecoilState)(yC),
++                        M = (0, r.Z)(g, 2),
++                        O = M[0],
++                        _ = M[1],
++                        y = (0, Xe.useRecoilState)(zC),
++                        z = (0, r.Z)(y, 2),
++                        A = z[0],
++                        x = z[1],
++                        w = (0, Xe.useRecoilState)(_C),
++                        E = (0, r.Z)(w, 2),
++                        S = E[0],
++                        T = E[1],
++                        C = (0, o.useState)(!1),
++                        R = (0, r.Z)(C, 2),
++                        L = R[0],
++                        q = R[1],
++                        k = (0, Xe.useRecoilState)(gC),
++                        N = (0, r.Z)(k, 2),
++                        I = N[0],
++                        W = N[1],
++                        P = (0, Xe.useRecoilState)(vC),
++                        j = (0, r.Z)(P, 2),
++                        D = j[0],
++                        B = j[1],
++                        F = (0, Xe.useRecoilState)(mC),
++                        U = (0, r.Z)(F, 2),
++                        H = U[0],
++                        Z = U[1],
++                        V = (0, Xe.useRecoilState)(MC),
++                        X = (0, r.Z)(V, 2),
++                        G = X[0],
++                        Y = X[1],
++                        $ = (0, Xe.useRecoilState)(OC),
++                        K = (0, r.Z)($, 2),
++                        Q = K[0],
++                        J = K[1],
++                        ee = (0, Xe.useRecoilState)(EC),
++                        te = (0, r.Z)(ee, 2),
++                        ne = te[0],
++                        re = te[1],
++                        ie = (0, Xe.useRecoilState)(xC),
++                        oe = (0, r.Z)(ie, 2),
++                        ae = oe[0],
++                        se = oe[1],
++                        ce = (0, Xe.useRecoilState)(wC),
++                        ue = (0, r.Z)(ce, 2),
++                        le = ue[0],
++                        de = ue[1],
++                        pe = (0, Xe.useRecoilState)(SC),
++                        fe = (0, r.Z)(pe, 2),
++                        he = fe[0],
++                        be = fe[1],
++                        me = (0, o.useState)(!0),
++                        ge = (0, r.Z)(me, 2),
++                        Me = ge[0],
++                        Oe = ge[1],
++                        _e = (0, o.useState)(!0),
++                        ye = (0, r.Z)(_e, 2),
++                        ze = ye[0],
++                        Ae = ye[1],
++                        xe = (0, o.useState)(70),
++                        we = (0, r.Z)(xe, 2),
++                        Ee = (we[0], we[1], (0, o.useState)(70)),
++                        Se = (0, r.Z)(Ee, 2),
++                        Te = (Se[0], Se[1], (0, o.useState)(!0)),
++                        Ce = (0, r.Z)(Te, 2),
++                        Re = Ce[0],
++                        Le = Ce[1],
++                        qe = (0, Xe.useRecoilState)(fC),
++                        ke = (0, r.Z)(qe, 2),
++                        Ne = ke[0],
++                        Ie = ke[1],
++                        We = (0, Xe.useRecoilValue)(ay),
++                        Pe = (0, Xe.useRecoilState)(pC),
++                        je = (0, r.Z)(Pe, 2)[1];
+
+-                                        children: je() ? (0, vt.jsx)(vt.Fragment, {
+-                                            children: (0, vt.jsx)(Ure, {
+-                                                title: null !== p && void 0 !== p && p.isWaiting ? "대기" : t !== Bc.START ? "오프라인" : "NOW_ADVERTISEMENT_TIME" === u ? "재생중" : "광고 남은 시간  ".concat(s, " : ").concat(c),
++                                        children: De() ? (0, vt.jsx)(vt.Fragment, {
++                                            children: (0, vt.jsx)(Hre, {
++                                                title: null !== f && void 0 !== f && f.isWaiting ? "대기" : t !== Bc.START ? "오프라인" : "NOW_ADVERTISEMENT_TIME" === l ? "재생중" : "남은 시간  ".concat(s, " : ").concat(c, " : ").concat(u),
+
+-                                            }) : "NOW_ADVERTISEMENT_TIME" === u ? (0, vt.jsxs)(vt.Fragment, {
+-                                                children: [(0, vt.jsx)(Ure, {
+-                                                    title: "광고 남은 시간",
++                                            }) : "NOW_ADVERTISEMENT_TIME" === l ? (0, vt.jsxs)(vt.Fragment, {
++                                                children: [(0, vt.jsx)(Hre, {
++                                                    title: "남은 시간",
+
+-                                            }) : "UNDER_REMAIN_1MIN" === u ? (0, vt.jsxs)(vt.Fragment, {
+-                                                children: [(0, vt.jsx)(Ure, {
+-                                                    title: "광고 남은 시간",
+-                                                    state: "".concat(s, " : ").concat(c),
+-                                                    isDisabled: Je(),
++                                            }) : "UNDER_REMAIN_1MIN" === l ? (0, vt.jsxs)(vt.Fragment, {
++                                                children: [(0, vt.jsx)(Hre, {
++                                                    title: "남은 시간",
++                                                    state: "".concat(s, " : ").concat(c, " : ").concat(u),
++                                                    isDisabled: et(),
+
+-                                            }) : "MANUAL_AD_NOT_READY" === u ? (0, vt.jsxs)(vt.Fragment, {
+-                                                children: [(0, vt.jsx)(Ure, {
+-                                                    title: "광고 남은 시간",
+-                                                    state: "".concat(s, " : ").concat(c),
+-                                                    isDisabled: Je(),
++                                            }) : "MANUAL_AD_NOT_READY" === l ? (0, vt.jsxs)(vt.Fragment, {
++                                                children: [(0, vt.jsx)(Hre, {
++                                                    title: "남은 시간",
++                                                    state: "".concat(s, " : ").concat(c, " : ").concat(u),
++                                                    isDisabled: et(),
+
+-                                                children: [(0, vt.jsx)(Ure, {
+-                                                    title: "광고 남은 시간",
+-                                                    state: "".concat(s, " : ").concat(c),
+-                                                    isDisabled: Je(),
++                                                children: [(0, vt.jsx)(Hre, {
++                                                    title: "남은 시간",
++                                                    state: "".concat(s, " : ").concat(c, " : ").concat(u),
++                                                    isDisabled: et(),
+
+-            function Roe(e) {
+-                return "nodeType" in e
+-            }
+-
+
+
+-                var t, n;
+-                return e ? Coe(e) ? e : Roe(e) && null != (t = null == (n = e.ownerDocument) ? void 0 : n.defaultView) ? t : window : window
++                return "nodeType" in e
+
+-                return e instanceof Loe(e).Document
++                var t, n;
++                return e ? Roe(e) ? e : Loe(e) && null != (t = null == (n = e.ownerDocument) ? void 0 : n.defaultView) ? t : window : window
+
+-                return !Coe(e) && e instanceof Loe(e).HTMLElement
++                return e instanceof qoe(e).Document
+
+-                return e instanceof Loe(e).SVGElement
++                return !Roe(e) && e instanceof qoe(e).HTMLElement
+
+-                return e ? Coe(e) ? e.document : Roe(e) ? qoe(e) ? e : koe(e) || Noe(e) ? e.ownerDocument : document : document : document
++                return e instanceof qoe(e).SVGElement
+
+-            var Woe = Toe ? o.useLayoutEffect : o.useEffect;
+
+
+-            function Poe(e) {
++            function Woe(e) {
++                return e ? Roe(e) ? e.document : Loe(e) ? koe(e) ? e : Noe(e) || Ioe(e) ? e.ownerDocument : document : document : document
++            }
++            var Poe = Coe ? o.useLayoutEffect : o.useEffect;
++
++            function joe(e) {
+
+-            function qae(e) {
+-                return Toe && e ? Coe(e) ? e : Roe(e) ? qoe(e) || e === Ioe(e).scrollingElement ? window : koe(e) ? e : null : null : null
+-            }
+-
+
+
+-                return Coe(e) ? e.scrollX : e.scrollLeft
++                return Coe && e ? Roe(e) ? e : Loe(e) ? koe(e) || e === Woe(e).scrollingElement ? window : Noe(e) ? e : null : null : null
+
+-                return Coe(e) ? e.scrollY : e.scrollTop
++                return Roe(e) ? e.scrollX : e.scrollLeft
+
+-                return {
+-                    x: kae(e),
+-                    y: Nae(e)
+-                }
++                return Roe(e) ? e.scrollY : e.scrollTop
+
+-                return !(!Toe || !e) && e === document.scrollingElement
++                return {
++                    x: Nae(e),
++                    y: Iae(e)
++                }
+
+
++                return !(!Coe || !e) && e === document.scrollingElement
++            }
++
++            function jae(e) {
+
+-                    }, o.createElement(qse.Provider, {
+-                        value: Be
+
+
+
++                        value: Be
++                    }, o.createElement(Nse.Provider, {
+
+-                ope = o.memo(ipe),
+-                ape = function(e) {
+-                    return e[e.ADD = 0] = "ADD", e[e.REMOVE = 1] = "REMOVE", e[e.EDIT = 2] = "EDIT", e
+-                }(ape || {}),
++                ape = o.memo(ope),
+
+
++                    return e[e.ADD = 0] = "ADD", e[e.REMOVE = 1] = "REMOVE", e[e.EDIT = 2] = "EDIT", e
++                }(spe || {}),
++                cpe = function(e) {
+
+-            var Zfe, Vfe, Xfe, Gfe = o.forwardRef(Hfe),
+-                Yfe = (n.p, "vod_contents_box__NN4+t"),
+-                $fe = "vod_contents_area__yRSuN",
+-                Kfe = "vod_contents_select_box__jQkHG",
+-                Qfe = "vod_contents_icon_live__3AF7+",
+-                Jfe = "vod_contents_icon_vod__4g8dC",
+-                ehe = "vod_contents_icon__KBVo1",
+-                the = "vod_contents_delete_button__sgLRK",
+-                nhe = "vod_contents_page_area__LIyH2",
+-                rhe = function(e) {
+-                    return e.ALL = "전체 기간", e.LAST_24_HOURS = "지난 24시간", e.LAST_7_DAYS = "지난 7일", e
+-                }(rhe || {}),
++            var Vfe, Xfe, Gfe, Yfe = o.forwardRef(Zfe),
++                $fe = (n.p, "vod_contents_box__NN4+t"),
++                Kfe = "vod_contents_area__yRSuN",
++                Qfe = "vod_contents_select_box__jQkHG",
++                Jfe = "vod_contents_icon_live__3AF7+",
++                ehe = "vod_contents_icon_vod__4g8dC",
++                the = "vod_contents_icon__KBVo1",
++                nhe = "vod_contents_delete_button__sgLRK",
++                rhe = "vod_contents_page_area__LIyH2",
+
+
++                    return e.ALL = "전체 기간", e.LAST_24_HOURS = "지난 24시간", e.LAST_7_DAYS = "지난 7일", e
++                }(ihe || {}),
++                ohe = function(e) {
 
