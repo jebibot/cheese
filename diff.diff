@@ -4,6 +4,3 @@
 
 +d372c04f eaf801ee e6acfc5d
 
--                                        return e.domain !== $d.SPONSE_DETAIL.domain || function() {
-+                                        return e.domain !== $d.SPONSE_DETAIL.domain && e.domain !== $d.CALCULATE.domain || function() {
-
