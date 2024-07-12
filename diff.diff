@@ -1,6 +1,390 @@
+-            _ie = __webpack_require__(61120);
++            _ie = {
++                dev: !0,
++                stage: !0,
++                real: !1
++            },
++            Mie = function(e) {
++                var t = (0, Xe.Z)((0, Xe.Z)({}, _ie), e);
++                return !(zs() && !t.dev) && (!(Cs() && !t.stage) && !!(zs() || Cs() || t.real))
++            },
++            Aie = function(e) {
++                Mie(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.info("%c[INFO]%c " + e, "color: #2248bb", "color: inherit")
++            },
++            xie = function(e) {
++                Mie(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.debug("%c[DEBUG]%c " + e, "color: #1bb373", "color: inherit")
++            },
++            Oie = function(e) {
++                var t = e.channelId,
++                    i = e.videoNo,
++                    o = (0, mt.useRecoilValue)(Zg),
++                    a = (0, r.useState)(),
++                    s = (0, n.Z)(a, 2),
++                    u = s[0],
++                    c = s[1],
++                    l = (0, r.useState)(),
++                    d = (0, n.Z)(l, 2),
++                    p = d[0],
++                    f = d[1],
++                    h = (0, r.useCallback)((function(e) {
++                        return {
++                            scene_id: i ? "chzzk_video_end" : "chzzk_live_end",
++                            action_id: "occur",
++                            classifier: "all" === e ? "qoe_gfp_load_fail" : "gfp" === e ? "gfp_load_fail" : "qoe_load_fail",
++                            extra: {
++                                userIdHash: o.userIdHash || "__UNKNOWN__",
++                                channelId: t,
++                                uuid: Ud()
++                            }
++                        }
++                    }), [t, o.userIdHash, i]);
++                (0, r.useEffect)((function() {
++                    var e = new XMLHttpRequest,
++                        t = new XMLHttpRequest;
++                    e.open("OPTIONS", "https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js", !0), t.open("GET", "https://apis.naver.com/mcollector/mcollector/qoe", !0), e.onload = function() {
++                        c(e.status)
++                    }, e.onerror = function() {
++                        c(e.status)
++                    }, t.onload = function() {
++                        f(t.status)
++                    }, t.onerror = function() {
++                        f(t.status)
++                    }, e.send(), t.send()
++                }), []), (0, r.useEffect)((function() {
++                    !t || o.beforeLoaded || (0, ks.isUndefined)(u) || (0, ks.isUndefined)(p) || (Aie("gfp xhr status: ".concat(u)), Aie("qoe xhr status: ".concat(p)), 0 === u && 0 === p ? Jd(h("all")) : 0 === u ? Jd(h("gfp")) : 0 === p && Jd(h("qoe")))
++                }), [t, o.beforeLoaded, h, u, p])
++            },
++            wie = __webpack_require__(61120);
+
+-            xoe = function() {
+-                return window.navigator.userAgent.toLowerCase()
+-            },
+-            Ooe = function() {
+-                return /Windows/i.test(xoe())
+-            },
+-            woe = function() {
+-                return /Macintosh/i.test(xoe())
+-            },
+-            Eoe = function() {
+-                return /iPhone/i.test(xoe())
+-            },
+-            koe = function() {
+-                return /iPad/i.test(xoe()) || function() {
+-                    var e = window.navigator;
+-                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
+-                }()
+-            },
+
+
+-                return Eoe() || koe() || /iPod/i.test(xoe())
++                return window.navigator.userAgent.toLowerCase()
+
+-                return /Windows Phone|Windows CE/i.test(xoe())
++                return /Macintosh/i.test(Soe())
+
+-                return /Tizen/i.test(xoe())
++                return /iPhone/i.test(Soe())
+
+-                return "undefined" != typeof window.opera || /Opera/i.test(xoe())
++                return /iPad/i.test(Soe()) || function() {
++                    var e = window.navigator;
++                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
++                }()
+
+-                return /Edg/i.test(xoe())
++                return Coe() || Loe() || /iPod/i.test(Soe())
+
+-                return /Whale/i.test(xoe())
++                return /Windows Phone|Windows CE/i.test(Soe())
+
+-                return /Chrome|CriOS/i.test(xoe())
++                return /Tizen/i.test(Soe())
+
+-                return !/Chrome|CriOS/i.test(xoe()) && (xoe() || "").indexOf("safari") > -1
++                return "undefined" != typeof window.opera || /Opera/i.test(Soe())
+
+-                return /AppleWebKit/i.test(xoe())
++                return /Edg/i.test(Soe())
+
+-                return !!xoe().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
++                return /Firefox/i.test(Soe())
+
+-                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(xoe())
++                return /Whale/i.test(Soe())
+
+-                return /SamsungBrowser/i.test(xoe())
++                return /Chrome|CriOS/i.test(Soe())
+
+-                return /\bLine\b/i.test(xoe())
++                return !/Chrome|CriOS/i.test(Soe()) && (Soe() || "").indexOf("safari") > -1
+
+-                return /EdgA/i.test(xoe())
++                return /AppleWebKit/i.test(Soe())
+
+-                return /EdgiOS/i.test(xoe())
++                return !!Soe().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
+
+-                return /IEMobile/i.test(xoe())
++                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(Soe())
+
+-                return /Opera Mini/i.test(xoe())
++                return /SamsungBrowser/i.test(Soe())
+
+-                return /Dolfin/i.test(xoe())
++                return /\bLine\b/i.test(Soe())
++            },
++            Xoe = function() {
++                return /EdgA/i.test(Soe())
++            },
++            Koe = function() {
++                return /EdgiOS/i.test(Soe())
++            },
++            $oe = function() {
++                return /IEMobile/i.test(Soe())
++            },
++            Yoe = function() {
++                return /Opera Mini/i.test(Soe())
+
+-            Xoe = "googleImaSdk",
+-            Koe = [{
+-                key: Xoe,
++            Qoe = function() {
++                return /Dolfin/i.test(Soe())
++            },
++            Joe = "googleImaSdk",
++            eae = [{
++                key: Joe,
+
+-                            case ame:
+-                            case sme:
+-                            case ume:
+-                            case lme:
+
+
+-                                this.state = ome
++                            case pme:
++                            case fme:
++                            case vme:
++                            case mme:
++                                this.state = lme
+
+-            Nye = r.memo(Dye),
+-            Pye = {
+-                dev: !0,
+-                stage: !0,
+-                real: !1
+-            },
+-            qye = function(e) {
+-                var t = (0, Xe.Z)((0, Xe.Z)({}, Pye), e);
+-                return !(zs() && !t.dev) && (!(Cs() && !t.stage) && !!(zs() || Cs() || t.real))
+-            },
+-            Fye = function(e) {
+-                qye(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.info("%c[INFO]%c " + e, "color: #2248bb", "color: inherit")
+-            },
+-            Bye = function(e) {
+-                qye(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.warn("%c[WARN]%c " + e, "color: #faad15", "color: inherit")
+-            },
+-            Wye = function(e) {
+-                qye(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.error("%c[ERROR]%c " + e, "color: #f84302", "color: inherit")
+-            },
++            Wye = r.memo(Bye),
+
+-                qye(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.debug("%c[DEBUG]%c " + e, "color: #1bb373", "color: inherit")
+-            },
+-            Uye = function(e) {
+
+
+-                (0, r.useEffect)((function() {
+-                    if (null !== l && void 0 !== l && l.channel.channelId) {
+-                        var e = {
+-                                scene_id: "chzzk_live_end",
+-                                action_id: "occur",
+-                                classifier: "gfp_load_fail",
+-                                extra: {
+-                                    userIdHash: O.userIdHash || "__UNKNOWN__",
+-                                    channelId: l.channel.channelId,
+-                                    uuid: Ud()
+-                                }
+-                            },
+-                            t = new XMLHttpRequest;
+-                        t.open("OPTIONS", "https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js", !0), t.onload = function() {
+-                            t.status >= 200 && t.status < 300 ? Fye("No Adblocker detected.") : (Bye("Adblocker might be detected due to unexpected status: ".concat(t.status)), Jd(e))
+-                        }, t.onerror = function() {
+-                            0 === t.status ? (Bye("Adblocker detected! (onerror)"), Jd(e)) : Wye("Error occurred:: ".concat(t.status, ", ").concat(t.statusText))
+-                        }, t.send()
+-                    }
+-                }), [O.userIdHash, null === l || void 0 === l ? void 0 : l.channel.channelId]), (0, r.useEffect)((function() {
++                Oie({
++                    channelId: null === l || void 0 === l ? void 0 : l.channel.channelId
++                }), (0, r.useEffect)((function() {
+
+
++                                                        isSelected: "FOLLOWER" === z && I === pxe,
++                                                        clickHandler: function() {
++                                                            ne("FOLLOWER", pxe)
++                                                        }
++                                                    }, {
++                                                        contents: "5분",
+
+-                                                        contents: "5분",
++                                                        contents: "10분",
+
+-                                                        contents: "1시간",
++                                                        contents: "1일",
+
+-                                                        contents: "1일",
++                                                        contents: "1주일",
+
+-                                                    }, {
+-                                                        contents: "1개월",
+-                                                        isSelected: "FOLLOWER" === z && I === _xe,
+-                                                        clickHandler: function() {
+-                                                            ne("FOLLOWER", _xe)
+-                                                        }
+
+
+-        var Bxe, Wxe, jxe, Uxe = r.forwardRef(Fxe),
+-            Vxe = (__webpack_require__.p, "live_chatting_donation_message_container__r01qB"),
+-            Zxe = "live_chatting_donation_message_level0__rgSs0",
+-            Hxe = "live_chatting_donation_message_level1__tE0x8",
+-            Gxe = "live_chatting_donation_message_level2__Z5FQn",
+-            Xxe = "live_chatting_donation_message_level3__kpyCB",
+-            Kxe = "live_chatting_donation_message_is_input__a1c07",
+-            $xe = "live_chatting_donation_message_bottom__uR1tP",
+-            Yxe = "live_chatting_donation_message_is_overlay__RItjd",
+-            Qxe = "live_chatting_donation_message_wrapper__SNoBH",
+-            Jxe = "live_chatting_donation_message_header__O3BVA",
+-            eOe = "live_chatting_donation_message_text__XbDKP",
+-            tOe = "live_chatting_donation_message_money__fE2UC",
+-            nOe = "live_chatting_donation_message_input_wrapper__04s9x",
+-            rOe = "live_chatting_donation_message_input__3X7ug",
+-            iOe = "live_chatting_donation_message_emoticon_button__qp8ge",
+-            oOe = "live_chatting_donation_message_emoticon__I319n",
+-            aOe = 0,
++        var Fxe, Bxe, Wxe, jxe = r.forwardRef(qxe),
++            Uxe = (__webpack_require__.p, "live_chatting_donation_message_container__r01qB"),
++            Vxe = "live_chatting_donation_message_level0__rgSs0",
++            Zxe = "live_chatting_donation_message_level1__tE0x8",
++            Hxe = "live_chatting_donation_message_level2__Z5FQn",
++            Gxe = "live_chatting_donation_message_level3__kpyCB",
++            Xxe = "live_chatting_donation_message_is_input__a1c07",
++            Kxe = "live_chatting_donation_message_bottom__uR1tP",
++            $xe = "live_chatting_donation_message_is_overlay__RItjd",
++            Yxe = "live_chatting_donation_message_wrapper__SNoBH",
++            Qxe = "live_chatting_donation_message_header__O3BVA",
++            Jxe = "live_chatting_donation_message_text__XbDKP",
++            eOe = "live_chatting_donation_message_money__fE2UC",
++            tOe = "live_chatting_donation_message_input_wrapper__04s9x",
++            nOe = "live_chatting_donation_message_input__3X7ug",
++            rOe = "live_chatting_donation_message_emoticon_button__qp8ge",
++            iOe = "live_chatting_donation_message_emoticon__I319n",
++            oOe = 0,
++            aOe = !1,
+
+-            uOe = !1,
+-            cOe = function(e) {
++            uOe = function(e) {
+
+
++                                                    isSelected: "FOLLOWER" === E && z === DLe,
++                                                    clickHandler: function() {
++                                                        Q("FOLLOWER", DLe)
++                                                    }
++                                                }, {
++                                                    contents: "5분",
+
+-                                                    contents: "5분",
++                                                    contents: "10분",
+
+-                                                    contents: "1시간",
++                                                    contents: "1일",
+
+-                                                    contents: "1일",
++                                                    contents: "1주일",
+
+-                                                }, {
+-                                                    contents: "1개월",
+-                                                    isSelected: "FOLLOWER" === E && z === ULe,
+-                                                    clickHandler: function() {
+-                                                        Q("FOLLOWER", ULe)
+-                                                    }
+
+
+-                (0, r.useEffect)((function() {
+-                    if (null !== m && void 0 !== m && m.channel.channelId) {
+-                        var e = {
+-                                scene_id: "chzzk_video_end",
+-                                action_id: "occur",
+-                                classifier: "gfp_load_fail",
+-                                extra: {
+-                                    userIdHash: z.userIdHash || "__UNKNOWN__",
+-                                    channelId: m.channel.channelId,
+-                                    contentId: m.videoNo,
+-                                    uuid: Ud()
+-                                }
+-                            },
+-                            t = new XMLHttpRequest;
+-                        t.open("OPTIONS", "https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js", !0), t.onload = function() {
+-                            t.status >= 200 && t.status < 300 ? Fye("No Adblocker detected.") : (Bye("Adblocker might be detected due to unexpected status: ".concat(t.status)), Jd(e))
+-                        }, t.onerror = function() {
+-                            0 === t.status ? (Bye("Adblocker detected! (onerror)"), Jd(e)) : Wye("Error occurred:: ".concat(t.status, ", ").concat(t.statusText))
+-                        }, t.send()
+-                    }
+-                }), [z.userIdHash, m]), (0, r.useEffect)((function() {
++                Oie({
++                    channelId: null === m || void 0 === m ? void 0 : m.channel.channelId,
++                    videoNo: null === m || void 0 === m ? void 0 : m.videoNo
++                }), (0, r.useEffect)((function() {
+
+-                    }), (0, ef.jsx)(nPe, {
+-                        children: (0, ef.jsx)(uPe, (0, Xe.Z)({}, i))
+
+
+-                        children: (0, ef.jsx)(nPe, {
+-                            children: (0, ef.jsx)(rPe, {
++                        children: (0, ef.jsx)(sPe, (0, Xe.Z)({}, i))
++                    }), (0, ef.jsx)(ePe, {
++                        children: (0, ef.jsx)(tPe, {
++                            children: (0, ef.jsx)(nPe, {
+
+
++            Zqe = [],
+
+-            Gqe = [],
+-            Xqe = 3e3,
+-            Kqe = function() {
++            Gqe = 3e3,
++            Xqe = function() {
+
+
++            fFe = [],
+
+-            vFe = [],
+-            mFe = function() {
++            vFe = function() {
+
+
++                                    selected: B === KHe,
++                                    type: KHe,
++                                    clickButtonHandler: Ze
++                                }), (0, ef.jsx)(KGe, {
++                                    text: "장면캡쳐",
+
+-                                }), (0, ef.jsx)($Ge, {
+-                                    text: "상하분할",
++                                }), (0, ef.jsx)(KGe, {
++                                    text: "사각형",
+
+-                                }), (0, ef.jsx)($Ge, {
+-                                    text: "가로형",
+-                                    selected: B === eGe,
+-                                    type: eGe,
+-                                    clickButtonHandler: Ze
+
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+f030115b 46ca3f26 e6acfc5d
++d372c04f 46ca3f26 e6acfc5d
 
