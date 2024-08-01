@@ -1,6 +1,43 @@
+-  gap: 30px 14px;
+-  margin-top: 15px;
++  margin: 15px -14px 0;
++  padding: 0 7px;
+
+-  -ms-flex: none;
+-  flex: none;
++  padding: 0 7px;
+
+-                stg: "https://ca-fe.pstatic.net/cafe-webkit/0.11.0/webkit.js",
++                stg: "https://ca-fe.pstatic.net/cafe-webkit/stg/webkit.js",
+
+-                stg: "https://ca-fe.pstatic.net/cafe-webkit/0.11.0/webkit.css",
++                stg: "https://ca-fe.pstatic.net/cafe-webkit/stg/webkit.css",
+
+-                    children: [(null === V || void 0 === V || null === (t = V.permissions) || void 0 === t ? void 0 : t.includes("CHANNEL_MANAGE")) && !l && !(null !== h && void 0 !== h && h.length) && (0, uf.jsx)(WL, {
+-                        height: 180,
+-                        marginTop: 10,
+-                        text: "내 채널을 알리는 배너를 등록해보세요.",
+-                        buttonText: "배너 설정하기",
+-                        link: "/".concat(u, "/settings"),
+-                        showBorder: !0
+-                    }), re ? (0, uf.jsx)(WL, {
++                    children: [re ? (0, uf.jsx)(WL, {
+
+
++                    }), (null === V || void 0 === V || null === (a = V.permissions) || void 0 === a ? void 0 : a.includes("CHANNEL_MANAGE")) && !l && !(null !== h && void 0 !== h && h.length) && (0, uf.jsx)(WL, {
++                        height: 180,
++                        marginTop: 10,
++                        text: "내 채널을 알리는 배너를 등록해보세요.",
++                        buttonText: "배너 설정하기",
++                        link: "/".concat(u, "/settings"),
++                        showBorder: !0
+
+-                                    n = e.sent, r = n.data, s = n.page, (u = s.next).clipUID === (null === m || void 0 === m ? void 0 : m.clipUID) && u.readCount === (null === m || void 0 === m ? void 0 : m.readCount) || b(u), f((function(e) {
++                                    n = e.sent, r = n.data, s = n.page, !(u = s.next) || u.clipUID === (null === m || void 0 === m ? void 0 : m.clipUID) && u.readCount === (null === m || void 0 === m ? void 0 : m.readCount) || b(u), f((function(e) {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+bf9692b1 098feb1a f071afcb
++027a29ca 098feb1a 7c4ff24a
 
