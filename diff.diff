@@ -2,5 +2,540 @@
 
 
 
-+027a29ca 098feb1a 7c4ff24a
++027a29ca f389dc53 7c4ff24a
+
+-                                            n || (n = !0, N(t, e))
+-                                        }), (function(e) {
+
+
+
++                                        }), (function(e) {
++                                            n || (n = !0, N(t, e))
+
+-                                    Ne = {},
+
+
+
++                                    Ne = {},
+
+-                                                    "?" == o ? (l.query = "", u = Ne) : "#" == o ? (l.fragment = "", u = ke) : o != r && (l.path[0] += ue(o, ae));
+-                                                    break;
+-                                                case Ne:
+-                                                    t || "#" != o ? o != r && ("'" == o && l.isSpecial() ? l.query += "%27" : l.query += "#" == o ? "%23" : ue(o, ae)) : (l.fragment = "", u = ke);
++                                                    "?" == o ? (l.query = "", u = ke) : "#" == o ? (l.fragment = "", u = Ne) : o != r && (l.path[0] += ue(o, ae));
+
+
++                                                    t || "#" != o ? o != r && ("'" == o && l.isSpecial() ? l.query += "%27" : l.query += "#" == o ? "%23" : ue(o, ae)) : (l.fragment = "", u = Ne);
++                                                    break;
++                                                case Ne:
+
+-                                    case Nn:
+-                                        return S;
+
+
+
++                                        return S;
++                                    case Nn:
+
+-                vo = function() {
++                vo = n(984),
++                mo = n.n(vo),
++                go = function() {
+
+-                yd = n(966),
+-                zd = n.n(yd),
+-                Ad = n(1843),
++                Ad = n(966),
+
+-                wd = function(e) {
++                wd = n(1843),
++                Ed = n.n(wd),
++                Sd = function(e) {
+
+-                y_ = (0, o.memo)(__),
+-                z_ = function() {
+-                    return (0, vt.jsx)(y_, {})
+-                },
+
+
+-                x_ = "advertisement_detail_table_body__8vM7U",
+-                w_ = "advertisement_detail_button__fXC0V",
+-                E_ = "advertisement_detail_flip__+8ysM",
+-                S_ = "advertisement_detail_icon_arrow__M9Agy",
+-                T_ = "advertisement_detail_icon__YVvsX",
+-                C_ = "advertisement_detail_date__VqhGB",
+-                R_ = function(e) {
++                x_ = function() {
++                    return (0, vt.jsx)(A_, {})
++                },
++                w_ = (0, o.memo)(x_),
++                E_ = "advertisement_detail_table_body__8vM7U",
++                S_ = "advertisement_detail_button__fXC0V",
++                T_ = "advertisement_detail_flip__+8ysM",
++                C_ = "advertisement_detail_icon_arrow__M9Agy",
++                R_ = "advertisement_detail_icon__YVvsX",
++                L_ = "advertisement_detail_date__VqhGB",
++                q_ = function(e) {
+
+-                hz = (0, o.memo)(fz),
+-                bz = function() {
+-                    return (0, vt.jsx)(hz, {})
+-                },
+
+
+-                mz = function(e) {
++                mz = function() {
++                    return (0, vt.jsx)(vz, {})
++                },
++                gz = (0, o.memo)(mz),
++                Mz = function(e) {
+
+-                                case XR.IDLE:
+-                                    n = new lq;
+-                                    break;
+-                                case XR.HOLDING:
+-                                    n = new uq;
+-                                    break;
+-                                case XR.DRAGGING:
++                                case YR.IDLE:
+
+-                                case XR.ANIMATING:
++                                case YR.HOLDING:
+
+-                                case XR.DISABLED:
+-                                    n = new fq
++                                case YR.DRAGGING:
++                                    n = new fq;
++                                    break;
++                                case YR.ANIMATING:
++                                    n = new hq;
++                                    break;
++                                case YR.DISABLED:
++                                    n = new bq
+
+-                EF = o.memo(wF),
+-                SF = n(4054),
+-                TF = n.n(SF),
+-                CF = n(984),
+-                RF = n.n(CF),
+-                LF = TF()("app:ba"),
+-                qF = mr() ? "https://scv-game.io.naver.com/jackpotlog/test/v1/logs" : "https://scv-game.io.naver.com/jackpotlog/v1/logs",
+-                NF = {
++                TF = o.memo(SF),
++                CF = n(4054),
++                RF = n.n(CF)()("app:ba"),
++                LF = mr() ? "https://scv-game.io.naver.com/jackpotlog/test/v1/logs" : "https://scv-game.io.naver.com/jackpotlog/v1/logs",
++                qF = {
+
+-                IF = mo() ? "app" : go() ? "mweb" : "web",
+-                WF = localStorage.getItem("userStatus.idhash") || "__UNKNOWN__",
+-                PF = function() {
+-                    var e = vo();
+-                    if (e.includes("naver(client; navergame;")) switch (!0) {
+-                        case e.toLowerCase().indexOf("aos") > -1:
+-                            return "AOS";
+-                        case e.toLowerCase().indexOf("ios") > -1:
+-                            return "iOS"
+-                    }
+-                    var t = vo();
+-                    return t.match(/Win(dows )?NT 6\.0/) ? "Windows Vista" : t.match(/Win(dows )?(NT 5\.1|XP)/) || -1 != t.indexOf("Windows NT 5.1") || -1 != t.indexOf("Windows XP") ? "Windows XP" : -1 != t.indexOf("Windows NT 7.0") || -1 != t.indexOf("Windows NT 6.1") ? "Windows 7" : -1 != t.indexOf("Windows NT 8.0") || -1 != t.indexOf("Windows NT 6.2") ? "Windows 8" : -1 != t.indexOf("Windows NT 8.1") || -1 != t.indexOf("Windows NT 6.3") ? "Windows 8.1" : -1 != t.indexOf("Windows NT 10.0") || -1 != t.indexOf("Windows NT 6.4") ? "Windows 10" : -1 != t.indexOf("iPad") || -1 != t.indexOf("iPhone") || -1 != t.indexOf("iPod") ? "ios" : -1 != t.indexOf("Android") ? "android" : t.match(/Win(dows )?NT( 4\.0)?/) ? "Windows NT" : t.match(/mac os|Mac|PPC/) ? "Mac" : t.match(/Linux/) ? "Linux" : t.match(/(Free|Net|Open)BSD/) ? RegExp.$1 + "BSD" : t.match(/SunOS/) ? "Solaris" : "__UNKNOWN__"
++                NF = Mo() ? "app" : Oo() ? "mweb" : "web",
++                IF = localStorage.getItem("userStatus.idhash") || "__UNKNOWN__",
++                WF = function() {
++                    var e, t, n, r = go();
++                    if (r.includes("naver(client; navergame;")) switch (!0) {
++                        case r.toLowerCase().indexOf("aos") > -1:
++                            return "android";
++                        case r.toLowerCase().indexOf("ios") > -1:
++                            return "ios"
++                    }
++                    return (null === mo() || void 0 === mo() || null === (e = mo().parse(window.navigator.userAgent)) || void 0 === e || null === (t = e.os) || void 0 === t || null === (n = t.name) || void 0 === n ? void 0 : n.toLowerCase()) || "UNKNOWN"
+
+
++            function sZ(e, t) {
++                return WH(e.getDate(), t, 2)
++            }
++
+
+-                return PH(e.getDate(), t, 2)
++                return WH(e.getHours(), t, 2)
+
+-                return PH(e.getHours(), t, 2)
++                return WH(e.getHours() % 12 || 12, t, 2)
+
+-                return PH(e.getHours() % 12 || 12, t, 2)
++                return WH(1 + OH.count(zH(e), e), t, 3)
+
+-                return PH(1 + _H.count(AH(e), e), t, 3)
++                return WH(e.getMilliseconds(), t, 3)
+
+-                return PH(e.getMilliseconds(), t, 3)
++                return dZ(e, t) + "000"
+
+-                return pZ(e, t) + "000"
++                return WH(e.getMonth() + 1, t, 2)
+
+-                return PH(e.getMonth() + 1, t, 2)
++                return WH(e.getMinutes(), t, 2)
+
+-                return PH(e.getMinutes(), t, 2)
+-            }
+-
+-            function vZ(e, t) {
+-                return PH(e.getSeconds(), t, 2)
++                return WH(e.getSeconds(), t, 2)
+
+
++            function _Z(e, t) {
++                return WH(aH.count(zH(e) - 1, e), t, 2)
++            }
++
+
+-                return PH(sH.count(AH(e) - 1, e), t, 2)
++                return WH(e.getFullYear() % 100, t, 2)
+
+-                return PH(e.getFullYear() % 100, t, 2)
++                return WH((e = gZ(e)).getFullYear() % 100, t, 2)
+
+-                return PH((e = MZ(e)).getFullYear() % 100, t, 2)
++                return WH(e.getFullYear() % 1e4, t, 4)
+
+-                return PH(e.getFullYear() % 1e4, t, 4)
+-            }
+-
+-            function wZ(e, t) {
+
+
+-                return (t > 0 ? "-" : (t *= -1, "+")) + PH(t / 60 | 0, "0", 2) + PH(t % 60, "0", 2)
++                return (t > 0 ? "-" : (t *= -1, "+")) + WH(t / 60 | 0, "0", 2) + WH(t % 60, "0", 2)
++            }
++
++            function EZ(e, t) {
++                return WH(e.getUTCDate(), t, 2)
+
+-                return PH(e.getUTCDate(), t, 2)
++                return WH(e.getUTCHours(), t, 2)
+
+-                return PH(e.getUTCHours(), t, 2)
++                return WH(e.getUTCHours() % 12 || 12, t, 2)
+
+-                return PH(e.getUTCHours() % 12 || 12, t, 2)
++                return WH(1 + _H.count(AH(e), e), t, 3)
+
+-                return PH(e.getUTCMilliseconds(), t, 3)
++                return RZ(e, t) + "000"
+
+-                return LZ(e, t) + "000"
+-            }
+-
+-            function NZ(e, t) {
+-                return PH(e.getUTCMonth() + 1, t, 2)
++                return WH(e.getUTCMonth() + 1, t, 2)
+
+
++            function BZ(e, t) {
++                return WH(hH.count(AH(e) - 1, e), t, 2)
++            }
++
+
+-                return PH(bH.count(xH(e) - 1, e), t, 2)
++                return WH(e.getUTCFullYear() % 100, t, 2)
+
+-                return PH(e.getUTCFullYear() % 100, t, 2)
++                return WH((e = PZ(e)).getUTCFullYear() % 100, t, 2)
+
+-                return PH((e = jZ(e)).getUTCFullYear() % 100, t, 2)
++                return WH(e.getUTCFullYear() % 1e4, t, 4)
+
+-                return PH(e.getUTCFullYear() % 1e4, t, 4)
+-            }
+-
+-            function VZ(e, t) {
+
+
+-            var zG, AG, xG = 0,
++            var yG, zG, AG = 0,
++                xG = 0,
+
+-                EG = 0,
+-                SG = 1e3,
++                EG = 1e3,
++                SG = 0,
+
+-                RG = 0,
+-                LG = "object" === typeof performance && performance.now ? performance : Date,
+-                qG = "object" === typeof window && window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : function(e) {
++                RG = "object" === typeof performance && performance.now ? performance : Date,
++                LG = "object" === typeof window && window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : function(e) {
+
+
++            function pQ(e) {
++                this._context = new fQ(e)
++            }
++
+
+-                this._context = new hQ(e)
++                this._context = e
+
+-                this._context = e
++                return new dQ(e)
+
+-                return new fQ(e)
+-            }
+-
+-            function mQ(e) {
+
+
+
++            function gQ(e) {
++                return new vQ(e)
++            }
++
+
+-                return new mQ(e)
++                this._context = e
+
+-                this._context = e
++                return new MQ(e)
+
+-                return new OQ(e)
++                this._context = e
+
+-                this._context = e
++                return new _Q(e)
+
+-            function zQ(e) {
+-                return new yQ(e)
++            function zQ(e, t) {
++                this._context = e, this._t = t
+
+-            function AQ(e, t) {
+-                this._context = e, this._t = t
++            function AQ(e) {
++                return new zQ(e, .5)
+
+-                return new AQ(e, .5)
++                return new zQ(e, 0)
+
+-                return new AQ(e, 0)
+-            }
+-
+-            function EQ(e) {
+-                return new AQ(e, 1)
++                return new zQ(e, 1)
+
+
++            function pJ(e) {
++                return dJ(tJ, e)
++            }
++
+
+-                return pJ(iJ, e)
+-            }
+-
+-            function vJ(e) {
+-                return pJ(oJ, e)
++                return dJ(iJ, e)
+
+
++                e0 = function(e) {
++                    return GJ(e) || null === e || VJ(e) && 0 === e.length || JJ(e) && !(e instanceof Date) && 0 === Object.keys(e).length || XJ(e) && isNaN(e)
++                },
+
+-                    return YJ(e) || null === e || XJ(e) && 0 === e.length || e0(e) && !(e instanceof Date) && 0 === Object.keys(e).length || GJ(e) && isNaN(e)
++                    return !e0(e)
+
+-                    return !t0(e)
+-                },
+-                r0 = function(e) {
+
+
+-                K9 = (0, o.memo)($9),
+-                Q9 = "profile_container__oe2EL",
+-                J9 = "profile_thumbnail__JLafh",
+-                eee = "profile_information__2I4pG",
+-                tee = "profile_name__3m-HG",
+-                nee = "profile_grade__JNDej",
+-                ree = "profile_date__6T0Lg",
+-                iee = "profile_count__yr+GF",
+-                oee = "profile_item__FqPAj",
+-                aee = "profile_label__Ek30k",
+-                see = "profile_number__PeRxI",
+-                cee = "profile_comma__AiBsR",
+-                lee = function(e) {
++                $9 = (0, o.memo)(Y9),
++                K9 = "profile_container__oe2EL",
++                Q9 = "profile_thumbnail__JLafh",
++                J9 = "profile_information__2I4pG",
++                eee = "profile_name__3m-HG",
++                tee = "profile_grade__JNDej",
++                nee = "profile_date__6T0Lg",
++                ree = "profile_count__yr+GF",
++                iee = "profile_item__FqPAj",
++                oee = "profile_label__Ek30k",
++                aee = "profile_number__PeRxI",
++                see = "profile_comma__AiBsR",
++                cee = function(e) {
+
+-                                className: eee,
++                                className: J9,
+
+-                                                    switch (k) {
+-                                                        case Rne.CHATTING:
++                                                    switch (N) {
++                                                        case Cne.CHATTING:
++                                                            return Yee;
++                                                        case Cne.VIDEO:
+
+-                                                        case Rne.VIDEO:
++                                                        case Cne.MISSION:
+
+-                                                        case Rne.MISSION:
++                                                        case Cne.SUBSCRIBE:
+
+-                                                        case Rne.SUBSCRIBE:
+-                                                            return Jee;
+
+
+-                                                    }), (0, vt.jsx)("div", {
+-                                                        className: gse,
+-                                                        children: Ase[t]
+
+
+
++                                                        children: zse[t]
++                                                    }), (0, vt.jsx)("div", {
++                                                        className: vse,
+
+-                                    case Qd.LIVE_ANALYSIS.path:
+-                                        return (0, vt.jsx)(IU, {});
+-                                    case Qd.VOD_ANALYSIS.path:
+-                                        return (0, vt.jsx)(Qpe, {});
+-                                    case Qd.LIVE_DETAIL.path:
+-                                        return (0, vt.jsx)(u4, {});
+-                                    case Qd.VOD_DETAIL.path:
+-                                        return (0, vt.jsx)(efe, {});
+-                                    case Qd.FOLLOWER.path:
+-                                        return (0, vt.jsx)(XS, {});
+-                                    case Qd.SUBSCRIBER.path:
+-                                        return (0, vt.jsx)(xpe, {});
+-                                    case Qd.BLOCKLIST.path:
+-                                        return (0, vt.jsx)(gx, {});
+-                                    case Qd.VOD.path:
+-                                        return (0, vt.jsx)(dve, {});
+-                                    case Qd.VOD_MANAGE.path:
+-                                        return (0, vt.jsx)(zhe, {});
+-                                    case Qd.VOD_UPLOAD.path:
+-                                        return (0, vt.jsx)($me, {});
+-                                    case Qd.ADVERTISEMENT.path:
+-                                        return (0, vt.jsx)(Ey, {});
+-                                    case Qd.CREATE_PROFIT.path:
+-                                        return (0, vt.jsx)(dS, {});
+-                                    case Qd.REGISTER_PARTNER.path:
+-                                        return (0, vt.jsx)(Yre, {});
+-                                    case Qd.ADVERTISEMENT_SETTING.path:
+-                                        return (0, vt.jsx)(mM, {});
+-                                    case Qd.SPONSE_DETAIL.path:
+-                                        return (0, vt.jsx)(Qae, {});
+-                                    case Qd.SUBSCRIBE_DETAIL.path:
+-                                        return (0, vt.jsx)(hse, {});
+-                                    case Qd.CHAT_SPONSE.path:
+-                                        return (0, vt.jsx)(Ww, {});
+-                                    case Qd.VOD_SPONSE.path:
+-                                        return (0, vt.jsx)(Mve, {});
+-                                    case Qd.MISSION_SPONSE.path:
+-                                        return (0, vt.jsx)(i9, {});
+-                                    case Qd.MY_TTS.path:
+-                                        return (0, vt.jsx)(Hee, {});
+-                                    case Qd.AUTHORITY.path:
+-                                        return (0, vt.jsx)(Qy, {});
+-                                    case Qd.SUBSCRIBE.path:
+-                                        return (0, vt.jsx)(jde, {});
+-                                    case Qd.CALCULATE.path:
+-                                        return (0, vt.jsx)(Jx, {});
+-                                    case Qd.PROHIBIT_WORD.path:
+-                                        return (0, vt.jsx)(Zre, {});
+-                                    case Qd.MY.path:
+-                                        return (0, vt.jsx)(yee, {});
+-                                    case Qd.DELETE_ACCOUNT.path:
+-                                        return (0, vt.jsx)(xS, {});
+-                                    case Qd.ERROR.path:
++                                    case ep.LIVE_ANALYSIS.path:
++                                        return (0, vt.jsx)(NU, {});
++                                    case ep.VOD_ANALYSIS.path:
++                                        return (0, vt.jsx)(Kpe, {});
++                                    case ep.LIVE_DETAIL.path:
++                                        return (0, vt.jsx)(l4, {});
++                                    case ep.VOD_DETAIL.path:
++                                        return (0, vt.jsx)(Jpe, {});
++                                    case ep.FOLLOWER.path:
++                                        return (0, vt.jsx)(YS, {});
++                                    case ep.SUBSCRIBER.path:
++                                        return (0, vt.jsx)(Ape, {});
++                                    case ep.BLOCKLIST.path:
++                                        return (0, vt.jsx)(Ox, {});
++                                    case ep.VOD.path:
++                                        return (0, vt.jsx)(uve, {});
++                                    case ep.VOD_MANAGE.path:
++                                        return (0, vt.jsx)(yhe, {});
++                                    case ep.VOD_UPLOAD.path:
++                                        return (0, vt.jsx)(Yme, {});
++                                    case ep.ADVERTISEMENT.path:
++                                        return (0, vt.jsx)(Ty, {});
++                                    case ep.CREATE_PROFIT.path:
++                                        return (0, vt.jsx)(fS, {});
++                                    case ep.REGISTER_PARTNER.path:
++                                        return (0, vt.jsx)(Gre, {});
++                                    case ep.ADVERTISEMENT_SETTING.path:
++                                        return (0, vt.jsx)(MM, {});
++                                    case ep.SPONSE_DETAIL.path:
++                                        return (0, vt.jsx)(Kae, {});
++                                    case ep.SUBSCRIBE_DETAIL.path:
++                                        return (0, vt.jsx)(fse, {});
++                                    case ep.CHAT_SPONSE.path:
++                                        return (0, vt.jsx)(jw, {});
++                                    case ep.VOD_SPONSE.path:
++                                        return (0, vt.jsx)(gve, {});
++                                    case ep.MISSION_SPONSE.path:
++                                        return (0, vt.jsx)(r9, {});
++                                    case ep.MY_TTS.path:
++                                        return (0, vt.jsx)(Uee, {});
++                                    case ep.AUTHORITY.path:
++                                        return (0, vt.jsx)(ez, {});
++                                    case ep.SUBSCRIBE.path:
++                                        return (0, vt.jsx)(Pde, {});
++                                    case ep.CALCULATE.path:
++                                        return (0, vt.jsx)(tw, {});
++                                    case ep.PROHIBIT_WORD.path:
++                                        return (0, vt.jsx)(Hre, {});
++                                    case ep.MY.path:
++                                        return (0, vt.jsx)(_ee, {});
++                                    case ep.DELETE_ACCOUNT.path:
+
+-                                    case Qd.REMOTE_CONTROL.path:
+-                                        return (0, vt.jsx)(Koe, {});
+-                                    case Qd.PREVIEW.path:
+-                                        return (0, vt.jsx)(wre, {});
+-                                    case Qd.NOTICE.path:
+-                                        return (0, vt.jsx)(Yee, {});
+-                                    case Qd.PARENTAL_CONSENT.path:
+-                                        return (0, vt.jsx)(vz, {});
+-                                    case Qd.TAX_INVOICE.path:
+-                                        return (0, vt.jsx)($pe, {});
+-                                    case Qd.ADVERTISEMENT_REVENUE.path:
+-                                        return (0, vt.jsx)(A_, {});
++                                    case ep.ERROR.path:
++                                        return (0, vt.jsx)(TS, {});
++                                    case ep.REMOTE_CONTROL.path:
++                                        return (0, vt.jsx)($oe, {});
++                                    case ep.PREVIEW.path:
++                                        return (0, vt.jsx)(xre, {});
++                                    case ep.NOTICE.path:
++                                        return (0, vt.jsx)(Gee, {});
++                                    case ep.PARENTAL_CONSENT.path:
++                                        return (0, vt.jsx)(gz, {});
++                                    case ep.TAX_INVOICE.path:
++                                        return (0, vt.jsx)(Ype, {});
++                                    case ep.ADVERTISEMENT_REVENUE.path:
++                                        return (0, vt.jsx)(w_, {});
 
