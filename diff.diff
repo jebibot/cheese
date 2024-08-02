@@ -1,15 +1,3 @@
--                                    e !== u && t(e)
-+                                    t(e)
-
--                    w = function() {
-+                    w = pe(),
-+                    E = function() {
-
--                                        e.prev = 8, e.t0 = e.catch(0), i("POPULAR"), window.location.href = "/lives";
-+                                        e.prev = 8, e.t0 = e.catch(0), i("POPULAR"), setTimeout((function() {
-+                                            w("/lives")
-+                                        }), 200);
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
