@@ -1,6 +1,1430 @@
+-.pagination_container__uzQZ-.pagination_is_clip__O9ZKY {
+-  margin-top: auto;
+-}
+
+
+
++.comment_list_wrap__3UR6e.comment_list_is_clip__gamwO {
++  -ms-flex: 1 0;
++  flex: 1 0;
++}
+
+
++  left: 0;
+
+
++  position: -webkit-sticky;
++  position: sticky;
++  right: 0;
+
+
++  z-index: 10;
+
+-  margin-top: 15px;
+
+
+-.videos_container__Bn6Z8 {
+-  display: -ms-flexbox;
+-  display: flex;
+-  -ms-flex-direction: column;
+-  flex-direction: column;
+-  margin: 0 auto;
+-  max-width: 2060px;
+-  width: 100%;
+-}
+-.videos_section__bpCtF {
+-  -ms-flex: 1 1;
+-  flex: 1 1;
+-  min-height: 0;
+-  padding: 20px 30px 0;
+-}
+-.videos_title__eR5gP {
+-  color: var(--color-content-03);
+-  display: block;
+-  font-family:
+-    Sandoll Nemony2,
+-    Apple SD Gothic NEO,
+-    Helvetica Neue,
+-    Helvetica,
+-    나눔고딕,
+-    NanumGothic,
+-    Malgun Gothic,
+-    맑은 고딕,
+-    굴림,
+-    gulim,
+-    새굴림,
+-    noto sans,
+-    돋움,
+-    Dotum,
+-    sans-serif;
+-  font-size: 22px;
+-  letter-spacing: -0.3px;
+-  line-height: 28px;
+-}
+-.videos_list__6s8\+5 {
+-  display: -ms-flexbox;
+-  display: flex;
+-  margin-top: 27px;
+-  width: 100%;
+-}
+-.videos_item__cYquQ + .videos_item__cYquQ {
+-  -ms-flex: none;
+-  flex: none;
+-  margin-left: 8px;
+-}
+-.videos_tab__dMk2V {
+-  background-color: var(--color-bg-04);
+-  border-radius: 15px;
+-  color: var(--color-content-02);
+-  display: block;
+-  font-family:
+-    Sandoll Nemony2,
+-    Apple SD Gothic NEO,
+-    Helvetica Neue,
+-    Helvetica,
+-    나눔고딕,
+-    NanumGothic,
+-    Malgun Gothic,
+-    맑은 고딕,
+-    굴림,
+-    gulim,
+-    새굴림,
+-    noto sans,
+-    돋움,
+-    Dotum,
+-    sans-serif;
+-  font-size: 14px;
+-  letter-spacing: -0.3px;
+-  line-height: 15px;
+-  padding: 7px 12px;
+-}
+-.videos_tab__dMk2V:active,
+-.videos_tab__dMk2V:hover {
+-  background-image: -webkit-gradient(
+-    linear,
+-    left top,
+-    left bottom,
+-    from(var(--color-bg-overlay-03)),
+-    to(var(--color-bg-overlay-03))
+-  );
+-  background-image: linear-gradient(
+-    180deg,
+-    var(--color-bg-overlay-03),
+-    var(--color-bg-overlay-03)
+-  );
+-}
+-.videos_tab__dMk2V[aria-selected="true"] {
+-  background-color: var(--color-bg-06);
+-  color: var(--color-content-09);
+-}
+-.videos_tab__dMk2V[aria-selected="true"]:active,
+-.videos_tab__dMk2V[aria-selected="true"]:hover {
+-  background-image: -webkit-gradient(
+-    linear,
+-    left top,
+-    left bottom,
+-    from(var(--color-bg-overlay-02)),
+-    to(var(--color-bg-overlay-02))
+-  );
+-  background-image: linear-gradient(
+-    180deg,
+-    var(--color-bg-overlay-02),
+-    var(--color-bg-overlay-02)
+-  );
+-}
+-.videos_empty__ld\+H2 {
+-  padding: 160px 0 140px;
+-}
+-.videos_footer__Ikztd {
+-  -ms-flex: none;
+-  flex: none;
+-  margin-top: 50px;
+-}
+
+
+
++.navigation_broadcast_tab__Brg-m {
++  background-color: var(--color-bg-01);
++  margin-top: 22px;
++  overflow: hidden;
++  position: -webkit-sticky;
++  position: sticky;
++  z-index: 10;
++}
++.navigation_broadcast_tab__Brg-m:before {
++  background-color: rgba(var(--color-border-01-rgb), 0.06);
++  bottom: 0;
++  content: "";
++  height: 1px;
++  left: 30px;
++  position: absolute;
++  right: 30px;
++  z-index: 1;
++}
+
+-            cC = ["title", "titleId"];
++            cC = function() {
++                sp({
++                    scene_id: "chzzk_clip_menu",
++                    action_id: "scene_enter",
++                    classifier: "chzzk_clip_menu",
++                    extra: {}
++                })
++            },
++            lC = ["title", "titleId"];
+
+-            tL = (0, r.createContext)(null),
+
+
+-            rL = [{
++            rL = (0, r.createContext)(null),
++            iL = [{
+
+-            AL = function(e) {
+-                return e.ALL = "", e.LAST = "REPLAY", e.UPLOAD = "UPLOAD", e
+-            }(AL || {}),
+
+
+-                return e.NEW = "LATEST", e.POPULARITY = "POPULAR", e
++                return e.ALL = "", e.LAST = "REPLAY", e.UPLOAD = "UPLOAD", e
+
+
++                return e.NEW = "LATEST", e.POPULARITY = "POPULAR", e
++            }(OL || {}),
++            wL = function(e) {
+
+-            aR = /[A-Za-z]/,
+-            sR = /[\d]/,
+-            uR = /[\D]/,
+-            cR = /\s/,
+-            lR = /['"]/,
+-            dR = /[\x00-\x1F\x7F]/,
+-            pR = /A-Za-z\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0561-\u0587\u05D0-\u05EA\u05F0-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u08A0-\u08B4\u08B6-\u08BD\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1877\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1CE9-\u1CEC\u1CEE-\u1CF1\u1CF5\u1CF6\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312D\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FD5\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7AE\uA7B0-\uA7B7\uA7F7-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB65\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC/.source,
+-            fR = pR + /\u2700-\u27bf\udde6-\uddff\ud800-\udbff\udc00-\udfff\ufe0e\ufe0f\u0300-\u036f\ufe20-\ufe23\u20d0-\u20f0\ud83c\udffb-\udfff\u200d\u3299\u3297\u303d\u3030\u24c2\ud83c\udd70-\udd71\udd7e-\udd7f\udd8e\udd91-\udd9a\udde6-\uddff\ude01-\ude02\ude1a\ude2f\ude32-\ude3a\ude50-\ude51\u203c\u2049\u25aa-\u25ab\u25b6\u25c0\u25fb-\u25fe\u00a9\u00ae\u2122\u2139\udc04\u2600-\u26FF\u2b05\u2b06\u2b07\u2b1b\u2b1c\u2b50\u2b55\u231a\u231b\u2328\u23cf\u23e9-\u23f3\u23f8-\u23fa\udccf\u2935\u2934\u2190-\u21ff/.source + /\u0300-\u036F\u0483-\u0489\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E4\u06E7\u06E8\u06EA-\u06ED\u0711\u0730-\u074A\u07A6-\u07B0\u07EB-\u07F3\u0816-\u0819\u081B-\u0823\u0825-\u0827\u0829-\u082D\u0859-\u085B\u08D4-\u08E1\u08E3-\u0903\u093A-\u093C\u093E-\u094F\u0951-\u0957\u0962\u0963\u0981-\u0983\u09BC\u09BE-\u09C4\u09C7\u09C8\u09CB-\u09CD\u09D7\u09E2\u09E3\u0A01-\u0A03\u0A3C\u0A3E-\u0A42\u0A47\u0A48\u0A4B-\u0A4D\u0A51\u0A70\u0A71\u0A75\u0A81-\u0A83\u0ABC\u0ABE-\u0AC5\u0AC7-\u0AC9\u0ACB-\u0ACD\u0AE2\u0AE3\u0B01-\u0B03\u0B3C\u0B3E-\u0B44\u0B47\u0B48\u0B4B-\u0B4D\u0B56\u0B57\u0B62\u0B63\u0B82\u0BBE-\u0BC2\u0BC6-\u0BC8\u0BCA-\u0BCD\u0BD7\u0C00-\u0C03\u0C3E-\u0C44\u0C46-\u0C48\u0C4A-\u0C4D\u0C55\u0C56\u0C62\u0C63\u0C81-\u0C83\u0CBC\u0CBE-\u0CC4\u0CC6-\u0CC8\u0CCA-\u0CCD\u0CD5\u0CD6\u0CE2\u0CE3\u0D01-\u0D03\u0D3E-\u0D44\u0D46-\u0D48\u0D4A-\u0D4D\u0D57\u0D62\u0D63\u0D82\u0D83\u0DCA\u0DCF-\u0DD4\u0DD6\u0DD8-\u0DDF\u0DF2\u0DF3\u0E31\u0E34-\u0E3A\u0E47-\u0E4E\u0EB1\u0EB4-\u0EB9\u0EBB\u0EBC\u0EC8-\u0ECD\u0F18\u0F19\u0F35\u0F37\u0F39\u0F3E\u0F3F\u0F71-\u0F84\u0F86\u0F87\u0F8D-\u0F97\u0F99-\u0FBC\u0FC6\u102B-\u103E\u1056-\u1059\u105E-\u1060\u1062-\u1064\u1067-\u106D\u1071-\u1074\u1082-\u108D\u108F\u109A-\u109D\u135D-\u135F\u1712-\u1714\u1732-\u1734\u1752\u1753\u1772\u1773\u17B4-\u17D3\u17DD\u180B-\u180D\u1885\u1886\u18A9\u1920-\u192B\u1930-\u193B\u1A17-\u1A1B\u1A55-\u1A5E\u1A60-\u1A7C\u1A7F\u1AB0-\u1ABE\u1B00-\u1B04\u1B34-\u1B44\u1B6B-\u1B73\u1B80-\u1B82\u1BA1-\u1BAD\u1BE6-\u1BF3\u1C24-\u1C37\u1CD0-\u1CD2\u1CD4-\u1CE8\u1CED\u1CF2-\u1CF4\u1CF8\u1CF9\u1DC0-\u1DF5\u1DFB-\u1DFF\u20D0-\u20F0\u2CEF-\u2CF1\u2D7F\u2DE0-\u2DFF\u302A-\u302F\u3099\u309A\uA66F-\uA672\uA674-\uA67D\uA69E\uA69F\uA6F0\uA6F1\uA802\uA806\uA80B\uA823-\uA827\uA880\uA881\uA8B4-\uA8C5\uA8E0-\uA8F1\uA926-\uA92D\uA947-\uA953\uA980-\uA983\uA9B3-\uA9C0\uA9E5\uAA29-\uAA36\uAA43\uAA4C\uAA4D\uAA7B-\uAA7D\uAAB0\uAAB2-\uAAB4\uAAB7\uAAB8\uAABE\uAABF\uAAC1\uAAEB-\uAAEF\uAAF5\uAAF6\uABE3-\uABEA\uABEC\uABED\uFB1E\uFE00-\uFE0F\uFE20-\uFE2F/.source,
+-            hR = /0-9\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0BE6-\u0BEF\u0C66-\u0C6F\u0CE6-\u0CEF\u0D66-\u0D6F\u0DE6-\u0DEF\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F29\u1040-\u1049\u1090-\u1099\u17E0-\u17E9\u1810-\u1819\u1946-\u194F\u19D0-\u19D9\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\uA620-\uA629\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uA9F0-\uA9F9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19/.source,
+-            vR = fR + hR,
+-            mR = fR + hR,
+-            bR = "(?:[" + hR + "]{1,3}\\.){3}[" + hR + "]{1,3}",
+-            gR = "[" + mR + "](?:[" + mR + "\\-]{0,61}[" + mR + "])?",
+-            yR = function(e) {
+-                return "(?=(" + gR + "))\\" + e
+-            },
++            sR = /[A-Za-z]/,
++            uR = /[\d]/,
++            cR = /[\D]/,
++            lR = /\s/,
++            dR = /['"]/,
++            pR = /[\x00-\x1F\x7F]/,
++            fR = /A-Za-z\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0561-\u0587\u05D0-\u05EA\u05F0-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u08A0-\u08B4\u08B6-\u08BD\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1877\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1CE9-\u1CEC\u1CEE-\u1CF1\u1CF5\u1CF6\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312D\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FD5\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7AE\uA7B0-\uA7B7\uA7F7-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB65\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC/.source,
++            hR = fR + /\u2700-\u27bf\udde6-\uddff\ud800-\udbff\udc00-\udfff\ufe0e\ufe0f\u0300-\u036f\ufe20-\ufe23\u20d0-\u20f0\ud83c\udffb-\udfff\u200d\u3299\u3297\u303d\u3030\u24c2\ud83c\udd70-\udd71\udd7e-\udd7f\udd8e\udd91-\udd9a\udde6-\uddff\ude01-\ude02\ude1a\ude2f\ude32-\ude3a\ude50-\ude51\u203c\u2049\u25aa-\u25ab\u25b6\u25c0\u25fb-\u25fe\u00a9\u00ae\u2122\u2139\udc04\u2600-\u26FF\u2b05\u2b06\u2b07\u2b1b\u2b1c\u2b50\u2b55\u231a\u231b\u2328\u23cf\u23e9-\u23f3\u23f8-\u23fa\udccf\u2935\u2934\u2190-\u21ff/.source + /\u0300-\u036F\u0483-\u0489\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E4\u06E7\u06E8\u06EA-\u06ED\u0711\u0730-\u074A\u07A6-\u07B0\u07EB-\u07F3\u0816-\u0819\u081B-\u0823\u0825-\u0827\u0829-\u082D\u0859-\u085B\u08D4-\u08E1\u08E3-\u0903\u093A-\u093C\u093E-\u094F\u0951-\u0957\u0962\u0963\u0981-\u0983\u09BC\u09BE-\u09C4\u09C7\u09C8\u09CB-\u09CD\u09D7\u09E2\u09E3\u0A01-\u0A03\u0A3C\u0A3E-\u0A42\u0A47\u0A48\u0A4B-\u0A4D\u0A51\u0A70\u0A71\u0A75\u0A81-\u0A83\u0ABC\u0ABE-\u0AC5\u0AC7-\u0AC9\u0ACB-\u0ACD\u0AE2\u0AE3\u0B01-\u0B03\u0B3C\u0B3E-\u0B44\u0B47\u0B48\u0B4B-\u0B4D\u0B56\u0B57\u0B62\u0B63\u0B82\u0BBE-\u0BC2\u0BC6-\u0BC8\u0BCA-\u0BCD\u0BD7\u0C00-\u0C03\u0C3E-\u0C44\u0C46-\u0C48\u0C4A-\u0C4D\u0C55\u0C56\u0C62\u0C63\u0C81-\u0C83\u0CBC\u0CBE-\u0CC4\u0CC6-\u0CC8\u0CCA-\u0CCD\u0CD5\u0CD6\u0CE2\u0CE3\u0D01-\u0D03\u0D3E-\u0D44\u0D46-\u0D48\u0D4A-\u0D4D\u0D57\u0D62\u0D63\u0D82\u0D83\u0DCA\u0DCF-\u0DD4\u0DD6\u0DD8-\u0DDF\u0DF2\u0DF3\u0E31\u0E34-\u0E3A\u0E47-\u0E4E\u0EB1\u0EB4-\u0EB9\u0EBB\u0EBC\u0EC8-\u0ECD\u0F18\u0F19\u0F35\u0F37\u0F39\u0F3E\u0F3F\u0F71-\u0F84\u0F86\u0F87\u0F8D-\u0F97\u0F99-\u0FBC\u0FC6\u102B-\u103E\u1056-\u1059\u105E-\u1060\u1062-\u1064\u1067-\u106D\u1071-\u1074\u1082-\u108D\u108F\u109A-\u109D\u135D-\u135F\u1712-\u1714\u1732-\u1734\u1752\u1753\u1772\u1773\u17B4-\u17D3\u17DD\u180B-\u180D\u1885\u1886\u18A9\u1920-\u192B\u1930-\u193B\u1A17-\u1A1B\u1A55-\u1A5E\u1A60-\u1A7C\u1A7F\u1AB0-\u1ABE\u1B00-\u1B04\u1B34-\u1B44\u1B6B-\u1B73\u1B80-\u1B82\u1BA1-\u1BAD\u1BE6-\u1BF3\u1C24-\u1C37\u1CD0-\u1CD2\u1CD4-\u1CE8\u1CED\u1CF2-\u1CF4\u1CF8\u1CF9\u1DC0-\u1DF5\u1DFB-\u1DFF\u20D0-\u20F0\u2CEF-\u2CF1\u2D7F\u2DE0-\u2DFF\u302A-\u302F\u3099\u309A\uA66F-\uA672\uA674-\uA67D\uA69E\uA69F\uA6F0\uA6F1\uA802\uA806\uA80B\uA823-\uA827\uA880\uA881\uA8B4-\uA8C5\uA8E0-\uA8F1\uA926-\uA92D\uA947-\uA953\uA980-\uA983\uA9B3-\uA9C0\uA9E5\uAA29-\uAA36\uAA43\uAA4C\uAA4D\uAA7B-\uAA7D\uAAB0\uAAB2-\uAAB4\uAAB7\uAAB8\uAABE\uAABF\uAAC1\uAAEB-\uAAEF\uAAF5\uAAF6\uABE3-\uABEA\uABEC\uABED\uFB1E\uFE00-\uFE0F\uFE20-\uFE2F/.source,
++            vR = /0-9\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0BE6-\u0BEF\u0C66-\u0C6F\u0CE6-\u0CEF\u0D66-\u0D6F\u0DE6-\u0DEF\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F29\u1040-\u1049\u1090-\u1099\u17E0-\u17E9\u1810-\u1819\u1946-\u194F\u19D0-\u19D9\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\uA620-\uA629\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uA9F0-\uA9F9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19/.source,
++            mR = hR + vR,
++            bR = hR + vR,
++            gR = "(?:[" + vR + "]{1,3}\\.){3}[" + vR + "]{1,3}",
++            yR = "[" + bR + "](?:[" + bR + "\\-]{0,61}[" + bR + "])?",
+
+-                return "(?:" + yR(e) + "(?:\\." + yR(e + 1) + "){0,126}|" + bR + ")"
++                return "(?=(" + yR + "))\\" + e
++            },
++            MR = function(e) {
++                return "(?:" + _R(e) + "(?:\\." + _R(e + 1) + "){0,126}|" + gR + ")"
+
+-                            case qI:
+-                                break;
+
+
+
++                                break;
++                            case BI:
+
+-                                case HI:
+-                                    return void t.handleRestrictUser();
+
+
+
++                                    return void t.handleRestrictUser();
++                                case XI:
+
+-            mq = function() {
++            bq = function() {
++                var e = (0, Ke.Z)((0, Ge.Z)().mark((function e(t) {
++                    var n, r;
++                    return (0, Ge.Z)().wrap((function(e) {
++                        for (;;) switch (e.prev = e.next) {
++                            case 0:
++                                return n = fh.stringify({
++                                    next: t
++                                }), e.next = 3, Cf.get("/home/recommended/clips?".concat(n));
++                            case 3:
++                                return r = e.sent, e.abrupt("return", r.data.content);
++                            case 5:
++                            case "end":
++                                return e.stop()
++                        }
++                    }), e)
++                })));
++                return function(t) {
++                    return e.apply(this, arguments)
++                }
++            }(),
++            gq = function() {
+
+-            PB = function(e) {
+-                return "\n  The item has returned to its starting position\n  of " + IB(e.index) + "\n"
+-            },
+-            qB = "\n  Press space bar to start a drag.\n  When dragging you can use the arrow keys to move the item around and escape to cancel.\n  Some screen readers may require you to be in focus mode or to use your pass through key\n",
+
+
+-                return "\n  You have lifted an item in position " + IB(e.source.index) + "\n"
++                return "\n  The item has returned to its starting position\n  of " + NB(e.index) + "\n"
++            },
++            BB = "\n  Press space bar to start a drag.\n  When dragging you can use the arrow keys to move the item around and escape to cancel.\n  Some screen readers may require you to be in focus mode or to use your pass through key\n",
++            WB = function(e) {
++                return "\n  You have lifted an item in position " + NB(e.source.index) + "\n"
+
+-        var lH, dH = r.forwardRef(cH),
+-            pH = (__webpack_require__.p, "pagination_container__uzQZ-"),
+-            fH = "pagination_highlight__6jeAj",
+-            hH = "pagination_button_move__9SxWZ",
+-            vH = "pagination_button__+Tzu0",
+-            mH = "pagination_is_clip__O9ZKY",
+-            bH = "pagination_wrapper__T7Qux",
+-            gH = "pagination_list__wRlC1",
+-            yH = "pagination_item__-O9r1",
+-            _H = "pagination_previous__+yV6m",
+-            MH = "pagination_next__RDkUu",
+-            AH = "pagination_icon__rRCJq",
+-            xH = ["title", "titleId"];
+-
+-        function OH() {
+-            return OH = Object.assign ? Object.assign.bind() : function(e) {
++        var pH, fH = r.forwardRef(dH),
++            hH = (__webpack_require__.p, "pagination_container__uzQZ-"),
++            vH = "pagination_highlight__6jeAj",
++            mH = "pagination_button_move__9SxWZ",
++            bH = "pagination_button__+Tzu0",
++            gH = "pagination_wrapper__T7Qux",
++            yH = "pagination_list__wRlC1",
++            _H = "pagination_item__-O9r1",
++            MH = "pagination_previous__+yV6m",
++            AH = "pagination_next__RDkUu",
++            xH = "pagination_icon__rRCJq",
++            OH = ["title", "titleId"];
++
++        function wH() {
++            return wH = Object.assign ? Object.assign.bind() : function(e) {
+
+-        var kH, SH, TH = r.forwardRef(EH),
+-            zH = (__webpack_require__.p, function(e) {
+-                var t, n, r, i, o = e.currentPage,
+-                    a = void 0 === o ? 0 : o,
+-                    s = e.totalPageCount,
+-                    u = void 0 === s ? 0 : s,
+-                    c = e.pageHandler,
+-                    l = e.moveUnit,
+-                    d = void 0 === l ? 10 : l,
+-                    p = e.pageSize,
+-                    f = void 0 === p ? 10 : p,
+-                    h = e.highlight,
+-                    v = e.custom,
+-                    m = (0, Ss.chunk)(Array.from({
+-                        length: u
++        var SH, TH, zH = r.forwardRef(kH),
++            CH = (__webpack_require__.p, function(e) {
++                var t, n, r, i = e.currentPage,
++                    o = void 0 === i ? 0 : i,
++                    a = e.totalPageCount,
++                    s = void 0 === a ? 0 : a,
++                    u = e.pageHandler,
++                    c = e.moveUnit,
++                    l = void 0 === c ? 10 : c,
++                    d = e.pageSize,
++                    p = void 0 === d ? 10 : d,
++                    f = e.highlight,
++                    h = e.custom,
++                    v = (0, Ss.chunk)(Array.from({
++                        length: s
+
+-                    })), f),
+-                    b = Math.floor(a / f),
+-                    g = null !== (t = null === v || void 0 === v ? void 0 : v.pageGroup) && void 0 !== t ? t : m[b],
+-                    y = null !== (n = null === v || void 0 === v ? void 0 : v.showPrev) && void 0 !== n ? n : 0 !== b && 0 !== a,
+-                    _ = null !== (r = null === v || void 0 === v ? void 0 : v.showNext) && void 0 !== r ? r : b !== m.length - 1 && a < u - 1;
+-                return u > 0 ? (0, uf.jsx)("div", {
+-                    className: Qe()(pH, (i = {}, (0, Ye.Z)(i, fH, h || $s()), (0, Ye.Z)(i, mH, $s()), i)),
++                    })), p),
++                    m = Math.floor(o / p),
++                    b = null !== (t = null === h || void 0 === h ? void 0 : h.pageGroup) && void 0 !== t ? t : v[m],
++                    g = null !== (n = null === h || void 0 === h ? void 0 : h.showPrev) && void 0 !== n ? n : 0 !== m && 0 !== o,
++                    y = null !== (r = null === h || void 0 === h ? void 0 : h.showNext) && void 0 !== r ? r : m !== v.length - 1 && o < s - 1;
++                return s > 0 ? (0, uf.jsx)("div", {
++                    className: Qe()(hH, (0, Ye.Z)({}, vH, f || $s())),
+
+-            UY = __webpack_require__(16510),
+-            VY = function(e) {
+-                return e[e.DEFAULT_WAITING_TIME = 1e3] = "DEFAULT_WAITING_TIME", e[e.EMPTY_MESSAGE_WAITING_TIME = 3e3] = "EMPTY_MESSAGE_WAITING_TIME", e[e.LEVEL1_WAITING_TIME = 5e3] = "LEVEL1_WAITING_TIME", e[e.LEVEL2_WAITING_TIME = 8e3] = "LEVEL2_WAITING_TIME", e
+-            }(VY || {}),
++            VY = __webpack_require__(16510),
+
+
++                return e[e.DEFAULT_WAITING_TIME = 1e3] = "DEFAULT_WAITING_TIME", e[e.EMPTY_MESSAGE_WAITING_TIME = 3e3] = "EMPTY_MESSAGE_WAITING_TIME", e[e.LEVEL1_WAITING_TIME = 5e3] = "LEVEL1_WAITING_TIME", e[e.LEVEL2_WAITING_TIME = 8e3] = "LEVEL2_WAITING_TIME", e
++            }(ZY || {}),
++            HY = function(e) {
+
+-            a$ = function(e) {
+-                return "ABR" === e.label
+-            },
+
+
+-                return "p2p" === e.kind || "low-latency-p2p" === e.kind
++                return "ABR" === e.label
+
+-                return "low-latency" === e.kind || "low-latency-p2p" === e.kind
++                return "p2p" === e.kind || "low-latency-p2p" === e.kind
+
+-                return 1e3 * (e.videoBitrate + e.audioBitrate)
++                return "low-latency" === e.kind || "low-latency-p2p" === e.kind
+
+-                return a$(e) ? -1 : Math.min(e.width, e.height)
++                return 1e3 * (e.videoBitrate + e.audioBitrate)
+
+
++                return s$(e) ? -1 : Math.min(e.width, e.height)
++            },
++            p$ = function(e) {
+
+-            E3 = "live_alarm_alarm__5+IBF",
+-            k3 = "live_alarm_animation__6Prl8",
+-            S3 = "live_alarm_contents__8QTfz",
+-            T3 = "live_alarm_play_video__bPrj6",
+-            z3 = "live_alarm_icon_cheese__N+Pu2",
+-            C3 = "live_alarm_video_title__P2+Cc",
+-            L3 = "live_alarm_play_video_large__tfN6c",
+-            R3 = "live_alarm_wrapper__FeK26",
+-            I3 = "live_alarm_text__DNfRG",
+-            D3 = "live_alarm_default__roOf2",
+-            N3 = "live_alarm_ellipsis__dtK9C",
+-            P3 = "live_alarm_word__TlCO-",
+-            q3 = "live_alarm_money__lya-g",
+-            F3 = "live_alarm_message__AITHv",
+-            B3 = "live_alarm_result__VY1dP",
+-            W3 = "live_alarm_succeed__qI2lT",
+-            j3 = "live_alarm_fail__KOZZx",
+-            U3 = "live_alarm_is_short__adliD",
+-            V3 = "live_alarm_is_medium__mri5D",
+-            Z3 = "live_alarm_is_long__qMwB-",
+-            H3 = "live_alarm_is_longest__3HGzf",
+-            G3 = [],
++            k3 = "live_alarm_alarm__5+IBF",
++            S3 = "live_alarm_animation__6Prl8",
++            T3 = "live_alarm_contents__8QTfz",
++            z3 = "live_alarm_play_video__bPrj6",
++            C3 = "live_alarm_icon_cheese__N+Pu2",
++            L3 = "live_alarm_video_title__P2+Cc",
++            R3 = "live_alarm_play_video_large__tfN6c",
++            I3 = "live_alarm_wrapper__FeK26",
++            D3 = "live_alarm_text__DNfRG",
++            N3 = "live_alarm_default__roOf2",
++            P3 = "live_alarm_ellipsis__dtK9C",
++            q3 = "live_alarm_word__TlCO-",
++            F3 = "live_alarm_money__lya-g",
++            B3 = "live_alarm_message__AITHv",
++            W3 = "live_alarm_result__VY1dP",
++            j3 = "live_alarm_succeed__qI2lT",
++            U3 = "live_alarm_fail__KOZZx",
++            V3 = "live_alarm_is_short__adliD",
++            Z3 = "live_alarm_is_medium__mri5D",
++            H3 = "live_alarm_is_long__qMwB-",
++            G3 = "live_alarm_is_longest__3HGzf",
+
+-            Y3 = function() {
+-                var e, t = (0, r.useState)(new w3),
++            Y3 = [],
++            $3 = function() {
++                var e, t = (0, r.useState)(new E3),
+
+-                o = I5(e, L5);
+-            return r.createElement("svg", R5({
++                o = D5(e, R5);
++            return r.createElement("svg", I5({
++                xmlns: "http://www.w3.org/2000/svg",
+
+-                viewBox: "0 0 26 26",
+
+
+-                xmlns: "http://www.w3.org/2000/svg",
+
+
+-            }, n) : null, S5 || (S5 = r.createElement("path", {
+-                d: "M6.34333 17.8745C6.09832 17.5405 5.62895 17.4684 5.29497 17.7134C4.961 17.9584 4.88888 18.4278 5.13389 18.7618L6.34333 17.8745ZM21.25 13C21.25 17.5563 17.5564 21.25 13 21.25V22.75C18.3848 22.75 22.75 18.3848 22.75 13H21.25ZM13 4.75C17.5564 4.75 21.25 8.44365 21.25 13H22.75C22.75 7.61522 18.3848 3.25 13 3.25V4.75ZM13 21.25C10.2679 21.25 7.84594 19.9227 6.34333 17.8745L5.13389 18.7618C6.90691 21.1786 9.77001 22.75 13 22.75V21.25ZM5.67064 9.20878C7.04465 6.55834 9.81179 4.75 13 4.75V3.25C9.22979 3.25 5.96066 5.39017 4.33895 8.51842L5.67064 9.20878Z",
+-                fill: "currentColor"
+-            })), T5 || (T5 = r.createElement("path", {
+-                d: "M4.37274 5.31824V8.86369H7.9182",
++            }, n) : null, T5 || (T5 = r.createElement("rect", {
++                width: 17.001,
++                height: 1.615,
++                x: 3.681,
++                y: 7.22,
++                fill: "currentColor",
++                rx: .808,
++                transform: "rotate(24.95 3.681 7.22)"
++            })), z5 || (z5 = r.createElement("rect", {
++                width: 17.062,
++                height: 1.615,
++                fill: "currentColor",
++                rx: .808,
++                transform: "scale(1 -1) rotate(24.949 43.317 -.855)"
++            })), C5 || (C5 = r.createElement("path", {
+
+-                strokeMiterlimit: 10,
+-                strokeLinecap: "round"
+-            })), z5 || (z5 = r.createElement("path", {
+-                d: "M15.8364 12.354C16.1515 12.5359 16.1515 12.9908 15.8363 13.1727L11.9363 15.4244C11.6212 15.6064 11.2273 15.3789 11.2273 15.015V10.5117C11.2273 10.1478 11.6212 9.92034 11.9363 10.1023L15.8364 12.354Z",
+-                fill: "currentColor"
++                d: "M21.55 18.384a3.47 3.47 0 1 1-6.94 0 3.47 3.47 0 0 1 6.94 0ZM21.55 7.22a3.47 3.47 0 1 1-6.94 0 3.47 3.47 0 0 1 6.94 0Z"
+
+-                    p = le("/videos"),
+-                    f = le("/category/*"),
+-                    h = le("/following"),
+-                    v = (le("/clips"), yc().theme),
++                    p = (le("/videos"), le("/category/*")),
++                    f = le("/following"),
++                    h = le("/clips"),
++                    v = yc().theme,
+
+-                                            className: X6,
+-                                            children: a ? "전체 라이브" : (0, uf.jsxs)(uf.Fragment, {
+-                                                children: ["전체", (0, uf.jsx)("br", {}), "라이브"]
++                                            className: K6,
++                                            children: a ? "전체 방송" : (0, uf.jsxs)(uf.Fragment, {
++                                                children: ["전체", (0, uf.jsx)("br", {}), "방송"]
+
+-                                        className: q6,
+-                                        to: "/videos",
+-                                        "aria-current": p ? "page" : void 0,
+-                                        children: [(0, uf.jsx)(W5, {
+-                                            className: G6
++                                        className: F6,
++                                        to: "/clips",
++                                        "aria-current": h ? "page" : void 0,
++                                        children: [(0, uf.jsx)(j5, {
++                                            className: X6
+
+-                                            className: X6,
+-                                            children: "다시보기"
++                                            className: K6,
++                                            children: a ? "인기 클립" : (0, uf.jsxs)(uf.Fragment, {
++                                                children: ["인기", (0, uf.jsx)("br", {}), "클립"]
++                                            })
+
+-            e9 = function(e) {
+-                return e[e.GAME = 0] = "GAME", e[e.CHANNEL = 1] = "CHANNEL", e
+-            }(e9 || {}),
+
+
+
++                return e[e.GAME = 0] = "GAME", e[e.CHANNEL = 1] = "CHANNEL", e
++            }(t9 || {}),
++            n9 = function(e) {
+
+-        var T9, z9 = {};
+-
+-        function C9(e) {
+-            var t = z9[e];
+-            return t || p9(0), t
+-        }
++        var z9, C9 = {};
+
+-        function L9() {
+-            return T9
++        function L9(e) {
++            var t = C9[e];
++            return t || f9(0), t
+
+-        function R9(e, t) {
+-            t && (C9("Patches"), e.patches_ = [], e.inversePatches_ = [], e.patchListener_ = t)
++        function R9() {
++            return z9
+
+-        function I9(e) {
+-            D9(e), e.drafts_.forEach(P9), e.drafts_ = null
++        function I9(e, t) {
++            t && (L9("Patches"), e.patches_ = [], e.inversePatches_ = [], e.patchListener_ = t)
+
+-            e === T9 && (T9 = e.parent_)
++            N9(e), e.drafts_.forEach(q9), e.drafts_ = null
+
+-            return T9 = {
++            e === z9 && (z9 = e.parent_)
++        }
++
++        function P9(e) {
++            return z9 = {
+
+-        function J9(e) {
++        function eee(e) {
+
+-                        var t = J9([]),
++                        var t = eee([]),
+
+-                            s = J9([]),
++                            s = eee([]),
+
+-                            d = J9([]),
++                            d = eee([]),
+
+-                            v = J9([]),
++                            v = eee([]),
+
+-                            y = J9([]),
++                            y = eee([]),
+
+-                                    contentType: i
++                                    contentType: i,
++                                    contentLineage: null === e || void 0 === e ? void 0 : e.contentLineage
+
+-                                    itemIndex: t
++                                    itemIndex: t,
++                                    contentLineage: null === e || void 0 === e ? void 0 : e.contentLineage
+
+-                                    loggingId: l
++                                    loggingId: l,
++                                    contentLineage: null === e || void 0 === e ? void 0 : e.contentLineage
+
+-                                    contentType: i
++                                    contentType: i,
++                                    contentLineage: null === e || void 0 === e ? void 0 : e.contentLineage
+
+-            iae = (0, r.memo)(rae),
+-            oae = function() {
++            oae = (0, r.memo)(iae),
++            aae = function(e) {
++                var t = e.clips,
++                    i = e.cardIndex,
++                    o = (e.contentType, (0, mt.useRecoilValue)(Px)),
++                    a = (0, r.useState)(0),
++                    s = (0, n.Z)(a, 2),
++                    u = s[0],
++                    c = s[1],
++                    l = (0, r.useState)(!1),
++                    d = (0, n.Z)(l, 2),
++                    p = d[0],
++                    f = d[1],
++                    h = pe();
++                return (0, r.useEffect)((function() {
++                    c(Iie(!0, o)), f(!1)
++                }), [o]), 0 === t.length ? (0, uf.jsx)(uf.Fragment, {}) : (0, uf.jsxs)(Pie, {
++                    children: [(0, uf.jsxs)(Die, {
++                        children: [(0, uf.jsx)(Nie, {
++                            children: "인기 클립"
++                        }), (0, uf.jsx)(Fie, {
++                            linkUrl: "/clips",
++                            children: "전체보기"
++                        })]
++                    }), (0, uf.jsxs)(qie, {
++                        children: [(0, uf.jsx)(Bie, {
++                            isVertical: !0,
++                            children: r.Children.toArray(t.slice(0, u).map((function(e, t) {
++                                return (0, uf.jsx)(Wie, {
++                                    children: (0, uf.jsx)(YP, {
++                                        clip: e,
++                                        sceneId: "chzzk_home",
++                                        cardIndex: t,
++                                        recommendSectionIndex: i
++                                    })
++                                }, t)
++                            })))
++                        }), t.length >= u && (0, uf.jsx)(uq, {
++                            viewAll: p,
++                            onClickHandler: function() {
++                                p ? h("clips") : (c(u + Iie(!0, o)), u >= 2 * Iie(!0, o) && f(!0))
++                            }
++                        })]
++                    })]
++                })
++            },
++            sae = (0, r.memo)(aae),
++            uae = function() {
+
+
++                    case "CLIP_PERSONAL_RECOMMENDED":
++                        return (0, uf.jsx)(sae, {
++                            clips: t.clips,
++                            cardIndex: n,
++                            contentType: t.type
++                        });
+
+-            Bse = function() {
+-                return window.navigator.userAgent.toLowerCase()
+-            },
+-            Wse = function() {
+-                return /Windows/i.test(Bse())
+-            },
+-            jse = function() {
+-                return /Macintosh/i.test(Bse())
+-            },
+
+
+-                return /iPhone/i.test(Bse())
++                return window.navigator.userAgent.toLowerCase()
+
+-                return /iPad/i.test(Bse()) || function() {
+-                    var e = window.navigator;
+-                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
+-                }()
++                return /Windows/i.test(Use())
+
+-                return Use() || Vse() || /iPod/i.test(Bse())
++                return /Macintosh/i.test(Use())
+
+-                return /Android/i.test(Bse())
++                return /iPhone/i.test(Use())
+
+-                return /Windows Phone|Windows CE/i.test(Bse())
++                return /iPad/i.test(Use()) || function() {
++                    var e = window.navigator;
++                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
++                }()
+
+-                return /Tizen/i.test(Bse())
++                return Hse() || Gse() || /iPod/i.test(Use())
+
+-                return "undefined" != typeof window.opera || /Opera/i.test(Bse())
++                return /Android/i.test(Use())
+
+-                return /Edg/i.test(Bse())
++                return /Windows Phone|Windows CE/i.test(Use())
+
+-                return /Firefox/i.test(Bse())
++                return /Tizen/i.test(Use())
+
+-                return /Whale/i.test(Bse())
++                return "undefined" != typeof window.opera || /Opera/i.test(Use())
+
+-                return /Chrome|CriOS/i.test(Bse())
++                return /Edg/i.test(Use())
+
+-                return !/Chrome|CriOS/i.test(Bse()) && (Bse() || "").indexOf("safari") > -1
++                return /Firefox/i.test(Use())
+
+-                return /AppleWebKit/i.test(Bse())
++                return /Whale/i.test(Use())
+
+-                return !!Bse().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
++                return /Chrome|CriOS/i.test(Use())
+
+-                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(Bse())
++                return !/Chrome|CriOS/i.test(Use()) && (Use() || "").indexOf("safari") > -1
+
+-                return /SamsungBrowser/i.test(Bse())
++                return /AppleWebKit/i.test(Use())
+
+-                return /\bLine\b/i.test(Bse())
++                return !!Use().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
+
+-                return /EdgA/i.test(Bse())
++                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(Use())
+
+-                return /EdgiOS/i.test(Bse())
++                return /SamsungBrowser/i.test(Use())
+
+-                return /Opera Mini/i.test(Bse())
++                return /EdgA/i.test(Use())
+
+-                return Zse() || Hse() || Gse() || rue() || iue() || oue() || aue() || sue() || uue() || cue() || lue()
++                return /IEMobile/i.test(Use())
++            },
++            pue = function() {
++                return /Opera Mini/i.test(Use())
+
+-            pue = "googleImaSdk",
+-            fue = [{
+-                key: pue,
++            fue = function() {
++                return /Dolfin/i.test(Use())
++            },
++            hue = function() {
++                return Xse() || Kse() || Yse() || aue() || sue() || uue() || cue() || lue() || due() || pue() || fue()
++            },
++            vue = "googleImaSdk",
++            mue = [{
++                key: vue,
+
+-                case Sve:
+-                    return Eve.FAIRPLAY;
+-                case Tve:
+-                    return Eve.PLAYREADY;
++                case Cve:
++                    return Tve.FAIRPLAY;
++                case Lve:
++                    return Tve.PLAYREADY;
++                case Rve:
++                    return Tve.WIDEVINE;
+
+-                    return Eve.WIDEVINE;
+-                case kve:
+-                    return Eve.CLEARKEY
++                    return Tve.CLEARKEY
+
+-                                case Sve:
++                                case Cve:
++                                case Rve:
++                                case Lve:
+
+-                                case Tve:
+-                                case kve:
+
+
+-        var Lbe = 3e5,
+-            Rbe = 0,
+-            Ibe = 2,
+-            Dbe = 5,
++        var Dbe = 3e5,
+
+-            Pbe = 1,
+-            qbe = 2,
+-            Fbe = function() {
++            Pbe = 2,
++            qbe = 5,
++            Fbe = 0,
++            Bbe = 1,
++            Wbe = 2,
++            jbe = function() {
+
+-                            case _ge:
+-                            case Mge:
+-                            case Age:
++                            case xge:
+
+-                                this.state = yge
++                            case kge:
++                            case Sge:
++                                this.state = Age
+
+-                                    case xI:
+-                                        return (0, uf.jsx)("div", {
+-                                            className: Qe()(Hke, Kke),
+-                                            children: (0, uf.jsx)(NEe, {})
+-                                        }, e.key);
+
+
+-                                            className: Qe()(Hke, Kke),
+-                                            children: (0, uf.jsx)(qEe, {})
++                                            className: Qe()(Kke, Qke),
++                                            children: (0, uf.jsx)(BEe, {})
++                                        }, e.key);
++                                    case EI:
++                                        return (0, uf.jsx)("div", {
++                                            className: Qe()(Kke, Qke),
++                                            children: (0, uf.jsx)(WEe, {})
+
+-                    })), hN(M).then((function(e) {
+-                        oi(e), Ae(String((null === e || void 0 === e ? void 0 : e.minCurrencyPayAmount) || 0))
+
+
+-                        ui(e)
++                        oi(e), Ae(String((null === e || void 0 === e ? void 0 : e.minCurrencyPayAmount) || 0))
+
+
++                        ui(e)
++                    })), bN(M).then((function(e) {
+
+-                            children: r.Children.toArray(t.slice(0, Rie(!1, s)).map((function(e, t) {
+-                                var n, r, i, o, a, s, u;
+-                                return (0, uf.jsx)(EFe, {
+-                                    children: (0, uf.jsx)(vL, {
++                            children: r.Children.toArray(t.slice(0, Iie(!1, s)).map((function(e, t) {
++                                var n, r, i, o, a, s, u, c;
++                                return (0, uf.jsx)(TFe, {
++                                    children: (0, uf.jsx)(mL, {
+
+-                                        tags: e.liveInfo.tags
++                                        tags: e.liveInfo.tags,
++                                        contentLineage: null === e || void 0 === e || null === (c = e.liveInfo) || void 0 === c ? void 0 : c.contentLineage
+
+-                            var n, r, i, o, a, s, u;
+-                            return (0, uf.jsx)(EFe, {
+-                                children: (0, uf.jsx)(vL, {
++                            var n, r, i, o, a, s, u, c;
++                            return (0, uf.jsx)(TFe, {
++                                children: (0, uf.jsx)(mL, {
+
+-                                    tags: e.liveInfo.tags
++                                    tags: e.liveInfo.tags,
++                                    contentLineage: null === e || void 0 === e || null === (c = e.liveInfo) || void 0 === c ? void 0 : c.contentLineage
+
+-            ZBe = "videos_container__Bn6Z8",
+-            HBe = "videos_section__bpCtF",
+-            GBe = "videos_title__eR5gP",
+-            XBe = "videos_list__6s8+5",
+-            KBe = "videos_item__cYquQ",
+-            YBe = "videos_tab__dMk2V",
+-            $Be = "videos_empty__ld+H2",
+-            QBe = "videos_footer__Ikztd",
+-            JBe = function(e) {
++            XBe = function(e) {
+
+-            }(JBe || {}),
+-            eWe = function() {
+-                var e = (0, mt.useRecoilValue)(qx),
+-                    t = (0, r.useState)(),
+-                    i = (0, n.Z)(t, 2),
+-                    a = i[0],
+-                    s = i[1],
+-                    u = (0, r.useState)([]),
+-                    c = (0, n.Z)(u, 2),
+-                    l = c[0],
+-                    d = c[1],
+-                    p = (0, r.useState)(!1),
+-                    f = (0, n.Z)(p, 2),
+-                    h = f[0],
+-                    v = f[1],
+-                    m = (0, r.useState)(null),
+-                    b = (0, n.Z)(m, 2),
+-                    g = b[0],
+-                    y = b[1],
+-                    _ = (0, r.useState)([]),
+-                    M = (0, n.Z)(_, 2),
+-                    A = M[0],
+-                    x = M[1],
+-                    O = (0, r.useState)(!1),
+-                    w = (0, n.Z)(O, 2),
+-                    E = w[0],
+-                    k = w[1],
+-                    S = (0, mt.useRecoilValue)(ty),
+-                    T = (0, mt.useRecoilValue)(lu),
+-                    z = (0, mt.useRecoilValue)(kX),
+-                    C = (0, r.useCallback)((0, Ke.Z)((0, Ge.Z)().mark((function e() {
++            }(XBe || {}),
++            KBe = function() {
++                var e = (0, r.useState)(),
++                    t = (0, n.Z)(e, 2),
++                    i = t[0],
++                    a = t[1],
++                    s = (0, r.useState)([]),
++                    u = (0, n.Z)(s, 2),
++                    c = u[0],
++                    l = u[1],
++                    d = (0, r.useState)(!1),
++                    p = (0, n.Z)(d, 2),
++                    f = p[0],
++                    h = p[1],
++                    v = (0, r.useState)(null),
++                    m = (0, n.Z)(v, 2),
++                    b = m[0],
++                    g = m[1],
++                    y = (0, r.useState)([]),
++                    _ = (0, n.Z)(y, 2),
++                    M = _[0],
++                    A = _[1],
++                    x = (0, r.useState)(!1),
++                    O = (0, n.Z)(x, 2),
++                    w = O[0],
++                    E = O[1],
++                    k = (0, mt.useRecoilValue)(ty),
++                    S = (0, mt.useRecoilValue)(lu),
++                    T = (0, mt.useRecoilValue)(SX),
++                    z = (0, r.useCallback)((0, Ke.Z)((0, Ge.Z)().mark((function e() {
+
+-                    })))() : (v(!0), C()))
+-                }), [S, C]), (0, r.useEffect)((function() {
+-                    a && !E && a === JBe.POPULAR && C()
+-                }), [a, E, C]);
+-                var D = function(e) {
+-                    s(e)
+-                };
+-                return a ? (0, uf.jsxs)("div", {
+-                    className: ZBe,
+-                    style: {
+-                        minHeight: "calc(100vh - ".concat(60 + e, "px)")
+-                    },
+-                    children: [(0, uf.jsxs)("section", {
+-                        className: HBe,
+-                        children: [(0, uf.jsx)("strong", {
+-                            className: GBe,
+-                            children: "다시보기"
+-                        }), (0, uf.jsxs)("ul", {
+-                            className: XBe,
+-                            role: "tablist",
+-                            children: [(0, uf.jsx)("li", {
+-                                className: KBe,
+-                                role: "none",
+-                                children: (0, uf.jsx)("button", {
+-                                    type: "button",
+-                                    id: JBe.FOLLOWING,
+-                                    className: YBe,
+-                                    role: "tab",
+-                                    "aria-selected": a === JBe.FOLLOWING,
+-                                    onClick: function() {
+-                                        return D(JBe.FOLLOWING)
+-                                    },
+-                                    children: "팔로잉"
+-                                })
+-                            }), (0, uf.jsx)("li", {
+-                                className: KBe,
+-                                role: "none",
+-                                children: (0, uf.jsx)("button", {
+-                                    type: "button",
+-                                    id: JBe.POPULAR,
+-                                    className: YBe,
+-                                    role: "tab",
+-                                    "aria-selected": a === JBe.POPULAR,
+-                                    onClick: function() {
+-                                        return D(JBe.POPULAR)
+-                                    },
+-                                    children: "인기"
+-                                })
+-                            })]
+-                        }), a === JBe.FOLLOWING && h && (l.length > 0 ? (0, uf.jsx)(jBe, {
+-                            type: "video",
+-                            children: r.Children.toArray(l.map((function(e, t) {
+-                                return (0, uf.jsx)(uf.Fragment, {
+-                                    children: I(e, t)
+-                                })
+-                            })))
+-                        }) : (0, uf.jsx)("div", {
+-                            className: $Be,
+-                            children: S.loggedIn ? (0, uf.jsx)(WL, {
+-                                image: EL,
+-                                text: T > 0 ? "팔로우 중인 채널에 등록된 영상이 없습니다." : "팔로우 중인 채널이 없습니다."
+-                            }) : (0, uf.jsx)(WL, {
+-                                image: EL,
+-                                text: "로그인하고 팔로잉 채널의 최신 영상을 확인해보세요.",
+-                                buttonText: "로그인",
+-                                onClickHandler: function() {
+-                                    return E_()
+-                                }
+-                            })
+-                        })), a === JBe.POPULAR && E && (A.length > 0 ? (0, uf.jsx)(jBe, {
+-                            type: "video",
+-                            children: r.Children.toArray(A.map((function(e) {
+-                                return I(e)
+-                            })))
+-                        }) : (0, uf.jsx)("div", {
+-                            className: $Be,
+-                            children: (0, uf.jsx)(WL, {
+-                                image: EL,
+-                                text: "동영상이 존재하지 않습니다."
++                    })))() : (h(!0), z()))
++                }), [k, z]), (0, r.useEffect)((function() {
++                    i && !w && i === XBe.POPULAR && z()
++                }), [i, w, z]);
++                return i ? (0, uf.jsxs)(uf.Fragment, {
++                    children: [(0, uf.jsx)(UBe, {
++                        children: (0, uf.jsx)(_L, {
++                            selectedTabId: i,
++                            list: [{
++                                id: XBe.FOLLOWING,
++                                text: "팔로잉"
++                            }, {
++                                id: XBe.POPULAR,
++                                text: "인기"
++                            }],
++                            clickHandler: function(e) {
++                                a(e)
++                            }
++                        })
++                    }), i === XBe.FOLLOWING && f && (c.length > 0 ? (0, uf.jsx)(ZBe, {
++                        type: "video",
++                        children: r.Children.toArray(c.map((function(e, t) {
++                            return (0, uf.jsx)(uf.Fragment, {
++                                children: R(e, t)
+
+-                        }))]
+-                    }), (0, uf.jsx)("div", {
+-                        className: QBe,
+-                        children: (0, uf.jsx)(eO, {})
+-                    })]
++                        })))
++                    }) : (0, uf.jsx)(GBe, {
++                        children: k.loggedIn ? (0, uf.jsx)(jL, {
++                            image: kL,
++                            text: S > 0 ? "팔로우 중인 채널에 등록된 영상이 없습니다." : "팔로우 중인 채널이 없습니다."
++                        }) : (0, uf.jsx)(jL, {
++                            image: kL,
++                            text: "로그인하고 팔로잉 채널의 최신 영상을 확인해보세요.",
++                            buttonText: "로그인",
++                            onClickHandler: function() {
++                                return E_()
++                            }
++                        })
++                    })), i === XBe.POPULAR && w && (M.length > 0 ? (0, uf.jsx)(ZBe, {
++                        type: "video",
++                        children: r.Children.toArray(M.map((function(e) {
++                            return R(e)
++                        })))
++                    }) : (0, uf.jsx)(GBe, {
++                        children: (0, uf.jsx)(jL, {
++                            image: kL,
++                            text: "동영상이 존재하지 않습니다."
++                        })
++                    }))]
+
+-                                    itemIndex: t
++                                    itemIndex: t,
++                                    contentLineage: null === e || void 0 === e ? void 0 : e.contentLineage
+
+-            JUe = r.memo(QUe),
+-            eVe = function(e) {
++            XUe = r.memo(GUe),
++            KUe = "navigation_broadcast_tab__Brg-m",
++            YUe = function(e) {
+
+-            tVe = function() {
+-                var e = (0, r.useState)(eVe.LIVE),
+-                    t = (0, n.Z)(e, 2);
+-                t[0], t[1], (0, mt.useRecoilValue)(qx);
+-                return (0, uf.jsxs)(NBe, {
+-                    children: [(0, uf.jsxs)(PBe, {
+-                        children: [(0, uf.jsx)(qBe, {
+-                            children: (0, uf.jsx)(FBe, {
+-                                children: "전체 라이브"
++            $Ue = function() {
++                var e = (0, r.useState)(YUe.LIVE),
++                    t = (0, n.Z)(e, 2),
++                    i = t[0],
++                    o = t[1],
++                    a = (0, mt.useRecoilValue)(qx);
++                return (0, uf.jsxs)(FBe, {
++                    children: [(0, uf.jsxs)(BBe, {
++                        children: [(0, uf.jsx)(WBe, {
++                            children: (0, uf.jsx)(jBe, {
++                                children: "전체 방송"
+
+-                        }), (0, uf.jsx)(JUe, {})]
+-                    }), (0, uf.jsx)(WBe, {
++                        }), (0, uf.jsx)("div", {
++                            className: KUe,
++                            style: {
++                                top: "calc(60px + ".concat(a, "px)")
++                            },
++                            children: (0, uf.jsx)(Gx, {
++                                selectedTabId: i,
++                                list: [{
++                                    id: YUe.LIVE,
++                                    text: "라이브"
++                                }, {
++                                    id: YUe.REPLAY,
++                                    text: "다시보기"
++                                }],
++                                clickHandler: function(e) {
++                                    o(e)
++                                }
++                            })
++                        }), i === YUe.LIVE && (0, uf.jsx)(XUe, {}), i === YUe.REPLAY && (0, uf.jsx)(YBe, {})]
++                    }), (0, uf.jsx)(VBe, {
+
+-                                    itemIndex: t
++                                    itemIndex: t,
++                                    contentLineage: null === e || void 0 === e ? void 0 : e.contentLineage
+
+-                    i = (t[0], t[1], he().tags),
+-                    o = i ? [i.toLowerCase()] : [];
+-                (0, mt.useRecoilValue)(qx);
+-                return (0, uf.jsxs)(NBe, {
+-                    children: [(0, uf.jsxs)(PBe, {
+-                        children: [(0, uf.jsx)(qBe, {
+-                            children: (0, uf.jsx)(FBe, {
+-                                children: "전체 라이브"
++                    i = t[0],
++                    o = t[1],
++                    a = he().tags,
++                    s = a ? [a.toLowerCase()] : [],
++                    u = (0, mt.useRecoilValue)(qx);
++                return (0, uf.jsxs)(FBe, {
++                    children: [(0, uf.jsxs)(BBe, {
++                        children: [(0, uf.jsx)(WBe, {
++                            children: (0, uf.jsx)(jBe, {
++                                children: "전체 방송"
+
+-                        }), (0, uf.jsx)(fVe, {
+-                            tags: o
+-                        })]
+-                    }), (0, uf.jsx)(WBe, {
++                        }), (0, uf.jsx)("div", {
++                            className: KUe,
++                            style: {
++                                top: "calc(60px + ".concat(u, "px)")
++                            },
++                            children: (0, uf.jsx)(Gx, {
++                                selectedTabId: i,
++                                list: [{
++                                    id: YUe.LIVE,
++                                    text: "라이브"
++                                }, {
++                                    id: YUe.REPLAY,
++                                    text: "다시보기"
++                                }],
++                                clickHandler: function(e) {
++                                    o(e)
++                                }
++                            })
++                        }), i === YUe.LIVE && (0, uf.jsx)(cVe, {
++                            tags: s
++                        }), i === YUe.REPLAY && (0, uf.jsx)(YBe, {})]
++                    }), (0, uf.jsx)(VBe, {
+
+-                                    itemIndex: t
++                                    itemIndex: t,
++                                    contentLineage: null === e || void 0 === e ? void 0 : e.contentLineage
+
+-                    _ = He(),
+-                    M = (0, n.Z)(_, 1)[0];
++                    _ = (0, r.useState)(""),
++                    M = (0, n.Z)(_, 2),
++                    A = M[0],
++                    x = M[1],
++                    O = He(),
++                    w = (0, n.Z)(O, 1)[0];
+
+-                    M.get("clientId") ? (0, Ke.Z)((0, Ge.Z)().mark((function e() {
++                    w.get("clientId") ? w.get("state") ? w.get("redirectUri") ? (0, Ke.Z)((0, Ge.Z)().mark((function e() {
+
+-                                    a = e.sent, window.location.href = "".concat(i).concat(null !== i && void 0 !== i && i.includes("?") ? "&" : "?", "code=").concat(null === a || void 0 === a ? void 0 : a.code, "&state=").concat(null === a || void 0 === a ? void 0 : a.state);
+-                                case 13:
++                                    a = e.sent, window.location.href = "".concat(i).concat(null !== i && void 0 !== i && i.includes("?") ? "&" : "?", "code=").concat(null === a || void 0 === a ? void 0 : a.code, "&state=").concat(null === a || void 0 === a ? void 0 : a.state), e.next = 16;
++                                    break;
++                                case 15:
++                                    v(!0);
++                                case 16:
+
+-                    })))() : bf("clientId가 존재하지 않습니다.")
+-                }), [M]), tf(e, (function() {
++                    })))() : bf("redirectUri 존재하지 않습니다.") : bf("state 존재하지 않습니다.") : bf("clientId가 존재하지 않습니다.")
++                }), [w]), tf(e, (function() {
+
+-                })), (0, uf.jsxs)("div", {
+-                    className: iJe.container,
++                })), h ? (0, uf.jsxs)("div", {
++                    className: eJe.container,
+
+-                })
++                }) : null
+
+-                        return e ? t.push({
++                        return e && t.push({
+
+-                        }) : t.push({
++                        }), ("VIDEO" !== (null === H || void 0 === H ? void 0 : H.contentType) || null !== H && void 0 !== H && H.contentData.owner) && 0 !== t.length || t.push({
+
+-                        Cs() ? (t = !0, n = "https://shorts-viewer-sdk-dev.fe.naver.com", r = "dev") : Ls() ? (t = !1, n = "https://stg.m.naver.com", r = void 0) : (t = !1, n = "https://m.naver.com", r = void 0);
++                        Cs() ? (t = !0, n = "https://shorts-viewer-sdk-dev.fe.naver.com", r = "dev") : (Ls(), t = !1, n = "https://m.naver.com", r = void 0);
+
+-            HJe = r.memo(ZJe);
+-        oUe().tz.setDefault("Asia/Seoul"),
++            jJe = r.memo(WJe),
++            UJe = function() {
++                var e = (0, r.useState)(null),
++                    t = (0, n.Z)(e, 2),
++                    i = t[0],
++                    a = t[1],
++                    s = (0, r.useState)([]),
++                    u = (0, n.Z)(s, 2),
++                    c = u[0],
++                    l = u[1],
++                    d = (0, r.useState)(0),
++                    p = (0, n.Z)(d, 2),
++                    f = p[0],
++                    h = p[1],
++                    v = (0, r.useMemo)((function() {
++                        return c.length - f + Math.floor(f / 2)
++                    }), [c, f]),
++                    m = Nx(),
++                    b = m.firstLoading,
++                    g = (m.initFirstLoading, m.fetching),
++                    y = pe();
++                (0, r.useEffect)((function() {
++                    cC()
++                }), []);
++                var _ = (0, r.useCallback)((0, Ke.Z)((0, Ge.Z)().mark((function e() {
++                        var t, n, r, s;
++                        return (0, Ge.Z)().wrap((function(e) {
++                            for (;;) switch (e.prev = e.next) {
++                                case 0:
++                                    return e.prev = 0, e.next = 3, g(bq(i));
++                                case 3:
++                                    t = e.sent, n = t.data, r = t.page, (s = r.next).next && s.next !== i && a(s.next), l((function(e) {
++                                        return (0, Ss.uniqBy)([].concat((0, o.Z)(e), (0, o.Z)(n)), "clipUID")
++                                    })), h(t.data.length), e.next = 13;
++                                    break;
++                                case 11:
++                                    e.prev = 11, e.t0 = e.catch(0);
++                                case 13:
++                                case "end":
++                                    return e.stop()
++                            }
++                        }), e, null, [
++                            [0, 11]
++                        ])
++                    }))), [i, g]),
++                    M = bX({
++                        loadMore: _
++                    });
++                return b && 0 === c.length ? (0, uf.jsx)(BBe, {
++                    alignCenter: !0,
++                    children: (0, uf.jsx)(jL, {
++                        image: ZUe,
++                        text: "클립이 하나도 없네요...",
++                        buttonText: "돌아가기",
++                        onClickHandler: function() {
++                            return y(-1)
++                        }
++                    })
++                }) : (0, uf.jsx)(FBe, {
++                    children: (0, uf.jsxs)(BBe, {
++                        children: [(0, uf.jsx)(WBe, {
++                            children: (0, uf.jsx)(jBe, {
++                                children: "클립"
++                            })
++                        }), (0, uf.jsx)(ZBe, {
++                            type: "category",
++                            children: b ? r.Children.toArray(c.map((function(e, t) {
++                                return (0, uf.jsxs)(HBe, {
++                                    children: [t === v && (0, uf.jsx)("div", {
++                                        ref: M,
++                                        style: {
++                                            position: "absolute",
++                                            left: 0
++                                        }
++                                    }), (0, uf.jsx)(YP, {
++                                        clip: e,
++                                        sceneId: "chzzk_clip_menu",
++                                        cardIndex: t
++                                    })]
++                                }, t)
++                            }))) : (0, uf.jsx)("div", {
++                                ref: M
++                            })
++                        })]
++                    })
++                })
++            },
++            VJe = r.memo(UJe);
++        eUe().tz.setDefault("Asia/Seoul"),
+
+-                                        Component: HJe
++                                        Component: jJe
++                                    }), (0, uf.jsx)(Te, {
++                                        path: "/clips",
++                                        Component: VJe
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+7ba6251e f389dc53 30dd3d36
++16fcc60f 3187da97 505139cf
+
+-                    var t = e.onClickShowRemoteControlHandler,
+-                        n = (0, Xe.useRecoilValue)(Ds),
+-                        i = (0, o.useState)(),
+-                        a = (0, r.Z)(i, 2),
+-                        s = a[0],
+-                        c = a[1],
+-                        l = (0, o.useState)(0),
+-                        u = (0, r.Z)(l, 2),
+-                        d = u[0],
+-                        p = u[1],
+-                        f = (0, o.useState)(!1),
+-                        h = (0, r.Z)(f, 2),
+-                        b = h[0],
+-                        v = h[1],
+-                        m = function(e, t) {
++                    var t, n = e.onClickShowRemoteControlHandler,
++                        i = (0, Xe.useRecoilValue)(Ds),
++                        a = (0, o.useState)(),
++                        s = (0, r.Z)(a, 2),
++                        c = s[0],
++                        l = s[1],
++                        u = (0, o.useState)(0),
++                        d = (0, r.Z)(u, 2),
++                        p = d[0],
++                        f = d[1],
++                        h = (0, o.useState)(!1),
++                        b = (0, r.Z)(h, 2),
++                        v = b[0],
++                        m = b[1],
++                        g = function(e, t) {
+
+-                            children: [O() && (0, vt.jsxs)(vt.Fragment, {
++                            children: [_() && "STREAMER" === (null === i || void 0 === i || null === (t = i.myRole) || void 0 === t ? void 0 : t.userRole) && (0, vt.jsxs)(vt.Fragment, {
+
+-                                link: ep.NOTIFICATION.domain,
++                                link: "/".concat(i.channelId).concat(ep.NOTIFICATION.domain),
+
+-                                link: ep.PROHIBIT_WORD.domain,
++                                link: "/".concat(i.channelId).concat(ep.PROHIBIT_WORD.domain),
+
+-                                link: ep.SETTING.domain,
++                                link: "/".concat(i.channelId).concat(ep.SETTING.domain),
+
+-                                link: ep.SETTING.domain,
++                                link: "/".concat(i.channelId).concat(ep.SETTING.domain),
+
+-                    var e = ve().userIdHash,
+-                        t = (0, Xe.useRecoilValue)(Ds),
+-                        n = (0, o.useState)(!1),
+-                        i = (0, r.Z)(n, 2),
+-                        a = i[0],
+-                        s = i[1],
+-                        c = (0, o.useState)(!1),
+-                        l = (0, r.Z)(c, 2),
+-                        u = l[0],
+-                        d = l[1],
+-                        p = (0, o.useState)(!1),
+-                        f = (0, r.Z)(p, 2),
+-                        h = f[0],
+-                        b = f[1],
+-                        v = (0, o.useState)(!1),
+-                        m = (0, r.Z)(v, 2),
+-                        g = m[0],
+-                        M = m[1],
+-                        O = (0, o.useState)(""),
+-                        _ = (0, r.Z)(O, 2),
+-                        y = _[0],
+-                        z = _[1],
+-                        A = (0, o.useState)(),
+-                        x = (0, r.Z)(A, 2),
+-                        w = x[0],
+-                        E = x[1];
++                    var e, t = ve().userIdHash,
++                        n = (0, Xe.useRecoilValue)(Ds),
++                        i = (0, o.useState)(!1),
++                        a = (0, r.Z)(i, 2),
++                        s = a[0],
++                        c = a[1],
++                        l = (0, o.useState)(!1),
++                        u = (0, r.Z)(l, 2),
++                        d = u[0],
++                        p = u[1],
++                        f = (0, o.useState)(!1),
++                        h = (0, r.Z)(f, 2),
++                        b = h[0],
++                        v = h[1],
++                        m = (0, o.useState)(!1),
++                        g = (0, r.Z)(m, 2),
++                        M = g[0],
++                        O = g[1],
++                        _ = (0, o.useState)(""),
++                        y = (0, r.Z)(_, 2),
++                        z = y[0],
++                        A = y[1],
++                        x = (0, o.useState)(),
++                        w = (0, r.Z)(x, 2),
++                        E = w[0],
++                        S = w[1];
+
+-                        }), (0, vt.jsx)(Joe, {}), (0, vt.jsx)(mae, {}), a && (0, vt.jsx)(Mae, {
++                        }), (0, vt.jsx)(Joe, {}), "STREAMER" === (null === n || void 0 === n || null === (e = n.myRole) || void 0 === e ? void 0 : e.userRole) && function() {
++                            var e, t;
++                            return !(!1 === (null === (e = n.myContractInfo) || void 0 === e ? void 0 : e.cpAvailable) && !0 === (null === (t = n.myContractInfo) || void 0 === t ? void 0 : t.cpDeactivated))
++                        }() && (0, vt.jsx)(mae, {}), s && (0, vt.jsx)(Mae, {
+
+
++                            var t;
+
+-                                        (0, un.isNil)(s.channelId) || (0, un.isNil)(s.myContractInfo) || ([sc.GRADE_1, sc.GRADE_2].includes(s.myContractInfo.streamerCurrentGrade) && s.myContractInfo.cpAvailable ? i(!0) : (i(!1), a("/error/permission", {
++                                        (0, un.isNil)(s.channelId) || (0, un.isNil)(s.myContractInfo) || ([sc.GRADE_1, sc.GRADE_2].includes(s.myContractInfo.streamerCurrentGrade) && s.myContractInfo.cpAvailable && "STREAMER" === (null === s || void 0 === s || null === (t = s.myRole) || void 0 === t ? void 0 : t.userRole) ? i(!0) : (i(!1), a("/error/permission", {
+
+-                    }), [s.myContractInfo]), (0, vt.jsx)(vt.Fragment, {
++                    }), [s.myContractInfo, s.myRole]), (0, vt.jsx)(vt.Fragment, {
 

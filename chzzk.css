@@ -14069,9 +14069,6 @@ a.news_profile__73Esm {
   background-color: var(--color-bg-chzzk-04);
   color: var(--color-content-black);
 }
-.pagination_container__uzQZ-.pagination_is_clip__O9ZKY {
-  margin-top: auto;
-}
 .pagination_wrapper__T7Qux {
   display: inline-block;
   padding: 0 38px;
@@ -20566,6 +20563,10 @@ a.news_profile__73Esm {
 }
 .comment_list_wrap__3UR6e {
   margin-top: 10px;
+}
+.comment_list_wrap__3UR6e.comment_list_is_clip__gamwO {
+  -ms-flex: 1 0;
+  flex: 1 0;
 }
 @media screen and (min-width: 736px) {
   .comment_list_wrap__3UR6e.comment_list_is_clip__gamwO {
@@ -33069,9 +33070,14 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
+  left: 0;
   min-height: 36px;
   padding: 25px 0 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  right: 0;
   width: 100%;
+  z-index: 10;
 }
 .navigation_component_filter__xnJPq > div {
   -ms-flex: none;
@@ -33093,7 +33099,6 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   width: 100%;
 }
 .navigation_component_list__SMMgI.navigation_component_type_video__cDWXn {
-  margin-top: 15px;
   row-gap: 30px;
 }
 .navigation_component_list__SMMgI.navigation_component_type_video__cDWXn
@@ -33209,123 +33214,6 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
 }
 .navigation_component_empty__riIV7 {
   padding: 150px 0;
-}
-.videos_container__Bn6Z8 {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 2060px;
-  width: 100%;
-}
-.videos_section__bpCtF {
-  -ms-flex: 1 1;
-  flex: 1 1;
-  min-height: 0;
-  padding: 20px 30px 0;
-}
-.videos_title__eR5gP {
-  color: var(--color-content-03);
-  display: block;
-  font-family:
-    Sandoll Nemony2,
-    Apple SD Gothic NEO,
-    Helvetica Neue,
-    Helvetica,
-    나눔고딕,
-    NanumGothic,
-    Malgun Gothic,
-    맑은 고딕,
-    굴림,
-    gulim,
-    새굴림,
-    noto sans,
-    돋움,
-    Dotum,
-    sans-serif;
-  font-size: 22px;
-  letter-spacing: -0.3px;
-  line-height: 28px;
-}
-.videos_list__6s8\+5 {
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 27px;
-  width: 100%;
-}
-.videos_item__cYquQ + .videos_item__cYquQ {
-  -ms-flex: none;
-  flex: none;
-  margin-left: 8px;
-}
-.videos_tab__dMk2V {
-  background-color: var(--color-bg-04);
-  border-radius: 15px;
-  color: var(--color-content-02);
-  display: block;
-  font-family:
-    Sandoll Nemony2,
-    Apple SD Gothic NEO,
-    Helvetica Neue,
-    Helvetica,
-    나눔고딕,
-    NanumGothic,
-    Malgun Gothic,
-    맑은 고딕,
-    굴림,
-    gulim,
-    새굴림,
-    noto sans,
-    돋움,
-    Dotum,
-    sans-serif;
-  font-size: 14px;
-  letter-spacing: -0.3px;
-  line-height: 15px;
-  padding: 7px 12px;
-}
-.videos_tab__dMk2V:active,
-.videos_tab__dMk2V:hover {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(var(--color-bg-overlay-03)),
-    to(var(--color-bg-overlay-03))
-  );
-  background-image: linear-gradient(
-    180deg,
-    var(--color-bg-overlay-03),
-    var(--color-bg-overlay-03)
-  );
-}
-.videos_tab__dMk2V[aria-selected="true"] {
-  background-color: var(--color-bg-06);
-  color: var(--color-content-09);
-}
-.videos_tab__dMk2V[aria-selected="true"]:active,
-.videos_tab__dMk2V[aria-selected="true"]:hover {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(var(--color-bg-overlay-02)),
-    to(var(--color-bg-overlay-02))
-  );
-  background-image: linear-gradient(
-    180deg,
-    var(--color-bg-overlay-02),
-    var(--color-bg-overlay-02)
-  );
-}
-.videos_empty__ld\+H2 {
-  padding: 160px 0 140px;
-}
-.videos_footer__Ikztd {
-  -ms-flex: none;
-  flex: none;
-  margin-top: 50px;
 }
 .component_container__0pSSp {
   margin: 0 auto;
@@ -35160,6 +35048,24 @@ a.twitchzzk_footer_item__CRJWN:hover {
   position: absolute;
   right: 0;
   top: 0;
+}
+.navigation_broadcast_tab__Brg-m {
+  background-color: var(--color-bg-01);
+  margin-top: 22px;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+}
+.navigation_broadcast_tab__Brg-m:before {
+  background-color: rgba(var(--color-border-01-rgb), 0.06);
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 30px;
+  position: absolute;
+  right: 30px;
+  z-index: 1;
 }
 .tags_all_container__hw\+xc {
   position: relative;
