@@ -1,57 +1,6 @@
--                    m = (0, r.useCallback)((function() {
-+                    m = he().channelId,
-+                    b = (0, r.useCallback)((function() {
-
--                    b = (0, r.useCallback)((function() {
--                        "OPEN" !== (null === s || void 0 === s ? void 0 : s.status) ? (v("방송이 종료되었습니다."), d(!0)) : (0, Ss.isNil)(null === s || void 0 === s ? void 0 : s.dropsCampaignNo) ? (v("드롭스 캠페인이 진행 중인 방송이 아닙니다."), d(!0)) : "/chat" === window.location.pathname.slice(-5) ? window.open(window.location.pathname.slice(0, -5) + "#drops_info") : m()
--                    }), [m, null === s || void 0 === s ? void 0 : s.dropsCampaignNo, null === s || void 0 === s ? void 0 : s.status]);
-+                    g = (0, r.useCallback)((function() {
-+                        "OPEN" !== (null === s || void 0 === s ? void 0 : s.status) ? (v("방송이 종료되었습니다."), d(!0)) : (0, Ss.isNil)(null === s || void 0 === s ? void 0 : s.dropsCampaignNo) ? (v("드롭스 캠페인이 진행 중인 방송이 아닙니다."), d(!0)) : "/chat" === window.location.pathname.slice(-5) ? window.open("".concat(Hy(), "/live/").concat(m, "#drops_info")) : b()
-+                    }), [m, b, null === s || void 0 === s ? void 0 : s.dropsCampaignNo, null === s || void 0 === s ? void 0 : s.status]);
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
 +2c01b842 0361686e 505139cf
-
--                        !(0, pn.isNil)(null === d || void 0 === d ? void 0 : d.dropsCampaignNo) && pe === ql.START && (0, pn.isNil)(fe) && Js({
--                            title: "드롭스 캠페인 종료",
--                            message: (0, At.jsxs)(Bs, {
--                                children: ["드롭스 캠페인이 종료되었습니다.", (0, At.jsx)("br", {}), "방송에 캠페인 정보가 표시되지 않습니다."]
--                            }),
--                            okHandler: function(e) {
--                                e(), Ue()
--                            }
--                        })
--                    }), [fe, null === d || void 0 === d ? void 0 : d.dropsCampaignNo, pe]), (0, At.jsxs)(At.Fragment, {
-+                        (0, tt.A)((0, et.A)().mark((function e() {
-+                            var t;
-+                            return (0, et.A)().wrap((function(e) {
-+                                for (;;) switch (e.prev = e.next) {
-+                                    case 0:
-+                                        if ((0, pn.isNil)(null === d || void 0 === d ? void 0 : d.dropsCampaignNo) || pe !== ql.START || !(0, pn.isNil)(fe) || !de.channelId) {
-+                                            e.next = 6;
-+                                            break
-+                                        }
-+                                        return e.next = 3, ek(de.channelId);
-+                                    case 3:
-+                                        t = e.sent, t.campaignList.some((function(e) {
-+                                            return e.campaignNo === (null === d || void 0 === d ? void 0 : d.dropsCampaignNo)
-+                                        })) || Js({
-+                                            title: "드롭스 캠페인 종료",
-+                                            message: (0, At.jsxs)(Bs, {
-+                                                children: ["드롭스 캠페인이 종료되었습니다.", (0, At.jsx)("br", {}), "방송에 캠페인 정보가 표시되지 않습니다."]
-+                                            }),
-+                                            okHandler: function(e) {
-+                                                e(), Ue()
-+                                            }
-+                                        });
-+                                    case 6:
-+                                    case "end":
-+                                        return e.stop()
-+                                }
-+                            }), e)
-+                        })))()
-+                    }), [fe, null === d || void 0 === d ? void 0 : d.dropsCampaignNo, pe, de.channelId]), (0, At.jsxs)(At.Fragment, {
 
