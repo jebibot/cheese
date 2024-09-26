@@ -1,6 +1,62 @@
+-                            p = function() {
+-                                var t = (0, et.A)((0, Qe.A)().mark((function t() {
+-                                    return (0, Qe.A)().wrap((function(t) {
+-                                        for (;;) switch (t.prev = t.next) {
+-                                            case 0:
+-                                                if (!u) {
+-                                                    t.next = 6;
+-                                                    break
+-                                                }
+-                                                return t.next = 3, d("WATCH_STARTED", e);
+-                                            case 3:
+-                                                u = !1, t.next = 8;
+-                                                break;
+-                                            case 6:
+-                                                return t.next = 8, d("WATCH_RESUMED", e);
+-                                            case 8:
+-                                                h();
+-                                            case 9:
+-                                            case "end":
+-                                                return t.stop()
+-                                        }
+-                                    }), t)
+-                                })));
+-                                return function() {
+-                                    return t.apply(this, arguments)
+-                                }
+-                            }(),
++                            p = (0, js.debounce)((0, et.A)((0, Qe.A)().mark((function t() {
++                                return (0, Qe.A)().wrap((function(t) {
++                                    for (;;) switch (t.prev = t.next) {
++                                        case 0:
++                                            if (!u) {
++                                                t.next = 6;
++                                                break
++                                            }
++                                            return t.next = 3, d("WATCH_STARTED", e);
++                                        case 3:
++                                            u = !1, t.next = 8;
++                                            break;
++                                        case 6:
++                                            return t.next = 8, d("WATCH_RESUMED", e);
++                                        case 8:
++                                            h();
++                                        case 9:
++                                        case "end":
++                                            return t.stop()
++                                    }
++                                }), t)
++                            }))), 500),
+
+-                            (0, js.isNumber)(r) && (e = r >= 50 ? H.current.slice(r - Y, r) : [].concat((0, s.A)(V.current.slice(-(Y - r))), (0, s.A)(H.current.slice(0, r))), console.log(e.length), n = H.current.slice(r)), m.setInitializeMessageList(e, Y), m.addBufferMessageList(n)
++                            (0, js.isNumber)(r) && (e = r >= 50 ? H.current.slice(r - Y, r) : [].concat((0, s.A)(V.current.slice(-(Y - r))), (0, s.A)(H.current.slice(0, r))), n = H.current.slice(r)), m.setInitializeMessageList(e, Y), m.addBufferMessageList(n)
+
+-                                    }), (null === fe || void 0 === fe ? void 0 : fe.videoChatEnabled) && !ue && (b && !G || !b && !j) && (null === fe || void 0 === fe ? void 0 : fe.videoNo) && (0, dh.jsx)("div", {
++                                    }), (null === fe || void 0 === fe ? void 0 : fe.videoChatEnabled) && !ue && (b && !G || !b && !j) && !(ee || oe) && (null === fe || void 0 === fe ? void 0 : fe.videoNo) && (0, dh.jsx)("div", {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+a6ac738b 680684ca b05cbabe
++a1a4cad2 680684ca b05cbabe
 
