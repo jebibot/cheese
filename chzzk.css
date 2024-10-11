@@ -14540,10 +14540,10 @@ label.component_label__\+VOEP {
   )
   .live_chatting_mission_message_time__ojxnY {
   background-color: var(--color-bg-01-fixed);
-  border-radius: 14px;
+  border-radius: 13px;
   color: var(--color-content-01-fixed);
-  height: 27px;
-  padding: 0 10px;
+  height: 25px;
+  padding: 0 8px;
 }
 .live_chatting_mission_message_container__05yWF:not(
     .live_chatting_mission_message_is_message__nAFAr,
@@ -14558,9 +14558,9 @@ label.component_label__\+VOEP {
     .live_chatting_mission_message_is_overlay__bzuSz
   )
   .live_chatting_mission_message_result__b1juO {
-  border-radius: 14px;
+  border-radius: 13px;
   font-size: 12px;
-  height: 27px;
+  height: 25px;
   padding: 0 12px;
 }
 .live_chatting_mission_message_container__05yWF:not(
@@ -14570,14 +14570,14 @@ label.component_label__\+VOEP {
   .live_chatting_mission_message_text_container__pj6Kx {
   color: var(--color-content-01);
   line-height: 20px;
-  margin: 5px 5px 0;
+  margin: 3px 5px 0;
 }
 .live_chatting_mission_message_container__05yWF:not(
     .live_chatting_mission_message_is_message__nAFAr,
     .live_chatting_mission_message_is_overlay__bzuSz
   )
   .live_chatting_mission_message_information__JSKKQ {
-  margin-top: 18px;
+  margin-top: 8px;
 }
 .live_chatting_mission_message_container__05yWF:not(
     .live_chatting_mission_message_is_message__nAFAr,
@@ -30078,7 +30078,7 @@ a.news_profile__73Esm {
   .live_chatting_fixed_mission_list__bMgnY {
   overflow: visible;
 }
-.live_chatting_fixed_mission_mission_button__GkYx4 {
+.live_chatting_fixed_mission_header__EvP2K {
   -ms-flex-align: center;
   -ms-flex-pack: justify;
   align-items: center;
@@ -30100,28 +30100,21 @@ a.news_profile__73Esm {
   display: flex;
   height: 32px;
   justify-content: space-between;
-  line-height: 16px;
-  padding: 0 5px 0 10px;
   width: 100%;
 }
-.theme_dark
-  .live_chatting_fixed_mission_mission_button__GkYx4:active:not(
-    .live_chatting_fixed_mission_single__Czu-r
-  ),
-.theme_dark
-  .live_chatting_fixed_mission_mission_button__GkYx4:focus-visible:not(
-    .live_chatting_fixed_mission_single__Czu-r
-  ),
-.theme_dark
-  .live_chatting_fixed_mission_mission_button__GkYx4:hover:not(
-    .live_chatting_fixed_mission_single__Czu-r
-  ) {
+.theme_dark .live_chatting_fixed_mission_header__EvP2K:active,
+.theme_dark .live_chatting_fixed_mission_header__EvP2K:focus-visible,
+.theme_dark .live_chatting_fixed_mission_header__EvP2K:hover {
   background-image: none;
 }
-.live_chatting_fixed_mission_mission_button__GkYx4.live_chatting_fixed_mission_single__Czu-r {
-  cursor: default;
+.live_chatting_fixed_mission_header__EvP2K:has(
+    .live_chatting_fixed_mission_folded_button__bBWS2[aria-expanded="false"]
+  ) {
+  border-bottom: none;
+  border-radius: 8px;
 }
-.live_chatting_fixed_mission_text__-pzaa {
+.live_chatting_fixed_mission_mission_button__GkYx4 {
+  color: var(--color-content-chzzk-01);
   font-family:
     Sandoll Nemony2,
     Apple SD Gothic NEO,
@@ -30139,25 +30132,38 @@ a.news_profile__73Esm {
     Dotum,
     sans-serif;
   font-size: 12px;
-}
-.live_chatting_fixed_mission_highlight__zQfCY {
-  color: var(--color-content-chzzk-01);
+  height: 100%;
+  line-height: 16px;
+  padding: 0 10px;
 }
 .live_chatting_fixed_mission_icon_mission__zxcEC {
-  margin: 1px 4px 0 0;
-}
-.live_chatting_fixed_mission_value__xA46M {
-  color: var(--color-content-04);
-  font-size: 13px;
+  margin: 1px 3px 0 0;
 }
 .live_chatting_fixed_mission_number__hSaNT {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 700;
-  vertical-align: top;
+  margin-left: 3px;
 }
 .live_chatting_fixed_mission_icon_arrow__pVui0 {
   margin-top: 1px;
+}
+.live_chatting_fixed_mission_folded_button__bBWS2 {
+  color: var(--color-content-04);
+  height: 100%;
+  padding: 0 6px;
+}
+.live_chatting_fixed_mission_folded_button__bBWS2:active,
+.live_chatting_fixed_mission_folded_button__bBWS2:focus-visible,
+.live_chatting_fixed_mission_folded_button__bBWS2:hover {
+  color: var(--color-content-02);
+}
+.live_chatting_fixed_mission_folded_button__bBWS2:active svg,
+.live_chatting_fixed_mission_folded_button__bBWS2:focus-visible svg,
+.live_chatting_fixed_mission_folded_button__bBWS2:hover svg {
+  background-color: rgba(var(--color-bg-white-rgb), 0.04);
+  border-radius: 6px;
+}
+.live_chatting_fixed_mission_folded_button__bBWS2[aria-expanded="true"] svg {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .live_chatting_fixed_mission_list__bMgnY span[class^="flicking-arrow"] {
   height: 20px;
