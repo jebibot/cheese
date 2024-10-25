@@ -1,6 +1,43 @@
+-                    B(), "FOLLOWER" !== t && E(!1)
++                    B(), "FOLLOWER" === t && "FOLLOW" === z || E(!1)
+
+-                    if (!(0, Ks.isNil)(e) || "FOLLOW" !== z || "WAIT" !== M && "SUBSCRIBABLE" !== M) clearInterval(e);
+-                    else {
+-                        var t = function() {
+-                            var t, n = null === c || void 0 === c || null === (t = c.following) || void 0 === t ? void 0 : t.followDate;
+-                            if ((0, Ks.isNil)(n)) N(F(v));
+-                            else {
+-                                var r = au(n);
+-                                r < v ? N(F(v, n)) : r >= v && (C("NONE"), clearInterval(e))
+-                            }
+-                        };
+-                        t(), e = setInterval(t, 1e3)
+-                    }
+-                    return function() {
+-                        return clearInterval(e)
++                    if ("FOLLOWER" === t) {
++                        if (!(0, Ks.isNil)(e) || "FOLLOW" !== z || "WAIT" !== M && "SUBSCRIBABLE" !== M) clearInterval(e);
++                        else {
++                            var n = function() {
++                                var t, n = null === c || void 0 === c || null === (t = c.following) || void 0 === t ? void 0 : t.followDate;
++                                if ((0, Ks.isNil)(n)) N(F(v));
++                                else {
++                                    var r = au(n);
++                                    r < v ? N(F(v, n)) : r >= v && (C("NONE"), clearInterval(e))
++                                }
++                            };
++                            n(), e = setInterval(n, 1e3)
++                        }
++                        return function() {
++                            return clearInterval(e)
++                        }
+
+-                }), [c, D, z, v]), {
++                }), [c, D, z, v, M]), {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+d96fd019 29f265cc e0c25c9c
++38ab7e8e 29f265cc e0c25c9c
 
