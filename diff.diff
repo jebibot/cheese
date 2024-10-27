@@ -1,6 +1,32 @@
+-                            }), 12e4),
++                            }), 3e4),
+
+-                        }), 12e4),
++                        }), 3e4),
+
+-                    if (v && !(q > 3)) return ce.current = setInterval((function() {
+-                            q > 3 && clearInterval(ce.current), v && v.srcObject && i.channelId && (0, et.A)((0, Qe.A)().mark((function e() {
++                    if (v && !(q > 20)) return ce.current = setInterval((function() {
++                            q > 20 && clearInterval(ce.current), v && v.srcObject && i.channelId && (0, et.A)((0, Qe.A)().mark((function e() {
+
+-                        }), 12e4),
++                        }), 3e4),
+
+-                    q > 3 && ce && clearInterval(ce.current)
++                    q > 20 && ce && clearInterval(ce.current)
+
+-                        }), 12e4))),
++                        }), 3e4))),
+
+-                    g > 1 && ADe && clearTimeout(ADe)
++                    g > 300 && ADe && clearTimeout(ADe)
+
+-                                        }), 12e4);
++                                        }), 3e4);
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+8b2745fc 29f265cc e0c25c9c
++38ab7e8e 29f265cc e0c25c9c
 
