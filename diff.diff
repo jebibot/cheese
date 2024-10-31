@@ -1,6 +1,817 @@
+-                    l = e.popupRef,
+-                    d = t.channelId,
+-                    p = t.channelName,
+-                    f = t.channelImageUrl,
+-                    h = t.verifiedMark,
+-                    v = t.status,
+-                    m = t.deferred,
+-                    y = t.tierNo,
+-                    b = t.tierName,
+-                    g = t.totalMonth,
+-                    _ = t.nextPublishYmdt,
+-                    A = t.lastBadgeMonth,
+-                    M = t.lastBadgeImageUrl,
+-                    x = t.nextBadgeMonth,
+-                    O = t.nextBadgeImageUrl,
+-                    k = t.openLive,
+-                    w = t.paymentPlatformType,
+-                    E = t.switchTierName,
+-                    S = t.renewalType,
+-                    T = (0, Vt.useRecoilValue)(hl),
+-                    z = (0, r.useState)(y),
++                    l = e.channelInfo,
++                    d = e.popupRef,
++                    p = t.channelId,
++                    f = t.channelName,
++                    h = t.channelImageUrl,
++                    v = t.verifiedMark,
++                    m = t.status,
++                    y = t.deferred,
++                    b = t.tierNo,
++                    g = t.tierName,
++                    _ = t.totalMonth,
++                    A = t.nextPublishYmdt,
++                    M = t.lastBadgeMonth,
++                    x = t.lastBadgeImageUrl,
++                    O = t.nextBadgeMonth,
++                    k = t.nextBadgeImageUrl,
++                    w = t.openLive,
++                    E = t.paymentPlatformType,
++                    S = t.switchTierName,
++                    T = t.renewalType,
++                    z = (0, r.useState)(b),
+
+-                                channelName: p,
+-                                channelImageUrl: f,
+-                                verifiedMark: h,
+-                                activatedChannelBadgeIds: null === T || void 0 === T ? void 0 : T.activatedChannelBadgeIds,
+-                                isLive: k,
+-                                totalMonth: g,
+-                                status: "CANCEL" === v && "AUTO_RENEWAL" === S ? "구독 만료 예정" : m ? "결제 실패 구독 중지" : "구독 중",
+-                                statusHighlight: m
++                                channelName: f,
++                                channelImageUrl: h,
++                                verifiedMark: v,
++                                activatedChannelBadgeIds: null === l || void 0 === l ? void 0 : l.activatedAchievementBadgeIds,
++                                isLive: w,
++                                totalMonth: _,
++                                status: "CANCEL" === m && "AUTO_RENEWAL" === T ? "구독 만료 예정" : y ? "결제 실패 구독 중지" : "구독 중",
++                                statusHighlight: y
+
+-                    w = (0, r.useCallback)((0, et.A)((0, Qe.A)().mark((function e() {
+-                        var t, n, r;
++                    w = (0, r.useState)(),
++                    E = (0, n.A)(w, 2),
++                    S = E[0],
++                    T = E[1],
++                    z = (0, r.useCallback)((0, et.A)((0, Qe.A)().mark((function e() {
++                        var t, n, r, i;
+
+-                                    t = e.sent, n = t.subscriptionDisabled, r = t.info, f(!n), k(r);
+-                                case 9:
++                                    t = e.sent, n = t.subscriptionDisabled, r = t.info, i = t.channelInfo, f(!n), k(r), T(i);
++                                case 11:
+
+-                    getSubscribeInfo: w,
+-                    isLoading: _
++                    getSubscribeInfo: z,
++                    isLoading: _,
++                    subscribeChannelInfo: S
+
+-            T3 = ["title", "titleId"];
++            T3 = function(e) {
++                var t;
++                null === (t = e.shadowRoot.querySelector(".pzp-setting-intro-filter")) || void 0 === t || t.addEventListener("click", (function() {
++                    var t;
++                    localStorage.setItem("player-filter-used", JSON.stringify(!(null === (t = e.querySelector("pzp-pc-setting-intro-filter")) || void 0 === t || !t.filterEnabled)))
++                }))
++            },
++            z3 = function(e) {
++                var t = ["player-filter-used"].map(x3),
++                    r = (0, n.A)(t, 1)[0],
++                    i = e.querySelector("pzp-pc-setting-intro-filter");
++                i && (i.filterEnabled = r)
++            },
++            C3 = ["title", "titleId"];
+
+-            d9 = "live_alarm_alarm__5+IBF",
+-            p9 = "live_alarm_animation__6Prl8",
+-            f9 = "live_alarm_contents__8QTfz",
+-            h9 = "live_alarm_play_video__bPrj6",
+-            v9 = "live_alarm_icon_cheese__N+Pu2",
+-            m9 = "live_alarm_video_title__P2+Cc",
+-            y9 = "live_alarm_play_video_large__tfN6c",
+-            b9 = "live_alarm_wrapper__FeK26",
+-            g9 = "live_alarm_text__DNfRG",
+-            _9 = "live_alarm_default__roOf2",
+-            A9 = "live_alarm_participants__NI2Ip",
+-            M9 = "live_alarm_ellipsis__dtK9C",
+-            x9 = "live_alarm_word__TlCO-",
+-            O9 = "live_alarm_money__lya-g",
+-            k9 = "live_alarm_message__AITHv",
+-            w9 = "live_alarm_result__VY1dP",
+-            E9 = "live_alarm_succeed__qI2lT",
+-            S9 = "live_alarm_fail__KOZZx",
+-            T9 = "live_alarm_is_short__adliD",
+-            z9 = "live_alarm_is_medium__mri5D",
+-            C9 = "live_alarm_is_long__qMwB-",
+-            L9 = "live_alarm_is_longest__3HGzf",
+-            R9 = [],
+-            I9 = [],
++            f9 = "live_alarm_alarm__5+IBF",
++            h9 = "live_alarm_animation__6Prl8",
++            v9 = "live_alarm_contents__8QTfz",
++            m9 = "live_alarm_play_video__bPrj6",
++            y9 = "live_alarm_icon_cheese__N+Pu2",
++            b9 = "live_alarm_video_title__P2+Cc",
++            g9 = "live_alarm_play_video_large__tfN6c",
++            _9 = "live_alarm_wrapper__FeK26",
++            A9 = "live_alarm_text__DNfRG",
++            M9 = "live_alarm_default__roOf2",
++            x9 = "live_alarm_participants__NI2Ip",
++            O9 = "live_alarm_ellipsis__dtK9C",
++            k9 = "live_alarm_word__TlCO-",
++            w9 = "live_alarm_money__lya-g",
++            E9 = "live_alarm_message__AITHv",
++            S9 = "live_alarm_result__VY1dP",
++            T9 = "live_alarm_succeed__qI2lT",
++            z9 = "live_alarm_fail__KOZZx",
++            C9 = "live_alarm_is_short__adliD",
++            L9 = "live_alarm_is_medium__mri5D",
++            R9 = "live_alarm_is_long__qMwB-",
++            I9 = "live_alarm_is_longest__3HGzf",
+
+-            P9 = function() {
+-                var e = (0, r.useState)(new l9),
++            P9 = [],
++            q9 = [],
++            F9 = function() {
++                var e = (0, r.useState)(new p9),
+
+-            $9 = (0, r.memo)(Y9),
+-            Q9 = {
++            J9 = (0, r.memo)(Q9),
++            eee = {
+
+-            J9 = ["title", "titleId"];
++            tee = ["title", "titleId"];
+
+-                }(e, J9);
+-            return r.createElement("svg", eee({
++                }(e, tee);
++            return r.createElement("svg", nee({
+
+-                    className: Q9.item,
++                    className: eee.item,
+
+-                        className: rt()(Q9.profile, (0, tt.A)({}, Q9.is_live, t)),
++                        className: rt()(eee.profile, (0, tt.A)({}, eee.is_live, t)),
+
+-                            className: rt()(Q9.image, (0, tt.A)({}, Q9.default, !!o && !t)),
++                            className: rt()(eee.image, (0, tt.A)({}, eee.default, !!o && !t)),
+
+-                            className: Q9.icon_new,
++                            className: eee.icon_new,
+
+-                        className: Q9.name,
++                        className: eee.name,
+
+-                        className: rt()(Q9.tooltip, Q9.is_expanded),
++                        className: rt()(eee.tooltip, eee.is_expanded),
+
+-                            className: Q9.inner,
++                            className: eee.inner,
+
+-                                className: rt()(Q9.box, (0, tt.A)({}, Q9.vertical, g >= 120)),
++                                className: rt()(eee.box, (0, tt.A)({}, eee.vertical, g >= 120)),
+
+-                                    className: Q9.name,
++                                    className: eee.name,
+
+-                                    className: Q9.category,
++                                    className: eee.category,
+
+-                                className: Q9.text,
++                                className: eee.text,
+
+-                                className: Q9.count,
++                                className: eee.count,
+
+-                    className: Q9.item,
++                    className: eee.item,
+
+-                        className: rt()(Q9.profile, (0, tt.A)({}, Q9.is_live, null === i || void 0 === i ? void 0 : i.openLive)),
++                        className: rt()(eee.profile, (0, tt.A)({}, eee.is_live, null === i || void 0 === i ? void 0 : i.openLive)),
+
+-                            className: rt()(Q9.image, (0, tt.A)({}, Q9.default, !(null === t || void 0 === t || !t.channelImageUrl) && !(null !== i && void 0 !== i && i.openLive))),
++                            className: rt()(eee.image, (0, tt.A)({}, eee.default, !(null === t || void 0 === t || !t.channelImageUrl) && !(null !== i && void 0 !== i && i.openLive))),
+
+-                            className: Q9.information,
++                            className: eee.information,
+
+-                                className: Q9.name,
++                                className: eee.name,
+
+-                                className: Q9.category,
++                                className: eee.category,
+
+-                            className: Q9.count,
++                            className: eee.count,
+
+-                            className: Q9.status,
+-                            children: [(0, Gr.jsx)(_ee, {
++                            className: eee.status,
++                            children: [(0, Gr.jsx)(Mee, {
+
+-                        className: rt()(Q9.tooltip, (0, tt.A)({}, Q9.is_expanded, !o)),
++                        className: rt()(eee.tooltip, (0, tt.A)({}, eee.is_expanded, !o)),
+
+-                            className: Q9.inner,
++                            className: eee.inner,
+
+-                                className: rt()(Q9.box, (0, tt.A)({}, Q9.vertical, f >= 120)),
++                                className: rt()(eee.box, (0, tt.A)({}, eee.vertical, f >= 120)),
+
+-                                    className: Q9.name,
++                                    className: eee.name,
+
+-                                    className: Q9.category,
++                                    className: eee.category,
+
+-                                className: Q9.text,
++                                className: eee.text,
+
+-                                className: Q9.count,
++                                className: eee.count,
+
+-                    className: rt()((0, tt.A)({}, Q9.is_expanded, t)),
++                    className: rt()((0, tt.A)({}, eee.is_expanded, t)),
+
+-                        className: Q9.wrapper,
++                        className: eee.wrapper,
+
+-                            className: Q9.header,
++                            className: eee.header,
+
+-                                className: Q9.title,
++                                className: eee.title,
+
+-                                className: rt()(Q9.button, (0, tt.A)({}, Q9.is_rotated, H)),
++                                className: rt()(eee.button, (0, tt.A)({}, eee.is_rotated, H)),
+
+-                                }), (0, Gr.jsx)(cee, {
+-                                    className: Q9.icon_refresh
++                                }), (0, Gr.jsx)(dee, {
++                                    className: eee.icon_refresh
+
+-                                className: Q9.button,
++                                className: eee.button,
+
+-                                    className: Q9.icon_arrow
++                                    className: eee.icon_arrow
+
+-                            className: Q9.title,
++                            className: eee.title,
+
+-                            className: Q9.list,
++                            className: eee.list,
+
+-                                className: Q9.footer,
++                                className: eee.footer,
+
+-                                    className: Q9.button_more,
++                                    className: eee.button_more,
+
+-                                    children: [re ? "더보기" : "접기", (0, Gr.jsx)(hee, {
+-                                        className: Q9.icon_arrow
++                                    children: [re ? "더보기" : "접기", (0, Gr.jsx)(mee, {
++                                        className: eee.icon_arrow
+
+-                        className: Q9.wrapper,
++                        className: eee.wrapper,
+
+-                            className: Q9.header,
++                            className: eee.header,
+
+-                                className: Q9.title,
++                                className: eee.title,
+
+-                                className: rt()(Q9.button, (0, tt.A)({}, Q9.is_rotated, Z)),
++                                className: rt()(eee.button, (0, tt.A)({}, eee.is_rotated, Z)),
+
+-                                }), (0, Gr.jsx)(cee, {
+-                                    className: Q9.icon_refresh
++                                }), (0, Gr.jsx)(dee, {
++                                    className: eee.icon_refresh
+
+-                                className: Q9.button,
++                                className: eee.button,
+
+-                                    className: Q9.icon_arrow
++                                    className: eee.icon_arrow
+
+-                            className: Q9.title,
++                            className: eee.title,
+
+-                            className: Q9.list,
++                            className: eee.list,
+
+-                                className: Q9.footer,
++                                className: eee.footer,
+
+-                                    className: Q9.button_more,
++                                    className: eee.button_more,
+
+-                                    children: [W ? "접기" : "더보기", (0, Gr.jsx)(hee, {
+-                                        className: Q9.icon_arrow
++                                    children: [W ? "접기" : "더보기", (0, Gr.jsx)(mee, {
++                                        className: eee.icon_arrow
+
+-                            className: Q9.emptyMenu,
++                            className: eee.emptyMenu,
+
+-                        className: Q9.wrapper,
++                        className: eee.wrapper,
+
+-                            className: Q9.header,
++                            className: eee.header,
+
+-                                className: Q9.title,
++                                className: eee.title,
+
+-                                    className: Q9.link,
++                                    className: eee.link,
+
+-                                        className: Q9.icon_official
+-                                    }), "파트너 스트리머", (0, Gr.jsx)(iee, {
+-                                        className: Q9.icon_window
++                                        className: eee.icon_official
++                                    }), "파트너 스트리머", (0, Gr.jsx)(aee, {
++                                        className: eee.icon_window
+
+-                            className: Q9.title,
++                            className: eee.title,
+
+-                                className: Q9.link,
++                                className: eee.link,
+
+-                            className: rt()(Q9.list, Q9.horizontal),
++                            className: rt()(eee.list, eee.horizontal),
+
+-            aue = (0, r.memo)(oue),
+-            sue = function() {
+-                return (0, Gr.jsx)(aue, {})
+-            },
+
+
+
++                return (0, Gr.jsx)(uue, {})
++            },
++            lue = (0, r.memo)(cue),
++            due = function() {
+
+-                    nt = (0, r.useRef)(null),
+-                    it = (0, r.useState)(!1),
+-                    ot = (0, n.A)(it, 2),
+-                    at = ot[0],
+-                    st = ot[1];
++                    nt = Ve.subscribeChannelInfo,
++                    it = (0, r.useRef)(null),
++                    ot = (0, r.useState)(!1),
++                    at = (0, n.A)(ot, 2),
++                    st = at[0],
++                    ut = at[1];
+
+-                    pt = function() {
+-                        c.loggedIn ? Pe.includes(i.channelId) ? lt("차단한 유저의 채널은 구독 할 수 없습니다.") : (je(), ue(!0)) : bM()
+-                    },
+
+
+
++                        c.loggedIn ? Pe.includes(i.channelId) ? dt("차단한 유저의 채널은 구독 할 수 없습니다.") : (je(), ue(!0)) : bM()
++                    },
++                    ht = function() {
+
+-                                            closeButtonHandler: ht
++                                            closeButtonHandler: vt,
++                                            channelInfo: nt
+
+-            $de = function() {
+-                return window.navigator.userAgent.toLowerCase()
+-            },
+-            Qde = function() {
+-                return /Windows/i.test($de())
+-            },
+
+
+-                return /Macintosh/i.test($de())
++                return window.navigator.userAgent.toLowerCase()
+
+-                return /iPhone/i.test($de())
++                return /Windows/i.test(Jde())
+
+-                return /iPad/i.test($de()) || function() {
+-                    var e = window.navigator;
+-                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
+-                }()
++                return /Macintosh/i.test(Jde())
+
+-                return epe() || tpe() || /iPod/i.test($de())
++                return /iPhone/i.test(Jde())
+
+-                return /Android/i.test($de())
++                return /iPad/i.test(Jde()) || function() {
++                    var e = window.navigator;
++                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
++                }()
+
+-                return /Windows Phone|Windows CE/i.test($de())
++                return npe() || rpe() || /iPod/i.test(Jde())
+
+-                return /Tizen/i.test($de())
++                return /Android/i.test(Jde())
+
+-                return "undefined" != typeof window.opera || /Opera/i.test($de())
++                return /Windows Phone|Windows CE/i.test(Jde())
+
+-                return /Edg/i.test($de())
++                return /Tizen/i.test(Jde())
+
+-                return /Firefox/i.test($de())
++                return "undefined" != typeof window.opera || /Opera/i.test(Jde())
+
+-                return /Whale/i.test($de())
++                return /Edg/i.test(Jde())
+
+-                return /Chrome|CriOS/i.test($de())
++                return /Firefox/i.test(Jde())
+
+-                return !/Chrome|CriOS/i.test($de()) && ($de() || "").indexOf("safari") > -1
++                return /Whale/i.test(Jde())
+
+-                return /AppleWebKit/i.test($de())
++                return /Chrome|CriOS/i.test(Jde())
+
+-                return !!$de().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
++                return !/Chrome|CriOS/i.test(Jde()) && (Jde() || "").indexOf("safari") > -1
+
+-                return /NAVER\((inapp|higgs);\s?search;\s?/i.test($de())
++                return /AppleWebKit/i.test(Jde())
+
+-                return /SamsungBrowser/i.test($de())
++                return !!Jde().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
+
+-                return /\bLine\b/i.test($de())
++                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(Jde())
+
+-                return /EdgA/i.test($de())
++                return /SamsungBrowser/i.test(Jde())
+
+-                return /EdgiOS/i.test($de())
++                return /\bLine\b/i.test(Jde())
+
+-                return /IEMobile/i.test($de())
++                return /EdgA/i.test(Jde())
+
+-                return /Opera Mini/i.test($de())
++                return /EdgiOS/i.test(Jde())
+
+-                return /Dolfin/i.test($de())
++                return /IEMobile/i.test(Jde())
+
+-                return npe() || rpe() || ipe() || hpe() || vpe() || mpe() || ype() || bpe() || gpe() || _pe() || Ape()
++                return /Opera Mini/i.test(Jde())
+
+-            xpe = "googleImaSdk",
+-            Ope = [{
+-                key: xpe,
++            xpe = function() {
++                return /Dolfin/i.test(Jde())
++            },
++            Ope = function() {
++                return ipe() || ope() || ape() || mpe() || ype() || bpe() || gpe() || _pe() || Ape() || Mpe() || xpe()
++            },
++            kpe = "googleImaSdk",
++            wpe = [{
++                key: kpe,
+
+-            hye = {
+-                renderType: wde.GV,
+-                creativeType: Lde.VIDEO,
+-                adapter: gme
+-            },
+-            vye = {},
+
+
+
++                renderType: Sde.GV,
++                creativeType: Ide.VIDEO,
++                adapter: Ame
++            },
++            yye = {},
++            bye = {
+
+-                case Kye:
+-                    return Gye.FAIRPLAY;
+-                case Zye:
+-                    return Gye.PLAYREADY;
+
+
+-                    return Gye.WIDEVINE;
+-                case Xye:
+-                    return Gye.CLEARKEY
++                    return Kye.FAIRPLAY;
++                case $ye:
++                    return Kye.PLAYREADY;
++                case Qye:
++                    return Kye.WIDEVINE;
++                case Zye:
++                    return Kye.CLEARKEY
+
+-                case Gye.FAIRPLAY:
+-                    return Kye;
+-                case Gye.PLAYREADY:
+-                    return Zye;
+-                case Gye.WIDEVINE:
++                case Kye.FAIRPLAY:
+
+-                case Gye.CLEARKEY:
+-                    return Xye
++                case Kye.PLAYREADY:
++                    return $ye;
++                case Kye.WIDEVINE:
++                    return Qye;
++                case Kye.CLEARKEY:
++                    return Zye
+
+-                                case Kye:
+
+
+
++                                case Qye:
++                                case $ye:
+
+-                                case Xye:
+
+
+-                        case uge:
+-                            s = n ? Oye.MANIFEST_LOAD_TIMEOUT : Oye.MANIFEST_LOAD_ERROR, u = !0;
+-                            break;
+-                        case cge:
+-                            s = n ? Oye.LEVEL_LOAD_TIMEOUT : Oye.LEVEL_LOAD_ERROR, u = !1;
+-                            break;
+
+
+-                            s = n ? Oye.AUDIO_TRACK_LOAD_TIMEOUT : Oye.AUDIO_TRACK_LOAD_ERROR, u = !1;
++                            s = n ? wye.MANIFEST_LOAD_TIMEOUT : wye.MANIFEST_LOAD_ERROR, u = !0;
+
+-                            s = n ? Oye.SUBTITLE_TRACK_LOAD_TIMEOUT : Oye.SUBTITLE_LOAD_ERROR, u = !1
++                            s = n ? wye.LEVEL_LOAD_TIMEOUT : wye.LEVEL_LOAD_ERROR, u = !1;
++                            break;
++                        case pge:
++                            s = n ? wye.AUDIO_TRACK_LOAD_TIMEOUT : wye.AUDIO_TRACK_LOAD_ERROR, u = !1;
++                            break;
++                        case fge:
++                            s = n ? wye.SUBTITLE_TRACK_LOAD_TIMEOUT : wye.SUBTITLE_LOAD_ERROR, u = !1
+
+-                            case B_e:
+-                            case W_e:
+
+
+
++                            case U_e:
+
+-                            case H_e:
+-                                this.state = F_e
++                            case G_e:
++                            case X_e:
++                                this.state = W_e
+
+-                        m(e), O3(e), w3(e),
++                        m(e), O3(e), z3(e), w3(e),
+
+-                            }(e)
++                            }(e), T3(e)
+
+-                        _(e), O3(e), w3(e),
++                        _(e), O3(e), z3(e), w3(e), T3(e),
+
+-            $We = r.memo(YWe),
+-            QWe = function() {
+-                return (0, Gr.jsx)($We, {})
+-            },
+
+
+-            eje = "twitchzzk_logo__i9DRP",
+-            tje = "twitchzzk_title__KF5o-",
+-            nje = "twitchzzk_image__lbk9E",
+-            rje = "twitchzzk_text__NbWNN",
+-            ije = "twitchzzk_description__4iYZr",
+-            oje = "twitchzzk_guide_item__Jo9Fm",
+-            aje = "twitchzzk_button_close__Eru+D",
+-            sje = "twitchzzk_list__+rEyQ",
+-            uje = "twitchzzk_item__3Uizn",
+-            cje = "twitchzzk_container__iXjl6",
+-            lje = "twitchzzk_header__PYjBs",
+-            dje = "twitchzzk_inner__5tGzx",
+-            pje = "twitchzzk_link__LgF2P",
+-            fje = "twitchzzk_icon__Ln2GQ",
+-            hje = "twitchzzk_button__n0oqs",
+-            vje = "twitchzzk_main__dnHTz",
+-            mje = "twitchzzk_apply__cFAsC",
+-            yje = "twitchzzk_area__Z1n9t",
+-            bje = "twitchzzk_box__+GjPm",
+-            gje = "twitchzzk_process__W6ZlT",
+-            _je = "twitchzzk_second__pU9PA",
+-            Aje = "twitchzzk_third__yAQCJ",
+-            Mje = "twitchzzk_guide__8o36g",
+-            xje = "twitchzzk_guide_list__UZMHz",
+-            Oje = "twitchzzk_next__aIiDq",
+-            kje = "twitchzzk_footer__ARZZd",
+-            wje = "twitchzzk_footer_item__CRJWN",
+-            Eje = "twitchzzk_dimmed__LSgXl",
+-            Sje = "twitchzzk_layer__TM+5Y",
+-            Tje = "twitchzzk_layer_header__j3N5I",
+-            zje = "twitchzzk_section__FQlUb",
+-            Cje = ["title", "titleId"];
+-
+-        function Lje() {
+-            return Lje = Object.assign ? Object.assign.bind() : function(e) {
++            eje = function() {
++                return (0, Gr.jsx)(JWe, {})
++            },
++            tje = r.memo(eje),
++            nje = "twitchzzk_logo__i9DRP",
++            rje = "twitchzzk_title__KF5o-",
++            ije = "twitchzzk_image__lbk9E",
++            oje = "twitchzzk_text__NbWNN",
++            aje = "twitchzzk_description__4iYZr",
++            sje = "twitchzzk_guide_item__Jo9Fm",
++            uje = "twitchzzk_button_close__Eru+D",
++            cje = "twitchzzk_list__+rEyQ",
++            lje = "twitchzzk_item__3Uizn",
++            dje = "twitchzzk_container__iXjl6",
++            pje = "twitchzzk_header__PYjBs",
++            fje = "twitchzzk_inner__5tGzx",
++            hje = "twitchzzk_link__LgF2P",
++            vje = "twitchzzk_icon__Ln2GQ",
++            mje = "twitchzzk_button__n0oqs",
++            yje = "twitchzzk_main__dnHTz",
++            bje = "twitchzzk_apply__cFAsC",
++            gje = "twitchzzk_area__Z1n9t",
++            _je = "twitchzzk_box__+GjPm",
++            Aje = "twitchzzk_process__W6ZlT",
++            Mje = "twitchzzk_second__pU9PA",
++            xje = "twitchzzk_third__yAQCJ",
++            Oje = "twitchzzk_guide__8o36g",
++            kje = "twitchzzk_guide_list__UZMHz",
++            wje = "twitchzzk_next__aIiDq",
++            Eje = "twitchzzk_footer__ARZZd",
++            Sje = "twitchzzk_footer_item__CRJWN",
++            Tje = "twitchzzk_dimmed__LSgXl",
++            zje = "twitchzzk_layer__TM+5Y",
++            Cje = "twitchzzk_layer_header__j3N5I",
++            Lje = "twitchzzk_section__FQlUb",
++            Rje = ["title", "titleId"];
++
++        function Ije() {
++            return Ije = Object.assign ? Object.assign.bind() : function(e) {
+
+-            Xje = (0, r.memo)(Gje),
+-            Kje = function() {
+-                return (0, Gr.jsx)(Xje, {})
+-            },
+
+
+-            Yje = "twitchzzk_result_container__-gD3Y",
+-            $je = "twitchzzk_result_header__OFZGZ",
+-            Qje = "twitchzzk_result_link__LT6gL",
+-            Jje = "twitchzzk_result_logo__Jp2Ui",
+-            eUe = "twitchzzk_result_title__dtpry",
+-            tUe = "twitchzzk_result_section__tq00U",
+-            nUe = "twitchzzk_result_name__Cs3Mf",
+-            rUe = "twitchzzk_result_default__oZhNB",
+-            iUe = "twitchzzk_result_item__tNMMr",
+-            oUe = "twitchzzk_result_text__pItXN",
+-            aUe = "twitchzzk_result_ellipsis__T+SwM",
+-            sUe = "twitchzzk_result_word__4-wFv",
+-            uUe = "twitchzzk_result_primary__GcFVT",
+-            cUe = "twitchzzk_result_secondary__3rvld",
+-            lUe = "twitchzzk_result_area__oyrjO",
+-            dUe = "twitchzzk_result_button_confirm__X1MpX",
+-            pUe = "twitchzzk_result_button_close__uMNkA",
+-            fUe = function() {
++            Yje = function() {
++                return (0, Gr.jsx)(Zje, {})
++            },
++            $je = (0, r.memo)(Yje),
++            Qje = "twitchzzk_result_container__-gD3Y",
++            Jje = "twitchzzk_result_header__OFZGZ",
++            eUe = "twitchzzk_result_link__LT6gL",
++            tUe = "twitchzzk_result_logo__Jp2Ui",
++            nUe = "twitchzzk_result_title__dtpry",
++            rUe = "twitchzzk_result_section__tq00U",
++            iUe = "twitchzzk_result_name__Cs3Mf",
++            oUe = "twitchzzk_result_default__oZhNB",
++            aUe = "twitchzzk_result_item__tNMMr",
++            sUe = "twitchzzk_result_text__pItXN",
++            uUe = "twitchzzk_result_ellipsis__T+SwM",
++            cUe = "twitchzzk_result_word__4-wFv",
++            lUe = "twitchzzk_result_primary__GcFVT",
++            dUe = "twitchzzk_result_secondary__3rvld",
++            pUe = "twitchzzk_result_area__oyrjO",
++            fUe = "twitchzzk_result_button_confirm__X1MpX",
++            hUe = "twitchzzk_result_button_close__uMNkA",
++            vUe = function() {
+
+-            QUe = (0, r.memo)($Ue),
+-            JUe = function() {
+-                return (0, Gr.jsx)(QUe, {})
+-            },
+
+
+
++                return (0, Gr.jsx)(eVe, {})
++            },
++            nVe = (0, r.memo)(tVe),
++            rVe = function() {
+
+-                                    selected: W === MZe,
+-                                    type: MZe,
+-                                    clickButtonHandler: Ge
+-                                }), (0, Gr.jsx)(x$e, {
+-                                    text: "장면캡쳐",
+-                                    selected: W === xZe,
+-                                    type: xZe,
+-                                    clickButtonHandler: Ge
+-                                }), (0, Gr.jsx)(x$e, {
+-                                    text: "상하분할",
+
+
+-                                }), (0, Gr.jsx)(x$e, {
+-                                    text: "사각형",
++                                }), (0, Gr.jsx)(k$e, {
++                                    text: "장면캡쳐",
+
+-                                }), (0, Gr.jsx)(x$e, {
+-                                    text: "가로형",
++                                }), (0, Gr.jsx)(k$e, {
++                                    text: "상하분할",
+
+
++                                }), (0, Gr.jsx)(k$e, {
++                                    text: "사각형",
++                                    selected: W === EZe,
++                                    type: EZe,
++                                    clickButtonHandler: Ge
++                                }), (0, Gr.jsx)(k$e, {
++                                    text: "가로형",
++                                    selected: W === SZe,
++                                    type: SZe,
++                                    clickButtonHandler: Ge
+
+-            rJe = (0, r.memo)(nJe),
+-            iJe = function() {
+-                return (0, Gr.jsx)(rJe, {})
+-            },
+
+
+-            aJe = "clip_viewer_container__t8clN",
+-            sJe = "clip_viewer_viewer_area__CG2-w",
+-            uJe = "clip_viewer_section__Z3FbJ",
+-            cJe = "clip_viewer_comment__L7J0c",
+-            lJe = "clip_viewer_show__HOvKr",
+-            dJe = "clip_viewer_close_button__ehE5-",
+-            pJe = Object.defineProperty,
+-            fJe = Object.defineProperties,
+-            hJe = Object.getOwnPropertyDescriptors,
+-            vJe = Object.getOwnPropertySymbols,
+-            mJe = Object.prototype.hasOwnProperty,
+-            yJe = Object.prototype.propertyIsEnumerable,
+-            bJe = function(e, t, n) {
+-                return t in e ? pJe(e, t, {
++            aJe = function() {
++                return (0, Gr.jsx)(oJe, {})
++            },
++            sJe = (0, r.memo)(aJe),
++            uJe = "clip_viewer_container__t8clN",
++            cJe = "clip_viewer_viewer_area__CG2-w",
++            lJe = "clip_viewer_section__Z3FbJ",
++            dJe = "clip_viewer_comment__L7J0c",
++            pJe = "clip_viewer_show__HOvKr",
++            fJe = "clip_viewer_close_button__ehE5-",
++            hJe = Object.defineProperty,
++            vJe = Object.defineProperties,
++            mJe = Object.getOwnPropertyDescriptors,
++            yJe = Object.getOwnPropertySymbols,
++            bJe = Object.prototype.hasOwnProperty,
++            gJe = Object.prototype.propertyIsEnumerable,
++            _Je = function(e, t, n) {
++                return t in e ? hJe(e, t, {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+e56da155 ac54161a f6b8e535
++66fe979b ac54161a f6b8e535
 
