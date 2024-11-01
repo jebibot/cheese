@@ -6202,9 +6202,7 @@ html.theme_dark {
     돋움,
     Dotum,
     sans-serif;
-  gap: 0 4px;
   justify-content: center;
-  line-height: 0;
   outline: none;
   position: relative;
   vertical-align: top;
