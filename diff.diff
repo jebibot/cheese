@@ -1,6 +1,580 @@
+-            nM = function(e, t, n, r) {
++            nM = function(e, t, n, r, i) {
++                $h({
++                    scene_id: "chzzk_home",
++                    action_id: "occur",
++                    classifier: "live_end_heartbeat",
++                    extra: {
++                        channel_id: t,
++                        live_id: e,
++                        category_type: n,
++                        live_category: r,
++                        latency: i,
++                        heartbeat_cycle: arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : 30
++                    }
++                })
++            },
++            rM = function(e, t, n, r, i) {
++                $h({
++                    scene_id: "chzzk_channel_home",
++                    action_id: "occur",
++                    classifier: "live_end_heartbeat",
++                    extra: {
++                        channel_id: t,
++                        live_id: e,
++                        category_type: n,
++                        live_category: r,
++                        latency: i,
++                        heartbeat_cycle: arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : 30
++                    }
++                })
++            },
++            iM = function(e, t, n, r) {
+
+-            LM = !1,
+-            RM = !1,
+
+
+-            NM = 100,
+-            DM = function(e) {
++            NM = !1,
++            DM = !1,
++            PM = 100,
++            qM = function(e) {
+
+-            tz = r.memo(ez),
+-            nz = __webpack_require__(49588),
+-            rz = __webpack_require__.n(nz),
+-            iz = __webpack_require__(87946),
++            rz = r.memo(nz),
++            iz = __webpack_require__(49588),
+
+-            az = function() {
+-                var e = (new iz.UAParser).getDevice().type;
++            az = __webpack_require__(87946),
++            sz = __webpack_require__.n(az),
++            uz = function() {
++                var e = (new az.UAParser).getDevice().type;
+
+-            kz = function(e) {
++            Ez = function(e) {
++                var t, n = null === (t = e.srcObject) || void 0 === t ? void 0 : t._getLiveLatency();
++                return Math.floor(n) || -1
++            },
++            Sz = function(e) {
+
+-                    v = (0, r.useState)(0),
+-                    m = (0, n.A)(v, 2),
+-                    y = m[0],
+-                    b = m[1],
+-                    g = fz("".concat(s, "Live")),
+-                    _ = g.ageRestriction,
+-                    A = g.setUserAdultInfo,
+-                    M = hz("".concat(s, "Live")),
+-                    x = M.geoRestriction,
+-                    O = M.setGeoRestriction,
+-                    k = (0, Vt.useRecoilState)(Jt),
+-                    w = (0, n.A)(k, 2),
+-                    E = w[0],
+-                    S = w[1];
+-                return Oz({
++                    v = 3e4,
++                    m = (0, r.useState)(0),
++                    y = (0, n.A)(m, 2),
++                    b = y[0],
++                    g = y[1],
++                    _ = vz("".concat(s, "Live")),
++                    A = _.ageRestriction,
++                    M = _.setUserAdultInfo,
++                    x = mz("".concat(s, "Live")),
++                    O = x.geoRestriction,
++                    k = x.setGeoRestriction,
++                    w = (0, Vt.useRecoilState)(Jt),
++                    E = (0, n.A)(w, 2),
++                    S = E[0],
++                    T = E[1],
++                    z = (0, r.useRef)(""),
++                    C = (0, r.useRef)("");
++                return wz({
+
+-                                                null === (t = p.srcObject) || void 0 === t || t.updateLiveStatus(JSON.parse(e.livePollingStatusJson || "{}")), A(e.userAdultStatus, e.adult), O("ABROAD" === e.blindType), S(e)
++                                                null === (t = p.srcObject) || void 0 === t || t.updateLiveStatus(JSON.parse(e.livePollingStatusJson || "{}")), M(e.userAdultStatus, e.adult), k("ABROAD" === e.blindType), T(e), C.current = (null === e || void 0 === e ? void 0 : e.liveCategory) || "", z.current = (null === e || void 0 === e ? void 0 : e.categoryType) || ""
+
+-                                p && p.srcObject && e()
+-                            }), 3e4),
++                                p && p.srcObject && ("home" === s ? nM(t, o, z.current, C.current, Ez(p), 30) : "channel" === s && rM(t, o, z.current, C.current, Ez(p), 30), e())
++                            }), v),
+
+-            A3 = function(e) {
+-                return y3(e) ? -1 : Math.min(e.width, e.height)
+-            },
+-            M3 = !1,
+-            x3 = [480, 360],
+
+
+
++                return _3(e) ? -1 : Math.min(e.width, e.height)
++            },
++            k3 = !1,
++            w3 = [480, 360],
++            E3 = function(e) {
+
+-            h9 = "live_alarm_alarm__5+IBF",
+-            v9 = "live_alarm_animation__6Prl8",
+-            m9 = "live_alarm_contents__8QTfz",
+-            y9 = "live_alarm_play_video__bPrj6",
+-            b9 = "live_alarm_icon_cheese__N+Pu2",
+-            g9 = "live_alarm_video_title__P2+Cc",
+-            _9 = "live_alarm_play_video_large__tfN6c",
+-            A9 = "live_alarm_wrapper__FeK26",
+-            M9 = "live_alarm_text__DNfRG",
+-            x9 = "live_alarm_default__roOf2",
+-            O9 = "live_alarm_participants__NI2Ip",
+-            k9 = "live_alarm_ellipsis__dtK9C",
+-            w9 = "live_alarm_word__TlCO-",
+-            E9 = "live_alarm_money__lya-g",
+-            S9 = "live_alarm_message__AITHv",
+-            T9 = "live_alarm_result__VY1dP",
+-            z9 = "live_alarm_succeed__qI2lT",
+-            C9 = "live_alarm_fail__KOZZx",
+-            L9 = "live_alarm_is_short__adliD",
+-            R9 = "live_alarm_is_medium__mri5D",
+-            I9 = "live_alarm_is_long__qMwB-",
+-            N9 = "live_alarm_is_longest__3HGzf",
+-            D9 = [],
+-            P9 = [],
+-            q9 = [],
++            y9 = "live_alarm_alarm__5+IBF",
++            b9 = "live_alarm_animation__6Prl8",
++            g9 = "live_alarm_contents__8QTfz",
++            _9 = "live_alarm_play_video__bPrj6",
++            A9 = "live_alarm_icon_cheese__N+Pu2",
++            M9 = "live_alarm_video_title__P2+Cc",
++            x9 = "live_alarm_play_video_large__tfN6c",
++            O9 = "live_alarm_wrapper__FeK26",
++            k9 = "live_alarm_text__DNfRG",
++            w9 = "live_alarm_default__roOf2",
++            E9 = "live_alarm_participants__NI2Ip",
++            S9 = "live_alarm_ellipsis__dtK9C",
++            T9 = "live_alarm_word__TlCO-",
++            z9 = "live_alarm_money__lya-g",
++            C9 = "live_alarm_message__AITHv",
++            L9 = "live_alarm_result__VY1dP",
++            R9 = "live_alarm_succeed__qI2lT",
++            I9 = "live_alarm_fail__KOZZx",
++            N9 = "live_alarm_is_short__adliD",
++            D9 = "live_alarm_is_medium__mri5D",
++            P9 = "live_alarm_is_long__qMwB-",
++            q9 = "live_alarm_is_longest__3HGzf",
+
+-            B9 = function() {
+-                var e = (0, r.useState)(new f9),
++            B9 = [],
++            W9 = [],
++            j9 = [],
++            U9 = function() {
++                var e = (0, r.useState)(new m9),
+
+-        var G9, X9, K9, Z9 = r.forwardRef(H9),
+-            Y9 = (__webpack_require__.p, "band_banner_container__mJKPx"),
+-            $9 = "band_banner_link__+tr+R",
+-            Q9 = "band_banner_button__ozNIO",
+-            J9 = function(e) {
++        var Z9, Y9, $9, Q9 = r.forwardRef(K9),
++            J9 = (__webpack_require__.p, "band_banner_container__mJKPx"),
++            eee = "band_banner_link__+tr+R",
++            tee = "band_banner_button__ozNIO",
++            nee = function(e) {
+
+-                            className: $9,
++                            className: eee,
+
+-                        className: Q9,
++                        className: tee,
+
+-            eee = (0, r.memo)(J9),
+-            tee = {
++            ree = (0, r.memo)(nee),
++            iee = {
+
+-            epe = function() {
+-                return window.navigator.userAgent.toLowerCase()
+-            },
+-            tpe = function() {
+-                return /Windows/i.test(epe())
+-            },
+-            npe = function() {
+-                return /Macintosh/i.test(epe())
+-            },
+
+
+-                return /iPhone/i.test(epe())
++                return window.navigator.userAgent.toLowerCase()
+
+-                return /iPad/i.test(epe()) || function() {
+-                    var e = window.navigator;
+-                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
+-                }()
++                return /Windows/i.test(rpe())
+
+-                return rpe() || ipe() || /iPod/i.test(epe())
++                return /Macintosh/i.test(rpe())
+
+-                return /Android/i.test(epe())
++                return /iPhone/i.test(rpe())
+
+-                return /Windows Phone|Windows CE/i.test(epe())
++                return /iPad/i.test(rpe()) || function() {
++                    var e = window.navigator;
++                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
++                }()
+
+-                return /Tizen/i.test(epe())
++                return ape() || spe() || /iPod/i.test(rpe())
+
+-                return "undefined" != typeof window.opera || /Opera/i.test(epe())
++                return /Android/i.test(rpe())
+
+-                return /Edg/i.test(epe())
++                return /Windows Phone|Windows CE/i.test(rpe())
+
+-                return /Firefox/i.test(epe())
++                return /Tizen/i.test(rpe())
+
+-                return /Whale/i.test(epe())
++                return "undefined" != typeof window.opera || /Opera/i.test(rpe())
+
+-                return /Chrome|CriOS/i.test(epe())
++                return /Edg/i.test(rpe())
+
+-                return !/Chrome|CriOS/i.test(epe()) && (epe() || "").indexOf("safari") > -1
++                return /Firefox/i.test(rpe())
+
+-                return /AppleWebKit/i.test(epe())
++                return /Whale/i.test(rpe())
+
+-                return !!epe().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
++                return /Chrome|CriOS/i.test(rpe())
+
+-                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(epe())
++                return !/Chrome|CriOS/i.test(rpe()) && (rpe() || "").indexOf("safari") > -1
+
+-                return /SamsungBrowser/i.test(epe())
++                return /AppleWebKit/i.test(rpe())
+
+-                return /\bLine\b/i.test(epe())
++                return !!rpe().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
+
+-                return /EdgA/i.test(epe())
++                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(rpe())
+
+-                return /EdgiOS/i.test(epe())
++                return /SamsungBrowser/i.test(rpe())
+
+-                return /Opera Mini/i.test(epe())
++                return /EdgA/i.test(rpe())
+
+-                return ope() || ape() || spe() || ype() || bpe() || gpe() || _pe() || Ape() || Mpe() || xpe() || Ope()
++                return /IEMobile/i.test(rpe())
++            },
++            wpe = function() {
++                return /Opera Mini/i.test(rpe())
+
+-            wpe = "googleImaSdk",
+-            Epe = [{
+-                key: wpe,
++            Epe = function() {
++                return /Dolfin/i.test(rpe())
++            },
++            Spe = function() {
++                return upe() || cpe() || lpe() || _pe() || Ape() || Mpe() || xpe() || Ope() || kpe() || wpe() || Epe()
++            },
++            Tpe = "googleImaSdk",
++            zpe = [{
++                key: Tpe,
+
+-                case $ye:
+-                    return Zye.FAIRPLAY;
+-                case Qye:
+-                    return Zye.PLAYREADY;
++                case ebe:
++                    return Qye.FAIRPLAY;
++                case tbe:
++                    return Qye.PLAYREADY;
++                case nbe:
++                    return Qye.WIDEVINE;
+
+-                    return Zye.WIDEVINE;
+-                case Yye:
+-                    return Zye.CLEARKEY
++                    return Qye.CLEARKEY
+
+-                                case $ye:
++                                case ebe:
++                                case nbe:
++                                case tbe:
+
+-                                case Qye:
+-                                case Yye:
+
+
+-        var t_e = 3e5,
+-            n_e = 0,
+-            r_e = 2,
+-            i_e = 5,
++        var i_e = 3e5,
+
+-            a_e = 1,
+-            s_e = 2,
+-            u_e = function() {
++            a_e = 2,
++            s_e = 5,
++            u_e = 0,
++            c_e = 1,
++            l_e = 2,
++            d_e = function() {
+
+-                            case U_e:
+-                            case V_e:
+-                            case H_e:
++                            case G_e:
+
+-                                this.state = j_e
++                            case Y_e:
++                            case $_e:
++                                this.state = H_e
+
+-            Uke = function(e) {
+-                var t, n = null === (t = e.srcObject) || void 0 === t ? void 0 : t._getLiveLatency();
+-                return Math.floor(n) || -1
+-            },
+-            Vke = JSON.parse('{"v":"5.9.0","fr":30,"ip":0,"op":23,"w":144,"h":144,"nm":"로딩모션_A_base_fin_2x_white","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":3,"nm":"Null 10","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[72,72,0],"ix":2,"l":2},"a":{"a":0,"k":[50,50,0],"ix":1,"l":2},"s":{"a":0,"k":[21.2,21.2,100],"ix":6,"l":2}},"ao":0,"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Vector 3","parent":1,"td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,50,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[20.204,10.788],[20.204,22.5],[-22,22.5],[-2.161,-4.599],[-18.017,-4.599],[-4.912,-22.5],[10.944,-22.5],[6.144,-15.942],[22,-15.942],[2.431,10.788]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.466666666667,0.537254901961,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Vector","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Vector 2","parent":1,"tt":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.061,"y":1},"o":{"x":0.167,"y":0.167},"t":0,"s":[50,540,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.113,"y":1},"o":{"x":0.167,"y":0.167},"t":10,"s":[50,58,0],"to":[0,0,0],"ti":[0,0,0]},{"t":20,"s":[50,-494,0]}],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[196.966,196.966],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":0,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"fl","c":{"a":0,"k":[0.258823529412,0.258823529412,0.258823529412,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[2.751,0.89],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,52.887],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Vector","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,50,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"ef":[{"ty":25,"nm":"Drop Shadow","np":8,"mn":"ADBE Drop Shadow","ix":1,"en":1,"ef":[{"ty":2,"nm":"Shadow Color","mn":"ADBE Drop Shadow-0001","ix":1,"v":{"a":0,"k":[0,0,0,1],"ix":1}},{"ty":0,"nm":"Opacity","mn":"ADBE Drop Shadow-0002","ix":2,"v":{"a":0,"k":38.25,"ix":2}},{"ty":0,"nm":"Direction","mn":"ADBE Drop Shadow-0003","ix":3,"v":{"a":0,"k":135,"ix":3}},{"ty":0,"nm":"Distance","mn":"ADBE Drop Shadow-0004","ix":4,"v":{"a":0,"k":0,"ix":4}},{"ty":0,"nm":"Softness","mn":"ADBE Drop Shadow-0005","ix":5,"v":{"a":0,"k":20,"ix":5}},{"ty":7,"nm":"Shadow Only","mn":"ADBE Drop Shadow-0006","ix":6,"v":{"a":0,"k":0,"ix":6}}]}],"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[20.204,10.788],[20.204,22.5],[-22,22.5],[-2.161,-4.599],[-18.017,-4.599],[-4.912,-22.5],[10.944,-22.5],[6.144,-15.942],[22,-15.942],[2.431,10.788]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.6,0.6,0.6,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Vector","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"Frame 3292962","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,50,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[44,45],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":0,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Frame 3292962","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0}],"markers":[]}'),
+-            Hke = ["title", "titleId"];
++            Gke = JSON.parse('{"v":"5.9.0","fr":30,"ip":0,"op":23,"w":144,"h":144,"nm":"로딩모션_A_base_fin_2x_white","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":3,"nm":"Null 10","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[72,72,0],"ix":2,"l":2},"a":{"a":0,"k":[50,50,0],"ix":1,"l":2},"s":{"a":0,"k":[21.2,21.2,100],"ix":6,"l":2}},"ao":0,"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Vector 3","parent":1,"td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,50,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[20.204,10.788],[20.204,22.5],[-22,22.5],[-2.161,-4.599],[-18.017,-4.599],[-4.912,-22.5],[10.944,-22.5],[6.144,-15.942],[22,-15.942],[2.431,10.788]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.466666666667,0.537254901961,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Vector","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Vector 2","parent":1,"tt":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.061,"y":1},"o":{"x":0.167,"y":0.167},"t":0,"s":[50,540,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.113,"y":1},"o":{"x":0.167,"y":0.167},"t":10,"s":[50,58,0],"to":[0,0,0],"ti":[0,0,0]},{"t":20,"s":[50,-494,0]}],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[196.966,196.966],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":0,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"fl","c":{"a":0,"k":[0.258823529412,0.258823529412,0.258823529412,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[2.751,0.89],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,52.887],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Vector","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,50,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"ef":[{"ty":25,"nm":"Drop Shadow","np":8,"mn":"ADBE Drop Shadow","ix":1,"en":1,"ef":[{"ty":2,"nm":"Shadow Color","mn":"ADBE Drop Shadow-0001","ix":1,"v":{"a":0,"k":[0,0,0,1],"ix":1}},{"ty":0,"nm":"Opacity","mn":"ADBE Drop Shadow-0002","ix":2,"v":{"a":0,"k":38.25,"ix":2}},{"ty":0,"nm":"Direction","mn":"ADBE Drop Shadow-0003","ix":3,"v":{"a":0,"k":135,"ix":3}},{"ty":0,"nm":"Distance","mn":"ADBE Drop Shadow-0004","ix":4,"v":{"a":0,"k":0,"ix":4}},{"ty":0,"nm":"Softness","mn":"ADBE Drop Shadow-0005","ix":5,"v":{"a":0,"k":20,"ix":5}},{"ty":7,"nm":"Shadow Only","mn":"ADBE Drop Shadow-0006","ix":6,"v":{"a":0,"k":0,"ix":6}}]}],"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[20.204,10.788],[20.204,22.5],[-22,22.5],[-2.161,-4.599],[-18.017,-4.599],[-4.912,-22.5],[10.944,-22.5],[6.144,-15.942],[22,-15.942],[2.431,10.788]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.6,0.6,0.6,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Vector","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"Frame 3292962","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,50,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[498.9,498.9,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[44,45],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":0,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[200,200],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Frame 3292962","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":150,"st":0,"bm":0}],"markers":[]}'),
++            Xke = ["title", "titleId"];
+
+-                                                i.liveId && i.channelId && !v.paused && tM(i.liveId, i.channelId, (null === L || void 0 === L ? void 0 : L.categoryType) || "", (null === L || void 0 === L ? void 0 : L.liveCategory) || "", Uke(v), 30), R(e), e.livePollingStatusJson && Wke(v, JSON.parse(e.livePollingStatusJson), me), B(e.userAdultStatus, e.adult), W("ABROAD" === e.blindType)
++                                                i.liveId && i.channelId && !v.paused && tM(i.liveId, i.channelId, (null === L || void 0 === L ? void 0 : L.categoryType) || "", (null === L || void 0 === L ? void 0 : L.liveCategory) || "", Ez(v), 30), R(e), e.livePollingStatusJson && Vke(v, JSON.parse(e.livePollingStatusJson), me), B(e.userAdultStatus, e.adult), W("ABROAD" === e.blindType)
+
+-                                            latency: Uke(e)
++                                            latency: Ez(e)
+
+-            eje = r.memo(JWe),
+-            tje = function() {
+-                return (0, Gr.jsx)(eje, {})
+-            },
+
+
+-            rje = "twitchzzk_logo__i9DRP",
+-            ije = "twitchzzk_title__KF5o-",
+-            oje = "twitchzzk_image__lbk9E",
+-            aje = "twitchzzk_text__NbWNN",
+-            sje = "twitchzzk_description__4iYZr",
+-            uje = "twitchzzk_guide_item__Jo9Fm",
+-            cje = "twitchzzk_button_close__Eru+D",
+-            lje = "twitchzzk_list__+rEyQ",
+-            dje = "twitchzzk_item__3Uizn",
+-            pje = "twitchzzk_container__iXjl6",
+-            fje = "twitchzzk_header__PYjBs",
+-            hje = "twitchzzk_inner__5tGzx",
+-            vje = "twitchzzk_link__LgF2P",
+-            mje = "twitchzzk_icon__Ln2GQ",
+-            yje = "twitchzzk_button__n0oqs",
+-            bje = "twitchzzk_main__dnHTz",
+-            gje = "twitchzzk_apply__cFAsC",
+-            _je = "twitchzzk_area__Z1n9t",
+-            Aje = "twitchzzk_box__+GjPm",
+-            Mje = "twitchzzk_process__W6ZlT",
+-            xje = "twitchzzk_second__pU9PA",
+-            Oje = "twitchzzk_third__yAQCJ",
+-            kje = "twitchzzk_guide__8o36g",
+-            wje = "twitchzzk_guide_list__UZMHz",
+-            Eje = "twitchzzk_next__aIiDq",
+-            Sje = "twitchzzk_footer__ARZZd",
+-            Tje = "twitchzzk_footer_item__CRJWN",
+-            zje = "twitchzzk_dimmed__LSgXl",
+-            Cje = "twitchzzk_layer__TM+5Y",
+-            Lje = "twitchzzk_layer_header__j3N5I",
+-            Rje = "twitchzzk_section__FQlUb",
+-            Ije = ["title", "titleId"];
+-
+-        function Nje() {
+-            return Nje = Object.assign ? Object.assign.bind() : function(e) {
++            rje = function() {
++                return (0, Gr.jsx)(nje, {})
++            },
++            ije = r.memo(rje),
++            oje = "twitchzzk_logo__i9DRP",
++            aje = "twitchzzk_title__KF5o-",
++            sje = "twitchzzk_image__lbk9E",
++            uje = "twitchzzk_text__NbWNN",
++            cje = "twitchzzk_description__4iYZr",
++            lje = "twitchzzk_guide_item__Jo9Fm",
++            dje = "twitchzzk_button_close__Eru+D",
++            pje = "twitchzzk_list__+rEyQ",
++            fje = "twitchzzk_item__3Uizn",
++            hje = "twitchzzk_container__iXjl6",
++            vje = "twitchzzk_header__PYjBs",
++            mje = "twitchzzk_inner__5tGzx",
++            yje = "twitchzzk_link__LgF2P",
++            bje = "twitchzzk_icon__Ln2GQ",
++            gje = "twitchzzk_button__n0oqs",
++            _je = "twitchzzk_main__dnHTz",
++            Aje = "twitchzzk_apply__cFAsC",
++            Mje = "twitchzzk_area__Z1n9t",
++            xje = "twitchzzk_box__+GjPm",
++            Oje = "twitchzzk_process__W6ZlT",
++            kje = "twitchzzk_second__pU9PA",
++            wje = "twitchzzk_third__yAQCJ",
++            Eje = "twitchzzk_guide__8o36g",
++            Sje = "twitchzzk_guide_list__UZMHz",
++            Tje = "twitchzzk_next__aIiDq",
++            zje = "twitchzzk_footer__ARZZd",
++            Cje = "twitchzzk_footer_item__CRJWN",
++            Lje = "twitchzzk_dimmed__LSgXl",
++            Rje = "twitchzzk_layer__TM+5Y",
++            Ije = "twitchzzk_layer_header__j3N5I",
++            Nje = "twitchzzk_section__FQlUb",
++            Dje = ["title", "titleId"];
++
++        function Pje() {
++            return Pje = Object.assign ? Object.assign.bind() : function(e) {
+
+-            Yje = (0, r.memo)(Zje),
+-            $je = function() {
+-                return (0, Gr.jsx)(Yje, {})
+-            },
+
+
+-            Jje = "twitchzzk_result_container__-gD3Y",
+-            eUe = "twitchzzk_result_header__OFZGZ",
+-            tUe = "twitchzzk_result_link__LT6gL",
+-            nUe = "twitchzzk_result_logo__Jp2Ui",
+-            rUe = "twitchzzk_result_title__dtpry",
+-            iUe = "twitchzzk_result_section__tq00U",
+-            oUe = "twitchzzk_result_name__Cs3Mf",
+-            aUe = "twitchzzk_result_default__oZhNB",
+-            sUe = "twitchzzk_result_item__tNMMr",
+-            uUe = "twitchzzk_result_text__pItXN",
+-            cUe = "twitchzzk_result_ellipsis__T+SwM",
+-            lUe = "twitchzzk_result_word__4-wFv",
+-            dUe = "twitchzzk_result_primary__GcFVT",
+-            pUe = "twitchzzk_result_secondary__3rvld",
+-            fUe = "twitchzzk_result_area__oyrjO",
+-            hUe = "twitchzzk_result_button_confirm__X1MpX",
+-            vUe = "twitchzzk_result_button_close__uMNkA",
+-            mUe = function() {
++            Jje = function() {
++                return (0, Gr.jsx)(Qje, {})
++            },
++            eUe = (0, r.memo)(Jje),
++            tUe = "twitchzzk_result_container__-gD3Y",
++            nUe = "twitchzzk_result_header__OFZGZ",
++            rUe = "twitchzzk_result_link__LT6gL",
++            iUe = "twitchzzk_result_logo__Jp2Ui",
++            oUe = "twitchzzk_result_title__dtpry",
++            aUe = "twitchzzk_result_section__tq00U",
++            sUe = "twitchzzk_result_name__Cs3Mf",
++            uUe = "twitchzzk_result_default__oZhNB",
++            cUe = "twitchzzk_result_item__tNMMr",
++            lUe = "twitchzzk_result_text__pItXN",
++            dUe = "twitchzzk_result_ellipsis__T+SwM",
++            pUe = "twitchzzk_result_word__4-wFv",
++            fUe = "twitchzzk_result_primary__GcFVT",
++            hUe = "twitchzzk_result_secondary__3rvld",
++            vUe = "twitchzzk_result_area__oyrjO",
++            mUe = "twitchzzk_result_button_confirm__X1MpX",
++            yUe = "twitchzzk_result_button_close__uMNkA",
++            bUe = function() {
+
+-            tVe = (0, r.memo)(eVe),
+-            nVe = function() {
+-                return (0, Gr.jsx)(tVe, {})
+-            },
+
+
+
++                return (0, Gr.jsx)(rVe, {})
++            },
++            oVe = (0, r.memo)(iVe),
++            aVe = function() {
+
+-                                    selected: W === kZe,
+-                                    type: kZe,
+-                                    clickButtonHandler: Ge
+-                                }), (0, Gr.jsx)(w$e, {
+-                                    text: "장면캡쳐",
+-                                    selected: W === wZe,
+-                                    type: wZe,
+-                                    clickButtonHandler: Ge
+-                                }), (0, Gr.jsx)(w$e, {
+-                                    text: "상하분할",
+
+
+-                                }), (0, Gr.jsx)(w$e, {
+-                                    text: "사각형",
++                                }), (0, Gr.jsx)(S$e, {
++                                    text: "장면캡쳐",
+
+-                                }), (0, Gr.jsx)(w$e, {
+-                                    text: "가로형",
++                                }), (0, Gr.jsx)(S$e, {
++                                    text: "상하분할",
+
+
++                                }), (0, Gr.jsx)(S$e, {
++                                    text: "사각형",
++                                    selected: W === zZe,
++                                    type: zZe,
++                                    clickButtonHandler: Ge
++                                }), (0, Gr.jsx)(S$e, {
++                                    text: "가로형",
++                                    selected: W === CZe,
++                                    type: CZe,
++                                    clickButtonHandler: Ge
+
+-            aJe = (0, r.memo)(oJe),
+-            sJe = function() {
+-                return (0, Gr.jsx)(aJe, {})
+-            },
+
+
+-            cJe = "clip_viewer_container__t8clN",
+-            lJe = "clip_viewer_viewer_area__CG2-w",
+-            dJe = "clip_viewer_section__Z3FbJ",
+-            pJe = "clip_viewer_comment__L7J0c",
+-            fJe = "clip_viewer_show__HOvKr",
+-            hJe = "clip_viewer_close_button__ehE5-",
+-            vJe = Object.defineProperty,
+-            mJe = Object.defineProperties,
+-            yJe = Object.getOwnPropertyDescriptors,
+-            bJe = Object.getOwnPropertySymbols,
+-            gJe = Object.prototype.hasOwnProperty,
+-            _Je = Object.prototype.propertyIsEnumerable,
+-            AJe = function(e, t, n) {
+-                return t in e ? vJe(e, t, {
++            cJe = function() {
++                return (0, Gr.jsx)(uJe, {})
++            },
++            lJe = (0, r.memo)(cJe),
++            dJe = "clip_viewer_container__t8clN",
++            pJe = "clip_viewer_viewer_area__CG2-w",
++            fJe = "clip_viewer_section__Z3FbJ",
++            hJe = "clip_viewer_comment__L7J0c",
++            vJe = "clip_viewer_show__HOvKr",
++            mJe = "clip_viewer_close_button__ehE5-",
++            yJe = Object.defineProperty,
++            bJe = Object.defineProperties,
++            gJe = Object.getOwnPropertyDescriptors,
++            _Je = Object.getOwnPropertySymbols,
++            AJe = Object.prototype.hasOwnProperty,
++            MJe = Object.prototype.propertyIsEnumerable,
++            xJe = function(e, t, n) {
++                return t in e ? yJe(e, t, {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+534abfea ac54161a 238e3fac
++6e9494a7 ac54161a 238e3fac
 
