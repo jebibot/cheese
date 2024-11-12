@@ -1,13 +1,3 @@
--                                    confirmHandler: function() {
--                                        q(!1)
-+                                    confirmHandler: function(e) {
-+                                        e.isTrusted && q(!1)
-
--                                confirmHandler: function() {
--                                    T(!1)
-+                                confirmHandler: function(e) {
-+                                    e.isTrusted && T(!1)
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
