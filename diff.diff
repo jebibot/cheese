@@ -1,6 +1,11 @@
+-                        var t, n = e.target;
+-                        null !== n && void 0 !== n && null !== (t = n.classList) && void 0 !== t && t.contains("pzp-pc-ui-setting-quality-item") && !e.isTrusted && e.stopPropagation()
++                        var t = e.target;
++                        null !== t && void 0 !== t && t.closest(".pzp-pc-ui-setting-quality-item") && !e.isTrusted && e.stopPropagation()
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+27d28885 ac54161a fd22c7e3
++8f877f3b ac54161a fd22c7e3
 
