@@ -5374,6 +5374,7 @@ html {
   --color-content-02-fixed-rgb: 223, 226, 234;
   --color-content-03-fixed: #c9cedc;
   --color-content-04-fixed: #9da5b6;
+  --color-content-04-fixed-rgb: 157, 165, 182;
   --color-content-05-fixed: #697183;
   --color-content-08-fixed: #2e3033;
   --color-content-09-fixed: #141517;
@@ -37768,6 +37769,1238 @@ a.twitchzzk_footer_item__CRJWN:hover {
   height: 21px;
   vertical-align: top;
   width: 21px;
+}
+.lol_kespa_cup_2024_container__a1Y1L {
+  color: var(--Content-Static-White);
+  font-family:
+    Pretendard Variable,
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    Helvetica Neue,
+    Segoe UI,
+    Apple SD Gothic Neo,
+    Noto Sans KR,
+    Malgun Gothic,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    sans-serif;
+  min-width: 375px;
+  position: relative;
+  word-break: keep-all;
+}
+.lol_kespa_cup_2024_header__QQIDg {
+  -ms-flex-pack: justify;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 4px 0 7px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_header__QQIDg {
+    padding: 0 18px 0 42px;
+  }
+}
+.lol_kespa_cup_2024_header__QQIDg.lol_kespa_cup_2024_is_fixed__DX3Fh {
+  background-color: #000c2c;
+}
+.lol_kespa_cup_2024_item__5kwdf {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: none;
+  flex: none;
+}
+.lol_kespa_cup_2024_link__YfYW1 {
+  display: inline-block;
+  padding: 12px 7px;
+  vertical-align: top;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_link__YfYW1 {
+    padding: 20px 8px;
+  }
+}
+.lol_kespa_cup_2024_share__JStcC {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  color: inherit;
+  height: 26px;
+  padding: 11px;
+  vertical-align: top;
+  width: 26px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_share__JStcC {
+    height: 30px;
+    padding: 17px;
+    width: 30px;
+  }
+}
+.lol_kespa_cup_2024_main__Gasad {
+  overflow: hidden;
+  padding: 0 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_main__Gasad {
+    padding: 0 45px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_main__Gasad {
+    padding: 0 38px;
+  }
+}
+.lol_kespa_cup_2024_main__Gasad .lol_kespa_cup_2024_inner__DYAVV {
+  border-bottom: 2px solid #0600bf;
+  padding: 68px 0 22px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_main__Gasad .lol_kespa_cup_2024_inner__DYAVV {
+    padding: 94px 0 43px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_main__Gasad .lol_kespa_cup_2024_inner__DYAVV {
+    padding: 42px 0 64px;
+  }
+}
+.lol_kespa_cup_2024_main_area__toJDc {
+  background-image: linear-gradient(
+    180deg,
+    rgba(8, 0, 255, 0) calc(50% - 1px),
+    #0800ff 50%,
+    rgba(8, 0, 255, 0) calc(50% + 1px),
+    rgba(8, 0, 255, 0)
+  );
+}
+.lol_kespa_cup_2024_main_image__kI\+ry {
+  margin-top: 3px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_main_image__kI\+ry {
+    margin-top: 10px;
+  }
+}
+.lol_kespa_cup_2024_logo__l8MTY {
+  left: -20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: calc(100% + 40px);
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_logo__l8MTY {
+    left: -45px;
+    left: -70px;
+    width: calc(100% + 90px);
+    width: calc(100% + 140px);
+  }
+}
+.lol_kespa_cup_2024_inner__DYAVV {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.lol_kespa_cup_2024_icon__QUzW6 {
+  width: 32px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_icon__QUzW6 {
+    width: 65px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_icon__QUzW6 {
+    width: 98px;
+  }
+}
+.lol_kespa_cup_2024_section__M7GpE {
+  padding: 50px 20px 0;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_section__M7GpE {
+    padding: 90px 45px 0;
+  }
+}
+.lol_kespa_cup_2024_title__Ndw37 {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -677px -1927px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 78px;
+  margin: 0 auto;
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_title__Ndw37 {
+    background-position: 0 -1637px;
+    height: 140px;
+    width: 545px;
+  }
+}
+.lol_kespa_cup_2024_event_text__QpR8Z {
+  color: rgba(var(--Content-Static-White-rgb), 0.9);
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_event_text__QpR8Z {
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 40px;
+  }
+}
+.lol_kespa_cup_2024_event_image__HCjN- {
+  margin-top: 50px;
+  max-width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_event_image__HCjN- {
+    max-width: 447px;
+  }
+}
+.lol_kespa_cup_2024_highlight__0rI-o {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -1561px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  display: block;
+  height: 42px;
+  margin: 24px auto 0;
+  width: 180px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_highlight__0rI-o {
+    background-position: -1388px -1778px;
+    height: 74px;
+    margin-top: 30px;
+    width: 315px;
+  }
+}
+.lol_kespa_cup_2024_area__Cjaos {
+  margin: 0 auto;
+  max-width: 680px;
+}
+.lol_kespa_cup_2024_subtitle__ojrGO {
+  background-image: linear-gradient(
+    180deg,
+    rgba(8, 0, 255, 0) calc(50% - 1px),
+    #0800ff 50%,
+    rgba(8, 0, 255, 0) calc(50% + 1px),
+    rgba(8, 0, 255, 0)
+  );
+  position: relative;
+}
+.lol_kespa_cup_2024_subtitle__ojrGO:after,
+.lol_kespa_cup_2024_subtitle__ojrGO:before {
+  background-color: #0800ff;
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 10px;
+}
+.lol_kespa_cup_2024_subtitle__ojrGO:before {
+  left: 0;
+}
+.lol_kespa_cup_2024_subtitle__ojrGO:after {
+  right: 0;
+}
+.lol_kespa_cup_2024_subtitle__ojrGO .lol_kespa_cup_2024_image__5zTqs {
+  display: inline-block;
+  vertical-align: top;
+}
+.lol_kespa_cup_2024_box__PxjPx {
+  background-color: rgba(var(--Content-Static-White-rgb), 0.05);
+  counter-increment: counter;
+  margin-top: 25px;
+  padding: 30px 20px 35px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_box__PxjPx {
+    margin-top: 50px;
+    padding: 40px 70px 60px;
+  }
+}
+.lol_kespa_cup_2024_schedule__VUf6\+ .lol_kespa_cup_2024_image__5zTqs {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -1604px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 33px;
+  width: 128px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule__VUf6\+ .lol_kespa_cup_2024_image__5zTqs {
+    background-position: -1959px -1437px;
+    height: 60px;
+    width: 230px;
+  }
+}
+.lol_kespa_cup_2024_schedule_text__EQz\+s {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1658px -1637px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 17px;
+  margin: 0 auto;
+  width: 294px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule_text__EQz\+s {
+    background-position: -546px -1728px;
+    height: 31px;
+    width: 536px;
+  }
+}
+.lol_kespa_cup_2024_schedule__VUf6\+ .lol_kespa_cup_2024_box__PxjPx {
+  padding-top: 35px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule__VUf6\+ .lol_kespa_cup_2024_box__PxjPx {
+    padding-bottom: 50px;
+    padding-top: 54px;
+  }
+}
+.lol_kespa_cup_2024_schedule_list__Ejr79 {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 26px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule_list__Ejr79 {
+    margin-top: 60px;
+  }
+}
+.lol_kespa_cup_2024_schedule_item__4yEpt {
+  -ms-flex: 1 1;
+  flex: 1 1;
+  padding: 0 10px;
+}
+.lol_kespa_cup_2024_schedule_link__5ckCU {
+  display: block;
+}
+.lol_kespa_cup_2024_schedule_link__5ckCU:active,
+.lol_kespa_cup_2024_schedule_link__5ckCU:hover {
+  text-decoration: underline;
+}
+.lol_kespa_cup_2024_schedule_thumbnail__UxJ6\+ {
+  margin: 0 10px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule_thumbnail__UxJ6\+ {
+    margin: 0 45px;
+  }
+}
+.lol_kespa_cup_2024_schedule_thumbnail__UxJ6\+:before {
+  background-color: #0800ff;
+  border-radius: 50%;
+  content: "";
+  padding-top: 100%;
+  position: absolute;
+  right: -6px;
+  top: 1px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule_thumbnail__UxJ6\+:before {
+    right: -10px;
+  }
+}
+.lol_kespa_cup_2024_schedule_image__77bn6 {
+  position: relative;
+}
+.lol_kespa_cup_2024_schedule_name__77M1M {
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 18px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule_name__77M1M {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 40px;
+  }
+}
+.lol_kespa_cup_2024_schedule_icon__3VhH3 {
+  color: #f3f5ff;
+  height: 9px;
+  margin: 2px 0 0 3px;
+  width: 6px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_schedule_icon__3VhH3 {
+    height: 16px;
+    margin-left: 6px;
+    width: 10px;
+  }
+}
+.lol_kespa_cup_2024_table__Gh-VX {
+  line-height: 17px;
+  margin-top: 25px;
+  table-layout: fixed;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_table__Gh-VX {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 50px;
+  }
+}
+.lol_kespa_cup_2024_table__Gh-VX .lol_kespa_cup_2024_cell__SOeB3,
+.lol_kespa_cup_2024_table__Gh-VX th {
+  padding: 14px 0;
+}
+.lol_kespa_cup_2024_table__Gh-VX th {
+  background-color: rgba(var(--Content-Static-White-rgb), 0.08);
+}
+.lol_kespa_cup_2024_table__Gh-VX td {
+  padding-top: 2px;
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_table__Gh-VX td {
+    padding-top: 4px;
+  }
+}
+.lol_kespa_cup_2024_cell__SOeB3 {
+  background-color: rgba(var(--Content-Static-White-rgb), 0.04);
+}
+.lol_kespa_cup_2024_text__XH4Hz {
+  color: rgba(var(--Content-Static-White-rgb), 0.8);
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_text__XH4Hz {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+  }
+}
+.lol_kespa_cup_2024_text__XH4Hz strong {
+  color: #63ffff;
+}
+.lol_kespa_cup_2024_box__PxjPx > .lol_kespa_cup_2024_text__XH4Hz:first-child {
+  border-bottom: 1px solid rgba(var(--Content-Static-White-rgb), 0.1);
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0 0 30px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_box__PxjPx > .lol_kespa_cup_2024_text__XH4Hz:first-child {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+  }
+  .lol_kespa_cup_2024_hidden_pc__M-ip- {
+    display: none;
+  }
+}
+.lol_kespa_cup_2024_number__epXQM {
+  display: block;
+}
+.lol_kespa_cup_2024_number__epXQM:before {
+  background-color: #0800ff;
+  border-radius: 50%;
+  content: counter(counter);
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 900;
+  height: 34px;
+  line-height: 34px;
+  vertical-align: top;
+  width: 34px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_number__epXQM:before {
+    font-size: 28px;
+    height: 54px;
+    line-height: 54px;
+    width: 54px;
+  }
+}
+.lol_kespa_cup_2024_list__kpJ7k {
+  counter-reset: counter;
+}
+.lol_kespa_cup_2024_item_title__cWr4l {
+  display: block;
+  margin: 20px auto 0;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_item_title__cWr4l {
+    margin-top: 30px;
+  }
+}
+.lol_kespa_cup_2024_thumbnail__enbeM {
+  display: block;
+  margin: 0 auto;
+}
+.lol_kespa_cup_2024_button__53Ff6 {
+  background-color: #0800ff;
+  color: inherit;
+  display: block;
+  font-family:
+    Sandoll Nemony2,
+    Apple SD Gothic NEO,
+    Helvetica Neue,
+    Helvetica,
+    나눔고딕,
+    NanumGothic,
+    Malgun Gothic,
+    맑은 고딕,
+    굴림,
+    gulim,
+    새굴림,
+    noto sans,
+    돋움,
+    Dotum,
+    sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  margin-top: 30px;
+  padding: 20px 10px 19px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_button__53Ff6 {
+    font-size: 22px;
+    line-height: 23px;
+    margin: 40px auto 0;
+    max-width: 510px;
+    padding: 22px;
+  }
+}
+.lol_kespa_cup_2024_button__53Ff6 + .lol_kespa_cup_2024_button__53Ff6 {
+  background-color: #4d48ee;
+  margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_button__53Ff6 + .lol_kespa_cup_2024_button__53Ff6 {
+    margin-top: 15px;
+  }
+}
+.lol_kespa_cup_2024_item_icon__iwYmM {
+  height: 17px;
+  margin-left: 7px;
+  width: 9px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_item_icon__iwYmM {
+    height: 23px;
+    width: 13px;
+  }
+}
+.lol_kespa_cup_2024_description__aROWy {
+  color: rgba(var(--Content-Static-White-rgb), 0.7);
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_description__aROWy {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 30px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_subtitle__ojrGO {
+  background-image: linear-gradient(
+    180deg,
+    rgba(8, 0, 255, 0) 55px,
+    #0800ff 56px,
+    rgba(8, 0, 255, 0) 57px,
+    rgba(8, 0, 255, 0)
+  );
+}
+.lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_subtitle__ojrGO:after,
+.lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_subtitle__ojrGO:before {
+  top: 51px;
+  -webkit-transform: none;
+  transform: none;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_subtitle__ojrGO {
+    background-image: linear-gradient(
+      180deg,
+      rgba(8, 0, 255, 0) 93px,
+      #0800ff 94px,
+      rgba(8, 0, 255, 0) 95px,
+      rgba(8, 0, 255, 0)
+    );
+  }
+  .lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_subtitle__ojrGO:after,
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_subtitle__ojrGO:before {
+    top: 87px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_subtitle__ojrGO {
+    background-image: linear-gradient(
+      180deg,
+      rgba(8, 0, 255, 0) calc(50% - 1px),
+      #0800ff 50%,
+      rgba(8, 0, 255, 0) calc(50% + 1px),
+      rgba(8, 0, 255, 0)
+    );
+  }
+  .lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_subtitle__ojrGO:after,
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_subtitle__ojrGO:before {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j
+  .lol_kespa_cup_2024_subtitle__ojrGO
+  .lol_kespa_cup_2024_image__5zTqs {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -1187px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 69px;
+  width: 258px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_subtitle__ojrGO
+    .lol_kespa_cup_2024_image__5zTqs {
+    background-position: -1294px -1441px;
+    height: 124px;
+    width: 467px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_subtitle__ojrGO
+    .lol_kespa_cup_2024_image__5zTqs {
+    background-position: -597px -1572px;
+    height: 60px;
+    width: 856px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_thumbnail__enbeM {
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_thumbnail__enbeM {
+    margin-top: 18px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j .lol_kespa_cup_2024_box__PxjPx:first-child {
+  padding-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_box__PxjPx:first-child {
+    padding-bottom: 60px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j
+  .lol_kespa_cup_2024_box__PxjPx:first-child
+  .lol_kespa_cup_2024_item_title__cWr4l {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -1377px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 60px;
+  width: 246px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_box__PxjPx:first-child
+    .lol_kespa_cup_2024_item_title__cWr4l {
+    background-position: 0 -1927px;
+    height: 91px;
+    width: 380px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j
+  .lol_kespa_cup_2024_box__PxjPx:first-child
+  .lol_kespa_cup_2024_thumbnail__enbeM {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -231px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 198px;
+  width: 253px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_box__PxjPx:first-child
+    .lol_kespa_cup_2024_thumbnail__enbeM {
+    background-position: -1511px -296px;
+    height: 252px;
+    width: 323px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(2) {
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(2) {
+    padding-bottom: 60px;
+    padding-top: 50px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+  .lol_kespa_cup_2024_item_title__cWr4l {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -1256px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 60px;
+  width: 258px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+    .lol_kespa_cup_2024_item_title__cWr4l {
+    background-position: -610px -1778px;
+    height: 90px;
+    width: 398px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+  .lol_kespa_cup_2024_thumbnail__enbeM {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: 0 -1778px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 148px;
+  width: 298px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+    .lol_kespa_cup_2024_thumbnail__enbeM {
+    background-position: -1511px -1110px;
+    height: 187px;
+    width: 376px;
+  }
+}
+.lol_kespa_cup_2024_streamer__Qwh0j
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+  .lol_kespa_cup_2024_button__53Ff6 {
+  margin-top: 18px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_streamer__Qwh0j
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+    .lol_kespa_cup_2024_button__53Ff6 {
+    margin-top: 25px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO {
+  background-image: linear-gradient(
+    180deg,
+    rgba(8, 0, 255, 0) 48px,
+    #0800ff 49px,
+    rgba(8, 0, 255, 0) 50px,
+    rgba(8, 0, 255, 0)
+  );
+}
+.lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO:after,
+.lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO:before {
+  top: 44px;
+  -webkit-transform: none;
+  transform: none;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO {
+    background-image: linear-gradient(
+      180deg,
+      rgba(8, 0, 255, 0) 93px,
+      #0800ff 94px,
+      rgba(8, 0, 255, 0) 95px,
+      rgba(8, 0, 255, 0)
+    );
+  }
+  .lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO:after,
+  .lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO:before {
+    top: 87px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO {
+    background-image: linear-gradient(
+      180deg,
+      rgba(8, 0, 255, 0) calc(50% - 1px),
+      #0800ff 50%,
+      rgba(8, 0, 255, 0) calc(50% + 1px),
+      rgba(8, 0, 255, 0)
+    );
+  }
+  .lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO:after,
+  .lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_subtitle__ojrGO:before {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_subtitle__ojrGO
+  .lol_kespa_cup_2024_image__5zTqs {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -1498px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 62px;
+  width: 167px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_subtitle__ojrGO
+    .lol_kespa_cup_2024_image__5zTqs {
+    background-position: -299px -1778px;
+    height: 124px;
+    width: 310px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_subtitle__ojrGO
+    .lol_kespa_cup_2024_image__5zTqs {
+    background-position: -1031px -1637px;
+    height: 60px;
+    width: 626px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_thumbnail__enbeM {
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_thumbnail__enbeM {
+    margin-top: 40px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_box__PxjPx:first-child {
+  padding-top: 40px;
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_box__PxjPx:first-child
+  .lol_kespa_cup_2024_item_title__cWr4l {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -1317px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 59px;
+  width: 255px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:first-child
+    .lol_kespa_cup_2024_item_title__cWr4l {
+    background-position: -1009px -1778px;
+    height: 76px;
+    width: 379px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_box__PxjPx:first-child
+  .lol_kespa_cup_2024_thumbnail__enbeM {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -853px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 172px;
+  margin-top: 20px;
+  width: 205px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:first-child
+    .lol_kespa_cup_2024_thumbnail__enbeM {
+    background-position: -1959px 0;
+    height: 230px;
+    margin-top: 30px;
+    width: 275px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+  .lol_kespa_cup_2024_item_title__cWr4l {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1454px -1572px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 55px;
+  width: 295px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+    .lol_kespa_cup_2024_item_title__cWr4l {
+    background-position: -546px -1637px;
+    height: 90px;
+    width: 484px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+  .lol_kespa_cup_2024_thumbnail__enbeM {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -430px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 207px;
+  width: 206px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+    .lol_kespa_cup_2024_thumbnail__enbeM {
+    background-position: -1511px -549px;
+    height: 279px;
+    width: 278px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+  .lol_kespa_cup_2024_button__53Ff6 {
+  margin-top: 35px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
+    .lol_kespa_cup_2024_button__53Ff6 {
+    margin-top: 50px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd .lol_kespa_cup_2024_box__PxjPx:nth-child(3) {
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(3) {
+    padding: 50px 70px 60px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
+  .lol_kespa_cup_2024_item_title__cWr4l {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -381px -1927px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 90px;
+  width: 295px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
+    .lol_kespa_cup_2024_item_title__cWr4l {
+    background-position: -1511px -1298px;
+    height: 135px;
+    width: 445px;
+  }
+}
+.lol_kespa_cup_2024_viewer__8xQnd
+  .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
+  .lol_kespa_cup_2024_thumbnail__enbeM {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: -1959px -638px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 214px;
+  width: 198px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_viewer__8xQnd
+    .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
+    .lol_kespa_cup_2024_thumbnail__enbeM {
+    background-position: -1511px -829px;
+    height: 280px;
+    width: 260px;
+  }
+}
+.lol_kespa_cup_2024_finish__SmZuC {
+  padding-bottom: 80px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_finish__SmZuC {
+    padding-bottom: 120px;
+  }
+}
+.lol_kespa_cup_2024_finish__SmZuC .lol_kespa_cup_2024_area__Cjaos {
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_finish__SmZuC .lol_kespa_cup_2024_area__Cjaos {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 60px;
+  }
+}
+.lol_kespa_cup_2024_finish__SmZuC .lol_kespa_cup_2024_button__53Ff6 {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_finish__SmZuC .lol_kespa_cup_2024_button__53Ff6 {
+    -ms-flex: 1 0;
+    flex: 1 0;
+    margin: 0;
+    padding: 29px 0 28px;
+  }
+  .lol_kespa_cup_2024_finish__SmZuC
+    .lol_kespa_cup_2024_button__53Ff6
+    + .lol_kespa_cup_2024_button__53Ff6 {
+    margin: 0 0 0 16px;
+  }
+}
+.lol_kespa_cup_2024_finish_title__wGCsM {
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-position: 0 -2019px;
+  background-repeat: no-repeat;
+  background-size: 2234px 2117px;
+  height: 98px;
+  margin: 0 auto;
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_finish_title__wGCsM {
+    background-position: 0 -1441px;
+    height: 195px;
+    width: 596px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_finish_title__wGCsM {
+    background-position: -597px -1441px;
+    height: 130px;
+    width: 696px;
+  }
+}
+.lol_kespa_cup_2024_finish__SmZuC .lol_kespa_cup_2024_description__aROWy {
+  font-size: 13px;
+  line-height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_finish__SmZuC .lol_kespa_cup_2024_description__aROWy {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.lol_kespa_cup_2024_guide__xjsJv {
+  background-color: rgba(21, 15, 202, 0.1);
+  padding: 50px 20px 25px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_guide__xjsJv {
+    padding: 80px 45px 50px;
+  }
+}
+.lol_kespa_cup_2024_guide_title__dUYC6 {
+  color: rgba(var(--Content-Static-White-rgb), 0.8);
+  font-family:
+    Sandoll Nemony2,
+    Apple SD Gothic NEO,
+    Helvetica Neue,
+    Helvetica,
+    나눔고딕,
+    NanumGothic,
+    Malgun Gothic,
+    맑은 고딕,
+    굴림,
+    gulim,
+    새굴림,
+    noto sans,
+    돋움,
+    Dotum,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_guide_title__dUYC6 {
+    font-size: 26px;
+    line-height: 50px;
+  }
+}
+.lol_kespa_cup_2024_guide_item__jmW5i + .lol_kespa_cup_2024_guide_item__jmW5i,
+.lol_kespa_cup_2024_guide_list__Bi5EC {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_guide_item__jmW5i
+    + .lol_kespa_cup_2024_guide_item__jmW5i {
+    margin-top: 25px;
+  }
+}
+.lol_kespa_cup_2024_guide_subtitle__prrVd {
+  color: rgba(var(--Content-Static-White-rgb), 0.8);
+  display: block;
+  line-height: 17px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_guide_subtitle__prrVd {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+.lol_kespa_cup_2024_guide_link__td6vk,
+.lol_kespa_cup_2024_guide_link__td6vk:active,
+.lol_kespa_cup_2024_guide_link__td6vk:hover {
+  text-decoration: underline;
+}
+.lol_kespa_cup_2024_item_text__WJA-e {
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_item_text__WJA-e {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.lol_kespa_cup_2024_inner_list__p7LYs {
+  margin-top: 4px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_inner_list__p7LYs {
+    margin-top: 12px;
+  }
+}
+.lol_kespa_cup_2024_inner_item__WvGGs {
+  color: rgba(var(--Content-Static-White-rgb), 0.6);
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 18px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_inner_item__WvGGs {
+    font-size: 18px;
+    line-height: 38px;
+    padding-left: 28px;
+  }
+}
+.lol_kespa_cup_2024_inner_item__WvGGs:before {
+  background-color: currentColor;
+  border-radius: 50%;
+  content: "";
+  height: 3px;
+  left: 8px;
+  position: absolute;
+  top: 8px;
+  width: 3px;
+}
+@media screen and (min-width: 768px) {
+  .lol_kespa_cup_2024_inner_item__WvGGs:before {
+    left: 11px;
+    top: 17px;
+  }
+}
+.lol_kespa_cup_2024_footer__AGAT9 {
+  background-color: rgba(21, 15, 202, 0.1);
+  border-top: 1px solid rgba(var(--Border-Static-White-rgb), 0.06);
+  padding: 26px 0 84px;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_footer__AGAT9 {
+    -ms-flex-pack: center;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+  }
+  .lol_kespa_cup_2024_footer_row__INIFB {
+    -ms-flex: none;
+    flex: none;
+  }
+  .lol_kespa_cup_2024_footer_row__INIFB
+    + .lol_kespa_cup_2024_footer_row__INIFB {
+    padding-left: 1px;
+    position: relative;
+  }
+  .lol_kespa_cup_2024_footer_row__INIFB
+    + .lol_kespa_cup_2024_footer_row__INIFB:before {
+    background-color: rgba(var(--color-content-04-fixed-rgb), 0.15);
+    content: "";
+    height: 11px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+  }
+}
+.lol_kespa_cup_2024_footer_item__K4uwS {
+  color: var(--color-content-04-fixed);
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  line-height: 16px;
+  padding: 4px 8px;
+  vertical-align: top;
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_footer_item__K4uwS {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 10px;
+  }
+}
+.lol_kespa_cup_2024_footer_item__K4uwS strong {
+  font-weight: 700;
+}
+.lol_kespa_cup_2024_footer_item__K4uwS
+  + .lol_kespa_cup_2024_footer_item__K4uwS {
+  padding-left: 9px;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .lol_kespa_cup_2024_footer_item__K4uwS
+    + .lol_kespa_cup_2024_footer_item__K4uwS {
+    padding-left: 11px;
+  }
+}
+.lol_kespa_cup_2024_footer_item__K4uwS
+  + .lol_kespa_cup_2024_footer_item__K4uwS:before {
+  background-color: rgba(var(--color-content-04-fixed-rgb), 0.15);
+  content: "";
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 1px;
+}
+a.lol_kespa_cup_2024_footer_item__K4uwS:active,
+a.lol_kespa_cup_2024_footer_item__K4uwS:hover {
+  text-decoration: underline;
 }
 .chat_container__xogg0 {
   height: 100vh;
