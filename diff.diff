@@ -1,6 +1,20 @@
+-                                        return e.next = 4, ET((null === i || void 0 === i ? void 0 : i.channelId) || "");
++                                        if (!c.beforeLoaded) {
++                                            e.next = 4;
++                                            break
++                                        }
++                                        return e.abrupt("return");
+
+
++                                        return e.next = 6, ET((null === i || void 0 === i ? void 0 : i.channelId) || "");
++                                    case 6:
+
+-                }), [null === i || void 0 === i ? void 0 : i.channelId]), (0, r.useEffect)((function() {
++                }), [null === i || void 0 === i ? void 0 : i.channelId, c]), (0, r.useEffect)((function() {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+ddc5d340 ac54161a 5e8b8923
++edf45b02 ac54161a 5e8b8923
 
