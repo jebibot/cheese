@@ -4,8 +4,3 @@
 
 +edf45b02 191119c3 5e8b8923
 
--                                    return o = e.sent, e.abrupt("return", o.data.content.results);
-+                                    return o = e.sent, e.abrupt("return", o.data.content.results.filter((function(e) {
-+                                        return "GAME" === e.categoryType
-+                                    })));
-
