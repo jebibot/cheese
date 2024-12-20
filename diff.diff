@@ -1,6 +1,204 @@
+
++  -ms-flex-item-align: start;
++  align-self: flex-start;
+
+-    bottom: calc(100% - 19px);
++    bottom: 100%;
+
+-    bottom: calc(100% - 9px);
++    bottom: calc(100% + 10px);
+
+-    bottom: calc(100% - 19px);
++    bottom: 100%;
+
+-    bottom: calc(100% - 9px);
++    bottom: calc(100% + 10px);
+
+-    bottom: calc(100% - 9px);
++    bottom: calc(100% + 10px);
+
+-    bottom: calc(100% - 19px);
++    bottom: 100%;
+
+-    bottom: calc(100% - 9px);
++    bottom: calc(100% + 10px);
+
+-    bottom: calc(100% - 19px);
++    bottom: 100%;
+
+-            rS = function(e, t) {
++            rS = (0, Wt.atom)({
++                key: "videoDetail",
++                default: void 0
++            }),
++            iS = (0, Wt.atom)({
++                key: "isVodWide",
++                default: !1
++            }),
++            aS = (0, Wt.atom)({
++                key: "isVodFull",
++                default: !1
++            }),
++            oS = (0, Wt.atom)({
++                key: "vodSectionElement",
++                default: null
++            }),
++            sS = (0, Wt.atom)({
++                key: "isReplayChatFold",
++                default: !1
++            }),
++            cS = (0, Wt.atom)({
++                key: "isFullModeReplayChatFold",
++                default: !0
++            }),
++            lS = (0, Wt.atom)({
++                key: "replayChatEnabled",
++                default: !1
++            }),
++            uS = (0, Wt.atom)({
++                key: "vodTimeUpdateHandler",
++                default: void 0
++            }),
++            dS = (0, Wt.atom)({
++                key: "vodSeekingHandler",
++                default: void 0
++            }),
++            pS = (0, Wt.atom)({
++                key: "vodSeekedHandler",
++                default: void 0
++            }),
++            fS = function(e, t) {
+
+-                    l = t[1];
++                    l = t[1],
++                    u = (0, Wt.useRecoilValue)(en),
++                    d = (0, Wt.useRecoilValue)(aS),
++                    p = (0, r.useMemo)((function() {
++                        return (u || d) && document.querySelector("#aside-chatting") || document.body
++                    }), [a, u, d]);
+
+-                }), [a, o]), a && o ? (0, Mr.jsx)("p", {
+-                    className: rt()(vx, (0, tt.A)({}, mx, c / 1e3 === 2)),
+-                    role: "alert",
+-                    children: o
++                }), [a, o]), a && o ? (0, Mr.jsx)(Tt, {
++                    node: p,
++                    children: (0, Mr.jsx)("p", {
++                        className: rt()(vx, (0, tt.A)({}, mx, c / 1e3 === 2)),
++                        role: "alert",
++                        children: o
++                    })
+
+-            cT = (0, Wt.atom)({
+-                key: "videoDetail",
+-                default: void 0
+-            }),
+-            lT = (0, Wt.atom)({
+-                key: "isVodWide",
+-                default: !1
+-            }),
+-            uT = (0, Wt.atom)({
+-                key: "isVodFull",
+-                default: !1
+-            }),
+-            dT = (0, Wt.atom)({
+-                key: "vodSectionElement",
+-                default: null
+-            }),
+-            pT = (0, Wt.atom)({
+-                key: "isReplayChatFold",
+-                default: !1
+-            }),
+-            fT = (0, Wt.atom)({
+-                key: "isFullModeReplayChatFold",
+-                default: !0
+-            }),
+-            hT = (0, Wt.atom)({
+-                key: "replayChatEnabled",
+-                default: !1
+-            }),
+-            vT = (0, Wt.atom)({
+-                key: "vodTimeUpdateHandler",
+-                default: void 0
+-            }),
+-            mT = (0, Wt.atom)({
+-                key: "vodSeekingHandler",
+-                default: void 0
+-            }),
+-            bT = (0, Wt.atom)({
+-                key: "vodSeekedHandler",
+-                default: void 0
+-            }),
+
+
+
++                        onClick: function() {
++                            u && m && u(m)
++                        },
+
+-                                onClick: function() {
+-                                    d && d(), w(!0), o && t && o(t.key)
++                                onClick: function(e) {
++                                    e.stopPropagation(), d && d(), w(!0), o && t && o(t.key)
+
+-                                onClick: function() {
+-                                    u && m && u(m)
+-                                },
+
+
+-                        Lt.current && z((null === (e = Lt.current) || void 0 === e ? void 0 : e.getBoundingClientRect().bottom) - (s + 60 + 50 + (null === (t = Lt.current) || void 0 === t ? void 0 : t.clientHeight) - 9))
++                        Lt.current && z((null === (e = Lt.current) || void 0 === e ? void 0 : e.getBoundingClientRect().bottom) - (s + 60 + 50 + (null === (t = Lt.current) || void 0 === t ? void 0 : t.clientHeight) + 10))
+
+-                                children: [(0, Mr.jsx)("div", {
++                                children: [(0, Mr.jsxs)("div", {
+
+-                                    children: (0, Mr.jsxs)("span", {
+-                                        className: Wpe.link_area,
+-                                        children: [(0, Mr.jsx)(Ke, {
+-                                            to: Nt(),
+-                                            className: Wpe.link
+-                                        }), (0, Mr.jsx)(Ty, (0, Je.A)((0, Je.A)({
+-                                            channelBadgeSize: 18,
+-                                            marginLeft: 5
+-                                        }, i), {}, {
+-                                            isNemony: !0,
+-                                            showTooltip: !0,
+-                                            children: null === i || void 0 === i ? void 0 : i.channelName
+-                                        }))]
+-                                    })
++                                    children: [(0, Mr.jsx)(Ke, {
++                                        to: Nt(),
++                                        className: Wpe.link
++                                    }), (0, Mr.jsx)(Ty, (0, Je.A)((0, Je.A)({
++                                        channelBadgeSize: 18,
++                                        marginLeft: 5
++                                    }, i), {}, {
++                                        isNemony: !0,
++                                        showTooltip: !0,
++                                        children: null === i || void 0 === i ? void 0 : i.channelName
++                                    }))]
+
+-                            if ("PZP-PC-SETTING-QUALITY-PANE" === (null === (t = e.target) || void 0 === t ? void 0 : t.tagName) && null !== (n = e.detail) && void 0 !== n && n.track) {
++                            if ("PZP-SETTING-QUALITY-PANE" === (null === (t = e.target) || void 0 === t ? void 0 : t.tagName) && null !== (n = e.detail) && void 0 !== n && n.track) {
+
+-                                    error: !(0, At.isNil)(t) && u > t,
++                                    error: !(0, At.isNil)(t) && (u > t || u < xe),
+
+
++                        id: "aside-chatting",
+
+
++                                        id: "aside-chatting",
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+8fcbced0 137bfa05 d5e76ce4
++78c56231 b0836747 66c8f96b
+
+-                                    disabled: (0, pn.isEmpty)(u),
+
+
+-                                        e.target.checked || lc("같이 보기 설정이 해제되었습니다. \n상세 항목들의 설정을 꼭 확인해주세요. \n (연령 제한, 시청 국가 설정, 다시보기 설정 등)"), m(e.target.checked), o(null)
++                                        (0, pn.isEmpty)(u) ? lc("같이보기 할 캠페인이 없습니다."): (e.target.checked || lc("같이 보기 설정이 해제되었습니다. \n상세 항목들의 설정을 꼭 확인해주세요. \n (연령 제한, 시청 국가 설정, 다시보기 설정 등)"), m(e.target.checked), o(null))
 
