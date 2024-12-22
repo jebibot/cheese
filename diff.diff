@@ -1,6 +1,178 @@
+-            F8 = (0, Wt.atom)({
+-                key: "clipCustomInfo",
+-                default: void 0
+-            }),
+-            B8 = function(e) {
++            F8 = function(e) {
+
+-                    P = Pl() ? 500 : 5e3,
+-                    q = (0, r.useRef)(null),
++                    P = e.clipCustomInfo,
++                    q = Pl() ? 500 : 5e3,
+
+-                    B = (0, r.useState)(function(e) {
++                    B = (0, r.useRef)(null),
++                    j = (0, r.useState)(function(e) {
+
+-                    j = (0, n.A)(B, 2),
+-                    W = j[0],
+-                    V = j[1],
+-                    U = (0, r.useState)(!1),
+-                    H = (0, n.A)(U, 2),
+-                    G = H[0],
+-                    X = H[1],
+-                    K = (0, r.useState)(y || !1),
+-                    Z = (0, n.A)(K, 2),
+-                    Y = Z[0],
+-                    Q = Z[1],
+-                    $ = (0, r.useState)(!1),
+-                    J = (0, n.A)($, 2),
+-                    ee = J[0],
+-                    te = J[1],
+-                    ne = (0, r.useState)(!1),
+-                    re = (0, n.A)(ne, 2),
+-                    ie = re[0],
+-                    ae = re[1],
+-                    oe = (0, r.useState)(!1),
+-                    se = (0, n.A)(oe, 2),
+-                    ce = se[0],
+-                    le = se[1],
+-                    ue = (0, r.useState)(!1),
+-                    de = (0, n.A)(ue, 2),
+-                    pe = de[0],
+-                    fe = de[1],
+-                    he = (0, r.useState)(!1),
+-                    ve = (0, n.A)(he, 2),
+-                    me = ve[0],
+-                    be = ve[1],
+-                    ye = (0, r.useState)(R),
+-                    ge = (0, n.A)(ye, 2),
+-                    _e = ge[0],
+-                    Ae = ge[1],
+-                    xe = (0, r.useState)(N),
+-                    Me = (0, n.A)(xe, 2),
+-                    ke = (Me[0], Me[1]),
+-                    Oe = (0, r.useState)([]),
+-                    we = (0, n.A)(Oe, 2),
+-                    Ee = (we[0], we[1]),
+-                    ze = (0, r.useState)("REPLY" === v),
+-                    Ce = (0, n.A)(ze, 2),
+-                    Se = Ce[0],
+-                    Te = Ce[1],
+-                    Le = function(e) {
++                    W = (0, n.A)(j, 2),
++                    V = W[0],
++                    U = W[1],
++                    H = (0, r.useState)(!1),
++                    G = (0, n.A)(H, 2),
++                    X = G[0],
++                    K = G[1],
++                    Z = (0, r.useState)(y || !1),
++                    Y = (0, n.A)(Z, 2),
++                    Q = Y[0],
++                    $ = Y[1],
++                    J = (0, r.useState)(!1),
++                    ee = (0, n.A)(J, 2),
++                    te = ee[0],
++                    ne = ee[1],
++                    re = (0, r.useState)(!1),
++                    ie = (0, n.A)(re, 2),
++                    ae = ie[0],
++                    oe = ie[1],
++                    se = (0, r.useState)(!1),
++                    ce = (0, n.A)(se, 2),
++                    le = ce[0],
++                    ue = ce[1],
++                    de = (0, r.useState)(!1),
++                    pe = (0, n.A)(de, 2),
++                    fe = pe[0],
++                    he = pe[1],
++                    ve = (0, r.useState)(!1),
++                    me = (0, n.A)(ve, 2),
++                    be = me[0],
++                    ye = me[1],
++                    ge = (0, r.useState)(R),
++                    _e = (0, n.A)(ge, 2),
++                    Ae = _e[0],
++                    xe = _e[1],
++                    Me = (0, r.useState)(N),
++                    ke = (0, n.A)(Me, 2),
++                    Oe = (ke[0], ke[1]),
++                    we = (0, r.useState)([]),
++                    Ee = (0, n.A)(we, 2),
++                    ze = (Ee[0], Ee[1]),
++                    Ce = (0, r.useState)("REPLY" === v),
++                    Se = (0, n.A)(Ce, 2),
++                    Te = Se[0],
++                    Le = Se[1],
++                    Re = function(e) {
+
+-                    Ue = (0, Wt.useRecoilValue)(F8),
+
+
+-                                        a = e.sent, n = null === a || void 0 === a || null === (i = a.comment) || void 0 === i ? void 0 : i.commentId, (o = Ue) && oG(o.clipUID, o.makerChannelId, o.categoryType, o.clipCategory);
++                                        a = e.sent, n = null === a || void 0 === a || null === (i = a.comment) || void 0 === i ? void 0 : i.commentId, (o = P) && oG(o.clipUID, o.makerChannelId, o.categoryType, o.clipCategory);
+
+
++            B8 = (0, Wt.atom)({
++                key: "clipCustomInfo",
++                default: void 0
++            }),
+
+-                    j = (0, Wt.useRecoilValue)(fT);
++                    j = (0, Wt.useRecoilValue)(fT),
++                    W = (0, Wt.useRecoilValue)(B8);
+
+-                            })))
++                            }))),
++                            clipCustomInfo: W
+
+-                    J = function(e) {
++                    ee = function(e) {
+
+-                                                    })))
++                                                    }))),
++                                                    clipCustomInfo: W
+
+-                    children: (W = A || [], V = !1, !W || V && 0 === W.length ? (0, Mr.jsx)(Mr.Fragment, {}) : W && W.length > 0 ? (0, Mr.jsxs)(Mr.Fragment, {
+-                        children: [!i && J(W), (null === O || void 0 === O ? void 0 : O.length) > 0 && J(O), b && (0, Mr.jsxs)("button", {
++                    children: (V = A || [], U = !1, !V || U && 0 === V.length ? (0, Mr.jsx)(Mr.Fragment, {}) : V && V.length > 0 ? (0, Mr.jsxs)(Mr.Fragment, {
++                        children: [!i && ee(V), (null === O || void 0 === O ? void 0 : O.length) > 0 && ee(O), b && (0, Mr.jsxs)("button", {
+
+-                    z = function(e) {
++                    z = (0, Wt.useRecoilValue)(B8),
++                    C = function(e) {
+
+-                                })))
++                                }))),
++                                clipCustomInfo: z
+
+-                    J = (0, r.useRef)(null),
+-                    ee = function(e, n, o) {
+-                        return n && 0 === (null === e || void 0 === e ? void 0 : e.length) ? (0, Mr.jsx)(Mr.Fragment, {}) : n || T && 0 !== (null === T || void 0 === T ? void 0 : T.length) || 0 !== (null === e || void 0 === e ? void 0 : e.length) ? (0, Mr.jsx)("div", {
++                    ee = (0, r.useRef)(null),
++                    te = function(e, n, o) {
++                        return n && 0 === (null === e || void 0 === e ? void 0 : e.length) ? (0, Mr.jsx)(Mr.Fragment, {}) : n || L && 0 !== (null === L || void 0 === L ? void 0 : L.length) || 0 !== (null === e || void 0 === e ? void 0 : e.length) ? (0, Mr.jsx)("div", {
+
+-                            ref: n ? null : J,
++                            ref: n ? null : ee,
+
+-                                                        })))
++                                                        }))),
++                                                        clipCustomInfo: z
+
+-                    null !== J && void 0 !== J && J.current && !H && J.current.scrollTo(0, 0)
+-                }), [U, H]), (0, Mr.jsxs)("div", {
++                    null !== ee && void 0 !== ee && ee.current && !G && ee.current.scrollTo(0, 0)
++                }), [H, G]), (0, Mr.jsxs)("div", {
+
+-                            useMention: !1
++                            useMention: !1,
++                            clipCustomInfo: z
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+78c56231 b0836747 66c8f96b
++aa9169c3 b0836747 66c8f96b
 
