@@ -4,15 +4,3 @@
 
 +6a1a35bc 0eb8129c 66c8f96b
 
--                                            if (wt(!1), Rt(!1), !(k === iM.PERSON && [j, _e, Ae].some((function(e) {
-+                                            if (wt(!1), Rt(!1), k !== iM.PERSON || ![j, _e, Ae].some((function(e) {
-
--                                                })) || "KR" === Ee && (_e || "").length < 13)) {
-+                                                })) || !("KR" !== Ee || (_e || "").length < 13)) {
-
--                                                        k === iM.FREE_CORP && L(iM.PERSON_CORP), P(nh.B_CHZZK)
-+                                                        k === iM.FREE_CORP && L(iM.PERSON_CORP), P(nh.B_CHZZK), bt(!1)
-
--                                                        k === iM.FREE_CORP && L(iM.PERSON_CORP), P(nh.S_CHZZK)
-+                                                        k === iM.FREE_CORP && L(iM.PERSON_CORP), P(nh.S_CHZZK), bt(!1)
-
