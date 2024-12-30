@@ -1,6 +1,11 @@
+-                                            if (2 === i.length) {
+-                                                var a = i[0];
++                                            if (!(i.length < 2)) {
++                                                var a = i[1];
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+42b73051 0eb8129c 66c8f96b
++5f2dbf47 0eb8129c 66c8f96b
 
