@@ -2,5 +2,92 @@
 
 
 
-+5f2dbf47 0eb8129c 66c8f96b
++5f2dbf47 74399bc7 66c8f96b
+
+-                            return parseInt(g, 10) <= Vh ? ["".concat(12, "월")] : Array.from({
++                            return parseInt(g, 10) <= Vh ? ["".concat(12, "월")] : g === jh()().format("YYYY") ? Array.from({
+
+
++                            })) : Array.from({
++                                length: 12
++                            }, (function(e, t) {
++                                return "".concat(t + 1, "월")
+
+-                            return (XS + t).toString()
++                            return "".concat((XS + t).toString(), "년")
+
+-                        a = e.issueInvoice,
+-                        s = e.switchTaxInvoiceListTab,
+-                        c = (0, i.useState)(!1),
+-                        l = (0, r.A)(c, 2),
+-                        u = l[0],
+-                        d = l[1],
+-                        p = (0, i.useState)(),
+-                        f = (0, r.A)(p, 2),
+-                        h = f[0],
+-                        b = f[1],
+-                        v = (0, i.useState)([]),
+-                        m = (0, r.A)(v, 2),
+-                        g = m[0],
+-                        A = m[1],
+-                        M = (0, i.useState)(""),
+-                        y = (0, r.A)(M, 2),
+-                        O = y[0],
+-                        _ = y[1],
+-                        z = (0, i.useState)(!1),
+-                        x = (0, r.A)(z, 2),
+-                        w = x[0],
+-                        E = x[1],
+-                        C = (0, i.useRef)(null),
+-                        S = (0, $e.useRecoilValue)(jc),
+-                        T = function() {
+-                            d(!1)
+-                        },
++                        a = e.setSelectedYear,
++                        s = e.issueInvoice,
++                        c = e.switchTaxInvoiceListTab,
++                        l = (0, i.useState)(!1),
++                        u = (0, r.A)(l, 2),
++                        d = u[0],
++                        p = u[1],
++                        f = (0, i.useState)(),
++                        h = (0, r.A)(f, 2),
++                        b = h[0],
++                        v = h[1],
++                        m = (0, i.useState)([]),
++                        g = (0, r.A)(m, 2),
++                        A = g[0],
++                        M = g[1],
++                        y = (0, i.useState)(""),
++                        O = (0, r.A)(y, 2),
++                        _ = O[0],
++                        z = O[1],
++                        x = (0, i.useState)(!1),
++                        w = (0, r.A)(x, 2),
++                        E = w[0],
++                        C = w[1],
++                        S = (0, i.useRef)(null),
++                        T = (0, $e.useRecoilValue)(jc),
+
+
++                            p(!1)
++                        },
++                        I = function() {
+
+-                                return "".concat(ll()().format("YY"), "년 ").concat(e.month, "월")
++                                return "".concat(ll()(n, "YYYYMM").format("YY"), "년 ").concat(e.month, "월")
+
+-                                    _(e.format("YY년 M월")), A([e.format("YY년 M월")]), o(e.format("YYYYMM"))
++                                    z(e.format("YY년 M월")), M([e.format("YY년 M월")]), o(e.format("YYYYMM")), a(e.format("YYYY"))
+
+-                                                year: "REVERSE_ISSUANCE" === n ? ll()().format("YYYY") : ll()(v, "YYYY년").format("YYYY")
++                                                year: "REVERSE_ISSUANCE" === n ? (0, pn.isNil)(M) ? ll()().format("YYYY") : ll()(M, "YYYYMM").format("YYYY") : ll()(v, "YYYY년").format("YYYY")
+
+-                    }), [O]), (0, i.useEffect)((function() {
++                    }), [O, M, v]), (0, i.useEffect)((function() {
+
+
++                                setSelectedYear: function(e) {
++                                    return m(e)
++                                },
 
