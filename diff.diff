@@ -1,6 +1,51 @@
+-                var t, n, r, i = "scene_enter" === (null === e || void 0 === e ? void 0 : e.action_id) ? {
+-                        referrer: null === (t = document) || void 0 === t ? void 0 : t.referrer
+-                    } : void 0,
+-                    o = {
+-                        client: {
+-                            service_id: "nng",
+-                            user_key: localStorage.getItem("userStatus.idhash") || "__UNKNOWN__",
+-                            os_name: Hh,
+-                            os_ver: (null === yh() || void 0 === yh() || null === (n = yh().parse(window.navigator.userAgent)) || void 0 === n || null === (r = n.os) || void 0 === r ? void 0 : r.version) || -1,
+-                            app_ver: "-1",
+-                            country: "KR",
+-                            language: "ko",
+-                            device_model: "__UNKNOWN__",
+-                            device_id: Vh,
+-                            product: Uh
+-                        },
+-                        events: [(0, Je.A)((0, Je.A)({}, e), {}, {
+-                            event_time: (new Date).getTime()
+-                        })]
+-                    };
+-                return "scene_enter" === (null === e || void 0 === e ? void 0 : e.action_id) ? (0, Je.A)((0, Je.A)({}, o), {}, {
+-                    event_context: i
+-                }) : (0, Je.A)({}, o)
++                var t, n, r;
++                return {
++                    client: {
++                        service_id: "nng",
++                        user_key: localStorage.getItem("userStatus.idhash") || "__UNKNOWN__",
++                        os_name: Hh,
++                        os_ver: (null === yh() || void 0 === yh() || null === (t = yh().parse(window.navigator.userAgent)) || void 0 === t || null === (n = t.os) || void 0 === n ? void 0 : n.version) || -1,
++                        app_ver: "-1",
++                        country: "KR",
++                        language: "ko",
++                        device_model: "__UNKNOWN__",
++                        device_id: Vh,
++                        product: Uh
++                    },
++                    events: [(0, Je.A)((0, Je.A)({}, e), {}, {
++                        event_time: (new Date).getTime(),
++                        event_context: {
++                            referrer: null === (r = document) || void 0 === r ? void 0 : r.referrer
++                        }
++                    })]
++                }
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+eb20ea18 300cbe32 be240237
++4595ac93 300cbe32 be240237
 
