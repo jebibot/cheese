@@ -1,6 +1,62 @@
+-                    c = e.letterBoxHandler,
+-                    u = (0, r.useRef)(null);
++                    c = e.ratio,
++                    u = e.letterBoxHandler,
++                    l = (0, r.useRef)(null);
+
+-                            ref: u,
++                            ref: l,
++                            style: {
++                                marginBottom: "".concat(12 * c, "px"),
++                                fontSize: "".concat(13 * c, "px"),
++                                lineHeight: "".concat(15 * c, "px")
++                            },
+
+
++                            style: {
++                                gap: "".concat(5 * c, "px"),
++                                marginTop: "".concat(12 * c, "px"),
++                                fontSize: "".concat(11 * c, "px"),
++                                lineHeight: "".concat(12 * c, "px")
++                            },
+
+-                                width: 13,
+-                                height: 13
++                                width: 13 * c,
++                                height: 13 * c
+
+-            i4e = function(e) {
++            i4e = 430,
++            a4e = function(e) {
+
+-                    J = Ed().theme,
+-                    ee = (0, r.useRef)(null),
+-                    te = (0, r.useRef)(null);
++                    J = (0, r.useState)(1),
++                    ee = (0, n.A)(J, 2),
++                    te = ee[0],
++                    ne = ee[1],
++                    re = Ed().theme,
++                    ie = (0, r.useRef)(null),
++                    ae = (0, r.useRef)(null);
+
+-                    })
++                    }), ne(m / i4e)
+
+-                        animationData: "dark" === J ? w3e : E3e,
++                        animationData: "dark" === re ? w3e : E3e,
+
+-                            letterBoxHandler: ne
++                            ratio: te,
++                            letterBoxHandler: oe
+
+-                            letterBoxHandler: ne
++                            ratio: te,
++                            letterBoxHandler: oe
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+4f13a57a 844a6f9c 56f98435
++f52b76f4 844a6f9c 56f98435
 
