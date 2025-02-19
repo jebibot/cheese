@@ -27158,8 +27158,8 @@ a.news_profile__73Esm {
   align-items: flex-start;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
   height: 100vh;
   margin: 0 auto;
   -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 70px);
@@ -27173,9 +27173,6 @@ a.news_profile__73Esm {
 }
 .live_overlay_item__Sg18i {
   margin-bottom: 12px;
-}
-.live_overlay_item__Sg18i:first-child {
-  margin-top: auto;
 }
 .live_overlay_message__lLCT1 {
   background-color: rgba(0, 0, 0, 0.9);
@@ -34689,13 +34686,13 @@ html.theme_dark {
   padding-top: 77px;
 }
 .live_chatting_list_container__vwsbZ
-  .live_chatting_list_item__0SGhw:first-child:before {
+  .live_chatting_list_item__0SGhw:last-child:before {
   content: "";
   display: block;
   height: 15px;
 }
 .live_chatting_list_container__vwsbZ.live_chatting_list_exist_fixed_message__2EP21
-  .live_chatting_list_item__0SGhw:first-child:before {
+  .live_chatting_list_item__0SGhw:last-child:before {
   margin-top: 75px;
 }
 .live_chatting_list_fixed__Wy3TT {
@@ -34710,8 +34707,8 @@ html.theme_dark {
   -ms-overflow-style: none;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
   overflow-y: auto;
   padding: 0 12px;
   scrollbar-width: none;
@@ -34722,9 +34719,6 @@ html.theme_dark {
 }
 .live_chatting_list_item__0SGhw {
   margin-bottom: 3px;
-}
-.live_chatting_list_item__0SGhw:first-child {
-  margin-top: auto;
 }
 .live_chatting_list_big_padding__iG-3T {
   padding: 4px 8px;
@@ -38260,8 +38254,8 @@ html.theme_dark {
   -ms-overflow-style: none;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
   overflow-y: auto;
   padding: 10px 12px;
   scrollbar-width: none;
@@ -38272,9 +38266,6 @@ html.theme_dark {
 }
 .vod_chatting_item__KuH67 {
   margin-bottom: 3px;
-}
-.vod_chatting_item__KuH67:first-child {
-  margin-top: auto;
 }
 .vod_chatting_big_padding__RWbyX {
   padding: 4px 8px;
