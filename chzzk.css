@@ -16169,7 +16169,7 @@ button.subscribe_status__os3RJ:hover {
   padding: 6px 15px 15px;
   position: relative;
 }
-.subscribe_emoticon__gosve .subscribe_item__c-cxt {
+.subscribe_emoticon_item__8La0Q {
   padding: 4px;
 }
 .subscribe_empty__b-wRD {
@@ -16466,10 +16466,10 @@ button.subscribe_status__os3RJ:hover {
   right: 8px;
   top: 8px;
 }
-.subscribe_layer__AkF-z.subscribe_green__1JRrc .subscribe_item__c-cxt a {
+.subscribe_layer__AkF-z.subscribe_green__1JRrc .subscribe_guide_item__gMSPx a {
   color: var(--color-content-chzzk-04);
 }
-.subscribe_layer__AkF-z.subscribe_purple__gVlcR .subscribe_item__c-cxt a {
+.subscribe_layer__AkF-z.subscribe_purple__gVlcR .subscribe_guide_item__gMSPx a {
   color: var(--Content-Accent-Violet-Strong);
 }
 .subscribe_title__kOwb7 {
@@ -16479,7 +16479,7 @@ button.subscribe_status__os3RJ:hover {
   font-weight: 700;
   line-height: 17px;
 }
-.subscribe_list__6TEYP {
+.subscribe_guide__djGLN {
   color: var(--color-content-04);
   -ms-flex: 1 1;
   flex: 1 1;
@@ -16490,21 +16490,21 @@ button.subscribe_status__os3RJ:hover {
   overflow-y: auto;
   padding-bottom: 18px;
 }
-.subscribe_item__c-cxt {
+.subscribe_guide_item__gMSPx {
   padding-left: 9px;
 }
-.subscribe_item__c-cxt a {
+.subscribe_guide_item__gMSPx a {
   text-decoration: underline;
 }
-.subscribe_item__c-cxt,
-.subscribe_item__c-cxt li {
+.subscribe_guide_item__gMSPx,
+.subscribe_guide_item__gMSPx li {
   position: relative;
 }
-.subscribe_item__c-cxt li,
-.subscribe_item__c-cxt + .subscribe_item__c-cxt {
+.subscribe_guide_item__gMSPx li,
+.subscribe_guide_item__gMSPx + .subscribe_guide_item__gMSPx {
   margin-top: 3px;
 }
-.subscribe_item__c-cxt:before {
+.subscribe_guide_item__gMSPx:before {
   background-color: rgba(var(--color-content-01-rgb), 0.25);
   border-radius: 50%;
   content: "";
@@ -16514,10 +16514,10 @@ button.subscribe_status__os3RJ:hover {
   top: 7px;
   width: 3px;
 }
-.subscribe_item__c-cxt li {
+.subscribe_guide_item__gMSPx li {
   padding-left: 22px;
 }
-.subscribe_item__c-cxt li:before {
+.subscribe_guide_item__gMSPx li:before {
   content: "-";
   left: 10px;
   position: absolute;
