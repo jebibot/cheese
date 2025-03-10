@@ -1,6 +1,69 @@
+-.subscribe_emoticon_item__8La0Q {
++.subscribe_emoticon__gosve .subscribe_item__c-cxt {
+
+-.subscribe_layer__AkF-z.subscribe_green__1JRrc .subscribe_guide_item__gMSPx a {
++.subscribe_layer__AkF-z.subscribe_green__1JRrc .subscribe_item__c-cxt a {
+
+-.subscribe_layer__AkF-z.subscribe_purple__gVlcR .subscribe_guide_item__gMSPx a {
++.subscribe_layer__AkF-z.subscribe_purple__gVlcR .subscribe_item__c-cxt a {
+
+-.subscribe_guide__djGLN {
++.subscribe_list__6TEYP {
+
+-.subscribe_guide_item__gMSPx {
++.subscribe_item__c-cxt {
+
+-.subscribe_guide_item__gMSPx a {
++.subscribe_item__c-cxt a {
+
+-.subscribe_guide_item__gMSPx,
+-.subscribe_guide_item__gMSPx li {
++.subscribe_item__c-cxt,
++.subscribe_item__c-cxt li {
+
+-.subscribe_guide_item__gMSPx li,
+-.subscribe_guide_item__gMSPx + .subscribe_guide_item__gMSPx {
++.subscribe_item__c-cxt li,
++.subscribe_item__c-cxt + .subscribe_item__c-cxt {
+
+-.subscribe_guide_item__gMSPx:before {
++.subscribe_item__c-cxt:before {
+
+-.subscribe_guide_item__gMSPx li {
++.subscribe_item__c-cxt li {
+
+-.subscribe_guide_item__gMSPx li:before {
++.subscribe_item__c-cxt li:before {
+
+
++.pzp-pc--ended.pzp-pc--controls .pzp-button {
++  pointer-events: auto;
++}
+
+-            Xh = "scv.band.us",
++            Xh = "scv-game.io.naver.com",
+
+-                emoticon_item: "subscribe_emoticon_item__8La0Q",
++                item: "subscribe_item__c-cxt",
+
+-                guide_item: "subscribe_guide_item__gMSPx",
+
+
+-                guide: "subscribe_guide__djGLN"
++                list: "subscribe_list__6TEYP"
+
+-                            className: DE.emoticon_item,
++                            className: DE.item,
+
+-                        className: DE.guide,
++                        className: DE.list,
+
+-                                className: DE.guide_item,
++                                className: DE.item,
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+95029bcc cc75f801 38428b7d
++5a640e65 cc75f801 39b69a01
 
