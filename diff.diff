@@ -1,11 +1,3 @@
--                e.querySelector("pzp-pc-setting-intro-filter").addEventListener("change", (function(e) {
-+                e.querySelector("pzp-setting-intro-filter").addEventListener("change", (function(e) {
-
--                    n = e.querySelector("pzp-pc-setting-intro-filter");
--                n && (n.filterEnabled = t)
-+                    n = e.querySelector("pzp-setting-intro-filter");
-+                n && (n.checked = t)
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
