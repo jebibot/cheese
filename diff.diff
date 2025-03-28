@@ -1,18 +1,3 @@
--                        watchEventScene: u
-+                        watchEventScene: u,
-+                        radioMode: h
-
--                            c = t.watchEventScene;
-+                            c = t.watchEventScene,
-+                            l = t.radioMode;
-
--                        watchEventScene: u
-+                        watchEventScene: u,
-+                        radioMode: h
-
--                }), [r, c, i, a, null === y || void 0 === y ? void 0 : y.liveTokenList, u]);
-+                }), [r, c, i, a, null === y || void 0 === y ? void 0 : y.liveTokenList, u, h]);
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
