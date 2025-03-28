@@ -1,9 +1,3 @@
--                    N(), j()
-+                    N(), b([]), _([]), M(null), j()
-
--                                    linkUrl: "/live/".concat(b.liveId),
-+                                    linkUrl: "/live/".concat(b.channel.channelId),
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
