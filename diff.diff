@@ -1,6 +1,12 @@
+-                    (r.get("filterType") === q8.STREAMER || r.get("clipType")) && o(0)
++                    r.get("filterType") === q8.STREAMER && o(0)
+
+-                        u("/".concat(t, "/clips?orderType=").concat(i, "&clipType=ALL"))
++                        u("/".concat(t, "/clips?orderType=").concat(i, "&filterType=ALL"))
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+3fa5675f f32bfe2f 00a54a17
++a1fd7562 f32bfe2f 00a54a17
 
