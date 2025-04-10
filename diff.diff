@@ -1,6 +1,2719 @@
+-.pzp-ui-playlist {
+-  margin: 0;
++.pzp-recommend-endscreen {
++  position: absolute;
+
+-.pzp-ui-playlist,
+-.pzp-ui-playlist__page {
++.pzp-recommend-endscreen,
++.pzp-recommend-endscreen__list {
+
+
++  margin: 0;
+
+-.pzp-ui-playlist__page {
+-  display: inline-block;
+-  margin: 0 0 182px;
+-  width: 100%;
+-}
+-.pzp-ui-playlist__page .pzp-ui-recommend-card:first-child {
+-  margin-left: 0;
+-}
+-.pzp-ui-playlist__page .pzp-ui-recommend-card:last-child {
+-  margin-right: 0;
+-}
+-.pzp-ui-playlist__item--hidden {
+-  -webkit-box-shadow: none;
+-  box-shadow: none;
+-}
+-.pzp-ui-playlist__inner {
++.pzp-recommend-endscreen__inner {
++  -ms-flex-align: end;
++  align-items: flex-end;
+
+
++  padding: 0;
+
+-.pzp-ui-playlist__inner,
+-.pzp-ui-playlist__wrap {
++.pzp-recommend-endscreen__inner,
++.pzp-recommend-endscreen__wrap {
+
+-  padding: 0;
+
+
+-.pzp-ui-playlist__wrap {
++.pzp-recommend-endscreen__wrap {
+
+
++  padding: 0 20px;
+
+-.pzp-ui-playlist__box {
++.pzp-recommend-endscreen__box {
+
+-.pzp-ui-playlist__slide {
++.pzp-recommend-endscreen__slide {
+
+
++  text-align: center;
++  -webkit-transition: -webkit-transform 0.2s ease-in-out;
++  transition: -webkit-transform 0.2s ease-in-out;
++  transition: transform 0.2s ease-in-out;
++  transition:
++    transform 0.2s ease-in-out,
++    -webkit-transform 0.2s ease-in-out;
++  white-space: nowrap;
+
+-.pzp-ui-playlist__next,
+-.pzp-ui-playlist__prev,
+-.pzp-ui-playlist__slide {
++.pzp-recommend-endscreen__next,
++.pzp-recommend-endscreen__prev,
++.pzp-recommend-endscreen__slide {
+
+-.pzp-ui-playlist__next,
+-.pzp-ui-playlist__prev {
+-  -ms-flex-negative: 0;
+-  -ms-flex-positive: 0;
+-  -webkit-appearance: none;
+-  -moz-appearance: none;
+-  appearance: none;
+-  background: transparent;
+-  border: 0;
++.pzp-recommend-endscreen__next,
++.pzp-recommend-endscreen__prev {
+
+-  flex-grow: 0;
+-  flex-shrink: 0;
+
+
+-.pzp-ui-playlist__next:hover,
+-.pzp-ui-playlist__prev:hover {
++.pzp-recommend-endscreen__next:hover,
++.pzp-recommend-endscreen__prev:hover {
+
+-.pzp-ui-playlist__next:active,
+-.pzp-ui-playlist__prev:active {
++.pzp-recommend-endscreen__next:active,
++.pzp-recommend-endscreen__prev:active {
+
+-.pzp-ui-playlist__next[disabled],
+-.pzp-ui-playlist__prev[disabled] {
++.pzp-recommend-endscreen__next[aria-disabled="true"],
++.pzp-recommend-endscreen__prev[aria-disabled="true"] {
+
+-.pzp-ui-playlist__next[disabled]:active,
+-.pzp-ui-playlist__next[disabled]:hover,
+-.pzp-ui-playlist__prev[disabled]:active,
+-.pzp-ui-playlist__prev[disabled]:hover {
++.pzp-recommend-endscreen__next[aria-disabled="true"]:active,
++.pzp-recommend-endscreen__next[aria-disabled="true"]:hover,
++.pzp-recommend-endscreen__prev[aria-disabled="true"]:active,
++.pzp-recommend-endscreen__prev[aria-disabled="true"]:hover {
+
+-.pzp-ui-playlist__next-btn-icon,
+-.pzp-ui-playlist__prev-btn-icon {
+-  height: 39px;
+-  width: 39px;
++.pzp-recommend-endscreen__prev {
++  margin-right: 24px;
+
+-.pzp-ui-playlist__prev {
+-  margin-right: 30px;
++.pzp-recommend-endscreen__next {
++  margin-left: 24px;
+
+-.pzp-ui-playlist__next {
+-  margin-left: 30px;
++.pzp-pc--size-m .pzp-recommend-endscreen-inner,
++.pzp-pc--size-medium .pzp-recommend-endscreen-inner {
++  padding-bottom: 65px;
+
+-.pzp-pc--size-m .pzp-ui-playlist__prev,
+-.pzp-pc--size-medium .pzp-ui-playlist__prev {
++.pzp-pc--size-m .pzp-recommend-endscreen-prev,
++.pzp-pc--size-medium .pzp-recommend-endscreen-prev {
+
+-.pzp-pc--size-m .pzp-ui-playlist__next,
+-.pzp-pc--size-medium .pzp-ui-playlist__next {
++.pzp-pc--size-m .pzp-recommend-endscreen-next,
++.pzp-pc--size-medium .pzp-recommend-endscreen-next {
+
+-.pzp-pc--size-m .pzp-ui-playlist__slide,
+-.pzp-pc--size-medium .pzp-ui-playlist__slide {
++.pzp-pc--size-m .pzp-recommend-endscreen__wrap,
++.pzp-pc--size-medium .pzp-recommend-endscreen__wrap {
++  padding: 0 19px;
++}
++.pzp-pc--size-m .pzp-recommend-endscreen__slide,
++.pzp-pc--size-medium .pzp-recommend-endscreen__slide {
+
+-.pzp-pc--size-m .pzp-ui-playlist__page,
+-.pzp-pc--size-medium .pzp-ui-playlist__page {
+-  margin-bottom: 126px;
++.pzp-pc--size-s .pzp-recommend-endscreen,
++.pzp-pc--size-small .pzp-recommend-endscreen {
++  display: none;
+
+-.pzp-mobile--size-normal .pzp-ui-playlist__prev {
++.pzp-mobile--size-normal .pzp-recommend-endscreen-inner {
++  padding-bottom: 65px;
++}
++.pzp-mobile--size-normal .pzp-recommend-endscreen-prev {
+
+-.pzp-mobile--size-normal .pzp-ui-playlist__next {
++.pzp-mobile--size-normal .pzp-recommend-endscreen-next {
+
+-.pzp-mobile--size-normal .pzp-ui-playlist__slide {
++.pzp-mobile--size-normal .pzp-recommend-endscreen__wrap {
++  padding: 0 19px;
++}
++.pzp-mobile--size-normal .pzp-recommend-endscreen__slide {
+
+-.pzp-mobile--size-normal .pzp-ui-playlist__page {
+-  margin-bottom: 126px;
++.pzp-mobile--size-s .pzp-recommend-endscreen,
++.pzp-mobile--size-small .pzp-recommend-endscreen {
++  display: none;
+
+-.pzp-recommend-endscreen {
+-  position: absolute;
++.pzp-ui-playlist {
++  margin: 0;
+
+-.pzp-recommend-endscreen,
+-.pzp-recommend-endscreen__list {
++.pzp-ui-playlist,
++.pzp-ui-playlist__page {
+
+-  margin: 0;
+
+
+-.pzp-recommend-endscreen__inner {
+-  -ms-flex-align: end;
+-  align-items: flex-end;
++.pzp-ui-playlist__page {
++  display: inline-block;
++  margin: 0 0 182px;
++  width: 100%;
++}
++.pzp-ui-playlist__page .pzp-ui-recommend-card:first-child {
++  margin-left: 0;
++}
++.pzp-ui-playlist__page .pzp-ui-recommend-card:last-child {
++  margin-right: 0;
++}
++.pzp-ui-playlist__item--hidden {
++  -webkit-box-shadow: none;
++  box-shadow: none;
++}
++.pzp-ui-playlist__inner {
+
+-  padding: 0;
+
+
+-.pzp-recommend-endscreen__inner,
+-.pzp-recommend-endscreen__wrap {
++.pzp-ui-playlist__inner,
++.pzp-ui-playlist__wrap {
+
+
++  padding: 0;
+
+-.pzp-recommend-endscreen__wrap {
++.pzp-ui-playlist__wrap {
+
+-  padding: 0 20px;
+
+
+-.pzp-recommend-endscreen__box {
++.pzp-ui-playlist__box {
+
+-.pzp-recommend-endscreen__slide {
++.pzp-ui-playlist__slide {
+
+-  text-align: center;
+-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+-  transition: -webkit-transform 0.2s ease-in-out;
+-  transition: transform 0.2s ease-in-out;
+-  transition:
+-    transform 0.2s ease-in-out,
+-    -webkit-transform 0.2s ease-in-out;
+-  white-space: nowrap;
+
+
+-.pzp-recommend-endscreen__next,
+-.pzp-recommend-endscreen__prev,
+-.pzp-recommend-endscreen__slide {
++.pzp-ui-playlist__next,
++.pzp-ui-playlist__prev,
++.pzp-ui-playlist__slide {
+
+-.pzp-recommend-endscreen__next,
+-.pzp-recommend-endscreen__prev {
++.pzp-ui-playlist__next,
++.pzp-ui-playlist__prev {
++  -ms-flex-negative: 0;
++  -ms-flex-positive: 0;
++  -webkit-appearance: none;
++  -moz-appearance: none;
++  appearance: none;
++  background: transparent;
++  border: 0;
+
+
++  flex-grow: 0;
++  flex-shrink: 0;
+
+-.pzp-recommend-endscreen__next:hover,
+-.pzp-recommend-endscreen__prev:hover {
++.pzp-ui-playlist__next:hover,
++.pzp-ui-playlist__prev:hover {
+
+-.pzp-recommend-endscreen__next:active,
+-.pzp-recommend-endscreen__prev:active {
++.pzp-ui-playlist__next:active,
++.pzp-ui-playlist__prev:active {
+
+-.pzp-recommend-endscreen__next[aria-disabled="true"],
+-.pzp-recommend-endscreen__prev[aria-disabled="true"] {
++.pzp-ui-playlist__next[disabled],
++.pzp-ui-playlist__prev[disabled] {
+
+-.pzp-recommend-endscreen__next[aria-disabled="true"]:active,
+-.pzp-recommend-endscreen__next[aria-disabled="true"]:hover,
+-.pzp-recommend-endscreen__prev[aria-disabled="true"]:active,
+-.pzp-recommend-endscreen__prev[aria-disabled="true"]:hover {
++.pzp-ui-playlist__next[disabled]:active,
++.pzp-ui-playlist__next[disabled]:hover,
++.pzp-ui-playlist__prev[disabled]:active,
++.pzp-ui-playlist__prev[disabled]:hover {
+
+-.pzp-recommend-endscreen__prev {
+-  margin-right: 24px;
++.pzp-ui-playlist__next-btn-icon,
++.pzp-ui-playlist__prev-btn-icon {
++  height: 39px;
++  width: 39px;
+
+-.pzp-recommend-endscreen__next {
+-  margin-left: 24px;
++.pzp-ui-playlist__prev {
++  margin-right: 30px;
+
+-.pzp-pc--size-m .pzp-recommend-endscreen-inner,
+-.pzp-pc--size-medium .pzp-recommend-endscreen-inner {
+-  padding-bottom: 65px;
++.pzp-ui-playlist__next {
++  margin-left: 30px;
+
+-.pzp-pc--size-m .pzp-recommend-endscreen-prev,
+-.pzp-pc--size-medium .pzp-recommend-endscreen-prev {
++.pzp-pc--size-m .pzp-ui-playlist__prev,
++.pzp-pc--size-medium .pzp-ui-playlist__prev {
+
+-.pzp-pc--size-m .pzp-recommend-endscreen-next,
+-.pzp-pc--size-medium .pzp-recommend-endscreen-next {
++.pzp-pc--size-m .pzp-ui-playlist__next,
++.pzp-pc--size-medium .pzp-ui-playlist__next {
+
+-.pzp-pc--size-m .pzp-recommend-endscreen__wrap,
+-.pzp-pc--size-medium .pzp-recommend-endscreen__wrap {
+-  padding: 0 19px;
+-}
+-.pzp-pc--size-m .pzp-recommend-endscreen__slide,
+-.pzp-pc--size-medium .pzp-recommend-endscreen__slide {
++.pzp-pc--size-m .pzp-ui-playlist__slide,
++.pzp-pc--size-medium .pzp-ui-playlist__slide {
+
+-.pzp-pc--size-s .pzp-recommend-endscreen,
+-.pzp-pc--size-small .pzp-recommend-endscreen {
+-  display: none;
+-}
+-.pzp-mobile--size-normal .pzp-recommend-endscreen-inner {
+-  padding-bottom: 65px;
++.pzp-pc--size-m .pzp-ui-playlist__page,
++.pzp-pc--size-medium .pzp-ui-playlist__page {
++  margin-bottom: 126px;
+
+-.pzp-mobile--size-normal .pzp-recommend-endscreen-prev {
++.pzp-mobile--size-normal .pzp-ui-playlist__prev {
+
+-.pzp-mobile--size-normal .pzp-recommend-endscreen-next {
++.pzp-mobile--size-normal .pzp-ui-playlist__next {
+
+-.pzp-mobile--size-normal .pzp-recommend-endscreen__wrap {
+-  padding: 0 19px;
+-}
+-.pzp-mobile--size-normal .pzp-recommend-endscreen__slide {
++.pzp-mobile--size-normal .pzp-ui-playlist__slide {
+
+-.pzp-mobile--size-s .pzp-recommend-endscreen,
+-.pzp-mobile--size-small .pzp-recommend-endscreen {
+-  display: none;
++.pzp-mobile--size-normal .pzp-ui-playlist__page {
++  margin-bottom: 126px;
+
+-.pzp-timestamp {
+-  color: hsla(0, 0%, 100%, 0.9);
+-  font-size: 34px;
+-  line-height: 40px;
+-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.192);
+-  -webkit-user-select: none;
+-  -moz-user-select: none;
+-  -ms-user-select: none;
+-  user-select: none;
+-  visibility: hidden;
+-}
+-.pzp-timestamp--fadeout {
+-  -webkit-animation: pzp-anim--fadeout 1s linear 1s backwards;
+-  animation: pzp-anim--fadeout 1s linear 1s backwards;
+-}
+-.pzp-timestamp:focus {
+-  outline: none;
+-}
+-@-webkit-keyframes pzp-anim--fadeout {
+-  0% {
+-    opacity: 1;
+-    visibility: visible;
+-  }
+-  to {
+-    opacity: 0;
+-    visibility: hidden;
+-  }
+-}
+-@keyframes pzp-anim--fadeout {
+-  0% {
+-    opacity: 1;
+-    visibility: visible;
+-  }
+-  to {
+-    opacity: 0;
+-    visibility: hidden;
+-  }
+-}
+
+
+-    -webkit-transform: scaleX(1);
+-    transform: scaleX(1);
++    -webkit-transform: scaleX(1);
++    transform: scaleX(1);
++  }
++}
++@keyframes pzp-subtitle-button-checked-animation {
++  0% {
++    -webkit-transform: scaleX(0);
++    transform: scaleX(0);
++  }
++  to {
++    -webkit-transform: scaleX(1);
++    transform: scaleX(1);
++  }
++}
++.pzp-timestamp {
++  color: hsla(0, 0%, 100%, 0.9);
++  font-size: 34px;
++  line-height: 40px;
++  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.192);
++  -webkit-user-select: none;
++  -moz-user-select: none;
++  -ms-user-select: none;
++  user-select: none;
++  visibility: hidden;
++}
++.pzp-timestamp--fadeout {
++  -webkit-animation: pzp-anim--fadeout 1s linear 1s backwards;
++  animation: pzp-anim--fadeout 1s linear 1s backwards;
++}
++.pzp-timestamp:focus {
++  outline: none;
++}
++@-webkit-keyframes pzp-anim--fadeout {
++  0% {
++    opacity: 1;
++    visibility: visible;
++  }
++  to {
++    opacity: 0;
++    visibility: hidden;
+
+-@keyframes pzp-subtitle-button-checked-animation {
++@keyframes pzp-anim--fadeout {
+
+-    -webkit-transform: scaleX(0);
+-    transform: scaleX(0);
++    opacity: 1;
++    visibility: visible;
+
+-    -webkit-transform: scaleX(1);
+-    transform: scaleX(1);
++    opacity: 0;
++    visibility: hidden;
+
+-.pzp-space-creator {
+-  display: block;
+-  left: 0;
+-  padding: 0;
+-  position: relative;
+-  top: 0;
+-  width: 100%;
+-}
+-.pzp-setting-intro-loop,
+
+
+
++  display: block;
+
+
++  left: 0;
+
+
++  padding: 0;
++  position: relative;
++  top: 0;
++  width: 100%;
++}
++.pzp-setting-button {
++  height: 36px;
++  width: 36px;
++}
++.pzp-mobile--size-medium .pzp-setting-button,
++.pzp-mobile--size-normal .pzp-setting-button,
++.pzp-pc--size-m .pzp-setting-button,
++.pzp-pc--size-medium .pzp-setting-button {
++  height: 34px;
++  width: 34px;
++}
++.pzp-mobile--size-s .pzp-setting-button,
++.pzp-mobile--size-small .pzp-setting-button,
++.pzp-pc--size-s .pzp-setting-button,
++.pzp-pc--size-small .pzp-setting-button {
++  height: 25px;
++  width: 25px;
++}
++.pzp-setting-button__icon {
++  display: inline-block;
++  height: 100%;
++  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
++  transition: -webkit-transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
++  transition: transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
++  transition:
++    transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83),
++    -webkit-transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
++  width: 100%;
++}
++.pzp-setting-button[aria-expanded="true"] .pzp-setting-button__icon {
++  -webkit-transform: rotate(30deg);
++  transform: rotate(30deg);
+
+
++  -webkit-font-smoothing: antialiased;
++  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
++  color: #fff;
+
+
++  font-family:
++    apple-system,
++    BlinkMacSystemFont,
++    Malgun Gothic,
++    맑은 고딕,
++    helvetica,
++    Apple SD Gothic Neo,
++    Roboto,
++    Arial,
++    sans-serif;
+
+
++  line-height: normal;
++  margin: 0;
+
+-.pzp-setting-button {
+-  height: 36px;
+-  width: 36px;
+-}
+-.pzp-mobile--size-medium .pzp-setting-button,
+-.pzp-mobile--size-normal .pzp-setting-button,
+-.pzp-pc--size-m .pzp-setting-button,
+-.pzp-pc--size-medium .pzp-setting-button {
+-  height: 34px;
+-  width: 34px;
+-}
+-.pzp-mobile--size-s .pzp-setting-button,
+-.pzp-mobile--size-small .pzp-setting-button,
+-.pzp-pc--size-s .pzp-setting-button,
+-.pzp-pc--size-small .pzp-setting-button {
+-  height: 25px;
+-  width: 25px;
+-}
+-.pzp-setting-button__icon {
+-  display: inline-block;
+-  height: 100%;
+-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
+-  transition: -webkit-transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
+-  transition: transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
+-  transition:
+-    transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83),
+-    -webkit-transform 0.5s cubic-bezier(0.33, 1, 0.83, 0.83);
+-  width: 100%;
+-}
+-.pzp-setting-button[aria-expanded="true"] .pzp-setting-button__icon {
+-  -webkit-transform: rotate(30deg);
+-  transform: rotate(30deg);
+-}
+-.pzp-replay-button {
+-  height: 36px;
+-  width: 36px;
+-}
+-.pzp-replay-button__icon {
+-  float: left;
+-  height: 36px;
+-  width: 36px;
+-}
+-.pzp-replay-button .pzp-button__tooltip {
+-  left: 0;
+-  -webkit-transform: translateX(0);
+-  transform: translateX(0);
+-}
+
+
+
++.pzp-replay-button {
++  height: 36px;
++  width: 36px;
++}
++.pzp-replay-button__icon {
++  float: left;
++  height: 36px;
++  width: 36px;
++}
++.pzp-replay-button .pzp-button__tooltip {
++  left: 0;
++  -webkit-transform: translateX(0);
++  transform: translateX(0);
++}
+
+
++.pzp-duration-indicator {
++  display: none;
++  font-size: 24px;
++  font-weight: 600;
++  left: 50%;
++  line-height: 29px;
++  position: absolute;
++  text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
++  -webkit-transform: translate(-50%, -4px);
++  transform: translate(-50%, -4px);
++  -webkit-transform-origin: left top;
++  transform-origin: left top;
++}
+
+-.pzp-duration-indicator {
+-  display: none;
+-  font-size: 24px;
+-  font-weight: 600;
+-  left: 50%;
+-  line-height: 29px;
+-  position: absolute;
+-  text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+-  -webkit-transform: translate(-50%, -4px);
+-  transform: translate(-50%, -4px);
+-  -webkit-transform-origin: left top;
+-  transform-origin: left top;
+-}
+
+
+-.pzp-ad-click-through-button:active {
+-  opacity: 0.3;
+-}
+-.pzp-ad-click-through-button__text {
+-  color: #fff;
+-  float: left;
+-  font-size: 13px;
+-  font-weight: 400;
+-  letter-spacing: -0.25px;
+-  line-height: 33px;
+-  white-space: nowrap;
+-}
+-.pzp-ad-click-through-button__icon {
+-  float: left;
+-  height: 10px;
+-  margin: 11px 0 0 5px;
+-  width: 12px;
+-}
+-.pzp-ad-click-through-button__svg {
+-  display: block;
+-  height: inherit;
+-  width: inherit;
+-}
+
+
+
++.pzp-mobile--size-extra-small .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-mobile--size-large .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-mobile--size-medium .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-mobile--size-normal .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-mobile--size-small .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-extra-small .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-l .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-large .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-m .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-medium .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-s .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-small .pzp-ui-icon.pzp-brand-playback-button__icon,
++.pzp-pc--size-xs .pzp-ui-icon.pzp-brand-playback-button__icon {
++  height: 100%;
++  left: 50%;
++  max-height: 220px;
++  max-width: 220px;
++  position: absolute;
++  top: 50%;
++  -webkit-transform: translate(-50%, -50%);
++  transform: translate(-50%, -50%);
++  width: 100%;
++}
++.pzp-ad-click-through-button:active {
++  opacity: 0.3;
++}
++.pzp-ad-click-through-button__text {
++  color: #fff;
++  float: left;
++  font-size: 13px;
++  font-weight: 400;
++  letter-spacing: -0.25px;
++  line-height: 33px;
++  white-space: nowrap;
++}
++.pzp-ad-click-through-button__icon {
++  float: left;
++  height: 10px;
++  margin: 11px 0 0 5px;
++  width: 12px;
++}
++.pzp-ad-click-through-button__svg {
++  display: block;
++  height: inherit;
++  width: inherit;
++}
+
+-.pzp-mobile--size-extra-small .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-mobile--size-large .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-mobile--size-medium .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-mobile--size-normal .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-mobile--size-small .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-extra-small .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-l .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-large .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-m .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-medium .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-s .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-small .pzp-ui-icon.pzp-brand-playback-button__icon,
+-.pzp-pc--size-xs .pzp-ui-icon.pzp-brand-playback-button__icon {
+-  height: 100%;
+-  left: 50%;
+-  max-height: 220px;
+-  max-width: 220px;
+-  position: absolute;
+-  top: 50%;
+-  -webkit-transform: translate(-50%, -50%);
+-  transform: translate(-50%, -50%);
+-  width: 100%;
+-}
+
+
+-                            5251: function(e, t, n) {
++                            62996: function(e, t, n) {
+
+-                                    a = n(38657),
++                                    a = n(6367),
+
+-                                    T = n(92868),
+-                                    L = n(76390),
+-                                    R = n(57529),
+-                                    I = n(79308),
+-                                    D = n(90251),
++                                    T = n(4836),
++                                    L = n(38673),
++                                    R = n(5429),
++                                    I = n(16781),
++                                    D = n(7990),
+
+-                                    h = n(92868),
++                                    h = n(4836),
+
+-                                    _ = n(57529),
++                                    _ = n(5429),
+
+-                                    F = n(38657),
++                                    F = n(6367),
+
+-                            90251: function(e, t, n) {
++                            7990: function(e, t, n) {
+
+-                            74390: function(e, t, n) {
++                            3644: function(e, t, n) {
+
+-                                    a = n(90251);
++                                    a = n(7990);
+
+-                                    d = n(66390),
+-                                    p = n(74390),
+-                                    h = n(17971),
+-                                    f = n(42009),
+-                                    v = n(36010),
++                                    d = n(41047),
++                                    p = n(3644),
++                                    h = n(62661),
++                                    f = n(45476),
++                                    v = n(65546),
+
+-                                    l = n(66390),
+-                                    u = n(74390),
+-                                    d = n(17971),
+-                                    p = n(42009),
++                                    l = n(41047),
++                                    u = n(3644),
++                                    d = n(62661),
++                                    p = n(45476),
+
+-                            22047: function(e, t, n) {
++                            4170: function(e, t, n) {
+
+-                                var r = n(41561);
++                                var r = n(1902);
+
+-                                var o = n(78892),
+-                                    s = n(89536),
+-                                    c = n(1310),
++                                var o = n(68064),
++                                    s = n(39096),
++                                    c = n(37986),
+
+-                                    _ = n(4463),
+-                                    x = n(29242),
+-                                    k = n(14607),
+-                                    M = n(52125),
+-                                    A = n(79590),
+-                                    O = n(46948),
+-                                    w = n(8105),
+-                                    E = n(7270);
++                                    _ = n(24950),
++                                    x = n(36942),
++                                    k = n(65511),
++                                    M = n(60894),
++                                    A = n(4543),
++                                    O = n(22916),
++                                    w = n(42481),
++                                    E = n(46322);
+
+-                                    g = n(41561),
+-                                    _ = n(78892),
+-                                    x = n(1310),
+-                                    k = n(79590),
+-                                    M = n(8105),
+-                                    A = n(7270);
++                                    g = n(1902),
++                                    _ = n(68064),
++                                    x = n(37986),
++                                    k = n(4543),
++                                    M = n(42481),
++                                    A = n(46322);
+
+-                                var r = n(38610),
+-                                    i = n(41561),
++                                var r = n(15499),
++                                    i = n(1902),
+
+-                            41561: function(e, t, n) {
++                            1902: function(e, t, n) {
+
+-                                    l = n(41561),
+-                                    u = n(63410),
++                                    l = n(1902),
++                                    u = n(41655),
+
+-                                    h = n(41561),
+-                                    f = n(20743),
+-                                    v = n(63410),
++                                    h = n(1902),
++                                    f = n(48245),
++                                    v = n(41655),
+
+-                            1310: function(e, t, n) {
++                            37986: function(e, t, n) {
+
+-                                    l = n(41561),
+-                                    u = n(63410),
++                                    l = n(1902),
++                                    u = n(41655),
+
+-                            4463: function(e, t, n) {
++                            24950: function(e, t, n) {
+
+-                                    l = n(41561),
+-                                    u = n(63410),
++                                    l = n(1902),
++                                    u = n(41655),
+
+-                                    v = n(41561),
+-                                    m = n(20743),
+-                                    b = n(63410),
++                                    v = n(1902),
++                                    m = n(48245),
++                                    b = n(41655),
+
+-                                    d = n(66191),
+-                                    p = n(41561),
+-                                    h = n(63410),
++                                    d = n(58528),
++                                    p = n(1902),
++                                    h = n(41655),
+
+-                                    d = n(66191),
+-                                    p = n(41561),
+-                                    h = n(63410),
++                                    d = n(58528),
++                                    p = n(1902),
++                                    h = n(41655),
+
+-                            79590: function(e, t, n) {
++                            4543: function(e, t, n) {
+
+-                                    l = n(41561),
+-                                    u = n(63410),
++                                    l = n(1902),
++                                    u = n(41655),
+
+-                                    h = n(66191),
+-                                    f = n(41561),
+-                                    v = n(20743),
+-                                    m = n(63410),
++                                    h = n(58528),
++                                    f = n(1902),
++                                    v = n(48245),
++                                    m = n(41655),
+
+-                            8105: function(e, t, n) {
++                            42481: function(e, t, n) {
+
+-                                    d = n(41561),
+-                                    p = n(63410),
++                                    d = n(1902),
++                                    p = n(41655),
+
+-                            7270: function(e, t, n) {
++                            46322: function(e, t, n) {
+
+-                                    d = n(41561),
+-                                    p = n(63410),
++                                    d = n(1902),
++                                    p = n(41655),
+
+-                            703: function(e, t, n) {
++                            58789: function(e, t, n) {
+
+-                            7271: function(e, t, n) {
++                            83960: function(e, t, n) {
+
+-                                    s = n(703),
++                                    s = n(58789),
+
+-                            58841: function(e, t, n) {
++                            9865: function(e, t, n) {
+
+-                                    a = n(703),
++                                    a = n(58789),
+
+-                                    o = n(7271),
+-                                    s = n(58841),
+-                                    c = n(59433),
++                                    o = n(83960),
++                                    s = n(9865),
++                                    c = n(92412),
+
+-                            84901: function(e, t, n) {
++                            356: function(e, t, n) {
+
+-                            9808: function(e, t, n) {
++                            68018: function(e, t, n) {
+
+-                                var Q, J = n(67597),
+-                                    ee = n(42431),
+-                                    te = n(36563),
+-                                    ne = n(87132),
+-                                    re = n(92868),
+-                                    ie = n(84901),
+-                                    ae = n(93641),
+-                                    oe = n(97406),
+-                                    se = n(99607),
++                                var Q, J = n(87016),
++                                    ee = n(63058),
++                                    te = n(42081),
++                                    ne = n(43124),
++                                    re = n(4836),
++                                    ie = n(356),
++                                    ae = n(41628),
++                                    oe = n(1273),
++                                    se = n(35019),
+
+-                                    de = n(57529),
+-                                    pe = n(93115),
++                                    de = n(5429),
++                                    pe = n(35574),
+
+-                                var Ne, Pe, qe, Fe = n(38483),
+-                                    Be = n(9605),
++                                var Ne, Pe, qe, Fe = n(41061),
++                                    Be = n(38236),
+
+-                                    Je = n(75003),
++                                    Je = n(2542),
+
+-                                    h = n(92868),
++                                    h = n(4836),
+
+-                            97406: function(e, t) {
++                            1273: function(e, t) {
+
+-                            92868: function(e, t, n) {
++                            4836: function(e, t, n) {
+
+-                            7783: function(e, t) {
++                            97524: function(e, t) {
+
+-                            75003: function(e, t, n) {
++                            2542: function(e, t, n) {
+
+-                            9605: function(e, t, n) {
++                            38236: function(e, t, n) {
+
+-                                    m = n(5960),
+-                                    b = n(36563),
++                                    m = n(79393),
++                                    b = n(42081),
+
+-                            38017: function(e, t, n) {
++                            6163: function(e, t, n) {
+
+-                                    x = n(5251),
++                                    x = n(62996),
+
+-                                (r = (0, n(193).Z)().TextDecoder) || (r = function() {
++                                (r = (0, n(83836).Z)().TextDecoder) || (r = function() {
+
+-                            38657: function(e, t, n) {
++                            6367: function(e, t, n) {
+
+-                                (r = (0, n(193).Z)().TextEncoder) || (r = function() {
++                                (r = (0, n(83836).Z)().TextEncoder) || (r = function() {
+
+-                            193: function(e, t, n) {
++                            83836: function(e, t, n) {
+
+-                            5960: function(e, t, n) {
++                            79393: function(e, t, n) {
+
+-                            83823: function(e, t, n) {
++                            1723: function(e, t, n) {
+
+-                            57529: function(e, t, n) {
++                            5429: function(e, t, n) {
+
+-                                    ke = n(35353),
+-                                    Me = n(84901),
+-                                    Ae = n(32772),
+-                                    Oe = n(38483),
+-                                    we = n(76390),
+-                                    Ee = n(93641),
+-                                    ze = n(75003),
+-                                    Ce = n(46892);
++                                    ke = n(93988),
++                                    Me = n(356),
++                                    Ae = n(87215),
++                                    Oe = n(41061),
++                                    we = n(38673),
++                                    Ee = n(41628),
++                                    ze = n(2542),
++                                    Ce = n(29947);
+
+-                                var Le, Re = n(38657),
+-                                    Ie = n(85430),
+-                                    De = n(20714),
++                                var Le, Re = n(6367),
++                                    Ie = n(61896),
++                                    De = n(91900),
+
+-                                    ot = n(71483),
++                                    ot = n(818),
+
+-                                    Ht = n(10256),
+-                                    Gt = n(6811);
++                                    Ht = n(56122),
++                                    Gt = n(67881);
+
+-                                    nn = n(93986),
+-                                    rn = n(26641),
+-                                    an = n(77398),
+-                                    on = n(55291),
+-                                    sn = n(85315),
++                                    nn = n(25964),
++                                    rn = n(13625),
++                                    an = n(58375),
++                                    on = n(75169),
++                                    sn = n(2858),
+
+-                                var En, zn = n(74922),
+-                                    Cn = n(9987),
+-                                    Sn = n(76220),
+-                                    Tn = n(95025),
++                                var En, zn = n(34650),
++                                    Cn = n(20193),
++                                    Sn = n(29558),
++                                    Tn = n(71297),
+
+-                                var Hn = n(75929),
++                                var Hn = n(8805),
+
+-                            6811: function(e, t, n) {
++                            67881: function(e, t, n) {
+
+-                            71483: function(e, t, n) {
++                            818: function(e, t, n) {
+
+-                                var b, y = n(85430),
+-                                    g = n(75929),
+-                                    _ = n(55291),
+-                                    x = n(77398),
++                                var b, y = n(61896),
++                                    g = n(8805),
++                                    _ = n(75169),
++                                    x = n(58375),
+
+-                                    Q = n(22047),
+-                                    J = n(93986),
+-                                    ee = n(23898),
++                                    Q = n(4170),
++                                    J = n(25964),
++                                    ee = n(25483),
+
+-                                    o = n(22047),
+-                                    s = n(46892),
+-                                    c = n(193),
+-                                    l = n(5960),
+-                                    u = n(52143),
+-                                    d = n(68090),
++                                    o = n(4170),
++                                    s = n(29947),
++                                    c = n(83836),
++                                    l = n(79393),
++                                    u = n(80906),
++                                    d = n(17828),
+
+-                            85315: function(e, t, n) {
++                            2858: function(e, t, n) {
+
+-                            107: function(e, t, n) {
++                            87331: function(e, t, n) {
+
+-                                var d = n(66838),
+-                                    p = n(54149),
+-                                    h = n(82459),
+-                                    f = n(40524),
+-                                    v = n(92184),
+-                                    m = n(85706),
+-                                    b = n(75196),
+-                                    y = n(18929);
++                                var d = n(18957),
++                                    p = n(3589),
++                                    h = n(28677),
++                                    f = n(36695),
++                                    v = n(54914),
++                                    m = n(42096),
++                                    b = n(45246),
++                                    y = n(78239);
+
+-                                    v = n(15731),
+-                                    m = n(46501),
++                                    v = n(73843),
++                                    m = n(2485),
+
+-                            46501: function(e, t, n) {
++                            2485: function(e, t, n) {
+
+-                                    y = n(85588),
+-                                    g = n(80325),
+-                                    _ = n(20714),
+-                                    x = n(38657),
++                                    y = n(74536),
++                                    g = n(98330),
++                                    _ = n(91900),
++                                    x = n(6367),
+
+-                                    v = n(57529),
+-                                    m = n(93115),
++                                    v = n(5429),
++                                    m = n(35574),
+
+-                                    Ci = n(44678),
+-                                    Si = n(84855),
+-                                    Ti = n(7783),
++                                    Ci = n(82118),
++                                    Si = n(41294),
++                                    Ti = n(97524),
+
+-                                    $i = n(93115),
+-                                    Qi = n(57529),
++                                    $i = n(35574),
++                                    Qi = n(5429),
+
+-                                    ra = n(63281),
+-                                    ia = n(35353),
+-                                    aa = n(92868),
+-                                    oa = n(20714),
++                                    ra = n(72874),
++                                    ia = n(93988),
++                                    aa = n(4836),
++                                    oa = n(91900),
+
+-                                    to = n(87132),
+-                                    no = n(32772),
+-                                    ro = n(97406),
+-                                    io = n(99607),
++                                    to = n(43124),
++                                    no = n(87215),
++                                    ro = n(1273),
++                                    io = n(35019),
+
+-                                    Eo = n(75929),
+-                                    zo = n(85430),
++                                    Eo = n(8805),
++                                    zo = n(61896),
+
+-                                var is = n(84901),
++                                var is = n(356),
+
+-                                    Os = n(5251),
+-                                    ws = n(23528),
+-                                    Es = n(17920),
+-                                    zs = n(38610),
+-                                    Cs = n(41561),
+-                                    Ss = n(87976),
++                                    Os = n(62996),
++                                    ws = n(65020),
++                                    Es = n(64481),
++                                    zs = n(15499),
++                                    Cs = n(1902),
++                                    Ss = n(87793),
+
+-                                var js = n(85315),
++                                var js = n(2858),
+
+-                                var Us, Hs = n(9808),
++                                var Us, Hs = n(68018),
+
+-                                    Oc = n(46501),
+-                                    wc = n(83823),
+-                                    Ec = n(60201),
++                                    Oc = n(2485),
++                                    wc = n(1723),
++                                    Ec = n(81255),
+
+-                                    Il = n(9605),
+-                                    Dl = n(36135),
+-                                    Nl = n(52125),
+-                                    Pl = n(46948),
++                                    Il = n(38236),
++                                    Dl = n(12624),
++                                    Nl = n(60894),
++                                    Pl = n(22916),
+
+-                                    Wl = n(89536),
+-                                    Vl = n(4463),
+-                                    Ul = n(29242),
+-                                    Hl = n(14607),
++                                    Wl = n(39096),
++                                    Vl = n(24950),
++                                    Ul = n(36942),
++                                    Hl = n(65511),
+
+-                            9987: function(e, t, n) {
++                            20193: function(e, t, n) {
+
+-                                    _ = n(83823),
+-                                    x = n(80325),
+-                                    k = n(14093),
+-                                    M = n(62192),
+-                                    A = n(85430),
+-                                    O = n(36430),
+-                                    w = n(75929),
++                                    _ = n(1723),
++                                    x = n(98330),
++                                    k = n(88029),
++                                    M = n(81574),
++                                    A = n(61896),
++                                    O = n(46046),
++                                    w = n(8805),
+
+-                                var r, i = n(9987),
++                                var r, i = n(20193),
+
+-                                    E = n(46892),
+-                                    z = n(47014),
+-                                    C = n(17671),
++                                    E = n(29947),
++                                    z = n(86059),
++                                    C = n(9646),
+
+-                                    je = n(66431),
+-                                    We = n(90251),
++                                    je = n(97259),
++                                    We = n(7990),
+
+-                                var Ge = n(92299),
+-                                    Xe = n(54698),
+-                                    Ke = n(35353),
+-                                    Ze = n(9808),
+-                                    Ye = n(87132),
+-                                    $e = n(32772),
+-                                    Qe = n(76390),
+-                                    Je = n(46892),
+-                                    et = n(80246),
+-                                    tt = n(92647),
+-                                    nt = n(52053),
+-                                    rt = n(67597),
+-                                    it = n(81413),
+-                                    at = n(99297),
+-                                    ot = n(83823),
+-                                    st = n(38657),
+-                                    ct = n(80325),
+-                                    lt = n(76723),
+-                                    ut = n(85430),
+-                                    dt = n(47014),
+-                                    pt = n(36430),
+-                                    ht = n(56622),
+-                                    ft = n(20714);
++                                var Ge = n(97277),
++                                    Xe = n(33566),
++                                    Ke = n(93988),
++                                    Ze = n(68018),
++                                    Ye = n(43124),
++                                    $e = n(87215),
++                                    Qe = n(38673),
++                                    Je = n(29947),
++                                    et = n(28699),
++                                    tt = n(54450),
++                                    nt = n(52723),
++                                    rt = n(87016),
++                                    it = n(64310),
++                                    at = n(12722),
++                                    ot = n(1723),
++                                    st = n(6367),
++                                    ct = n(98330),
++                                    lt = n(23113),
++                                    ut = n(61896),
++                                    dt = n(86059),
++                                    pt = n(46046),
++                                    ht = n(94121),
++                                    ft = n(91900);
+
+-                                var mt = n(75929);
++                                var mt = n(8805);
+
+-                                var yt, gt = n(49928),
+-                                    _t = n(17671),
+-                                    xt = n(63706),
+-                                    kt = n(53300);
++                                var yt, gt = n(1135),
++                                    _t = n(9646),
++                                    xt = n(25122),
++                                    kt = n(30776);
+
+-                                var Lt, Rt, It, Dt, Nt, Pt, qt = n(96072),
++                                var Lt, Rt, It, Dt, Nt, Pt, qt = n(3325),
+
+-                                    Bt = n(3325),
+-                                    jt = n.n(Bt),
+-                                    Wt = n(75998),
+-                                    Vt = n(88820),
+-                                    Ut = n(82221),
+-                                    Ht = n(38310),
+-                                    Gt = n(44755),
+-                                    Xt = n(58578),
+-                                    Kt = n(80664),
+-                                    Zt = n(75774),
+-                                    Yt = n(26641),
+-                                    $t = ((Lt = {})[0] = "http://dev.livecloud.navercorp.com/xray/p2p/v1/config", Lt[1] = "http://stg.livecloud.navercorp.com/xray/p2p/v1/config", Lt[2] = "http://livecloud.navercorp.com/xray/p2p/v1/config", Lt),
+-                                    Qt = ((Rt = {})[2] = "https://appdown.pstatic.net/naver/nliveconnector/NLiveConnectorSetup.exe", Rt[1] = "https://appdown.pstatic.net/naver/nliveconnector/stage/NLiveConnectorSetup.exe", Rt[0] = "http://alpha-www.ncast.navercorp.com/naver/nliveconnector/NLiveConnectorSetup.exe", Rt),
+-                                    Jt = ((It = {})[2] = "http://appdown.naver.com/naver/nliveconnector/upgrade/VersionInfo_Proxy.xml", It[1] = "http://appdown.naver.com/naver/nliveconnector/stage/upgrade/VersionInfo_Proxy.xml", It[0] = "http://alpha-www.ncast.navercorp.com/naver/nliveconnector/upgrade/VersionInfo_Proxy.xml", It),
+-                                    en = ((Dt = {})[2] = "http://appdown.naver.com/naver/nliveconnector/upgrade/VersionInfo.xml", Dt[1] = "http://appdown.naver.com/naver/nliveconnector/stage/upgrade/VersionInfo.xml", Dt[0] = "http://alpha-www.ncast.navercorp.com/naver/nliveconnector/upgrade/VersionInfo.xml", Dt),
+-                                    tn = function() {
++                                    Bt = n(75998),
++                                    jt = n(88820),
++                                    Wt = n(82221),
++                                    Vt = n(38310),
++                                    Ut = n(44755),
++                                    Ht = n(58578),
++                                    Gt = n(80664),
++                                    Xt = n(51538),
++                                    Kt = n(13625),
++                                    Zt = ((Lt = {})[0] = "http://dev.livecloud.navercorp.com/xray/p2p/v1/config", Lt[1] = "http://stg.livecloud.navercorp.com/xray/p2p/v1/config", Lt[2] = "http://livecloud.navercorp.com/xray/p2p/v1/config", Lt),
++                                    Yt = ((Rt = {})[2] = "https://appdown.pstatic.net/naver/nliveconnector/NLiveConnectorSetup.exe", Rt[1] = "https://appdown.pstatic.net/naver/nliveconnector/stage/NLiveConnectorSetup.exe", Rt[0] = "http://alpha-www.ncast.navercorp.com/naver/nliveconnector/NLiveConnectorSetup.exe", Rt),
++                                    $t = ((It = {})[2] = "http://appdown.naver.com/naver/nliveconnector/upgrade/VersionInfo_Proxy.xml", It[1] = "http://appdown.naver.com/naver/nliveconnector/stage/upgrade/VersionInfo_Proxy.xml", It[0] = "http://alpha-www.ncast.navercorp.com/naver/nliveconnector/upgrade/VersionInfo_Proxy.xml", It),
++                                    Qt = ((Dt = {})[2] = "http://appdown.naver.com/naver/nliveconnector/upgrade/VersionInfo.xml", Dt[1] = "http://appdown.naver.com/naver/nliveconnector/stage/upgrade/VersionInfo.xml", Dt[0] = "http://alpha-www.ncast.navercorp.com/naver/nliveconnector/upgrade/VersionInfo.xml", Dt),
++                                    Jt = function() {
+
+-                                    sn = n(89933),
+-                                    cn = n.n(sn),
+-                                    ln = n(63281),
+-                                    un = n(38017);
++                                    an = n(89933),
++                                    on = n.n(an),
++                                    sn = n(72874),
++                                    cn = n(6163);
+
+-                                    qn = _()(),
+-                                    Fn = _()(),
+-                                    Bn = Fn,
+-                                    jn = .75;
++                                    Nn = _()(),
++                                    Pn = _()(),
++                                    qn = Pn;
+
+-                                        }() || function() {
+-                                            try {
+-                                                var e, t = {
+-                                                        "Arial Black": 1,
+-                                                        Calibri: .5,
+-                                                        Cambria: .5,
+-                                                        Candara: .5,
+-                                                        "Comic Sans MS": .5,
+-                                                        Consolas: .5,
+-                                                        Constantia: .5,
+-                                                        Corbel: .5,
+-                                                        "Courier New": .5,
+-                                                        Ebrima: 1,
+-                                                        Gadugi: 1,
+-                                                        Georgia: .5,
+-                                                        Impact: 1,
+-                                                        "Lucida Console": .5,
+-                                                        "Lucida Sans Unicode": .5,
+-                                                        "Malgun Gothic": 1,
+-                                                        "Microsoft Sans Serif": 1,
+-                                                        "Microsoft YaHei": 1,
+-                                                        "MS Gothic": 1,
+-                                                        "MS Sans Serif": 1,
+-                                                        "Segoe Print": 1,
+-                                                        "Segoe Script": 1,
+-                                                        "Segoe UI": 1,
+-                                                        "Segoe UI Emoji": 1,
+-                                                        "Segoe UI Historic": 1,
+-                                                        "Segoe UI Symbol": 1,
+-                                                        Tahoma: .5,
+-                                                        "Times New Roman": .5,
+-                                                        "Trebuchet MS": .5,
+-                                                        Verdana: .5,
+-                                                        Webdings: .5,
+-                                                        Wingdings: .5
+-                                                    },
+-                                                    n = Ft()(t),
+-                                                    r = "abcdefghijklmnopqrstuvwxyz",
+-                                                    i = "Arial",
+-                                                    a = "72px",
+-                                                    o = document.createElement("canvas").getContext("2d");
+-                                                if (!o) return null;
+-                                                o.font = S()(e = "".concat(a, " ")).call(e, i);
+-                                                for (var s = o.measureText(r).width, c = 0, l = 0, u = 0, d = n; u < d.length; u++) {
+-                                                    var p, h, f = d[u],
+-                                                        v = t[f];
+-                                                    l += v, o.font = S()(p = S()(h = "".concat(a, ' "')).call(h, f, '", ')).call(p, i);
+-                                                    var m = o.measureText(r).width;
+-                                                    Math.abs(m - s) > 1 && (c += v)
+-                                                }
+-                                                return c / l >= jn
+-                                            } catch (e) {
+-                                                return null
+-                                            }
+-                                        }() ? qn : Fn : n ? qn : Fn
+-                                    }(t) === qn ? qn : Fn
++                                        }() ? Nn : Pn : n ? Nn : Pn
++                                    }(t) === Nn ? Nn : Pn
+
+-                                    lr = n(61328),
+-                                    ur = n(57529),
+-                                    dr = n(89774),
+-                                    pr = [".ts", ".m4v", ".m4a", ".m4i", ".m4s", ".mp4"],
+-                                    hr = n(38772),
+-                                    fr = n(30321),
+-                                    vr = function() {
++                                    or = n(77203),
++                                    sr = n(5429),
++                                    cr = n(53986),
++                                    lr = [".ts", ".m4v", ".m4a", ".m4i", ".m4s", ".mp4"],
++                                    ur = n(21430),
++                                    dr = n(42386),
++                                    pr = function() {
+
+-                                    }(xr.j),
+-                                    zr = Er,
+-                                    Cr = n(85315),
+-                                    Sr = function() {
+-                                        return Sr = p() || function(e) {
++                                    }(yr.j),
++                                    Or = Ar,
++                                    wr = n(2858),
++                                    Er = function() {
++                                        return Er = p() || function(e) {
+
+-                                var Xr, Kr = n(11858),
+-                                    Zr = n.n(Kr),
+-                                    Yr = [2160, 1440, 1080, 720, 480, 360, 270, 180, 144],
+-                                    $r = n(41561);
++                                var Ur, Hr = n(11858),
++                                    Gr = n.n(Hr),
++                                    Xr = [2160, 1440, 1080, 720, 480, 360, 270, 180, 144],
++                                    Kr = n(1902);
+
+-                            4671: function(e, t, n) {
++                            44416: function(e, t, n) {
+
+-                                var r, i, a = n(4671);
++                                var r, i, a = n(44416);
+
+-                                    we = n(27985),
+-                                    Ee = n(66431),
+-                                    ze = n(90251),
+-                                    Ce = n(92299),
+-                                    Se = n(54698),
+-                                    Te = n(35353),
+-                                    Le = n(28304),
+-                                    Re = n(95273),
+-                                    Ie = n(32772),
+-                                    De = n(76390),
+-                                    Ne = n(9605),
+-                                    Pe = n(46892),
+-                                    qe = n(80246),
++                                    we = n(90954),
++                                    Ee = n(97259),
++                                    ze = n(7990),
++                                    Ce = n(97277),
++                                    Se = n(33566),
++                                    Te = n(93988),
++                                    Le = n(94900),
++                                    Re = n(67279),
++                                    Ie = n(87215),
++                                    De = n(38673),
++                                    Ne = n(38236),
++                                    Pe = n(29947),
++                                    qe = n(28699),
+
+-                                    je = n(75774),
+-                                    We = n(83823),
+-                                    Ve = n(38657),
+-                                    Ue = n(80325),
+-                                    He = n(14093),
+-                                    Ge = n(62192),
+-                                    Xe = n(85430),
+-                                    Ke = n(47014),
+-                                    Ze = n(36430),
+-                                    Ye = n(75929),
++                                    je = n(51538),
++                                    We = n(1723),
++                                    Ve = n(6367),
++                                    Ue = n(98330),
++                                    He = n(88029),
++                                    Ge = n(81574),
++                                    Xe = n(61896),
++                                    Ke = n(86059),
++                                    Ze = n(46046),
++                                    Ye = n(8805),
+
+-                                    rt = n(4671),
+-                                    it = n(32751),
+-                                    at = n(47618),
+-                                    ot = n(23599),
+-                                    st = n(80049),
+-                                    ct = n(49928),
+-                                    lt = n(24781);
++                                    rt = n(44416),
++                                    it = n(88111),
++                                    at = n(13250),
++                                    ot = n(87213),
++                                    st = n(74216),
++                                    ct = n(1135),
++                                    lt = n(80662);
+
+-                                    Xt = n(57529),
+-                                    Kt = n(89774),
+-                                    Zt = n(38772),
+-                                    Yt = n(30321),
++                                    Xt = n(5429),
++                                    Kt = n(53986),
++                                    Zt = n(21430),
++                                    Yt = n(42386),
+
+-                                    an = n(40758),
+-                                    on = n(17671),
+-                                    sn = n(81413),
+-                                    cn = n(34141),
++                                    an = n(94328),
++                                    on = n(9646),
++                                    sn = n(64310),
++                                    cn = n(72980),
+
+-                            49928: function(e, t, n) {
++                            1135: function(e, t, n) {
+
+-                                var c = n(42431),
+-                                    l = n(84855),
+-                                    u = n(7783),
++                                var c = n(63058),
++                                    l = n(41294),
++                                    u = n(97524),
+
+-                                    k = n(23528),
+-                                    M = n(17920),
+-                                    A = n(38610),
+-                                    O = n(53708),
+-                                    w = n(32568),
+-                                    E = n(32119),
+-                                    z = n(51939),
+-                                    C = n(85315),
++                                    k = n(65020),
++                                    M = n(64481),
++                                    A = n(15499),
++                                    O = n(85364),
++                                    w = n(16107),
++                                    E = n(40512),
++                                    z = n(31928),
++                                    C = n(2858),
+
+-                            54149: function(e, t, n) {
++                            3589: function(e, t, n) {
+
+-                            17671: function(e, t, n) {
++                            9646: function(e, t, n) {
+
+-                                    Je = n(90251),
+-                                    et = n(66431),
+-                                    tt = n(54698),
+-                                    nt = n(92299),
+-                                    rt = n(17920),
+-                                    it = n(38610),
+-                                    at = n(60201),
+-                                    ot = n(1310),
+-                                    st = n(29242),
+-                                    ct = n(52125),
+-                                    lt = n(46948);
++                                    Je = n(7990),
++                                    et = n(97259),
++                                    tt = n(33566),
++                                    nt = n(97277),
++                                    rt = n(64481),
++                                    it = n(15499),
++                                    at = n(81255),
++                                    ot = n(37986),
++                                    st = n(36942),
++                                    ct = n(60894),
++                                    lt = n(22916);
+
+-                                    bt = n(35353),
+-                                    yt = n(25539),
+-                                    gt = n(28304),
+-                                    _t = n(95273),
+-                                    xt = n(32772),
+-                                    kt = n(38772),
+-                                    Mt = n(46892),
+-                                    At = n(80246),
+-                                    Ot = n(80881),
+-                                    wt = n(92647),
+-                                    Et = n(52053),
+-                                    zt = n(32119),
+-                                    Ct = n(67597),
+-                                    St = n(5960),
+-                                    Tt = n(81413),
+-                                    Lt = n(99297),
+-                                    Rt = n(83823),
+-                                    It = n(51939),
+-                                    Dt = n(80325),
+-                                    Nt = n(14093),
+-                                    Pt = n(76723),
+-                                    qt = n(85430),
+-                                    Ft = n(47014),
+-                                    Bt = n(36430),
+-                                    jt = n(85315),
+-                                    Wt = n(34141),
+-                                    Vt = n(32751),
+-                                    Ut = n(80049),
+-                                    Ht = n(49928),
+-                                    Gt = n(24781),
+-                                    Xt = n(17671),
+-                                    Kt = n(70020),
+-                                    Zt = n(60150),
+-                                    Yt = n(40483);
++                                    bt = n(93988),
++                                    yt = n(26918),
++                                    gt = n(94900),
++                                    _t = n(67279),
++                                    xt = n(87215),
++                                    kt = n(21430),
++                                    Mt = n(29947),
++                                    At = n(28699),
++                                    Ot = n(55772),
++                                    wt = n(54450),
++                                    Et = n(52723),
++                                    zt = n(40512),
++                                    Ct = n(87016),
++                                    St = n(79393),
++                                    Tt = n(64310),
++                                    Lt = n(12722),
++                                    Rt = n(1723),
++                                    It = n(31928),
++                                    Dt = n(98330),
++                                    Nt = n(88029),
++                                    Pt = n(23113),
++                                    qt = n(61896),
++                                    Ft = n(86059),
++                                    Bt = n(46046),
++                                    jt = n(2858),
++                                    Wt = n(72980),
++                                    Vt = n(88111),
++                                    Ut = n(74216),
++                                    Ht = n(1135),
++                                    Gt = n(80662),
++                                    Xt = n(9646),
++                                    Kt = n(19325),
++                                    Zt = n(51677),
++                                    Yt = n(63174);
+
+-                                var on = n(38017);
++                                var on = n(6163);
+
+-                                var mn = n(7271),
+-                                    bn = n(58841),
+-                                    yn = n(59433),
++                                var mn = n(83960),
++                                    bn = n(9865),
++                                    yn = n(92412),
+
+-                                var r = n(20714),
+-                                    i = n(10256),
+-                                    a = n(14093),
+-                                    o = n(6811),
+-                                    s = n(62192),
+-                                    c = n(71483)
++                                var r = n(91900),
++                                    i = n(56122),
++                                    a = n(88029),
++                                    o = n(67881),
++                                    s = n(81574),
++                                    c = n(818)
+
+-                            75929: function(e, t, n) {
++                            8805: function(e, t, n) {
+
+-                                var f = h(n(107)),
++                                var f = h(n(87331)),
+
+-                                var i = n(107);
++                                var i = n(87331);
+
+-                                    p = d.__importStar(n(107)),
+-                                    h = d.__importDefault(n(52647)),
++                                    p = d.__importStar(n(87331)),
++                                    h = d.__importDefault(n(34018)),
+
+-                                r.__exportStar(n(107), t), r.__exportStar(n(64494), t), r.__exportStar(n(95081), t), r.__exportStar(n(15709), t)
++                                r.__exportStar(n(87331), t), r.__exportStar(n(98950), t), r.__exportStar(n(95081), t), r.__exportStar(n(15709), t)
+
+-                                    c = s.__importDefault(n(83823)),
+-                                    l = s.__importDefault(n(99297));
++                                    c = s.__importDefault(n(1723)),
++                                    l = s.__importDefault(n(12722));
+
+-                                    i = r.__importDefault(n(107));
++                                    i = r.__importDefault(n(87331));
+
+-                                    i = n(107);
++                                    i = n(87331);
+
+-                                    i = n(107),
++                                    i = n(87331),
+
+-                                t.PrismPCPlayer = a.default, i.__exportStar(n(107), t);
+-                                var o = n(95025);
++                                t.PrismPCPlayer = a.default, i.__exportStar(n(87331), t);
++                                var o = n(71297);
+
+-                    var u, d, p = arguments;
++                    var u, d, p, h, f = arguments;
+
+-                                return u = {
++                                return u = f.length > 9 && void 0 !== f[9] && f[9], d = f.length > 10 ? f[10] : void 0, p = {
+
+-                                    payload: {
++                                    payload: (0, st.A)({
+
+-                                    },
++                                    }, c || !d ? {} : {
++                                        awt: d
++                                    }),
+
+-                                    radioMode: p.length > 9 && void 0 !== p[9] && p[9]
+-                                }, e.next = 4, Ef.post("/watch-event/live", u, {
++                                    radioMode: u
++                                }, e.next = 5, Ef.post("/watch-event/live", p, {
+
+
++                return Math.floor(dx().duration(dx()().diff(e)).asSeconds())
++            },
++            N3 = function() {
++                var e = (0, l.useRef)(dx()()),
++                    t = (0, l.useRef)(0),
++                    n = (0, l.useRef)(),
++                    r = (0, l.useCallback)((function() {
++                        e.current = dx()()
++                    }), []),
++                    i = (0, l.useCallback)((function() {
++                        var n = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {
++                            idleTime: 0
++                        }).idleTime;
++                        t.current += D3(e.current) - n
++                    }), []),
++                    a = (0, l.useCallback)((function(t) {
++                        var a = "WATCH_PAUSED" === (null === n || void 0 === n ? void 0 : n.current) && "WATCH_RESUMED" === t ? D3(e.current) : 0;
++                        "WATCH_STARTED" === t ? (r(), i()) : ["WATCH_CONTINUED", "WATCH_RESUMED", "WATCH_PAUSED"].includes(t) ? (i({
++                            idleTime: a
++                        }), r()) : i(), n.current = t
++                    }), [i, r]);
++                return (0, l.useEffect)((function() {
++                    return function() {
++                        t.current = 0
++                    }
++                }), []), {
++                    accumulativeWatchTime: t,
++                    updateStartTime: r,
++                    updateAccumulativeWatchTime: i,
++                    updateWatchTime: a
++                }
++            },
++            P3 = function(e) {
+
+-                    A = (0, l.useCallback)((function(e) {
++                    A = N3(),
++                    O = A.accumulativeWatchTime,
++                    w = A.updateWatchTime,
++                    E = (0, l.useRef)(!1),
++                    z = (0, l.useCallback)((function(e) {
+
+-                        if (n && r) try {
+-                            uq(e, n, r, i, 30, a ? Math.round(dx()().diff(a) / 1e3) : 0, o, s, c, l)
+-                        } catch (u) {}
+-                    }), []);
++                        if (n && r) {
++                            w(e);
++                            try {
++                                uq(e, n, r, i, 30, a ? Math.round(dx()().diff(a) / 1e3) : 0, o, s, c, l, E.current ? void 0 : O.current)
++                            } catch (u) {}
++                        }
++                    }), [O, w]);
+
+-                                A("WATCH_ENDED")
++                                z("WATCH_ENDED"), E.current = !0
+
+-            n7 = function() {
+-                var e = lt(ot().mark((function e(t, n, r, i, a, o, s) {
+-                    var c, l;
++            i7 = function() {
++                var e = lt(ot().mark((function e(t, n, r, i, a, o, s, c) {
++                    var l, u;
+
+-                                    payload: {
++                                    payload: (0, st.A)({
+
+-                                    },
++                                    }, c ? {
++                                        awt: Math.min(c, s)
++                                    } : {}),
+
+-                return function(t, n, r, i, a, o, s) {
++                return function(t, n, r, i, a, o, s, c) {
+
+-            i9 = function(e) {
++            o9 = (0, St.omit)(B8, "STREAMER"),
++            s9 = function(e) {
+
+-            a9 = function() {
+-                var e, t, n = c(at(), 2),
+-                    r = n[0],
+-                    i = n[1],
+-                    o = Ae(),
+-                    s = c(gr(Jm("CHANNEL")), 2),
+-                    u = s[0],
+-                    d = s[1],
+-                    p = we().channelId,
+-                    h = 3 * b4("clip", window.innerWidth),
+-                    f = c((0, l.useState)([]), 2),
+-                    v = f[0],
+-                    m = f[1],
+-                    b = Qm(),
+-                    y = b.firstLoading,
+-                    g = b.initFirstLoading,
+-                    _ = b.fetching,
+-                    x = c((0, l.useState)(null), 2),
++            c9 = function() {
++                var e = c(at(), 2),
++                    t = e[0],
++                    n = e[1],
++                    r = c(gr(Jm("CHANNEL")), 2),
++                    i = r[0],
++                    o = r[1],
++                    s = we().channelId,
++                    u = 3 * g4("clip", window.innerWidth),
++                    d = c((0, l.useState)([]), 2),
++                    p = d[0],
++                    h = d[1],
++                    f = Qm(),
++                    v = f.firstLoading,
++                    m = f.initFirstLoading,
++                    b = f.fetching,
++                    y = c((0, l.useState)(null), 2),
++                    g = y[0],
++                    _ = y[1],
++                    x = c((0, l.useState)(0), 2),
+
+-                    A = c((0, l.useState)(0), 2),
+-                    O = A[0],
+-                    w = A[1],
+-                    E = (0, l.useMemo)((function() {
+-                        return v.length - O + Math.floor(O / 2)
+-                    }), [v, O]),
++                    A = (0, l.useMemo)((function() {
++                        return p.length - k + Math.floor(k / 2)
++                    }), [p, k]),
++                    O = c((0, l.useState)(!1), 2),
++                    w = O[0],
++                    E = O[1],
+
+-                    I = c((0, l.useState)(!1), 2),
+-                    D = I[0],
+-                    N = I[1],
+-                    P = null !== (e = r.get("filterType")) && void 0 !== e ? e : q8.ALL,
+-                    q = null !== (t = r.get("orderType")) && void 0 !== t ? t : F8.POPULARITY;
++                    I = t.get("filterType"),
++                    D = t.get("orderType"),
++                    N = function(e, t) {
++                        var n = "filterType" === e ? o9 : j8;
++                        return Object.values(n).includes(t)
++                    };
+
+-                }), [p]);
+-                var F = function(e) {
++                }), [s, o]);
++                var P = function(e) {
+
+-                    B = (0, l.useCallback)(lt(ot().mark((function e() {
+-                        var t, n, r, i, o, s, c, l, u, d, f, v, b = arguments;
++                    q = (0, l.useCallback)(lt(ot().mark((function e() {
++                        var t, n, r, i, o, c, l = arguments;
+
+-                                    if (n = (t = b.length > 0 && void 0 !== b[0] ? b[0] : {
++                                    if (t = (l.length > 0 && void 0 !== l[0] ? l[0] : {
+
+-                                        }).reload, r = t.params, p) {
++                                        }).reload, s) {
+
+-                                    return n && (g(), M(null)), e.prev = 4, c = null !== (i = null === r || void 0 === r ? void 0 : r.filterType) && void 0 !== i ? i : P, l = null !== (o = null === r || void 0 === r ? void 0 : r.orderType) && void 0 !== o ? o : q, e.next = 9, _(t9(p, {
+-                                        clipUID: !n && null !== k && void 0 !== k && k.clipUID ? null === k || void 0 === k ? void 0 : k.clipUID : null,
+-                                        filterType: c,
+-                                        orderType: l,
+-                                        size: h,
+-                                        readCount: null !== (s = null === k || void 0 === k ? void 0 : k.readCount) && void 0 !== s ? s : null
++                                    return t && (m(), _(null)), e.prev = 4, e.next = 7, b(r9(s, {
++                                        clipUID: !t && null !== g && void 0 !== g && g.clipUID ? null === g || void 0 === g ? void 0 : g.clipUID : null,
++                                        filterType: w ? B8.STREAMER : I,
++                                        orderType: D,
++                                        size: u,
++                                        readCount: null !== (n = null === g || void 0 === g ? void 0 : g.readCount) && void 0 !== n ? n : null
+
+-                    }))), [k, _, p]);
+-                (0, l.useEffect)((function() {
+-                    r.get("filterType") === q8.STREAMER && o(0)
+-                }), []), (0, l.useEffect)((function() {
+-                    var e = new URLSearchParams(r);
+-                    q || e.set("orderType", F8.POPULARITY), P || e.set("filterType", q8.ALL), i(e)
+-                }), [r]);
+-                var j = function(e, t) {
+-                        i((function(n) {
++                    }))), [g, s, I, D, w]),
++                    F = (0, l.useCallback)((function(e, t) {
++                        n((function(n) {
+
+-                        }))
+-                    },
+-                    W = function(e) {
+-                        [q8.ALL, q8.STREAMER].includes(e) || (R(!1), S(!1)), j("filterType", e), B({
+-                            reload: !0,
+-                            params: {
+-                                filterType: e
+-                            }
++                        }), {
++                            replace: !0
+
+
++                    }), [n]);
++                (0, l.useEffect)((function() {
++                    t.has("clipType") ? n({
++                        orderType: j8.POPULARITY,
++                        filterType: B8.ALL
++                    }) : (N("orderType", D) || F("orderType", j8.POPULARITY), N("filterType", I) || F("filterType", B8.ALL))
++                }), [I, D, t, n, F]);
++                var B = function(e) {
++                        F("filterType", e)
+
+-                    U = e9({
+-                        loadMore: B
++                    W = n9({
++                        loadMore: q,
++                        hasNextPage: !(null === g || void 0 === g || !g.clipUID)
+
+-                    B()
+-                }), []), (0, Jt.jsxs)("div", {
++                    N("filterType", I) && N("orderType", D) && q({
++                        reload: !0
++                    })
++                }), [I, D, w]), (0, Jt.jsxs)("div", {
+
+-                                        W(e ? q8.STREAMER : q8.ALL), S(e)
++                                        var t = e ? B8.STREAMER : B8.ALL;
++                                        [B8.ALL, B8.STREAMER].includes(t) || (S(!1), E(!1)), E(e)
+
+-                                    j("orderType", e), B({
+-                                        reload: !0,
+-                                        params: {
+-                                            orderType: e
+-                                        }
+-                                    })
++                                    F("orderType", e)
+
+-            F9 = l.memo(D9),
+-            B9 = "channel_manage_basic_label__lIPHW",
+-            j9 = "channel_manage_basic_content__pOua9",
+-            W9 = "channel_manage_basic_image_area__Vl808",
+-            V9 = "channel_manage_basic_nickname_input_area__h2fq8",
+-            U9 = "channel_manage_basic_image__P4REO",
+-            H9 = "channel_manage_basic_button__26slF",
+-            G9 = "channel_manage_basic_input_area__jnnXl",
+-            X9 = "channel_manage_basic_is_focused__3R7Cv",
+-            K9 = "channel_manage_basic_is_error__7eLTI",
+-            Z9 = "channel_manage_basic_text_area__w7OIg",
+-            Y9 = "channel_manage_basic_limit__xoHUp",
+-            $9 = "channel_manage_basic_warning__2v7bF",
+-            Q9 = "channel_manage_basic_icon__pb+Mu",
+-            J9 = "channel_manage_basic_count__MDz3T",
+-            eee = "channel_manage_basic_over__-bsGn",
+-            tee = function(e) {
++            W9 = l.memo(q9),
++            V9 = "channel_manage_basic_label__lIPHW",
++            U9 = "channel_manage_basic_content__pOua9",
++            H9 = "channel_manage_basic_image_area__Vl808",
++            G9 = "channel_manage_basic_nickname_input_area__h2fq8",
++            X9 = "channel_manage_basic_image__P4REO",
++            K9 = "channel_manage_basic_button__26slF",
++            Z9 = "channel_manage_basic_input_area__jnnXl",
++            Y9 = "channel_manage_basic_is_focused__3R7Cv",
++            $9 = "channel_manage_basic_is_error__7eLTI",
++            Q9 = "channel_manage_basic_text_area__w7OIg",
++            J9 = "channel_manage_basic_limit__xoHUp",
++            eee = "channel_manage_basic_warning__2v7bF",
++            tee = "channel_manage_basic_icon__pb+Mu",
++            nee = "channel_manage_basic_count__MDz3T",
++            ree = "channel_manage_basic_over__-bsGn",
++            iee = function(e) {
+
+-                                className: $9,
+-                                children: [(0, Jt.jsx)(C9, {
+-                                    className: Q9
++                                className: eee,
++                                children: [(0, Jt.jsx)(L9, {
++                                    className: tee
+
+-                                        className: J9,
++                                        className: nee,
+
+-            Yce = function(e) {
+-                return Gce(e) ? -1 : Math.min(e.width, e.height)
+-            },
+-            $ce = !1,
+-            Qce = [480, 360],
+
+
+
++                return Zce(e) ? -1 : Math.min(e.width, e.height)
++            },
++            ele = !1,
++            tle = [480, 360],
++            nle = function(e) {
+
+-                        return (0, Jt.jsx)("div", {
+-                            className: pt()(Tue.wrap, m && Tue.is_clip),
+-                            ref: n ? null : _,
++                        return (0, Jt.jsx)(Jt.Fragment, {
+
+-                    }), b(), (0, Jt.jsx)(lhe, {
+-                        emptyComments: (0, St.isEmpty)(o) && (0, Jt.jsx)(Jt.Fragment, {}),
+-                        comments: x({
+-                            isBest: !0,
+-                            comments: o
+-                        })
+-                    }), (0, Jt.jsx)(lhe, {
+-                        emptyComments: (0, St.isEmpty)(o) && (0, St.isEmpty)(a) && (0, Jt.jsx)(dde, {
++                    }), b(), (0, Jt.jsx)(phe, {
++                        emptyComments: (0, St.isEmpty)(o) && (0, St.isEmpty)(a) && (0, Jt.jsx)(fde, {
+
+-                        comments: x({
+-                            isBest: !1,
+-                            comments: a
++                        comments: (0, Jt.jsxs)("div", {
++                            className: pt()(Iue.wrap, m && Iue.is_clip),
++                            ref: _,
++                            children: [x({
++                                isBest: !0,
++                                comments: o
++                            }), x({
++                                isBest: !1,
++                                comments: a
++                            })]
+
+-            wfe = "live_alarm_alarm__5+IBF",
+-            Efe = "live_alarm_animation__6Prl8",
+-            zfe = "live_alarm_contents__8QTfz",
+-            Cfe = "live_alarm_play_video__bPrj6",
+-            Sfe = "live_alarm_icon_cheese__N+Pu2",
+-            Tfe = "live_alarm_video_title__P2+Cc",
+-            Lfe = "live_alarm_play_video_large__tfN6c",
+-            Rfe = "live_alarm_wrapper__FeK26",
+-            Ife = "live_alarm_text__DNfRG",
+-            Dfe = "live_alarm_default__roOf2",
+-            Nfe = "live_alarm_participants__NI2Ip",
+-            Pfe = "live_alarm_ellipsis__dtK9C",
+-            qfe = "live_alarm_word__TlCO-",
+-            Ffe = "live_alarm_money__lya-g",
+-            Bfe = "live_alarm_message__AITHv",
+-            jfe = "live_alarm_result__VY1dP",
+-            Wfe = "live_alarm_succeed__qI2lT",
+-            Vfe = "live_alarm_fail__KOZZx",
+-            Ufe = "live_alarm_description__o8beY",
+-            Hfe = "live_alarm_is_short__adliD",
+-            Gfe = "live_alarm_is_medium__mri5D",
+-            Xfe = "live_alarm_is_long__qMwB-",
+-            Kfe = "live_alarm_is_longest__3HGzf",
+-            Zfe = __webpack_require__.p + "static/media/gift_tier1.d3edb00de1043228fce6.gif",
+-            Yfe = __webpack_require__.p + "static/media/gift_tier2.2ce7b2a48c495a08f30b.gif",
+-            $fe = [],
+-            Qfe = [],
+-            Jfe = [],
++            Cfe = "live_alarm_alarm__5+IBF",
++            Sfe = "live_alarm_animation__6Prl8",
++            Tfe = "live_alarm_contents__8QTfz",
++            Lfe = "live_alarm_play_video__bPrj6",
++            Rfe = "live_alarm_icon_cheese__N+Pu2",
++            Ife = "live_alarm_video_title__P2+Cc",
++            Dfe = "live_alarm_play_video_large__tfN6c",
++            Nfe = "live_alarm_wrapper__FeK26",
++            Pfe = "live_alarm_text__DNfRG",
++            qfe = "live_alarm_default__roOf2",
++            Ffe = "live_alarm_participants__NI2Ip",
++            Bfe = "live_alarm_ellipsis__dtK9C",
++            jfe = "live_alarm_word__TlCO-",
++            Wfe = "live_alarm_money__lya-g",
++            Vfe = "live_alarm_message__AITHv",
++            Ufe = "live_alarm_result__VY1dP",
++            Hfe = "live_alarm_succeed__qI2lT",
++            Gfe = "live_alarm_fail__KOZZx",
++            Xfe = "live_alarm_description__o8beY",
++            Kfe = "live_alarm_is_short__adliD",
++            Zfe = "live_alarm_is_medium__mri5D",
++            Yfe = "live_alarm_is_long__qMwB-",
++            $fe = "live_alarm_is_longest__3HGzf",
++            Qfe = __webpack_require__.p + "static/media/gift_tier1.d3edb00de1043228fce6.gif",
++            Jfe = __webpack_require__.p + "static/media/gift_tier2.2ce7b2a48c495a08f30b.gif",
+
+-            tve = function() {
+-                var e, t, n = c((0, l.useState)(new Ofe), 1)[0],
++            tve = [],
++            nve = [],
++            rve = [],
++            ive = function() {
++                var e, t, n = c((0, l.useState)(new zfe), 1)[0],
+
+-            Yxe = function() {
+-                return window.navigator.userAgent.toLowerCase()
+-            },
+-            $xe = function() {
+-                return /Windows/i.test(Yxe())
+-            },
+-            Qxe = function() {
+-                return /Macintosh/i.test(Yxe())
+-            },
+
+
+-                return /iPhone/i.test(Yxe())
++                return window.navigator.userAgent.toLowerCase()
+
+-                return /iPad/i.test(Yxe()) || function() {
+-                    var e = window.navigator;
+-                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
+-                }()
++                return /Windows/i.test(Jxe())
+
+-                return Jxe() || eke() || /iPod/i.test(Yxe())
++                return /Macintosh/i.test(Jxe())
+
+-                return /Android/i.test(Yxe())
++                return /iPhone/i.test(Jxe())
+
+-                return /Windows Phone|Windows CE/i.test(Yxe())
++                return /iPad/i.test(Jxe()) || function() {
++                    var e = window.navigator;
++                    return Boolean(e && e.platform && (-1 !== e.platform.indexOf("iPad") || "MacIntel" === e.platform && e.maxTouchPoints > 1 && !window.MSStream))
++                }()
+
+-                return /Tizen/i.test(Yxe())
++                return nke() || rke() || /iPod/i.test(Jxe())
+
+-                return "undefined" != typeof window.opera || /Opera/i.test(Yxe())
++                return /Android/i.test(Jxe())
+
+-                return /Edg/i.test(Yxe())
++                return /Windows Phone|Windows CE/i.test(Jxe())
+
+-                return /Firefox/i.test(Yxe())
++                return /Tizen/i.test(Jxe())
+
+-                return /Whale/i.test(Yxe())
++                return "undefined" != typeof window.opera || /Opera/i.test(Jxe())
+
+-                return /Chrome|CriOS/i.test(Yxe())
++                return /Edg/i.test(Jxe())
+
+-                return !/Chrome|CriOS/i.test(Yxe()) && (Yxe() || "").indexOf("safari") > -1
++                return /Firefox/i.test(Jxe())
+
+-                return /AppleWebKit/i.test(Yxe())
++                return /Whale/i.test(Jxe())
+
+-                return !!Yxe().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
++                return /Chrome|CriOS/i.test(Jxe())
+
+-                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(Yxe())
++                return !/Chrome|CriOS/i.test(Jxe()) && (Jxe() || "").indexOf("safari") > -1
+
+-                return /SamsungBrowser/i.test(Yxe())
++                return /AppleWebKit/i.test(Jxe())
+
+-                return /\bLine\b/i.test(Yxe())
++                return !!Jxe().match(/(?:(MSIE) |(Trident)\/.+rv[ :])([\w.]+)/i)
+
+-                return /EdgA/i.test(Yxe())
++                return /NAVER\((inapp|higgs);\s?search;\s?/i.test(Jxe())
+
+-                return /EdgiOS/i.test(Yxe())
++                return /SamsungBrowser/i.test(Jxe())
+
+-                return /Opera Mini/i.test(Yxe())
++                return /EdgA/i.test(Jxe())
+
+-                return tke() || nke() || rke() || hke() || fke() || vke() || mke() || bke() || yke() || gke() || _ke()
++                return /IEMobile/i.test(Jxe())
++            },
++            kke = function() {
++                return /Opera Mini/i.test(Jxe())
++            },
++            Mke = function() {
++                return /Dolfin/i.test(Jxe())
+
+-            kke = "googleImaSdk",
+-            Mke = [{
+-                key: kke,
++            Ake = function() {
++                return ike() || ake() || oke() || mke() || bke() || yke() || gke() || _ke() || xke() || kke() || Mke()
++            },
++            Oke = "googleImaSdk",
++            wke = [{
++                key: Oke,
+
+-                case KEe:
+-                    return GEe.FAIRPLAY;
+-                case ZEe:
+-                    return GEe.PLAYREADY;
++                case $Ee:
++                    return ZEe.FAIRPLAY;
++                case QEe:
++                    return ZEe.PLAYREADY;
++                case JEe:
++                    return ZEe.WIDEVINE;
+
+-                    return GEe.WIDEVINE;
+-                case XEe:
+-                    return GEe.CLEARKEY
++                    return ZEe.CLEARKEY
+
+-                                case KEe:
++                                case $Ee:
++                                case JEe:
++                                case QEe:
+
+-                                case ZEe:
+-                                case XEe:
+
+
+-        var QCe = 3e5,
+-            JCe = 0,
+-            eSe = 2,
+-            tSe = 5,
++        var tSe = 3e5,
+
+-            rSe = 1,
+-            iSe = 2,
+-            aSe = function() {
++            rSe = 2,
++            iSe = 5,
++            aSe = 0,
++            oSe = 1,
++            sSe = 2,
++            cSe = function() {
+
+-                            case BSe:
+-                            case jSe:
+-                            case WSe:
++                            case VSe:
+
+-                                this.state = FSe
++                            case XSe:
++                            case KSe:
++                                this.state = WSe
+
+-            HNe = (0, l.memo)(UNe),
+-            GNe = ir(!1),
+-            XNe = ir(null),
+-            KNe = ir(null),
++            KNe = (0, l.memo)(XNe),
+
+-            YNe = function(e) {
++            YNe = ir(null),
++            $Ne = ir(null),
++            QNe = ir(!1),
++            JNe = function(e) {
+
+-            },
+-            IFe = 1e5,
+-            DFe = 4e5,
+-            NFe = function(e) {
+-                return 0 !== e ? Math.floor(1e5 * Math.random() + IFe).toString(16) : Math.floor(1e5 * Math.random() + DFe).toString(16)
+-            },
+-            PFe = function() {
+-                var e = new Promise((function(e) {
+-                        var t = new XMLHttpRequest;
+-                        t.open("OPTIONS", "https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js", !0), t.onload = function() {
+-                            e(t.status)
+-                        }, t.onerror = function() {
+-                            e(t.status)
+-                        }, t.send()
+-                    })),
+-                    t = new Promise((function(e) {
+-                        var t = new XMLHttpRequest;
+-                        t.open("OPTIONS", "https://nam.veta.naver.com/gfp/v1", !0), t.onload = function() {
+-                            e(t.status)
+-                        }, t.onerror = function() {
+-                            e(t.status)
+-                        }, t.send()
+-                    })),
+-                    n = new Promise((function(e) {
+-                        var t = new XMLHttpRequest;
+-                        t.open("OPTIONS", "https://nam.veta.naver.com/call", !0), t.onload = function() {
+-                            e(t.status)
+-                        }, t.onerror = function() {
+-                            e(t.status)
+-                        }, t.send()
+-                    })),
+-                    r = new Promise((function(e) {
+-                        var t = new XMLHttpRequest;
+-                        t.open("OPTIONS", "https://nam.veta.naver.com/vas", !0), t.onload = function() {
+-                            e(t.status)
+-                        }, t.onerror = function() {
+-                            e(t.status)
+-                        }, t.send()
+-                    }));
+-                return new Promise((function(i) {
+-                    Promise.all([e, t, n, r]).then((function(e) {
+-                        z3("Ad API response status: ".concat(e)), e.includes(0) ? i(NFe(0)) : i(NFe(200))
+-                    }))
+-                }))
+
+
+-        }(qFe);
+-        var WFe, VFe = null,
+-            UFe = function(e) {
++        }(PFe);
++        var jFe, WFe = 1e5,
++            VFe = 2e5,
++            UFe = 4e5,
++            HFe = function(e) {
++                return 0 !== e ? Math.floor(1e5 * Math.random() + WFe).toString(16) : Math.floor(1e5 * Math.random() + UFe).toString(16)
++            },
++            GFe = function(e) {
++                var t = parseInt(e, 16);
++                return !(t >= WFe && t < VFe)
++            },
++            XFe = function() {
++                return new Promise((function(e) {
++                    FFe({
++                        cs: !1,
++                        gl: !1,
++                        ne: !0,
++                        dg: Du() || Nu()
++                    }).then((function(t) {
++                        e(HFe(t ? 0 : 200))
++                    }))
++                }))
++            },
++            KFe = null,
++            ZFe = function(e) {
+
+-                                                            e && (z3("detect ad block"), rL("LIVE", r.channel.channelId, r.liveId, r.categoryType, r.liveCategory, null))
++                                                            (e || GFe(n)) && (z3("detect ad block"), rL("LIVE", r.channel.channelId, r.liveId, r.categoryType, r.liveCategory, null))
+
+-                        s = (0, l.useRef)({
++                        s = N3(),
++                        c = s.accumulativeWatchTime,
++                        u = s.updateWatchTime,
++                        d = (0, l.useRef)(!1),
++                        p = (0, l.useRef)({
+
+-                            if (n && r) try {
+-                                n7(e, n, r, i, 10, o.current, a)
+-                            } catch (c) {}
+-                        }), []);
++                            if (n && r) {
++                                u(e);
++                                try {
++                                    i7(e, n, r, i, 10, o.current, a, d.current ? void 0 : c.current)
++                                } catch (s) {}
++                            }
++                        }), [c, u]);
+
+-                                    c("WATCH_ENDED")
++                                    h("WATCH_ENDED"), d.current = !0
+
+-                                        e && (z3("detect ad block"), rL("VOD", o.channel.channelId, o.videoNo, o.categoryType, o.videoCategory, o.videoType))
++                                        (e || GFe(i)) && (z3("detect ad block"), rL("VOD", o.channel.channelId, o.videoNo, o.categoryType, o.videoCategory, o.videoType))
+
+-        var AHe, OHe = l.forwardRef(MHe),
+-            wHe = (__webpack_require__.p, ["title", "titleId"]);
+-
+-        function EHe() {
+-            return EHe = Object.assign ? Object.assign.bind() : function(e) {
+-                for (var t = 1; t < arguments.length; t++) {
+-                    var n = arguments[t];
+-                    for (var r in n)({}).hasOwnProperty.call(n, r) && (e[r] = n[r])
+-                }
+-                return e
+-            }, EHe.apply(null, arguments)
+-        }
+-
+-        function zHe(e, t) {
+-            var n = e.title,
+-                r = e.titleId,
+-                i = function(e, t) {
+-                    if (null == e) return {};
+-                    var n, r, i = function(e, t) {
+-                        if (null == e) return {};
+-                        var n = {};
+-                        for (var r in e)
+-                            if ({}.hasOwnProperty.call(e, r)) {
+-                                if (t.includes(r)) continue;
+-                                n[r] = e[r]
+-                            } return n
+-                    }(e, t);
+-                    if (Object.getOwnPropertySymbols) {
+-                        var a = Object.getOwnPropertySymbols(e);
+-                        for (r = 0; r < a.length; r++) n = a[r], t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (i[n] = e[n])
+-                    }
+-                    return i
+-                }(e, wHe);
+-            return l.createElement("svg", EHe({
+-                xmlns: "http://www.w3.org/2000/svg",
+-                width: 22,
+-                height: 22,
+-                viewBox: "0 0 22 22",
+-                fill: "none",
+-                ref: t,
+-                "aria-labelledby": r
+-            }, i), n ? l.createElement("title", {
+-                id: r
+-            }, n) : null, AHe || (AHe = l.createElement("path", {
+-                fillRule: "evenodd",
+-                clipRule: "evenodd",
+-                d: "M10.2925 2.60519C10.7428 2.40504 11.2569 2.40504 11.7072 2.60519L18.6739 5.70149C19.3028 5.98103 19.7082 6.60476 19.7082 7.29304V14.7052C19.7082 15.3935 19.3028 16.0173 18.6739 16.2968L11.7072 19.3931C11.2569 19.5932 10.7428 19.5932 10.2925 19.3931L3.32581 16.2968C2.69685 16.0173 2.2915 15.3935 2.2915 14.7052V7.29304C2.2915 6.60476 2.69685 5.98103 3.32581 5.70149L10.2925 2.60519ZM4.83066 6.53735L10.8509 3.86168C10.9457 3.81954 11.0539 3.81954 11.1488 3.86168L17.1691 6.5374L10.9999 9.27925L4.83066 6.53735ZM3.6665 7.52463V14.7052C3.6665 14.8501 3.75184 14.9815 3.88425 15.0403L10.3124 17.8973V10.4784L3.6665 7.52463ZM11.6874 17.8972L18.1154 15.0403C18.2478 14.9815 18.3332 14.8502 18.3332 14.7052V11.0615L16.4423 11.9019V12.9496C16.4423 13.0872 16.3613 13.212 16.2355 13.2679L14.1972 14.1738C14.0244 14.2506 13.8298 14.1241 13.8298 13.9351L13.8298 13.063L11.6874 14.0152V17.8972ZM11.6874 12.5105L18.3332 9.55681V7.52472L11.6874 10.4784V12.5105Z",
+-                fill: "currentColor"
+-            })))
+-        }
+
+
+
++                xmlns: "http://www.w3.org/2000/svg",
+
+-                xmlns: "http://www.w3.org/2000/svg",
+
+
+-                d: "M17.7426 7.45892C18.3287 8.06003 18.3165 9.02243 17.7154 9.60851L11.6914 15.4819C10.984 16.1716 9.85391 16.1738 9.14441 15.482L5.45892 11.8887C4.85782 11.3026 4.84563 10.3402 5.43171 9.73909C6.01779 9.13798 6.9802 9.1258 7.5813 9.71188L10.4178 12.4775L15.593 7.43171C16.1941 6.84563 17.1565 6.85782 17.7426 7.45892Z",
+-                stroke: "currentColor",
+-                strokeWidth: 1.5,
+-                strokeLinecap: "round"
++                d: "M10.2925 2.60519C10.7428 2.40504 11.2569 2.40504 11.7072 2.60519L18.6739 5.70149C19.3028 5.98103 19.7082 6.60476 19.7082 7.29304V14.7052C19.7082 15.3935 19.3028 16.0173 18.6739 16.2968L11.7072 19.3931C11.2569 19.5932 10.7428 19.5932 10.2925 19.3931L3.32581 16.2968C2.69685 16.0173 2.2915 15.3935 2.2915 14.7052V7.29304C2.2915 6.60476 2.69685 5.98103 3.32581 5.70149L10.2925 2.60519ZM4.83066 6.53735L10.8509 3.86168C10.9457 3.81954 11.0539 3.81954 11.1488 3.86168L17.1691 6.5374L10.9999 9.27925L4.83066 6.53735ZM3.6665 7.52463V14.7052C3.6665 14.8501 3.75184 14.9815 3.88425 15.0403L10.3124 17.8973V10.4784L3.6665 7.52463ZM11.6874 17.8972L18.1154 15.0403C18.2478 14.9815 18.3332 14.8502 18.3332 14.7052V11.0615L16.4423 11.9019V12.9496C16.4423 13.0872 16.3613 13.212 16.2355 13.2679L14.1972 14.1738C14.0244 14.2506 13.8298 14.1241 13.8298 13.9351L13.8298 13.063L11.6874 14.0152V17.8972ZM11.6874 12.5105L18.3332 9.55681V7.52472L11.6874 10.4784V12.5105Z",
++                fill: "currentColor"
+
+-        var IHe, DHe, NHe, PHe, qHe, FHe = l.forwardRef(RHe),
+-            BHe = (__webpack_require__.p, ["title", "titleId"]);
++        var IHe, DHe = l.forwardRef(RHe),
++            NHe = (__webpack_require__.p, ["title", "titleId"]);
+
+
++                fillRule: "evenodd",
++                clipRule: "evenodd",
++                d: "M17.7426 7.45892C18.3287 8.06003 18.3165 9.02243 17.7154 9.60851L11.6914 15.4819C10.984 16.1716 9.85391 16.1738 9.14441 15.482L5.45892 11.8887C4.85782 11.3026 4.84563 10.3402 5.43171 9.73909C6.01779 9.13798 6.9802 9.1258 7.5813 9.71188L10.4178 12.4775L15.593 7.43171C16.1941 6.84563 17.1565 6.85782 17.7426 7.45892Z",
++                stroke: "currentColor",
++                strokeWidth: 1.5,
++                strokeLinecap: "round"
++            })))
++        }
++        var FHe, BHe, jHe, WHe, VHe, UHe = l.forwardRef(qHe),
++            HHe = (__webpack_require__.p, ["title", "titleId"]);
++
++        function GHe() {
++            return GHe = Object.assign ? Object.assign.bind() : function(e) {
++                for (var t = 1; t < arguments.length; t++) {
++                    var n = arguments[t];
++                    for (var r in n)({}).hasOwnProperty.call(n, r) && (e[r] = n[r])
++                }
++                return e
++            }, GHe.apply(null, arguments)
++        }
++
++        function XHe(e, t) {
++            var n = e.title,
++                r = e.titleId,
++                i = function(e, t) {
++                    if (null == e) return {};
++                    var n, r, i = function(e, t) {
++                        if (null == e) return {};
++                        var n = {};
++                        for (var r in e)
++                            if ({}.hasOwnProperty.call(e, r)) {
++                                if (t.includes(r)) continue;
++                                n[r] = e[r]
++                            } return n
++                    }(e, t);
++                    if (Object.getOwnPropertySymbols) {
++                        var a = Object.getOwnPropertySymbols(e);
++                        for (r = 0; r < a.length; r++) n = a[r], t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (i[n] = e[n])
++                    }
++                    return i
++                }(e, HHe);
++            return l.createElement("svg", GHe({
++                width: 22,
++                height: 22,
++                viewBox: "0 0 22 22",
++                fill: "none",
++                xmlns: "http://www.w3.org/2000/svg",
++                ref: t,
++                "aria-labelledby": r
++            }, i), n ? l.createElement("title", {
++                id: r
++            }, n) : null, FHe || (FHe = l.createElement("path", {
+
+-                            case _Ue.RECENT_VIDEO.type:
+-                                return (0, Jt.jsx)(_He, {
+-                                    className: xUe.icon
+-                                });
+-                            case _Ue.FOLLOW.type:
++                            case OUe.RECENT_VIDEO.type:
+
+-                            case _Ue.DROPS.type:
++                            case OUe.FOLLOW.type:
+
+-                            case _Ue.LOUNGE_JOIN.type:
+-                                return (0, Jt.jsx)(FHe, {
+-                                    className: xUe.icon
++                            case OUe.DROPS.type:
++                                return (0, Jt.jsx)(DHe, {
++                                    className: wUe.icon
+
+-                            case _Ue.FEED.type:
++                            case OUe.LOUNGE_JOIN.type:
+
+-                            case _Ue.FEED_BUFFNERF.type:
++                            case OUe.FEED.type:
+
+-                            case _Ue.FEED_RESERVE.type:
+-                                return (0, Jt.jsx)(fGe, {
+-                                    className: xUe.icon
++                            case OUe.FEED_BOOKMARK.type:
++                                return (0, Jt.jsx)(sGe, {
++                                    className: wUe.icon
+
+-                            case _Ue.PREDICTION.type:
+-                                return (0, Jt.jsx)(_Ge, {
+-                                    className: xUe.icon
++                            case OUe.FEED_RESERVE.type:
++                                return (0, Jt.jsx)(gGe, {
++                                    className: wUe.icon
+
+-                            case _Ue.COMMENT.type:
+-                                return (0, Jt.jsx)(zGe, {
+-                                    className: xUe.icon
++                            case OUe.PREDICTION.type:
++                                return (0, Jt.jsx)(OGe, {
++                                    className: wUe.icon
+
+-                            case _Ue.STORAGEBOX.type:
+-                                return (0, Jt.jsx)(IGe, {
+-                                    className: xUe.icon
++                            case OUe.COMMENT.type:
++                                return (0, Jt.jsx)(RGe, {
++                                    className: wUe.icon
+
+-                            case _Ue.SERIES.type:
+-                                return (0, Jt.jsx)(BGe, {
+-                                    className: xUe.icon
++                            case OUe.STORAGEBOX.type:
++                                return (0, Jt.jsx)(FGe, {
++                                    className: wUe.icon
+
+-                            case _Ue.SETTINGS.type:
++                            case OUe.SERIES.type:
+
+-                                    className: xUe.icon
++                                    className: wUe.icon
++                                });
++                            case OUe.SETTINGS.type:
++                                return (0, Jt.jsx)(YGe, {
++                                    className: wUe.icon
+
+-            x1e = (0, l.memo)(_1e),
+-            k1e = function() {
+-                return (0, Jt.jsx)(x1e, {})
+-            },
+-            M1e = (0, l.memo)(k1e),
+-            A1e = __webpack_require__(25045),
+-            O1e = __webpack_require__.n(A1e),
+-            w1e = "chat_container__xogg0",
++            w1e = (0, l.memo)(O1e),
+
+
++                return (0, Jt.jsx)(w1e, {})
++            },
++            z1e = (0, l.memo)(E1e),
++            C1e = __webpack_require__(25045),
++            S1e = __webpack_require__.n(C1e),
++            T1e = "chat_container__xogg0",
++            L1e = function() {
+
+-            Nlt = function() {
+-                var e = lt(ot().mark((function e(t, n, r, i, a) {
+-                    var o, s;
++            jlt = function() {
++                var e = lt(ot().mark((function e(t, n, r, i, a, o) {
++                    var s, c;
+
+-                                        positionAt: r
++                                        positionAt: r,
++                                        awt: o
+
+-                return function(t, n, r, i, a) {
++                return function(t, n, r, i, a, o) {
+
+-                    t = 10,
+-                    n = (0, l.useRef)(0),
++                    t = (0, l.useRef)(0),
++                    n = (0, l.useRef)(!1),
+
+-                    i = (0, l.useRef)(!1),
+-                    a = (0, l.useRef)(),
+-                    o = function() {
+-                        a.current && (clearInterval(a.current), a.current = void 0)
++                    i = (0, l.useRef)(),
++                    a = N3(),
++                    o = a.accumulativeWatchTime,
++                    s = a.updateWatchTime,
++                    c = (0, l.useCallback)((function(t, n) {
++                        var r = n.clipUID,
++                            i = n.currentTime,
++                            a = Math.floor(i || 0);
++                        s(t);
++                        try {
++                            jlt(r, t, a, e, 10, o.current)
++                        } catch (c) {}
++                    }), [o, e, s]),
++                    u = function() {
++                        i.current && (clearInterval(i.current), i.current = void 0)
+
+-                    s = function(r) {
+-                        o(), a.current = setInterval((function() {
+-                            var i = r.clipUID,
+-                                a = Math.floor(n.current || 0);
+-                            Nlt(i, "WATCH_CONTINUED", a, e, t)
++                    d = function(e) {
++                        u(), i.current = setInterval((function() {
++                            c("WATCH_CONTINUED", (0, st.A)((0, st.A)({}, e), {}, {
++                                currentTime: t.current
++                            }))
+
+-                    playing: function(a) {
+-                        if (!i.current) {
+-                            var o = a.clipUID,
+-                                c = a.currentTime,
+-                                l = Math.floor(c || 0);
+-                            r.current ? Nlt(o, "WATCH_RESUMED", l, e, t) : Nlt(o, "WATCH_STARTED", l, e, t), s(a), n.current = c, r.current = !1
+-                        }
++                    playing: function(e) {
++                        r.current || (n.current ? c("WATCH_RESUMED", e) : c("WATCH_STARTED", e), d(e), t.current = e.currentTime, n.current = !1)
+
+-                    pause: function(n) {
+-                        if (!i.current) {
+-                            var a = n.clipUID,
+-                                s = n.currentTime,
+-                                c = Math.floor(s || 0);
+-                            Nlt(a, "WATCH_PAUSED", c, e, t), o(), r.current = !0
+-                        }
++                    pause: function(e) {
++                        r.current || (c("WATCH_PAUSED", e), u(), n.current = !0)
+
+-                    ended: function(r) {
+-                        if (!i.current) {
+-                            var a = r.clipUID,
+-                                s = Math.floor(n.current || 0);
+-                            Nlt(a, "WATCH_ENDED", s, e, t), o(), i.current = !0
+-                        }
++                    ended: function(e) {
++                        r.current || (c("WATCH_ENDED", (0, st.A)((0, st.A)({}, e), {}, {
++                            currentTime: t.current
++                        })), u(), r.current = !0)
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+a1fd7562 f32bfe2f 00a54a17
++cd9e7d31 602ad50e 5a257fdd
+
+-                        it = function() {
++                        it = (0, i.useCallback)((function() {
+
+-                                    return e.emojiId === "".concat(f).concat(ot(re || ""))
++                                    var t, n;
++                                    return !e.deleted && (null === (t = e.emojiId) || void 0 === t || null === (n = t.replace(f || "", "")) || void 0 === n ? void 0 : n.toLowerCase()) === (null === re || void 0 === re ? void 0 : re.toLowerCase())
+
+-                        },
++                        }), [W, re]),
 
