@@ -38806,6 +38806,7 @@ html.theme_dark {
   letter-spacing: -0.3px;
   line-height: 20px;
   margin-top: 12px;
+  white-space: pre-line;
 }
 .live_information_drops_text__xRtWS.live_information_drops_default__jwWot {
   color: var(--Content-Neutral-Cool-Weaker);
