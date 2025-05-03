@@ -1,6 +1,34 @@
+-                    g = (0, l.useRef)({
++                    g = (0, l.useRef)(Xh()),
++                    _ = (0, l.useRef)({
+
+-                        sessionId: Xh(),
++                        sessionId: g.current,
+
+-                        sessionId: Xh(),
++                        sessionId: g.current,
+
+-                    }), [n, z]),
+-                    S = (0, l.useCallback)((function() {
+-                        v.current && clearInterval(v.current), k()
+-                    }), [k]),
++                    }), [n, C]),
+
+-                        S(), v.current = setInterval((function() {
+-                            C()
+-                        }), f), x()
+-                    }), [C, S, x]);
++                        v.current && clearInterval(v.current), M()
++                    }), [M]),
++                    L = (0, l.useCallback)((function() {
++                        T(), v.current = setInterval((function() {
++                            S()
++                        }), f), k()
++                    }), [S, T, k]);
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+b8fa7e85 602ad50e 69d27890
++b17ab63a 602ad50e 69d27890
 
