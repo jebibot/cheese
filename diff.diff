@@ -1,6 +1,15 @@
+-                                        tags: e.tags
++                                        tags: e.tags,
++                                        category: e.videoCategoryValue,
++                                        categoryType: e.categoryType,
++                                        categoryId: e.videoCategory
+
+-                                        return i = n.init, o = void 0 !== i && i, e.prev = 1, e.next = 4, r(t, d, _);
++                                        return i = n.init, o = void 0 !== i && i, e.prev = 1, e.next = 4, r(t, d, o ? null : _);
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+62009de9 246c8de6 00ba9e5a
++464375ac 246c8de6 00ba9e5a
 
