@@ -13457,11 +13457,11 @@ html.theme_dark {
   padding: 0 4px;
 }
 .button_buff__RJbzx {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_buff_off_light.ee097a1163c8aced1701.svg)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/icon_buff_off_light.ee097a1163c8aced1701.svg)
     no-repeat 50% / cover;
 }
 .theme_dark .button_buff__RJbzx {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_buff_off.f1d85b13d65f780d6cb3.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/icon_buff_off.f1d85b13d65f780d6cb3.svg);
 }
 .button_buff__RJbzx:active:not(:disabled):before,
 .button_buff__RJbzx:focus-visible:not(:disabled):before,
@@ -13475,10 +13475,10 @@ html.theme_dark {
   top: 0;
 }
 .button_buff__RJbzx[aria-pressed="true"]:not(:disabled) {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_buff_on_light.d6fe93c220979f4a9b4c.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/icon_buff_on_light.d6fe93c220979f4a9b4c.svg);
 }
 .theme_dark .button_buff__RJbzx[aria-pressed="true"]:not(:disabled) {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_buff_on.b0dd6d9cc54de1f18d91.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/icon_buff_on.b0dd6d9cc54de1f18d91.svg);
 }
 .button_buff__RJbzx.button_large__oOJou {
   height: 28px;
@@ -14707,7 +14707,7 @@ a.footer_text__t475V:hover {
   vertical-align: top;
 }
 .name_icon__zdbVH {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_official.a53d1555f8f4796d7862.png)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/icon_official.a53d1555f8f4796d7862.png)
     no-repeat 50% / cover;
   position: relative;
 }
@@ -15499,7 +15499,7 @@ button.subscribe_status__os3RJ:hover {
   text-align: left;
 }
 .subscribe_box_highlight__\+Er-X .subscribe_image__7p5B8 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -317px -118px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -16943,7 +16943,7 @@ button.subscribe_status__os3RJ:hover {
   padding: 5px 20px 15px;
 }
 .subscribe_gift_badge__XxI8g + .subscribe_gift_badge__XxI8g:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -266px -169px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -17644,10 +17644,10 @@ label.component_label__\+VOEP {
 }
 .clip_item_thumbnail__Fvx7Y.clip_item_is_geo_targeting__dAro7 {
   background-color: var(--color-bg-04);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_search_light.af678c7f3e1979b09307.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_search_light.af678c7f3e1979b09307.png);
 }
 .theme_dark .clip_item_thumbnail__Fvx7Y.clip_item_is_geo_targeting__dAro7 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_search.99f8e220c2687e435137.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_search.99f8e220c2687e435137.png);
 }
 .clip_item_thumbnail__Fvx7Y:active:before,
 .clip_item_thumbnail__Fvx7Y:focus-visible:before,
@@ -18237,25 +18237,25 @@ label.component_label__\+VOEP {
 }
 .live_chatting_popup_donation_video_video_thumbnail__6qdp0.live_chatting_popup_donation_video_is_adult__OyjOp:before {
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
 }
 .live_chatting_popup_donation_video_video_thumbnail__6qdp0.live_chatting_popup_donation_video_is_dimmed__fWKpO:before {
   background-color: var(--color-bg-04);
 }
 .live_chatting_popup_donation_video_video_thumbnail__6qdp0.live_chatting_popup_donation_video_is_dimmed__fWKpO.live_chatting_popup_donation_video_is_adult__OyjOp:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
 }
 .theme_dark
   .live_chatting_popup_donation_video_video_thumbnail__6qdp0.live_chatting_popup_donation_video_is_dimmed__fWKpO.live_chatting_popup_donation_video_is_adult__OyjOp:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
 }
 .live_chatting_popup_donation_video_video_thumbnail__6qdp0.live_chatting_popup_donation_video_is_geo_targeting__pY-on:before {
   background-color: var(--color-bg-04);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
 }
 .theme_dark
   .live_chatting_popup_donation_video_video_thumbnail__6qdp0.live_chatting_popup_donation_video_is_geo_targeting__pY-on:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
 }
 .live_chatting_popup_donation_video_video_thumbnail__6qdp0:after {
   border: 1px solid rgba(var(--color-border-01-rgb), 0.06);
@@ -18606,7 +18606,7 @@ label.component_label__\+VOEP {
   top: -3px;
 }
 .charge_icon_charge__UUw7J {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: 0 -296px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -21401,7 +21401,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   margin-right: 3px;
 }
 .restrict_icon__fBySj {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_official.a53d1555f8f4796d7862.png)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/icon_official.a53d1555f8f4796d7862.png)
     no-repeat 50% / cover;
   display: inline-block;
   height: 16px;
@@ -22026,7 +22026,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   word-break: break-all;
 }
 .live_chatting_subscription_message_container__KdrCf:before {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_rocket_01_light.c59e8c43ed87d7e37612.png)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_rocket_01_light.c59e8c43ed87d7e37612.png)
     no-repeat 50% / cover;
   content: "";
   height: 60px;
@@ -22036,7 +22036,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   width: 96px;
 }
 .theme_dark .live_chatting_subscription_message_container__KdrCf:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_rocket_01_dark.1f929b0f9e66c119de6b.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_rocket_01_dark.1f929b0f9e66c119de6b.png);
 }
 .live_chatting_subscription_message_container__KdrCf.live_chatting_subscription_message_type_input__UCfvn:before {
   content: none;
@@ -22049,11 +22049,11 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   background-color: var(--Surface-Brand-Weaker);
 }
 .live_chatting_subscription_message_container__KdrCf.live_chatting_subscription_message_highlight__0Kk2\+:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_rocket_02_light.5f9718a3f56976752e4f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_rocket_02_light.5f9718a3f56976752e4f.png);
 }
 .theme_dark
   .live_chatting_subscription_message_container__KdrCf.live_chatting_subscription_message_highlight__0Kk2\+:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_rocket_02_dark.666dab260e7457326032.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_rocket_02_dark.666dab260e7457326032.png);
 }
 .live_chatting_subscription_message_container__KdrCf.live_chatting_subscription_message_highlight__0Kk2\+
   .live_chatting_subscription_message_area__1zIwm,
@@ -22472,7 +22472,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   word-break: break-all;
 }
 .live_chatting_subscription_channel_gift_message_container__v4WvS:before {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_ticket_01_chatting.aea4f750b0142dc28f00.png)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_ticket_01_chatting.aea4f750b0142dc28f00.png)
     no-repeat 50% / contain;
   content: "";
   height: 36px;
@@ -22485,7 +22485,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   background-color: var(--Surface-Accent-Subscribe-Tier2);
 }
 .live_chatting_subscription_channel_gift_message_container__v4WvS.live_chatting_subscription_channel_gift_message_highlight__KLpFE:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_ticket_02_chatting.16249fc42dfee403d2b6.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_ticket_02_chatting.16249fc42dfee403d2b6.png);
 }
 .live_chatting_subscription_channel_gift_message_container__v4WvS.live_chatting_subscription_channel_gift_message_highlight__KLpFE.live_chatting_subscription_channel_gift_message_is_overlay__kZws1 {
   background-color: rgba(var(--Surface-Accent-Subscribe-Tier2-rgb), 0.95);
@@ -25252,7 +25252,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   .live_chatting_ranking_carousel_icon_ranking__bQzYx:not(
     .live_chatting_ranking_carousel_second__DA5Oc
   ):not(.live_chatting_ranking_carousel_third__mrBKP) {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -248px -265px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -25303,7 +25303,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   .live_chatting_ranking_carousel_icon_ranking__bQzYx:not(
     .live_chatting_ranking_carousel_second__DA5Oc
   ):not(.live_chatting_ranking_carousel_third__mrBKP) {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -21px -296px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -25378,7 +25378,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   min-width: 18px;
 }
 .live_chatting_ranking_carousel_icon_ranking__bQzYx {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -155px -265px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -25538,7 +25538,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   margin-left: 16px;
 }
 .live_chatting_ranking_marquee_icon_ranking__-mwzW {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -21px -296px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -25635,7 +25635,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   text-align: center;
 }
 .live_chatting_ranking_row_icon_ranking__IuEjQ {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -21px -296px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -26478,7 +26478,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 .received_list_icon__hZh7B {
   -webkit-animation: received_list_rotate__gjdNX 0.5s linear infinite;
   animation: received_list_rotate__gjdNX 0.5s linear infinite;
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -78px -296px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -26595,7 +26595,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   flex: none;
 }
 .receive_gift_header__4QxQG:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -266px 0;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -28152,7 +28152,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 }
 .channel_recommend_live_container__5219s.channel_recommend_live_is_adult__tjYl5:after {
   background: rgba(0, 0, 0, 0.2)
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_shadow_search.10467549b2a8fc9bdc07.png)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_shadow_search.10467549b2a8fc9bdc07.png)
     no-repeat 50%/340px auto;
 }
 .channel_recommend_live_container__5219s.channel_recommend_live_is_dimmed__HT78z {
@@ -28166,11 +28166,11 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 }
 .channel_recommend_live_container__5219s.channel_recommend_live_is_dimmed__HT78z:after {
   background-color: var(--color-bg-04);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_search_light.5a2a04e597a988e00bfb.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_search_light.5a2a04e597a988e00bfb.png);
 }
 .theme_dark
   .channel_recommend_live_container__5219s.channel_recommend_live_is_dimmed__HT78z:after {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_search.2eca59c7028828b8a652.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_search.2eca59c7028828b8a652.png);
 }
 .channel_recommend_live_container__5219s.channel_recommend_live_is_geo_targeting__NfQR7
   .channel_recommend_live_wrapper__rJa5t:after,
@@ -28180,12 +28180,12 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 }
 .channel_recommend_live_container__5219s.channel_recommend_live_is_geo_targeting__NfQR7:after {
   background: var(--color-bg-04)
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_search_light.af678c7f3e1979b09307.png)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_search_light.af678c7f3e1979b09307.png)
     no-repeat center/340px auto;
 }
 .theme_dark
   .channel_recommend_live_container__5219s.channel_recommend_live_is_geo_targeting__NfQR7:after {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_search.99f8e220c2687e435137.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_search.99f8e220c2687e435137.png);
 }
 .channel_recommend_live_box__PDow- {
   background: #21242a
@@ -28516,25 +28516,25 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 }
 .channel_home_recommend_thumbnail__RZDob.channel_home_recommend_is_adult__f\+MgW:before {
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
 }
 .channel_home_recommend_thumbnail__RZDob.channel_home_recommend_is_dimmed__Y0zLK:before {
   background-color: var(--color-bg-04);
 }
 .channel_home_recommend_thumbnail__RZDob.channel_home_recommend_is_dimmed__Y0zLK.channel_home_recommend_is_adult__f\+MgW:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
 }
 .theme_dark
   .channel_home_recommend_thumbnail__RZDob.channel_home_recommend_is_dimmed__Y0zLK.channel_home_recommend_is_adult__f\+MgW:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
 }
 .channel_home_recommend_thumbnail__RZDob.channel_home_recommend_is_geo_targeting__l9UF4:before {
   background-color: var(--color-bg-04);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
 }
 .theme_dark
   .channel_home_recommend_thumbnail__RZDob.channel_home_recommend_is_geo_targeting__l9UF4:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
 }
 .channel_home_recommend_information__8AYZR {
   background: no-repeat 50% / cover;
@@ -29556,25 +29556,25 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 }
 .video_card_horizontal__-\+L1b.video_card_is_search__1EvHc
   .video_card_thumbnail__QXYT8.video_card_is_adult__f3RBL:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_shadow_search.10467549b2a8fc9bdc07.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_shadow_search.10467549b2a8fc9bdc07.png);
 }
 .video_card_horizontal__-\+L1b.video_card_is_search__1EvHc
   .video_card_thumbnail__QXYT8.video_card_is_adult__f3RBL.video_card_is_dimmed__9YEzr:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_search_light.5a2a04e597a988e00bfb.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_search_light.5a2a04e597a988e00bfb.png);
 }
 .theme_dark
   .video_card_horizontal__-\+L1b.video_card_is_search__1EvHc
   .video_card_thumbnail__QXYT8.video_card_is_adult__f3RBL.video_card_is_dimmed__9YEzr:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_search.2eca59c7028828b8a652.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_search.2eca59c7028828b8a652.png);
 }
 .video_card_horizontal__-\+L1b.video_card_is_search__1EvHc
   .video_card_thumbnail__QXYT8.video_card_is_geo_targeting__-7XbV:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_search_light.af678c7f3e1979b09307.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_search_light.af678c7f3e1979b09307.png);
 }
 .theme_dark
   .video_card_horizontal__-\+L1b.video_card_is_search__1EvHc
   .video_card_thumbnail__QXYT8.video_card_is_geo_targeting__-7XbV:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_search.99f8e220c2687e435137.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_search.99f8e220c2687e435137.png);
 }
 .video_card_horizontal__-\+L1b.video_card_is_search_main__83xrn
   .video_card_title__Amjk2 {
@@ -29785,25 +29785,25 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 }
 .video_card_thumbnail__QXYT8.video_card_is_adult__f3RBL:before {
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
 }
 .video_card_thumbnail__QXYT8.video_card_is_dimmed__9YEzr:before {
   background-color: var(--color-bg-04);
 }
 .video_card_thumbnail__QXYT8.video_card_is_dimmed__9YEzr.video_card_is_adult__f3RBL:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
 }
 .theme_dark
   .video_card_thumbnail__QXYT8.video_card_is_dimmed__9YEzr.video_card_is_adult__f3RBL:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
 }
 .video_card_thumbnail__QXYT8.video_card_is_geo_targeting__-7XbV:before {
   background-color: var(--color-bg-04);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
 }
 .theme_dark
   .video_card_thumbnail__QXYT8.video_card_is_geo_targeting__-7XbV:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
 }
 .video_card_thumbnail__QXYT8:before {
   -webkit-transition-duration: 0.1s;
@@ -30248,33 +30248,33 @@ a.video_card_channel__AjQ\+P:hover {
   vertical-align: top;
 }
 .news_buff_icon__rhUYq {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
     no-repeat 50% / cover;
   display: block;
   height: 23px;
   width: 47px;
 }
 .theme_dark .news_buff_icon__rhUYq {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off.80b07600012fbd81830e.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off.80b07600012fbd81830e.svg);
 }
 .news_buff_icon__rhUYq:active,
 .news_buff_icon__rhUYq:focus-visible,
 .news_buff_icon__rhUYq:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
 }
 .theme_dark .news_buff_icon__rhUYq:active,
 .theme_dark .news_buff_icon__rhUYq:focus-visible,
 .theme_dark .news_buff_icon__rhUYq:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
 }
 .news_buff_button__-znGn[aria-pressed="true"] .news_buff_icon__rhUYq {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on.e0b658313b43410bd987.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on.e0b658313b43410bd987.svg);
 }
 .news_buff_button__-znGn[aria-pressed="true"] .news_buff_icon__rhUYq:active,
 .news_buff_button__-znGn[aria-pressed="true"]
   .news_buff_icon__rhUYq:focus-visible,
 .news_buff_button__-znGn[aria-pressed="true"] .news_buff_icon__rhUYq:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
 }
 .news_buff_count__CP\+C6 {
   color: var(--color-content-04);
@@ -31122,7 +31122,7 @@ a.news_profile__73Esm {
   padding: 7px 15px 7px 7px;
 }
 .channel_information_icon__mOlB4 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -146px -224px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -31226,7 +31226,7 @@ a.news_profile__73Esm {
   width: 24px;
 }
 .channel_information_icon_ranking__yGOJT {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -276px -265px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -32097,7 +32097,7 @@ a.news_profile__73Esm {
   z-index: 2;
 }
 .channel_manage_information_icon__Rn-6z {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -146px -224px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -33431,7 +33431,7 @@ a.news_profile__73Esm {
   -ms-flex-pack: center;
   align-items: center;
   background: var(--Surface-Neutral-Black-Static)
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/player_off.784104a77733493ed42f.gif)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/player_off.784104a77733493ed42f.gif)
     no-repeat center/cover;
   justify-content: center;
   padding: 0;
@@ -34489,28 +34489,28 @@ a.news_profile__73Esm {
   vertical-align: top;
 }
 .commentBuff_buff_icon__KhCYA {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
     no-repeat 50% / cover;
   display: block;
   height: 23px;
   width: 47px;
 }
 .theme_dark .commentBuff_buff_icon__KhCYA {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off.80b07600012fbd81830e.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off.80b07600012fbd81830e.svg);
 }
 .commentBuff_buff_icon__KhCYA:active,
 .commentBuff_buff_icon__KhCYA:focus-visible,
 .commentBuff_buff_icon__KhCYA:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
 }
 .theme_dark .commentBuff_buff_icon__KhCYA:active,
 .theme_dark .commentBuff_buff_icon__KhCYA:focus-visible,
 .theme_dark .commentBuff_buff_icon__KhCYA:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
 }
 .commentBuff_buff_button__pcgx4[aria-pressed="true"]
   .commentBuff_buff_icon__KhCYA {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on.e0b658313b43410bd987.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on.e0b658313b43410bd987.svg);
 }
 .commentBuff_buff_button__pcgx4[aria-pressed="true"]
   .commentBuff_buff_icon__KhCYA:active,
@@ -34518,7 +34518,7 @@ a.news_profile__73Esm {
   .commentBuff_buff_icon__KhCYA:focus-visible,
 .commentBuff_buff_button__pcgx4[aria-pressed="true"]
   .commentBuff_buff_icon__KhCYA:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
 }
 .commentBuff_buff_count__56Kxd {
   color: var(--color-content-04);
@@ -35026,28 +35026,28 @@ a.news_profile__73Esm {
   vertical-align: top;
 }
 .community_detail_buff_icon__x8n2a {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
     no-repeat 50% / cover;
   display: block;
   height: 28px;
   width: 57px;
 }
 .theme_dark .community_detail_buff_icon__x8n2a {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off.80b07600012fbd81830e.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off.80b07600012fbd81830e.svg);
 }
 .community_detail_buff_icon__x8n2a:active,
 .community_detail_buff_icon__x8n2a:focus-visible,
 .community_detail_buff_icon__x8n2a:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
 }
 .theme_dark .community_detail_buff_icon__x8n2a:active,
 .theme_dark .community_detail_buff_icon__x8n2a:focus-visible,
 .theme_dark .community_detail_buff_icon__x8n2a:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
 }
 .community_detail_buff_button__uIeay[aria-pressed="true"]
   .community_detail_buff_icon__x8n2a {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on.e0b658313b43410bd987.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on.e0b658313b43410bd987.svg);
 }
 .community_detail_buff_button__uIeay[aria-pressed="true"]
   .community_detail_buff_icon__x8n2a:active,
@@ -35055,7 +35055,7 @@ a.news_profile__73Esm {
   .community_detail_buff_icon__x8n2a:focus-visible,
 .community_detail_buff_button__uIeay[aria-pressed="true"]
   .community_detail_buff_icon__x8n2a:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
 }
 .community_detail_buff_count__DVlOS {
   color: var(--color-content-04);
@@ -35330,28 +35330,28 @@ a.news_profile__73Esm {
   vertical-align: top;
 }
 .community_list_item_buff_icon__JQiwJ {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light.92cfd71fdfb60d18a25e.svg)
     no-repeat 50% / cover;
   display: block;
   height: 23px;
   width: 47px;
 }
 .theme_dark .community_list_item_buff_icon__JQiwJ {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off.80b07600012fbd81830e.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off.80b07600012fbd81830e.svg);
 }
 .community_list_item_buff_icon__JQiwJ:active,
 .community_list_item_buff_icon__JQiwJ:focus-visible,
 .community_list_item_buff_icon__JQiwJ:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_light_hover.829c4b6e3ae0659e6445.svg);
 }
 .theme_dark .community_list_item_buff_icon__JQiwJ:active,
 .theme_dark .community_list_item_buff_icon__JQiwJ:focus-visible,
 .theme_dark .community_list_item_buff_icon__JQiwJ:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_off_hover.e498f9eee3d63cb52b16.svg);
 }
 .community_list_item_buff_button__nMIXI[aria-pressed="true"]
   .community_list_item_buff_icon__JQiwJ {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on.e0b658313b43410bd987.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on.e0b658313b43410bd987.svg);
 }
 .community_list_item_buff_button__nMIXI[aria-pressed="true"]
   .community_list_item_buff_icon__JQiwJ:active,
@@ -35359,7 +35359,7 @@ a.news_profile__73Esm {
   .community_list_item_buff_icon__JQiwJ:focus-visible,
 .community_list_item_buff_button__nMIXI[aria-pressed="true"]
   .community_list_item_buff_icon__JQiwJ:hover {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/button_buff_on_hover.eaaee25c7e67460bdb21.svg);
 }
 .community_list_item_buff_count__6qA3n {
   color: var(--color-content-04);
@@ -36071,7 +36071,7 @@ a.news_profile__73Esm {
   border-radius: 6px;
 }
 .navigator_icon_official__yzBSm {
-  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/icon_official.a53d1555f8f4796d7862.png)
+  background: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/icon_official.a53d1555f8f4796d7862.png)
     no-repeat 50% / cover;
   display: inline-block;
   height: 13px;
@@ -36405,7 +36405,7 @@ a.news_profile__73Esm {
   }
 }
 .header_recap__Hsp-K {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_report.d0fc1d206a7466c4ee04.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_report.d0fc1d206a7466c4ee04.png);
   background-position: -1321px -1039px;
   background-repeat: no-repeat;
   background-size: 1442px 1325px;
@@ -36784,7 +36784,7 @@ a.news_profile__73Esm {
 }
 .loungehome_event_popup_button__Lo0AM.loungehome_event_popup_play__WBrtd
   .loungehome_event_popup_icon__cAOFC {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: 0 -133px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -36793,7 +36793,7 @@ a.news_profile__73Esm {
 }
 .loungehome_event_popup_button__Lo0AM.loungehome_event_popup_play__WBrtd
   .loungehome_event_popup_icon__cAOFC.loungehome_event_popup_play__WBrtd {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -91px -133px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -36806,7 +36806,7 @@ a.news_profile__73Esm {
 }
 .loungehome_event_popup_button__Lo0AM.loungehome_event_popup_volume__okrBM
   .loungehome_event_popup_icon__cAOFC {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -41px -224px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -36874,7 +36874,7 @@ a.news_profile__73Esm {
 .loungehome_event_popup_button_close__ftfLQ,
 .loungehome_event_popup_checkbox__DFRZM[aria-pressed="true"]
   .loungehome_event_popup_icon__cAOFC:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-repeat: no-repeat;
   background-size: 360px 316px;
 }
@@ -39940,7 +39940,7 @@ html.theme_dark {
   text-align: center;
 }
 .cheat_key_popup_header__2hrkZ:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_2023.7cba7a300cb15b32f72f.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_2023.7cba7a300cb15b32f72f.png);
   background-position: -266px -118px;
   background-repeat: no-repeat;
   background-size: 360px 316px;
@@ -40845,25 +40845,25 @@ html.theme_dark {
 }
 .vod_tooltip_thumbnail_area__grqcJ.vod_tooltip_is_adult__KGLcW:before {
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
 }
 .vod_tooltip_thumbnail_area__grqcJ.vod_tooltip_is_dimmed__PQfuu:before {
   background-color: var(--color-bg-04);
 }
 .vod_tooltip_thumbnail_area__grqcJ.vod_tooltip_is_dimmed__PQfuu.vod_tooltip_is_adult__KGLcW:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
 }
 .theme_dark
   .vod_tooltip_thumbnail_area__grqcJ.vod_tooltip_is_dimmed__PQfuu.vod_tooltip_is_adult__KGLcW:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
 }
 .vod_tooltip_thumbnail_area__grqcJ.vod_tooltip_is_geo_targeting__ipjEd:before {
   background-color: var(--color-bg-04);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
 }
 .theme_dark
   .vod_tooltip_thumbnail_area__grqcJ.vod_tooltip_is_geo_targeting__ipjEd:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
 }
 .vod_tooltip_image__R0zis {
   height: 100%;
@@ -41213,25 +41213,25 @@ html.theme_dark {
 }
 .vod_recommend_thumbnail__UbZ87.vod_recommend_is_adult__-29Xf:before {
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_shadow.6e23574e07a43affd700.png);
 }
 .vod_recommend_thumbnail__UbZ87.vod_recommend_is_dimmed__oj\+r6:before {
   background-color: var(--color-bg-04);
 }
 .vod_recommend_thumbnail__UbZ87.vod_recommend_is_dimmed__oj\+r6.vod_recommend_is_adult__-29Xf:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction_light.3eae980c079ca46dbce1.png);
 }
 .theme_dark
   .vod_recommend_thumbnail__UbZ87.vod_recommend_is_dimmed__oj\+r6.vod_recommend_is_adult__-29Xf:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_age_restriction.3ef1507fcf16665ace28.png);
 }
 .vod_recommend_thumbnail__UbZ87.vod_recommend_is_geo_targeting__3fZ4u:before {
   background-color: var(--color-bg-04);
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction_light.fc5d81076493666e8e9d.png);
 }
 .theme_dark
   .vod_recommend_thumbnail__UbZ87.vod_recommend_is_geo_targeting__3fZ4u:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/image_geo_restriction.be690fdac5e487a0feee.png);
 }
 .vod_recommend_thumbnail__UbZ87:after {
   border: 1px solid rgba(var(--color-border-01-rgb), 0.06);
@@ -44340,7 +44340,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_header__PYjBs .twitchzzk_button__n0oqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -1072px -535px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44365,7 +44365,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_main__dnHTz .twitchzzk_title__KF5o-:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -615px 0;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44388,7 +44388,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_main__dnHTz .twitchzzk_image__lbk9E:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -698px -419px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44413,7 +44413,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_main__dnHTz .twitchzzk_text__NbWNN:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -841px -690px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44454,7 +44454,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_apply__cFAsC .twitchzzk_title__KF5o-:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -441px -384px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44477,7 +44477,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_apply__cFAsC .twitchzzk_text__NbWNN:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -841px -535px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44508,7 +44508,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_apply__cFAsC .twitchzzk_button__n0oqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -841px 0;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44565,7 +44565,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   right: 5px;
 }
 .twitchzzk_apply__cFAsC .twitchzzk_link__LgF2P:after {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -1113px -129px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44589,7 +44589,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   display: block;
 }
 .twitchzzk_process__W6ZlT .twitchzzk_title__KF5o-:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -828px -837px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44612,7 +44612,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_process__W6ZlT .twitchzzk_text__NbWNN:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -841px -624px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44638,7 +44638,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_process__W6ZlT .twitchzzk_item__3Uizn:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: 0 -1070px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44694,7 +44694,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_process__W6ZlT .twitchzzk_description__4iYZr:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -546px -977px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44741,7 +44741,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_guide__8o36g .twitchzzk_title__KF5o-:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -781px -1000px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44766,7 +44766,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_guide_item__Jo9Fm:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -493px -906px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44828,7 +44828,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   display: block;
 }
 .twitchzzk_next__aIiDq .twitchzzk_title__KF5o-:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -735px -629px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44851,7 +44851,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_next__aIiDq .twitchzzk_text__NbWNN:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -841px -731px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44877,7 +44877,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_next__aIiDq .twitchzzk_item__3Uizn:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -1056px -164px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44946,7 +44946,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_next__aIiDq .twitchzzk_description__4iYZr {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -615px -331px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -44971,7 +44971,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   }
 }
 .twitchzzk_next__aIiDq .twitchzzk_button__n0oqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: 0 -837px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45020,7 +45020,7 @@ a.channel_item_thumbnail__vwWFM.channel_item_is_live__0rAoh:hover
   padding: 10px;
 }
 .twitchzzk_footer__ARZZd .twitchzzk_logo__i9DRP:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -698px -505px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45178,7 +45178,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   margin: 0;
 }
 .twitchzzk_layer__TM\+5y .twitchzzk_title__KF5o-:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -733px -906px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45189,7 +45189,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   margin-top: 17px;
 }
 .twitchzzk_layer__TM\+5y .twitchzzk_text__NbWNN:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -539px -802px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45200,7 +45200,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   margin-top: 29px;
 }
 .twitchzzk_layer__TM\+5y .twitchzzk_button__n0oqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -261px -837px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45216,7 +45216,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   top: 0;
 }
 .twitchzzk_button_close__Eru\+D:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -1113px -107px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45254,7 +45254,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   text-align: center;
 }
 .twitchzzk_result_title__dtpry:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -781px -977px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45356,7 +45356,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   margin-top: 27px;
 }
 .twitchzzk_result_button_confirm__X1MpX {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -662px -540px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45373,7 +45373,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   top: 0;
 }
 .twitchzzk_result_button_close__uMNkA:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_twitchzzk.d8dc37b85bc5a326c64e.png);
   background-position: -1113px -107px;
   background-repeat: no-repeat;
   background-size: 1141px 1139px;
@@ -45549,7 +45549,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_title__Ndw37 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -677px -1927px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -45589,7 +45589,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_highlight__0rI-o {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -1561px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -45654,7 +45654,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_schedule__VUf6\+ .lol_kespa_cup_2024_image__5zTqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -1604px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -45669,7 +45669,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_schedule_text__EQz\+s {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1658px -1637px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -45991,7 +45991,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_subtitle__ojrGO
   .lol_kespa_cup_2024_image__5zTqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -1187px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46036,7 +46036,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -1377px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46055,7 +46055,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -231px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46085,7 +46085,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -1256px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46104,7 +46104,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: 0 -1778px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46182,7 +46182,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_subtitle__ojrGO
   .lol_kespa_cup_2024_image__5zTqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -1498px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46221,7 +46221,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -1317px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46240,7 +46240,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -853px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46261,7 +46261,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1454px -1572px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46280,7 +46280,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -430px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46320,7 +46320,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -381px -1927px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46339,7 +46339,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: -1959px -638px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -46390,7 +46390,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_finish_title__wGCsM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/sp_event.c6b4fa0d038b391cb5f9.png);
   background-position: 0 -2019px;
   background-repeat: no-repeat;
   background-size: 2234px 2117px;
@@ -48701,9 +48701,9 @@ a.account_interlock_footer_item__p7x-g:hover {
   font-family: NanumSquareNeo;
   font-weight: 400;
   src:
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoRegular.8c19e413edbc38f2499a.woff2)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoRegular.8c19e413edbc38f2499a.woff2)
       format("woff2"),
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoRegular.3ef1b154df4dd187269a.woff)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoRegular.3ef1b154df4dd187269a.woff)
       format("woff");
 }
 @font-face {
@@ -48711,9 +48711,9 @@ a.account_interlock_footer_item__p7x-g:hover {
   font-family: NanumSquareNeo;
   font-weight: 700;
   src:
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoBold.79d2b7fd23d6a661eff0.woff2)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoBold.79d2b7fd23d6a661eff0.woff2)
       format("woff2"),
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoBold.b97fa8bab0f60689763b.woff)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoBold.b97fa8bab0f60689763b.woff)
       format("woff");
 }
 @font-face {
@@ -48721,9 +48721,9 @@ a.account_interlock_footer_item__p7x-g:hover {
   font-family: NanumSquareNeo;
   font-weight: 800;
   src:
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoExtraBold.8f5d88bdccdc1b03419d.woff2)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoExtraBold.8f5d88bdccdc1b03419d.woff2)
       format("woff2"),
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoExtraBold.c393afd7217c692a3cdd.woff)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoExtraBold.c393afd7217c692a3cdd.woff)
       format("woff");
 }
 @font-face {
@@ -48731,9 +48731,9 @@ a.account_interlock_footer_item__p7x-g:hover {
   font-family: NanumSquareNeo;
   font-weight: 900;
   src:
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoHeavy.94e1ff8cc8548100f79c.woff2)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoHeavy.94e1ff8cc8548100f79c.woff2)
       format("woff2"),
-    url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/NanumSquareNeoHeavy.324ece26be02824e94c0.woff)
+    url(https://ssl.pstatic.net/static/nng/glive/resource/p/d/static/media/NanumSquareNeoHeavy.324ece26be02824e94c0.woff)
       format("woff");
 }
 @font-face {
