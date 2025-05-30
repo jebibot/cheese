@@ -1,6 +1,13 @@
+-                        children: [(0, Jt.jsxs)(nt, {
+-                            to: "/",
++                        children: [(0, Jt.jsxs)("div", {
+
+-                                src: Nx(n.contentThumbnailUrl, "f120_120_na"),
++                                src: Nx(n.contentThumbnailUrl, "o500x280_blur"),
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+bee17425 17d45d97 88997941
++e92182cd 17d45d97 88997941
 
