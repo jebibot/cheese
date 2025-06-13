@@ -1,6 +1,25 @@
+-                    t.innerHTML = e, document.head.appendChild(t)
++                    t.innerHTML = e, document.head.appendChild(t), window.dispatchEvent(new Event("ntm-ready"))
+
+-                    V3("####[ NTM ]####: Location Path Chnaged: ".concat(g)), (0, St.isNil)(window.ntm) || (-1 !== window.navigator.userAgent.toLowerCase().indexOf("mobile") ? window.ntm.push({
+-                        event: "chzzkMobilePageview"
+-                    }) : window.ntm.push({
+-                        event: "chzzkPageview"
+-                    }))
++                    var e = function() {
++                        V3("####[ NTM ]####: Location Path Chnaged: ".concat(g)), sh() ? window.ntm.push({
++                            event: "chzzkMobilePageview"
++                        }) : window.ntm.push({
++                            event: "chzzkPageview"
++                        })
++                    };
++                    (0, St.isNil)(window.ntm) || e(), window.addEventListener("ntm-ready", e, {
++                        once: !0
++                    })
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+da8cf929 09c13402 e00f74f9
++c10379a1 09c13402 e00f74f9
 
