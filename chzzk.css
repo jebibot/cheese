@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css);
 .pzp-ui-icon {
   -webkit-font-smoothing: antialiased;
   border: 0;
@@ -26894,7 +26895,6 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   text-align: center;
 }
 .live_chatting_ranking_header__j2CfV .live_chatting_ranking_title__aMWbQ {
-  line-height: 20px;
   padding-top: 24px;
 }
 .live_chatting_ranking_header__j2CfV.live_chatting_ranking_show_power__DqYLm {
@@ -26927,7 +26927,7 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
 .live_chatting_ranking_refresh_button__U8DZO {
   border-radius: 50%;
   color: var(--Content-Neutral-Cool-Base);
-  margin-left: 1px;
+  margin: -3px 0 0 1px;
   position: relative;
   vertical-align: top;
   z-index: 1;
@@ -38358,21 +38358,21 @@ a.news_profile__73Esm {
 .topic_tab_text__AS4rq {
   color: var(--Content-Brand-Strong);
   font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Apple SD Gothic Neo,
+    Pretendard Variable,
+    Pretendard,
+    Apple SD Gothic NEO,
+    Helvetica Neue,
     Helvetica,
-    Arial,
-    NanumGothic,
     나눔고딕,
+    NanumGothic,
     Malgun Gothic,
     맑은 고딕,
-    Dotum,
     굴림,
     gulim,
     새굴림,
     noto sans,
     돋움,
+    Dotum,
     sans-serif;
   font-size: 9px;
   font-weight: 700;
@@ -38866,6 +38866,13 @@ a.news_profile__73Esm {
   right: 0;
   top: calc(100% + 8px);
 }
+.toolbar_layer__b4tXY.toolbar_is_empty__5WqVN {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+}
 @-webkit-keyframes toolbar_fadeIn__QNPMa {
   0% {
     opacity: 0;
@@ -38922,21 +38929,24 @@ a.news_profile__73Esm {
   -ms-flex: none;
   flex: none;
   gap: 0 2px;
+  position: relative;
+  z-index: 1;
 }
-.navigation_bar_logo__AkLpd {
+.navigation_bar_logo__AkLpd,
+.navigation_bar_logo__AkLpd a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex: none;
   flex: none;
-  height: 100%;
 }
 .navigation_bar_logo__AkLpd a {
-  -ms-flex: none;
-  flex: none;
-  height: 100%;
-  padding: 15px 0;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
 }
 .navigation_bar_logo_chzzk__LD8P9 {
+  -ms-flex: none;
+  flex: none;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -39071,6 +39081,8 @@ a.news_profile__73Esm {
   text-align: center;
 }
 .navigation_bar_box__5WNl4 .navigation_bar_more_button__7DoyA {
+  font-family: inherit;
+  line-height: normal;
   min-width: 69px;
 }
 .navigation_bar_box__5WNl4 .navigation_bar_more_button__7DoyA svg {
@@ -45149,6 +45161,23 @@ html.theme_dark {
 }
 .aside_container__R9MN6 {
   bottom: 0;
+  font-family:
+    Pretendard Variable,
+    Pretendard,
+    Apple SD Gothic NEO,
+    Helvetica Neue,
+    Helvetica,
+    나눔고딕,
+    NanumGothic,
+    Malgun Gothic,
+    맑은 고딕,
+    굴림,
+    gulim,
+    새굴림,
+    noto sans,
+    돋움,
+    Dotum,
+    sans-serif;
   left: 0;
   position: fixed;
   top: 0;
