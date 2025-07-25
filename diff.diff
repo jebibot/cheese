@@ -1,6 +1,9 @@
+-                                switch (e.data.messageType) {
++                                if (e.origin === $p) switch (e.data.messageType) {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+2f02eb74 19ea37c2 ec303862
++2bdc6a73 19ea37c2 ec303862
 
