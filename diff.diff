@@ -1,6 +1,43 @@
+-                        "NONE" === m ? D(!1) : P(!1)
++                        D(!1), P(!1)
+
+-                return function() {
++                var t = function(e) {
++                        try {
++                            return decodeURIComponent(e)
++                        } catch (t) {
++                            return e
++                        }
++                    },
++                    n = function(e) {
++                        return e.replace(/%u([0-9a-fA-F]{4})/g, (function(e, t) {
++                            return String.fromCharCode(parseInt(t, 16))
++                        }))
++                    };
++                return function(e) {
++                        var r = function(e) {
++                            for (var r = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 5, i = e, a = "", o = 0;
++                                /%/i.test(i) && i !== a && o < r;) {
++                                a = i;
++                                var s = t(i);
++                                i = n(s), o++
++                            }
++                            return i
++                        }(e);
++                        return /(\.\.\/|\/\.\.|\\|\/\/|\/\.|%00|\u0000)/.test(r)
++                    }(window.location.pathname) && (window.location.href = "/"),
++                    function() {
+
+-                    href: "/lounge/".concat(t),
++                    href: "".concat($p, "/lounge/").concat(t),
++                    target: "_blank",
+
+-                            if (m) return o && s ? void g("clips/manual/".concat(s)) : void g("clips");
++                            if (m) return o && s ? void g("/clips/manual/".concat(s)) : void g("/clips");
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+be7d45f5 8b0d9073 ec303862
++71e8cb49 8b0d9073 ec303862
 
