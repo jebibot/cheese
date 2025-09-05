@@ -1,6 +1,45 @@
+-                                            REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                                            REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                                            REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                                            REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                                                    REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                                                    REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                                                    REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                                                    REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                        REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                        REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                        REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                        REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                            REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                            REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                            REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                            REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                        REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                        REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                        REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                        REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                        REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                        REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                REACT_APP_BA_URL: "https://adgbb.io.naver.com/jackpotlog/v1/logs",
++                REACT_APP_BA_URL: "https://api.chzzk.naver.com/service/live-status/v1/logs",
+
+-                    var t = fetch("https://adgbb.io.naver.com/jackpotlog/v1/logs", {
++                    var t = fetch("https://api.chzzk.naver.com/service/live-status/v1/logs", {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+8eb06baf 8b0d9073 ec303862
++42b70a69 8b0d9073 ec303862
 
