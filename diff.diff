@@ -1,9 +1,3 @@
--                    s && "HIGHLIGHT_AMOUNT" === n && "TEST" !== s.profile.userIdHash && k.current !== s && (g(!0), k.current = s)
-+                    if (s && "HIGHLIGHT_AMOUNT" === n) {
-+                        if (s.profile && "TEST" === s.profile.userIdHash) return;
-+                        k.current !== s && (g(!0), k.current = s)
-+                    }
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
