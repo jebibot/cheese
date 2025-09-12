@@ -2,5 +2,8 @@
 
 
 
-+5988695f 9c76a22b 9f4673b2
++5988695f 53d2adf4 9f4673b2
+
+-                                            s = e.sent, T(s.totalDonationAmount), te(s.minAmount), ie(s.minMessageAmount), F((s.distributionInfoList || []).map((function(e) {
++                                            s = e.sent, T(s.totalDonationAmount), te(s.minAmount), ie(s.minMessageAmount), J(s.hostRewardRate), F((s.distributionInfoList || []).map((function(e) {
 
