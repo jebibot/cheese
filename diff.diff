@@ -1,6 +1,32 @@
+-                                        children: ue ? "대단해요! 멈추지 마세요!" : "오늘도 후원하면 3일째!"
++                                        children: ue ? "대단해요! 멈추지 마세요!" : "오늘도 후원하면 ".concat(pe + 1, "일째!")
+
+-                                }), o = "/ad/display-status?".concat(a), s = JQ(new JW), e.next = 6, s.getTunnelUrl(Lh.defaults.baseURL + o);
++                                }), o = "/seoraksan?".concat(a), s = JQ(new JW), e.next = 6, s.getTunnelUrl(Lh.defaults.baseURL + o);
+
+-                            var n, r, i;
++                            var n, r, i, a, o;
+
+-                                        i = t.sent, gpe("pre: ".concat(i.playerAdDisplayResponse.preRoll, ", mid: ").concat(i.playerAdDisplayResponse.midRoll)), I({
+-                                            preRoll: i.playerAdDisplayResponse.preRoll,
+-                                            midRoll: i.playerAdDisplayResponse.midRoll,
++                                        i = t.sent, a = "playerAdDisplayResponse" in i ? i.playerAdDisplayResponse.preRoll : i.livePlaybackJson.liveId, o = "playerAdDisplayResponse" in i ? i.playerAdDisplayResponse.midRoll : i.livePlaybackJson.chatChannelId, gpe("pre: ".concat(a, ", mid: ").concat(o)), I({
++                                            preRoll: a,
++                                            midRoll: o,
+
+-                            var n, r, i;
++                            var n, r, i, a, o;
+
+-                                        i = e.sent, gpe("pre: ".concat(i.playerAdDisplayResponse.preRoll, ", mid: ").concat(i.playerAdDisplayResponse.midRoll)), T({
+-                                            preRoll: i.playerAdDisplayResponse.preRoll,
+-                                            midRoll: i.playerAdDisplayResponse.midRoll,
++                                        i = e.sent, a = "playerAdDisplayResponse" in i ? i.playerAdDisplayResponse.preRoll : i.livePlaybackJson.liveId, o = "playerAdDisplayResponse" in i ? i.playerAdDisplayResponse.midRoll : i.livePlaybackJson.chatChannelId, gpe("pre: ".concat(a, ", mid: ").concat(o)), T({
++                                            preRoll: a,
++                                            midRoll: o,
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+6c920db9 53d2adf4 9f4673b2
++9c511245 53d2adf4 9f4673b2
 
