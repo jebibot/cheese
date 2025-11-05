@@ -1,9 +1,3 @@
--                    ["/settings/channel-notice"].includes(window.location.pathname) || sh() || (Rve.CorePlayer.use(function(e) {
-+                    Rve.CorePlayer.use(function(e) {
-
--                    }(IRe)), Rve.CorePlayer.use(Rve.DASH2HLSPlugin))
-+                    }(IRe)), Rve.CorePlayer.use(Rve.DASH2HLSPlugin)
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
