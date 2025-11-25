@@ -331,167 +331,6 @@
 .pzp-pc--size-small .pzp-button__tooltip--top {
   top: -33px;
 }
-.pzp-ui-setting-pane-item {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -ms-flex-align: center;
-  align-items: center;
-  color: #fff;
-  cursor: pointer;
-  display: -ms-flexbox;
-  display: flex;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  height: 42px;
-  line-height: normal;
-  list-style: none;
-  margin: 0;
-  padding: 0 15px 0 0;
-}
-.pzp-ui-setting-pane-item:focus,
-.pzp-ui-setting-pane-item:hover {
-  background-color: hsla(0, 0%, 100%, 0.05);
-  outline: none;
-}
-.pzp-ui-setting-pane-item:focus:last-child,
-.pzp-ui-setting-pane-item:hover:last-child {
-  border-radius: 0 0 8px 8px;
-}
-.pzp-ui-setting-pane-item:active {
-  background-color: hsla(0, 0%, 100%, 0.1);
-}
-.pzp-ui-setting-pane-item__icon-wrapper {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -ms-flex-pack: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #fff;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  justify-content: center;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-  width: 44px;
-}
-.pzp-ui-setting-pane-item__icon {
-  display: inline-block;
-  height: 22px;
-  margin: 0 8px 0 15px;
-  visibility: hidden;
-  width: 21px;
-}
-.pzp-ui-setting-pane-item--checked .pzp-ui-setting-pane-item__icon {
-  visibility: visible;
-}
-.pzp-ui-setting-pane-item__slot {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -ms-flex-positive: 1;
-  color: #fff;
-  display: -ms-flexbox;
-  display: flex;
-  flex-grow: 1;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-}
-.pzp-ui-setting-pane-item__slot label,
-.pzp-ui-setting-pane-item__slot span {
-  color: #fff;
-  color: hsla(0, 0%, 100%, 0.9);
-  font-size: 14px;
-  font-weight: 400;
-  margin: 0;
-  width: auto;
-}
-.pzp-ui-setting-pane-item__slot label,
-.pzp-ui-setting-pane-item__slot small,
-.pzp-ui-setting-pane-item__slot span {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  padding: 0;
-}
-.pzp-ui-setting-pane-item__slot small {
-  color: #fff;
-  color: hsla(0, 0%, 100%, 0.3);
-  font-size: 12px;
-  font-weight: 500;
-  height: 14px;
-  margin: 0 21px 0 0;
-}
-.pzp-ui-setting-pane-item__value {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -ms-flex-align: center;
-  -ms-flex-positive: 1;
-  align-items: center;
-  color: #fff;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  flex-grow: 1;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-}
-.pzp-mobile--size-small .pzp-ui-setting-pane-item__value,
-.pzp-pc--size-s .pzp-ui-setting-pane-item__value,
-.pzp-pc--size-small .pzp-ui-setting-pane-item__value {
-  font-size: 12px;
-}
 .pzp-ui-setting-home-item {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -655,6 +494,167 @@
 .pzp-pc--size-small .pzp-ui-setting-home-item {
   height: 30px;
 }
+.pzp-ui-setting-pane-item {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  height: 42px;
+  line-height: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 0 0;
+}
+.pzp-ui-setting-pane-item:focus,
+.pzp-ui-setting-pane-item:hover {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  outline: none;
+}
+.pzp-ui-setting-pane-item:focus:last-child,
+.pzp-ui-setting-pane-item:hover:last-child {
+  border-radius: 0 0 8px 8px;
+}
+.pzp-ui-setting-pane-item:active {
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+.pzp-ui-setting-pane-item__icon-wrapper {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  justify-content: center;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  width: 44px;
+}
+.pzp-ui-setting-pane-item__icon {
+  display: inline-block;
+  height: 22px;
+  margin: 0 8px 0 15px;
+  visibility: hidden;
+  width: 21px;
+}
+.pzp-ui-setting-pane-item--checked .pzp-ui-setting-pane-item__icon {
+  visibility: visible;
+}
+.pzp-ui-setting-pane-item__slot {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-flex-positive: 1;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  flex-grow: 1;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.pzp-ui-setting-pane-item__slot label,
+.pzp-ui-setting-pane-item__slot span {
+  color: #fff;
+  color: hsla(0, 0%, 100%, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  width: auto;
+}
+.pzp-ui-setting-pane-item__slot label,
+.pzp-ui-setting-pane-item__slot small,
+.pzp-ui-setting-pane-item__slot span {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  padding: 0;
+}
+.pzp-ui-setting-pane-item__slot small {
+  color: #fff;
+  color: hsla(0, 0%, 100%, 0.3);
+  font-size: 12px;
+  font-weight: 500;
+  height: 14px;
+  margin: 0 21px 0 0;
+}
+.pzp-ui-setting-pane-item__value {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-flex-align: center;
+  -ms-flex-positive: 1;
+  align-items: center;
+  color: #fff;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  flex-grow: 1;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.pzp-mobile--size-small .pzp-ui-setting-pane-item__value,
+.pzp-pc--size-s .pzp-ui-setting-pane-item__value,
+.pzp-pc--size-small .pzp-ui-setting-pane-item__value {
+  font-size: 12px;
+}
 .pzp-subscribe-button {
   -ms-flex-negative: 1;
   cursor: pointer;
@@ -780,93 +780,6 @@
   height: inherit;
   width: inherit;
 }
-.pzp-ui-setting-subtitle-item__lang {
-  margin: 0 10px 0 0;
-}
-.pzp-ui-setting-subtitle-item__author,
-.pzp-ui-setting-subtitle-item__lang {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  padding: 0;
-}
-.pzp-ui-setting-subtitle-item__author {
-  margin: 0;
-}
-.pzp-pc-ui-subtitle-text {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  bottom: 0;
-  color: #fff;
-  color: hsla(0, 0%, 100%, 0.9);
-  display: inline-block;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  left: 80px;
-  line-height: normal;
-  line-height: 1.1363;
-  margin: 0 auto;
-  max-width: 100%;
-  overflow: hidden;
-  padding: 2px 6px;
-  position: absolute;
-  right: 80px;
-  text-align: center;
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-1 {
-  font-size: 13px;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-2 {
-  font-size: 16px;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-3 {
-  font-size: 24px;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-4 {
-  font-size: 48px;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-5 {
-  font-size: 56px;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--background
-  .pzp-pc-ui-subtitle-text__cue {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--align-start {
-  margin: 0;
-  text-align: left;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--align-end {
-  margin: 0;
-  text-align: right;
-}
-.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--align-center {
-  margin: 0;
-  text-align: center;
-}
 .pzp-ui-toggle {
   display: inline-block;
 }
@@ -975,6 +888,93 @@
 .pzp-mobile--size-small .pzp-setting-intro-playbackrate,
 .pzp-pc--size-s .pzp-setting-intro-playbackrate {
   height: 30px;
+}
+.pzp-ui-setting-subtitle-item__lang {
+  margin: 0 10px 0 0;
+}
+.pzp-ui-setting-subtitle-item__author,
+.pzp-ui-setting-subtitle-item__lang {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  padding: 0;
+}
+.pzp-ui-setting-subtitle-item__author {
+  margin: 0;
+}
+.pzp-pc-ui-subtitle-text {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  bottom: 0;
+  color: #fff;
+  color: hsla(0, 0%, 100%, 0.9);
+  display: inline-block;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  left: 80px;
+  line-height: normal;
+  line-height: 1.1363;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 2px 6px;
+  position: absolute;
+  right: 80px;
+  text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-1 {
+  font-size: 13px;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-2 {
+  font-size: 16px;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-3 {
+  font-size: 24px;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-4 {
+  font-size: 48px;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--size-5 {
+  font-size: 56px;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--background
+  .pzp-pc-ui-subtitle-text__cue {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--align-start {
+  margin: 0;
+  text-align: left;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--align-end {
+  margin: 0;
+  text-align: right;
+}
+.pzp-pc-ui-subtitle-text.pzp-pc-ui-subtitle-text--align-center {
+  margin: 0;
+  text-align: center;
 }
 .pzp-ui-number,
 .pzp-ui-setting-playbackrate-item__value {
@@ -1487,56 +1487,6 @@
 .pzp-ui-toolbar:not(.pzp-ui-toolbar--expanded) .pzp-app-button {
   width: 41px;
 }
-.pzp-pc-setting-fansubtitle-list,
-.pzp-pc-setting-subtitle-list {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  list-style: none;
-  margin: 0;
-  overflow: visible;
-  padding: 0;
-}
-.pzp-pc-setting-subtitle-list {
-  max-height: 310px;
-}
-.pzp-subtitle-text {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  pointer-events: none;
-}
-.pzp-subtitle-text__cue {
-  display: inline-block;
-  max-width: 100%;
-  overflow: hidden;
-  vertical-align: top;
-}
 .pzp-setting-intro-highlight {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1624,6 +1574,56 @@
     .pzp-setting-intro-highlight--allow-emptied
   ) {
   display: none;
+}
+.pzp-pc-setting-fansubtitle-list,
+.pzp-pc-setting-subtitle-list {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  list-style: none;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+}
+.pzp-pc-setting-subtitle-list {
+  max-height: 310px;
+}
+.pzp-subtitle-text {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+}
+.pzp-subtitle-text__cue {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  vertical-align: top;
 }
 .pzp-ui-setting-quality-item {
   -ms-flex-pack: justify;
@@ -4188,7 +4188,7 @@
   -ms-user-select: none;
   user-select: none;
 }
-.pzp-setting-subtitle-pane,
+.pzp-settings,
 .pzp-ui-bottom-shadow {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -4207,10 +4207,41 @@
   margin: 0;
   padding: 0;
 }
+.pzp-settings {
+  scrollbar-face-color: hsla(0, 0%, 100%, 0.2);
+  scrollbar-3dlight-color: transparent;
+  scrollbar-highlight-color: transparent;
+  scrollbar-track-color: rgba(25, 25, 28, 0.2);
+  scrollbar-arrow-color: transparent;
+  scrollbar-shadow-color: transparent;
+  scrollbar-dark-shadow-color: transparent;
+  background-color: rgba(25, 25, 28, 0.9);
+  border-radius: 8px;
+  display: inline-block;
+  max-height: 100%;
+  padding: 8px 0 !important;
+}
+.pzp-settings::-webkit-scrollbar {
+  padding: 13px 0;
+  width: 14px;
+}
+.pzp-settings::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  border: 5px solid transparent;
+  border-radius: 8px;
+}
+.pzp-settings::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.pzp-pc--size-s .pzp-settings span {
+  font-size: 12px;
+}
 .pzp-setting-subtitle-pane {
   background-color: rgba(25, 25, 28, 0.9);
   border-radius: 8px;
 }
+.pzp-setting-subtitle-pane,
 .pzp-setting-subtitle-pane__message {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -4668,52 +4699,6 @@
   span {
   font-size: 12px;
 }
-.pzp-settings {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  scrollbar-face-color: hsla(0, 0%, 100%, 0.2);
-  scrollbar-3dlight-color: transparent;
-  scrollbar-highlight-color: transparent;
-  scrollbar-track-color: rgba(25, 25, 28, 0.2);
-  scrollbar-arrow-color: transparent;
-  scrollbar-shadow-color: transparent;
-  scrollbar-dark-shadow-color: transparent;
-  background-color: rgba(25, 25, 28, 0.9);
-  border-radius: 8px;
-  color: #fff;
-  display: inline-block;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  max-height: 100%;
-  padding: 0;
-  padding: 8px 0 !important;
-}
-.pzp-settings::-webkit-scrollbar {
-  padding: 13px 0;
-  width: 14px;
-}
-.pzp-settings::-webkit-scrollbar-thumb {
-  background-clip: padding-box;
-  background-color: hsla(0, 0%, 100%, 0.2);
-  border: 5px solid transparent;
-  border-radius: 8px;
-}
-.pzp-settings::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-.pzp-pc--size-s .pzp-settings span {
-  font-size: 12px;
-}
 .pzp-setting-quality-pane {
   display: -ms-flexbox;
   display: flex;
@@ -4900,186 +4885,6 @@
   span {
   font-size: 12px;
 }
-.pzp-ui-playlist {
-  margin: 0;
-}
-.pzp-ui-playlist,
-.pzp-ui-playlist__page {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  padding: 0;
-}
-.pzp-ui-playlist__page {
-  display: inline-block;
-  margin: 0 0 182px;
-  width: 100%;
-}
-.pzp-ui-playlist__page .pzp-ui-recommend-card:first-child {
-  margin-left: 0;
-}
-.pzp-ui-playlist__page .pzp-ui-recommend-card:last-child {
-  margin-right: 0;
-}
-.pzp-ui-playlist__item--hidden {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.pzp-ui-playlist__inner {
-  height: 100%;
-}
-.pzp-ui-playlist__inner,
-.pzp-ui-playlist__wrap {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -ms-flex-pack: center;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #fff;
-  display: -ms-flexbox;
-  display: flex;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  justify-content: center;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-}
-.pzp-ui-playlist__wrap {
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  position: relative;
-}
-.pzp-ui-playlist__box {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  overflow: hidden;
-  padding: 10px 0 0;
-}
-.pzp-ui-playlist__slide {
-  height: 182px;
-}
-.pzp-ui-playlist__next,
-.pzp-ui-playlist__prev,
-.pzp-ui-playlist__slide {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-}
-.pzp-ui-playlist__next,
-.pzp-ui-playlist__prev {
-  -ms-flex-negative: 0;
-  -ms-flex-positive: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: transparent;
-  border: 0;
-  border-radius: 50%;
-  cursor: pointer;
-  flex-grow: 0;
-  flex-shrink: 0;
-  height: 39px;
-  width: 39px;
-}
-.pzp-ui-playlist__next:hover,
-.pzp-ui-playlist__prev:hover {
-  background-color: hsla(0, 0%, 100%, 0.3);
-}
-.pzp-ui-playlist__next:active,
-.pzp-ui-playlist__prev:active {
-  background-color: hsla(0, 0%, 100%, 0.4);
-}
-.pzp-ui-playlist__next[disabled],
-.pzp-ui-playlist__prev[disabled] {
-  cursor: default;
-  opacity: 0.25;
-}
-.pzp-ui-playlist__next[disabled]:active,
-.pzp-ui-playlist__next[disabled]:hover,
-.pzp-ui-playlist__prev[disabled]:active,
-.pzp-ui-playlist__prev[disabled]:hover {
-  background-color: transparent;
-}
-.pzp-ui-playlist__next-btn-icon,
-.pzp-ui-playlist__prev-btn-icon {
-  height: 39px;
-  width: 39px;
-}
-.pzp-ui-playlist__prev {
-  margin-right: 30px;
-}
-.pzp-ui-playlist__next {
-  margin-left: 30px;
-}
-.pzp-pc--size-m .pzp-ui-playlist__prev,
-.pzp-pc--size-medium .pzp-ui-playlist__prev {
-  margin-right: 10px;
-}
-.pzp-pc--size-m .pzp-ui-playlist__next,
-.pzp-pc--size-medium .pzp-ui-playlist__next {
-  margin-left: 10px;
-}
-.pzp-pc--size-m .pzp-ui-playlist__slide,
-.pzp-pc--size-medium .pzp-ui-playlist__slide {
-  height: 126px;
-}
-.pzp-mobile--size-normal .pzp-ui-playlist__prev {
-  margin-right: 10px;
-}
-.pzp-mobile--size-normal .pzp-ui-playlist__next {
-  margin-left: 10px;
-}
-.pzp-mobile--size-normal .pzp-ui-playlist__slide {
-  height: 126px;
-}
 .pzp-recommend-endscreen {
   position: absolute;
 }
@@ -5264,6 +5069,186 @@
 .pzp-mobile--size-s .pzp-recommend-endscreen,
 .pzp-mobile--size-small .pzp-recommend-endscreen {
   display: none;
+}
+.pzp-ui-playlist {
+  margin: 0;
+}
+.pzp-ui-playlist,
+.pzp-ui-playlist__page {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  padding: 0;
+}
+.pzp-ui-playlist__page {
+  display: inline-block;
+  margin: 0 0 182px;
+  width: 100%;
+}
+.pzp-ui-playlist__page .pzp-ui-recommend-card:first-child {
+  margin-left: 0;
+}
+.pzp-ui-playlist__page .pzp-ui-recommend-card:last-child {
+  margin-right: 0;
+}
+.pzp-ui-playlist__item--hidden {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.pzp-ui-playlist__inner {
+  height: 100%;
+}
+.pzp-ui-playlist__inner,
+.pzp-ui-playlist__wrap {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-flex-pack: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  justify-content: center;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.pzp-ui-playlist__wrap {
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.pzp-ui-playlist__box {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  margin: 0;
+  overflow: hidden;
+  padding: 10px 0 0;
+}
+.pzp-ui-playlist__slide {
+  height: 182px;
+}
+.pzp-ui-playlist__next,
+.pzp-ui-playlist__prev,
+.pzp-ui-playlist__slide {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.pzp-ui-playlist__next,
+.pzp-ui-playlist__prev {
+  -ms-flex-negative: 0;
+  -ms-flex-positive: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 39px;
+  width: 39px;
+}
+.pzp-ui-playlist__next:hover,
+.pzp-ui-playlist__prev:hover {
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+.pzp-ui-playlist__next:active,
+.pzp-ui-playlist__prev:active {
+  background-color: hsla(0, 0%, 100%, 0.4);
+}
+.pzp-ui-playlist__next[disabled],
+.pzp-ui-playlist__prev[disabled] {
+  cursor: default;
+  opacity: 0.25;
+}
+.pzp-ui-playlist__next[disabled]:active,
+.pzp-ui-playlist__next[disabled]:hover,
+.pzp-ui-playlist__prev[disabled]:active,
+.pzp-ui-playlist__prev[disabled]:hover {
+  background-color: transparent;
+}
+.pzp-ui-playlist__next-btn-icon,
+.pzp-ui-playlist__prev-btn-icon {
+  height: 39px;
+  width: 39px;
+}
+.pzp-ui-playlist__prev {
+  margin-right: 30px;
+}
+.pzp-ui-playlist__next {
+  margin-left: 30px;
+}
+.pzp-pc--size-m .pzp-ui-playlist__prev,
+.pzp-pc--size-medium .pzp-ui-playlist__prev {
+  margin-right: 10px;
+}
+.pzp-pc--size-m .pzp-ui-playlist__next,
+.pzp-pc--size-medium .pzp-ui-playlist__next {
+  margin-left: 10px;
+}
+.pzp-pc--size-m .pzp-ui-playlist__slide,
+.pzp-pc--size-medium .pzp-ui-playlist__slide {
+  height: 126px;
+}
+.pzp-mobile--size-normal .pzp-ui-playlist__prev {
+  margin-right: 10px;
+}
+.pzp-mobile--size-normal .pzp-ui-playlist__next {
+  margin-left: 10px;
+}
+.pzp-mobile--size-normal .pzp-ui-playlist__slide {
+  height: 126px;
 }
 .pzp-live-time {
   white-space: nowrap;
@@ -5761,78 +5746,26 @@
   height: 30px;
   width: 30px;
 }
-.pzp-contextmenu-pane {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  scrollbar-face-color: hsla(0, 0%, 100%, 0.2);
-  scrollbar-3dlight-color: transparent;
-  scrollbar-highlight-color: transparent;
-  scrollbar-track-color: rgba(25, 25, 28, 0.2);
-  scrollbar-arrow-color: transparent;
-  scrollbar-shadow-color: transparent;
-  scrollbar-dark-shadow-color: transparent;
-  background-color: rgba(25, 25, 28, 0.9);
-  border-radius: 8px;
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  max-height: calc(100% - 90px);
-  min-width: 200px;
-  padding: 0;
-  padding: 8px 0 !important;
-  position: absolute;
-  -webkit-transition: opacity 0.2s ease-in 0.1s;
-  transition: opacity 0.2s ease-in 0.1s;
-}
-.pzp-contextmenu-pane::-webkit-scrollbar {
-  padding: 13px 0;
-  width: 14px;
-}
-.pzp-contextmenu-pane::-webkit-scrollbar-thumb {
-  background-clip: padding-box;
-  background-color: hsla(0, 0%, 100%, 0.2);
-  border: 5px solid transparent;
-  border-radius: 8px;
-}
-.pzp-contextmenu-pane::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-.pzp-contextmenu-pane__list {
-  list-style: none;
-}
-.pzp-contextmenu-pane__list,
 .pzp-pc-ui-error-dialog[data-v-112a8c8f] {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-}
-.pzp-pc-ui-error-dialog[data-v-112a8c8f] {
   background-color: #101010;
   bottom: 0;
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
   left: 0;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
   position: absolute;
   right: 0;
   top: 0;
@@ -6014,6 +5947,71 @@
   height: 11px;
   width: 6px;
 }
+.pzp-contextmenu-pane {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scrollbar-face-color: hsla(0, 0%, 100%, 0.2);
+  scrollbar-3dlight-color: transparent;
+  scrollbar-highlight-color: transparent;
+  scrollbar-track-color: rgba(25, 25, 28, 0.2);
+  scrollbar-arrow-color: transparent;
+  scrollbar-shadow-color: transparent;
+  scrollbar-dark-shadow-color: transparent;
+  background-color: rgba(25, 25, 28, 0.9);
+  border-radius: 8px;
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  margin: 0;
+  max-height: calc(100% - 90px);
+  min-width: 200px;
+  padding: 0;
+  padding: 8px 0 !important;
+  position: absolute;
+  -webkit-transition: opacity 0.2s ease-in 0.1s;
+  transition: opacity 0.2s ease-in 0.1s;
+}
+.pzp-contextmenu-pane::-webkit-scrollbar {
+  padding: 13px 0;
+  width: 14px;
+}
+.pzp-contextmenu-pane::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  border: 5px solid transparent;
+  border-radius: 8px;
+}
+.pzp-contextmenu-pane::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.pzp-contextmenu-pane__list {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 @-webkit-keyframes pzp-command-icon__animation {
   0% {
     opacity: 0;
@@ -6057,6 +6055,70 @@
 .pzp-command-icon--animate {
   -webkit-animation: pzp-command-icon__animation 0.5s ease-in 0.1s 1;
   animation: pzp-command-icon__animation 0.5s ease-in 0.1s 1;
+}
+.pzp-content-title {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 4px;
+}
+.pzp-content-title,
+.pzp-content-title__anchor {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Malgun Gothic,
+    맑은 고딕,
+    helvetica,
+    Apple SD Gothic Neo,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: normal;
+  padding: 0;
+}
+.pzp-content-title__anchor {
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  height: 100%;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin: 0;
+  min-height: 24px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+}
+.pzp-content-title__anchor,
+.pzp-content-title__anchor:hover {
+  text-decoration: none;
+}
+.pzp-content-title__anchor:hover {
+  color: #00f889;
+}
+.pzp-pc--size-m .pzp-content-title__anchor,
+.pzp-pc--size-medium .pzp-content-title__anchor {
+  font-size: 14px;
+}
+.pzp-pc--size-s .pzp-content-title__anchor,
+.pzp-pc--size-small .pzp-content-title__anchor {
+  font-size: 13px;
+}
+.pzp-mobile--size-normal .pzp-content-title__anchor {
+  font-size: 14px;
+}
+.pzp-mobile--size-s .pzp-content-title__anchor,
+.pzp-mobile--size-small .pzp-content-title__anchor {
+  font-size: 13px;
 }
 .pzp-content-info {
   -webkit-font-smoothing: antialiased;
@@ -6145,70 +6207,6 @@
 .pzp-pc--size-small .pzp-content-info__content-text {
   font-size: 11px;
   line-height: 11px;
-}
-.pzp-content-title {
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 0 4px;
-}
-.pzp-content-title,
-.pzp-content-title__anchor {
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Malgun Gothic,
-    맑은 고딕,
-    helvetica,
-    Apple SD Gothic Neo,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height: normal;
-  padding: 0;
-}
-.pzp-content-title__anchor {
-  -ms-flex-align: center;
-  align-items: center;
-  display: block;
-  font-size: 16px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 700;
-  height: 100%;
-  letter-spacing: normal;
-  line-height: 24px;
-  margin: 0;
-  min-height: 24px;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  white-space: nowrap;
-}
-.pzp-content-title__anchor,
-.pzp-content-title__anchor:hover {
-  text-decoration: none;
-}
-.pzp-content-title__anchor:hover {
-  color: #00f889;
-}
-.pzp-pc--size-m .pzp-content-title__anchor,
-.pzp-pc--size-medium .pzp-content-title__anchor {
-  font-size: 14px;
-}
-.pzp-pc--size-s .pzp-content-title__anchor,
-.pzp-pc--size-small .pzp-content-title__anchor {
-  font-size: 13px;
-}
-.pzp-mobile--size-normal .pzp-content-title__anchor {
-  font-size: 14px;
-}
-.pzp-mobile--size-s .pzp-content-title__anchor,
-.pzp-mobile--size-small .pzp-content-title__anchor {
-  font-size: 13px;
 }
 .pzp-content-channel-name {
   -webkit-font-smoothing: antialiased;
@@ -8341,6 +8339,20 @@
   height: 54px;
   width: 54px;
 }
+.pzp-next-button {
+  height: 36px;
+  width: 36px;
+}
+.pzp-next-button:active {
+  opacity: 0.7;
+}
+.pzp-next-button:disabled {
+  opacity: 0.3;
+}
+.pzp-next-button .pzp-ui-icon {
+  height: 36px;
+  width: 36px;
+}
 .pzp-midroll-dimmed {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -8402,26 +8414,6 @@
   to {
     opacity: 1;
   }
-}
-.pzp-next-button {
-  height: 36px;
-  width: 36px;
-}
-.pzp-next-button:active {
-  opacity: 0.7;
-}
-.pzp-next-button:disabled {
-  opacity: 0.3;
-}
-.pzp-next-button .pzp-ui-icon {
-  height: 36px;
-  width: 36px;
-}
-.pzp-live-badge {
-  cursor: pointer;
-}
-.pzp-live-badge.pzp-live-badge--playing-edge {
-  cursor: default;
 }
 .pzp-loading-indicator {
   -ms-flex-align: center;
@@ -8544,6 +8536,12 @@
     -webkit-transform: rotate(1turn);
     transform: rotate(1turn);
   }
+}
+.pzp-live-badge {
+  cursor: pointer;
+}
+.pzp-live-badge.pzp-live-badge--playing-edge {
+  cursor: default;
 }
 .pzp-fullscreen-button {
   height: 36px;
@@ -8991,39 +8989,6 @@
     opacity: 1;
   }
 }
-.pzp-chapter-slider {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.pzp-chapter-slider .pzp-ui-progress__wrap {
-  border-radius: 0;
-  border-radius: initial;
-  top: 0;
-  -webkit-transition: height 0.1s ease-in;
-  transition: height 0.1s ease-in;
-}
-.pzp-chapter-slider .pzp-ui-progress__wrap.pzp-ui-chapter-slider--dragging {
-  height: 6px;
-}
-.pzp-chapter-slider
-  .pzp-ui-progress__wrap.pzp-ui-chapter-slider--dragging
-  .pzp-highlight-point {
-  height: 6px;
-  -webkit-transition: height 0.1s ease-in;
-  transition: height 0.1s ease-in;
-}
-@media (pointer: fine) {
-  .pzp-chapter-slider .pzp-ui-progress__wrap:hover {
-    border-radius: 0;
-    border-radius: initial;
-  }
-  .pzp-chapter-slider .pzp-ui-progress__wrap:hover,
-  .pzp-chapter-slider .pzp-ui-progress__wrap:hover .pzp-highlight-point {
-    height: 6px;
-    -webkit-transition: height 0.1s ease-in;
-    transition: height 0.1s ease-in;
-  }
-}
 .pzp-chapter-title {
   -ms-flex-align: center;
   align-items: center;
@@ -9067,6 +9032,39 @@
   height: 11px;
   margin: 0 3px;
   width: 11px;
+}
+.pzp-chapter-slider {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.pzp-chapter-slider .pzp-ui-progress__wrap {
+  border-radius: 0;
+  border-radius: initial;
+  top: 0;
+  -webkit-transition: height 0.1s ease-in;
+  transition: height 0.1s ease-in;
+}
+.pzp-chapter-slider .pzp-ui-progress__wrap.pzp-ui-chapter-slider--dragging {
+  height: 6px;
+}
+.pzp-chapter-slider
+  .pzp-ui-progress__wrap.pzp-ui-chapter-slider--dragging
+  .pzp-highlight-point {
+  height: 6px;
+  -webkit-transition: height 0.1s ease-in;
+  transition: height 0.1s ease-in;
+}
+@media (pointer: fine) {
+  .pzp-chapter-slider .pzp-ui-progress__wrap:hover {
+    border-radius: 0;
+    border-radius: initial;
+  }
+  .pzp-chapter-slider .pzp-ui-progress__wrap:hover,
+  .pzp-chapter-slider .pzp-ui-progress__wrap:hover .pzp-highlight-point {
+    height: 6px;
+    -webkit-transition: height 0.1s ease-in;
+    transition: height 0.1s ease-in;
+  }
 }
 .pzp-chapter-seeking-preview {
   -webkit-font-smoothing: antialiased;
@@ -9271,6 +9269,29 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
+.pzp-ad-click-through-button:active {
+  opacity: 0.3;
+}
+.pzp-ad-click-through-button__text {
+  color: #fff;
+  float: left;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  line-height: 33px;
+  white-space: nowrap;
+}
+.pzp-ad-click-through-button__icon {
+  float: left;
+  height: 10px;
+  margin: 11px 0 0 5px;
+  width: 12px;
+}
+.pzp-ad-click-through-button__svg {
+  display: block;
+  height: inherit;
+  width: inherit;
+}
 .pzp-ad-break-indicator {
   font-size: 20px;
 }
@@ -9319,29 +9340,6 @@
   to {
     color: #fff;
   }
-}
-.pzp-ad-click-through-button:active {
-  opacity: 0.3;
-}
-.pzp-ad-click-through-button__text {
-  color: #fff;
-  float: left;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: -0.25px;
-  line-height: 33px;
-  white-space: nowrap;
-}
-.pzp-ad-click-through-button__icon {
-  float: left;
-  height: 10px;
-  margin: 11px 0 0 5px;
-  width: 12px;
-}
-.pzp-ad-click-through-button__svg {
-  display: block;
-  height: inherit;
-  width: inherit;
 }
 @-webkit-keyframes pzp-mute-indicator-anime--fadeout {
   0% {
@@ -48363,6 +48361,10 @@ html.theme_dark {
   margin-left: 5px;
 }
 .navigator_button__HhFim[aria-expanded="true"] .navigator_icon_arrow__UHAwY {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+.navigator_icon_arrow__UHAwY {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
@@ -53800,6 +53802,336 @@ a.lol_kespa_cup_2024_footer_item__K4uwS:hover {
     transform: translateY(-50%);
     width: 1px;
   }
+}
+.chzzk_cup_2025_container__RW23X {
+  background-color: #141414;
+  color: var(--Content-Neutral-Primary-Static);
+  min-width: 375px;
+  text-align: center;
+}
+.chzzk_cup_2025_header__8paRW {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.chzzk_cup_2025_header__8paRW.chzzk_cup_2025_is_scrolled__58pvz {
+  background-color: #000;
+}
+.chzzk_cup_2025_inner__whvbT {
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  align-items: center;
+  color: var(--Content-Neutral-Primary-Static);
+  display: -ms-flexbox;
+  display: flex;
+  height: 44px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 10px 0 14px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_inner__whvbT {
+    height: 64px;
+    padding: 0 3px 0 10px;
+  }
+}
+.chzzk_cup_2025_area__FTsW2 {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: none;
+  flex: none;
+  height: 100%;
+}
+.chzzk_cup_2025_area__FTsW2 > .chzzk_cup_2025_area__FTsW2 {
+  padding: 0 6px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_area__FTsW2 > .chzzk_cup_2025_area__FTsW2 {
+    padding: 0 10px;
+  }
+}
+.chzzk_cup_2025_logo_chzzk__uhWAp {
+  color: var(--Content-Brand-Strong-Static);
+  -ms-flex: none;
+  flex: none;
+  height: 17px;
+  width: 54px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_logo_chzzk__uhWAp {
+    height: 24px;
+    width: 77px;
+  }
+}
+.chzzk_cup_2025_icon_x__XIOCf {
+  -ms-flex: none;
+  flex: none;
+  height: 10px;
+  width: 10px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_icon_x__XIOCf {
+    height: 14px;
+    width: 14px;
+  }
+}
+.chzzk_cup_2025_logo_riot__vYMLf {
+  -ms-flex: none;
+  flex: none;
+  height: 20px;
+  width: 71px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_logo_riot__vYMLf {
+    height: 24px;
+    width: 85px;
+  }
+}
+.chzzk_cup_2025_share__S2y2p {
+  color: inherit;
+  -ms-flex: none;
+  flex: none;
+  padding: 6px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_share__S2y2p {
+    padding: 13px;
+  }
+}
+.chzzk_cup_2025_share__S2y2p:active .chzzk_cup_2025_icon_share__hNcTe,
+.chzzk_cup_2025_share__S2y2p:focus-visible .chzzk_cup_2025_icon_share__hNcTe,
+.chzzk_cup_2025_share__S2y2p:hover .chzzk_cup_2025_icon_share__hNcTe {
+  background-color: var(--Surface-Interaction-Darken-Hovered);
+  border-radius: 4px;
+}
+.chzzk_cup_2025_icon_share__hNcTe {
+  height: 24px;
+  padding: 4px;
+  width: 24px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_icon_share__hNcTe {
+    height: 30px;
+    width: 30px;
+  }
+}
+.chzzk_cup_2025_main__UoyZ9 {
+  background-color: #0e241c;
+}
+.chzzk_cup_2025_section__1-zIA.chzzk_cup_2025_schedule__gatJo {
+  background-color: #0d1713;
+}
+.chzzk_cup_2025_section__1-zIA.chzzk_cup_2025_lineup__C4HTK {
+  background-color: #000;
+}
+.chzzk_cup_2025_section__1-zIA.chzzk_cup_2025_prize__P5\+uk {
+  background-color: #141414;
+}
+.chzzk_cup_2025_section__1-zIA.chzzk_cup_2025_event__Doikc {
+  background-color: #000;
+}
+.chzzk_cup_2025_section__1-zIA.chzzk_cup_2025_info__HzEPk {
+  background-color: #141414;
+}
+.chzzk_cup_2025_image__72F8S {
+  display: block;
+  margin: 0 auto;
+  width: 375px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_image__72F8S {
+    width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .chzzk_cup_2025_image__72F8S {
+    width: 1024px;
+  }
+}
+.chzzk_cup_2025_wrapper__8SVo3 {
+  padding-bottom: 36px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_wrapper__8SVo3 {
+    padding-bottom: 74px;
+  }
+}
+@media (min-width: 1024px) {
+  .chzzk_cup_2025_wrapper__8SVo3 {
+    padding-bottom: 100px;
+  }
+}
+.chzzk_cup_2025_button__KTuUX {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background-color: var(--Surface-Brand-Strongest-Static);
+  border-radius: 50px;
+  color: #000;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family:
+    Sandoll Nemony2,
+    Apple SD Gothic NEO,
+    Helvetica Neue,
+    Helvetica,
+    나눔고딕,
+    NanumGothic,
+    Malgun Gothic,
+    맑은 고딕,
+    굴림,
+    gulim,
+    새굴림,
+    noto sans,
+    돋움,
+    Dotum,
+    sans-serif;
+  font-size: 18px;
+  height: 50px;
+  justify-content: center;
+  line-height: 19px;
+  padding-left: 4px;
+  vertical-align: top;
+  width: 251px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_button__KTuUX {
+    font-size: 26px;
+    height: 75px;
+    line-height: 28px;
+    padding-left: 12px;
+    width: 413px;
+  }
+}
+@media (min-width: 1024px) {
+  .chzzk_cup_2025_button__KTuUX {
+    font-size: 35px;
+    height: 100px;
+    line-height: 37px;
+    padding-left: 16px;
+    width: 551px;
+  }
+}
+.chzzk_cup_2025_button__KTuUX:active,
+.chzzk_cup_2025_button__KTuUX:focus-visible,
+.chzzk_cup_2025_button__KTuUX:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(var(--Surface-Interaction-Lighten-Hovered)),
+    to(var(--Surface-Interaction-Lighten-Hovered))
+  );
+  background-image: linear-gradient(
+    var(--Surface-Interaction-Lighten-Hovered),
+    var(--Surface-Interaction-Lighten-Hovered)
+  );
+}
+.chzzk_cup_2025_icon_arrow__BnSXu {
+  -ms-flex: none;
+  flex: none;
+  height: 17px;
+  margin-left: 6px;
+  width: 17px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_icon_arrow__BnSXu {
+    height: 23px;
+    margin-left: 7px;
+    width: 23px;
+  }
+}
+@media (min-width: 1024px) {
+  .chzzk_cup_2025_icon_arrow__BnSXu {
+    height: 30px;
+    margin-left: 10px;
+    width: 30px;
+  }
+}
+.chzzk_cup_2025_footer__wd8oJ {
+  background-color: #141414;
+  padding: 26px 0 84px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_footer__wd8oJ {
+    -ms-flex-pack: center;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.06);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 25px 85px;
+    width: 100%;
+  }
+  .chzzk_cup_2025_row__fliu1 {
+    -ms-flex: none;
+    flex: none;
+  }
+  .chzzk_cup_2025_row__fliu1 + .chzzk_cup_2025_row__fliu1 {
+    padding-left: 1px;
+    position: relative;
+  }
+  .chzzk_cup_2025_row__fliu1 + .chzzk_cup_2025_row__fliu1:before {
+    background-color: hsla(0, 0%, 100%, 0.075);
+    content: "";
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+  }
+}
+.chzzk_cup_2025_item__zbsy7 {
+  color: var(--Content-Neutral-Alpha-Strong-Static);
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  line-height: 16px;
+  padding: 4px 8px;
+  vertical-align: top;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_item__zbsy7 {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 10px;
+  }
+}
+.chzzk_cup_2025_item__zbsy7 + .chzzk_cup_2025_item__zbsy7 {
+  padding-left: 9px;
+  position: relative;
+}
+.chzzk_cup_2025_item__zbsy7 + .chzzk_cup_2025_item__zbsy7:before {
+  background-color: hsla(0, 0%, 100%, 0.075);
+  content: "";
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 1px;
+}
+@media (min-width: 768px) {
+  .chzzk_cup_2025_item__zbsy7 + .chzzk_cup_2025_item__zbsy7 {
+    padding-left: 11px;
+  }
+}
+.chzzk_cup_2025_item__zbsy7 strong {
+  font-weight: 700;
+}
+a.chzzk_cup_2025_item__zbsy7:active,
+a.chzzk_cup_2025_item__zbsy7:hover {
+  text-decoration: underline;
 }
 .blocked_access_container__G3L9y {
   -ms-flex-align: center;
