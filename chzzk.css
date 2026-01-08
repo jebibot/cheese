@@ -55044,25 +55044,36 @@ a.chzzk_cup_2025_item__zbsy7:hover {
   position: relative;
 }
 .lck_2026_section__Ma19e.lck_2026_channel__LvYuH,
+.lck_2026_section__Ma19e.lck_2026_data__hFsY7,
 .lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D,
-.lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
+.lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
+.lck_2026_section__Ma19e.lck_2026_streamer__KWf2E,
+.lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
   background-color: rgba(47, 35, 81, 0.5);
 }
 .lck_2026_section__Ma19e.lck_2026_event__qiXFk,
 .lck_2026_section__Ma19e.lck_2026_info__PYWdM {
   background-color: #0a000f;
 }
-.lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D {
+.lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D,
+.lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
+.lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
   padding-top: 40px;
 }
-.lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
-  padding: 40px 0 30px;
+.lck_2026_section__Ma19e.lck_2026_data__hFsY7 {
+  padding-top: 10px;
+}
+.lck_2026_section__Ma19e.lck_2026_streamer__KWf2E {
+  padding: 30px 0 34px;
 }
 @media (min-width: 768px) {
-  .lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D {
+  .lck_2026_section__Ma19e.lck_2026_data__hFsY7,
+  .lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D,
+  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
+  .lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
     padding-top: 70px;
   }
-  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
+  .lck_2026_section__Ma19e.lck_2026_streamer__KWf2E {
     padding: 70px 0;
   }
 }
@@ -55074,8 +55085,11 @@ a.chzzk_cup_2025_item__zbsy7:hover {
     transform: translateX(-50%);
     width: 1200px;
   }
+  .lck_2026_section__Ma19e.lck_2026_data__hFsY7,
   .lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D,
-  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
+  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
+  .lck_2026_section__Ma19e.lck_2026_streamer__KWf2E,
+  .lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
     padding-top: 95px;
   }
 }
@@ -55282,7 +55296,7 @@ a.chzzk_cup_2025_item__zbsy7:hover {
 }
 .lck_2026_lolpark_link__pGxpT {
   border-radius: 30px;
-  bottom: 34px;
+  bottom: 19px;
   height: 37px;
   left: 0;
   margin: 0 auto;
@@ -55293,7 +55307,7 @@ a.chzzk_cup_2025_item__zbsy7:hover {
 }
 @media (min-width: 768px) {
   .lck_2026_lolpark_link__pGxpT {
-    bottom: 104px;
+    bottom: 34px;
     height: 43px;
     -webkit-transform: translateX(-15px);
     transform: translateX(-15px);
@@ -55302,11 +55316,34 @@ a.chzzk_cup_2025_item__zbsy7:hover {
 }
 @media (min-width: 1024px) {
   .lck_2026_lolpark_link__pGxpT {
-    bottom: 117px;
+    bottom: 47px;
     height: 55px;
-    -webkit-transform: translateX(-20px);
-    transform: translateX(-20px);
+    -webkit-transform: none;
+    transform: none;
     width: 219px;
+  }
+}
+.lck_2026_timemachine_link__ZM8SE {
+  height: 26px;
+  left: 30px;
+  position: absolute;
+  top: 145px;
+  width: 80px;
+}
+@media (min-width: 768px) {
+  .lck_2026_timemachine_link__ZM8SE {
+    height: 41px;
+    left: 49px;
+    top: 299px;
+    width: 133px;
+  }
+}
+@media (min-width: 1024px) {
+  .lck_2026_timemachine_link__ZM8SE {
+    height: 54px;
+    left: 60px;
+    top: 407px;
+    width: 176px;
   }
 }
 .lck_2026_event_link_lck__75FLS {
@@ -55316,14 +55353,14 @@ a.chzzk_cup_2025_item__zbsy7:hover {
   margin: 0 auto;
   position: absolute;
   right: 0;
-  top: 529px;
+  top: 509px;
   width: 200px;
   z-index: 1;
 }
 @media (min-width: 768px) {
   .lck_2026_event_link_lck__75FLS {
     height: 63px;
-    top: 855px;
+    top: 850px;
     width: 271px;
   }
 }
@@ -55332,6 +55369,55 @@ a.chzzk_cup_2025_item__zbsy7:hover {
     height: 83px;
     top: 1137px;
     width: 362px;
+  }
+}
+.lck_2026_streamer_list__uBP8I {
+  -ms-flex-pack: center;
+  -webkit-column-gap: 23px;
+  -moz-column-gap: 23px;
+  column-gap: 23px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 50px;
+  position: absolute;
+  right: 50px;
+  row-gap: 14px;
+  top: 120px;
+}
+.lck_2026_streamer_list__uBP8I li {
+  height: 90px;
+  width: 70px;
+}
+.lck_2026_streamer_list__uBP8I a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .lck_2026_streamer_list__uBP8I {
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    top: 194px;
+  }
+  .lck_2026_streamer_list__uBP8I li {
+    height: 133px;
+    width: 120px;
+  }
+}
+@media (min-width: 1024px) {
+  .lck_2026_streamer_list__uBP8I {
+    -webkit-column-gap: 28px;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+    top: 260px;
+  }
+  .lck_2026_streamer_list__uBP8I li {
+    height: 178px;
+    width: 150px;
   }
 }
 .lck_2026_footer__3PwoN {

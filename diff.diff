@@ -1,6 +1,2353 @@
+
++.lck_2026_section__Ma19e.lck_2026_data__hFsY7,
+
+-.lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
++.lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
++.lck_2026_section__Ma19e.lck_2026_streamer__KWf2E,
++.lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
+
+-.lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D {
++.lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D,
++.lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
++.lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
+
+-.lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
+-  padding: 40px 0 30px;
++.lck_2026_section__Ma19e.lck_2026_data__hFsY7 {
++  padding-top: 10px;
++}
++.lck_2026_section__Ma19e.lck_2026_streamer__KWf2E {
++  padding: 30px 0 34px;
+
+-  .lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D {
++  .lck_2026_section__Ma19e.lck_2026_data__hFsY7,
++  .lck_2026_section__Ma19e.lck_2026_exclusive__VAw2D,
++  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
++  .lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
+
+-  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
++  .lck_2026_section__Ma19e.lck_2026_streamer__KWf2E {
+
+
++  .lck_2026_section__Ma19e.lck_2026_data__hFsY7,
+
+-  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old {
++  .lck_2026_section__Ma19e.lck_2026_lolpark__S1old,
++  .lck_2026_section__Ma19e.lck_2026_streamer__KWf2E,
++  .lck_2026_section__Ma19e.lck_2026_timemachine__uoazt {
+
+-    bottom: 104px;
++    bottom: 34px;
+
+-    bottom: 117px;
++    bottom: 47px;
+
+-    -webkit-transform: translateX(-20px);
+-    transform: translateX(-20px);
++    -webkit-transform: none;
++    transform: none;
+
+
++.lck_2026_timemachine_link__ZM8SE {
++  height: 26px;
++  left: 30px;
++  position: absolute;
++  top: 145px;
++  width: 80px;
++}
++@media (min-width: 768px) {
++  .lck_2026_timemachine_link__ZM8SE {
++    height: 41px;
++    left: 49px;
++    top: 299px;
++    width: 133px;
++  }
++}
++@media (min-width: 1024px) {
++  .lck_2026_timemachine_link__ZM8SE {
++    height: 54px;
++    left: 60px;
++    top: 407px;
++    width: 176px;
++  }
++}
+
+
++.lck_2026_streamer_list__uBP8I {
++  -ms-flex-pack: center;
++  -webkit-column-gap: 23px;
++  -moz-column-gap: 23px;
++  column-gap: 23px;
++  display: -ms-flexbox;
++  display: flex;
++  -ms-flex-wrap: wrap;
++  flex-wrap: wrap;
++  justify-content: center;
++  left: 50px;
++  position: absolute;
++  right: 50px;
++  row-gap: 14px;
++  top: 120px;
++}
++.lck_2026_streamer_list__uBP8I li {
++  height: 90px;
++  width: 70px;
++}
++.lck_2026_streamer_list__uBP8I a {
++  display: block;
++  height: 100%;
++  width: 100%;
++}
++@media (min-width: 768px) {
++  .lck_2026_streamer_list__uBP8I {
++    -webkit-column-gap: 15px;
++    -moz-column-gap: 15px;
++    column-gap: 15px;
++    top: 194px;
++  }
++  .lck_2026_streamer_list__uBP8I li {
++    height: 133px;
++    width: 120px;
++  }
++}
++@media (min-width: 1024px) {
++  .lck_2026_streamer_list__uBP8I {
++    -webkit-column-gap: 28px;
++    -moz-column-gap: 28px;
++    column-gap: 28px;
++    top: 260px;
++  }
++  .lck_2026_streamer_list__uBP8I li {
++    height: 178px;
++    width: 150px;
++  }
++}
+
+
++                    "./data_1024.png": 86829,
++                    "./data_375.png": 14153,
++                    "./data_768.png": 18587,
+
+-                    "./main_text_768.png": 26436
++                    "./main_text_768.png": 26436,
++                    "./streamer_1024.png": 81742,
++                    "./streamer_375.png": 49364,
++                    "./streamer_768.png": 66114,
++                    "./timemachine_1024.png": 78019,
++                    "./timemachine_375.png": 71479,
++                    "./timemachine_768.png": 51297
+
+
++            86829: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/data_1024.918fdc692d0e55278030.png"
++            },
++            14153: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/data_375.633d7dd3b168ce8a4f53.png"
++            },
++            18587: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/data_768.c5cafc7df46925b3fde6.png"
++            },
+
+
++            81742: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/streamer_1024.367b02b44f0131aae98d.png"
++            },
++            49364: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/streamer_375.db7f754217e7f0f1f644.png"
++            },
++            66114: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/streamer_768.519e27875c01971fd159.png"
++            },
++            78019: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/timemachine_1024.ab0e0b6b28cd5cb1c7dd.png"
++            },
++            71479: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/timemachine_375.3124ec2c22c21310c317.png"
++            },
++            51297: function(e, t, n) {
++                "use strict";
++                e.exports = n.p + "static/media/timemachine_768.953e03cb90b1153264f3.png"
++            },
+
+-            Q$ = function() {
++            Q$ = __webpack_require__(87946),
++            Y$ = __webpack_require__.n(Q$),
++            J$ = __webpack_require__(49588),
++            $$ = __webpack_require__.n(J$),
++            e0 = function() {
++                var e = (new Q$.UAParser).getDevice().type;
++                return "mobile" === e || "tablet" === e
++            }(),
++            t0 = function() {
++                return (new Q$.UAParser).getBrowser()
++            },
++            n0 = function() {
++                var e = function() {
++                    var e = "";
++                    try {
++                        var t = document.createElement("canvas"),
++                            n = t.getContext("experimental-webgl", {
++                                stencil: !0
++                            });
++                        if (n) {
++                            var r = n.getExtension("WEBGL_debug_renderer_info");
++                            r && (e = n.getParameter(r.UNMASKED_RENDERER_WEBGL))
++                        }
++                        e || (n = t.getContext("webgl")) && (e = n.getParameter(n.RENDERER))
++                    } catch (i) {
++                        e = "error"
++                    }
++                    return e
++                }();
++                return e.includes(" Direct3D") || e.includes("(WDDM)") || e.includes("Microsoft Basic Render Driver")
++            },
++            r0 = function() {
++                return (navigator.userAgent || navigator.vendor).includes("Macintosh")
++            },
++            i0 = function(e) {
++                return e.play().catch((function(t) {
++                    if ("AbortError" !== t.name) return console.error(t), e.muted = !0, e.play()
++                })).catch((function(e) {
++                    e.name
++                }))
++            },
++            a0 = function() {
++                var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : null,
++                    t = arguments.length > 1 ? arguments[1] : void 0,
++                    n = arguments.length > 2 ? arguments[2] : void 0,
++                    r = new MutationObserver((function() {
++                        null !== e && void 0 !== e && e.classList.contains(t) ? n(!0) : n(!1)
++                    }));
++                return e && r.observe(e, {
++                    attributes: !0,
++                    childList: !1,
++                    subtree: !1
++                }), r
++            },
++            o0 = function(e, t) {
++                var n = e.querySelector("pzp-pc-setting-playbackrate-pane");
++                n && (n.playbackRates = t)
++            },
++            s0 = function(e) {
++                var t = +e._corePlayer.getStartDate();
++                return Math.floor(t + 1e3 * e.currentTime)
++            },
++            l0 = function(e, t, n) {
++                var r = [];
++                if (!e.cues || 0 === e.cues.length) return r;
++                for (var i = e.cues, a = 0, o = i.length - 1, s = -1; a <= o;) {
++                    var l = Math.floor((a + o) / 2);
++                    i[l].startTime <= t ? (s = l, a = l + 1) : o = l - 1
++                }
++                if (-1 === s) return r;
++                for (var c = s; c >= 0; c--) {
++                    var u = i[c];
++                    if (t - u.startTime > n) break;
++                    r.unshift(u)
++                }
++                return r
++            },
++            c0 = function(e) {
++                for (var t = 0, n = Array.from(e.textTracks); t < n.length; t++) {
++                    var r = n[t];
++                    if ("metadata" === r.kind)
++                        if (r.cues) {
++                            for (var i = !1, a = 0; a < r.cues.length; ++a) {
++                                var o = r.cues[a].value;
++                                if (o && "com.navercorp.nmss.timestamp" === o.info) {
++                                    i = !0;
++                                    break
++                                }
++                            }
++                            if (i) {
++                                var s = [];
++                                if (0 !== (s = "Apple Computer, Inc." === navigator.vendor ? l0(r, e.currentTime, 1) : r.activeCues ? Array.from(r.activeCues) : []).length) {
++                                    var l = new Uint8Array(s[0].value.data);
++                                    return JSON.parse(String.fromCharCode.apply(null, l).trim())["current-utc"]
++                                }
++                            }
++                        } else "disabled" === r.mode && (r.mode = "hidden")
++                }
++                return null
++            },
++            u0 = function() {
++                vh({
++                    chrome: 142,
++                    edge: 143
++                }) && navigator.permissions.query({
++                    name: "local-network-access"
++                }).then((function(e) {
++                    var t = "";
++                    if ("prompt" === e.state) t = "이 버전의 브라우저에서 영상을 재생하려면 권한이 필요합니다.\n\n좌상단의 권한 팝업에서\n[로컬 네트워크 액세스] 권한을 허용해주세요.\n\n만약, 팝업이 보이지 않는다면 도움말을 확인해주세요.";
++                    else {
++                        if ("denied" !== e.state) return;
++                        t = "이 버전의 브라우저에서 영상을 재생하려면 권한이 필요합니다.\n\n주소창 > 좌측 아이콘 클릭 > [로컬 네트워크 액세스]\n권한을 ON으로 변경해주세요.\n\n자세한 내용은 도움말에서 확인할 수 있습니다."
++                    }
++                    Cm({
++                        title: "브라우저 권한 설정 안내",
++                        message: t,
++                        confirm: !0,
++                        okHandler: function(e) {
++                            e()
++                        },
++                        cancelHandler: function(e) {
++                            window.open("https://naver.me/FUQnxJ08", "_blank")
++                        },
++                        cancelText: "도움말 보러가기",
++                        okText: "확인"
++                    })
++                })).catch((function(e) {}))
++            },
++            d0 = Eu,
++            p0 = "real",
++            h0 = null,
++            f0 = function() {
++                var e = ut(st().mark((function e() {
++                    return st().wrap((function(e) {
++                        for (;;) switch (e.prev = e.next) {
++                            case 0:
++                                if (null === h0) {
++                                    e.next = 2;
++                                    break
++                                }
++                                return e.abrupt("return", h0);
++                            case 2:
++                                return h0 = ut(st().mark((function e() {
++                                    return st().wrap((function(e) {
++                                        for (;;) switch (e.prev = e.next) {
++                                            case 0:
++                                                return e.prev = 0, e.next = 3, $$().requestMediaKeySystemAccess("com.naver.lip.smp", [{
++                                                    initDataTypes: ["uri-redirect"],
++                                                    videoCapabilities: [{
++                                                        contentType: "application/x-mpegURL"
++                                                    }]
++                                                }]);
++                                            case 3:
++                                                return e.abrupt("return", !0);
++                                            case 6:
++                                                return e.prev = 6, e.t0 = e.catch(0), e.abrupt("return", !1);
++                                            case 9:
++                                            case "end":
++                                                return e.stop()
++                                        }
++                                    }), e, null, [
++                                        [0, 6]
++                                    ])
++                                })))(), e.abrupt("return", h0);
++                            case 4:
++                            case "end":
++                                return e.stop()
++                        }
++                    }), e)
++                })));
++                return function() {
++                    return e.apply(this, arguments)
++                }
++            }(),
++            v0 = function() {
+
+-            Y$ = function() {
+-                var e = ut(st().mark((function e(t, n) {
+-                    var r, i;
++            m0 = function() {
++                var e = ut(st().mark((function e(t, n, r) {
++                    var i, a, o;
+
+-                                return r = Ey.stringify({
+-                                    dt: n
+-                                }), e.next = 3, Gm.get("/channels/".concat(t, "/live-detail").concat(n ? "?".concat(r) : ""));
+-                            case 3:
+-                                return i = e.sent, e.abrupt("return", i.data.content);
+-                            case 5:
++                                return e.next = 2, f0();
++                            case 2:
++                                return i = e.sent, a = Ey.stringify({
++                                    dt: r,
++                                    cu: n,
++                                    tm: i
++                                }), e.next = 6, Gm.get("/channels/".concat(t, "/live-detail?").concat(a));
++                            case 6:
++                                return o = e.sent, e.abrupt("return", o.data.content);
++                            case 8:
+
+-                return function(t, n) {
++                return function(t, n, r) {
+
+-            J$ = function() {
+-                var e = ut(st().mark((function e(t, n) {
+-                    var r, i, a, o, s;
++            y0 = function() {
++                var e = ut(st().mark((function e(t, n, r) {
++                    var i, a, o, s, l, c;
+
+-                                return r = Ey.stringify({
+-                                    dt: n
+-                                }), i = "/channels/".concat(t, "/live-detail").concat(n ? "?".concat(r) : ""), a = Z$(new UH), e.next = 5, a.getTunnelUrl(Gm.defaults.baseURL + i);
+-                            case 5:
+-                                return o = e.sent, e.next = 8, Gm.get("", {
+-                                    baseURL: o
+-                                });
++                                return e.next = 2, f0();
++                            case 2:
++                                return i = e.sent, a = Ey.stringify({
++                                    dt: r,
++                                    cu: n,
++                                    tm: i
++                                }), o = "/channels/".concat(t, "/live-detail?").concat(a), s = Z$(new UH), e.next = 8, s.getTunnelUrl(Gm.defaults.baseURL + o);
+
+-                                return s = e.sent, e.abrupt("return", s.data.content);
+-                            case 10:
++                                return l = e.sent, e.next = 11, Gm.get("", {
++                                    baseURL: l
++                                });
++                            case 11:
++                                return c = e.sent, e.abrupt("return", c.data.content);
++                            case 13:
+
+-                return function(t, n) {
++                return function(t, n, r) {
+
+-                    var n;
++                    var n, r, i;
+
+-                                return e.next = 2, Wm.get("/channels/".concat(t, "/live-playback-json"));
++                                return e.next = 2, f0();
+
+-                                return n = e.sent, e.abrupt("return", n.data.content);
+-                            case 4:
++                                return n = e.sent, r = Ey.stringify({
++                                    tm: n
++                                }), e.next = 6, Um.get("/channels/".concat(t, "/live-playback-json?").concat(r));
++                            case 6:
++                                return i = e.sent, e.abrupt("return", i.data.content);
++                            case 8:
+
+-                    y = sr(mi),
+-                    g = l(cr(ei), 2),
+-                    b = g[0],
+-                    _ = g[1],
+-                    x = l(cr(yr), 2),
+-                    A = x[0],
+-                    k = x[1],
+-                    M = sr(ti),
+-                    O = EL("live", m).ageRestriction,
+-                    E = y6("live", m).geoRestriction,
+-                    w = sr(gr),
+-                    C = l(cr(tb("LIVE_END")), 2),
+-                    S = C[0],
+-                    T = C[1],
+-                    z = sr(kr),
+-                    L = sr(Mr),
+-                    I = l(cr(Rr), 2),
+-                    R = I[0],
+-                    P = I[1],
+-                    N = l(cr(qr), 2),
+-                    D = N[0],
+-                    j = N[1],
+-                    B = l((0, c.useState)(!1), 2),
+-                    F = B[0],
+-                    q = B[1],
+-                    W = l((0, c.useState)(), 2),
+-                    U = W[0],
+-                    V = W[1],
+-                    H = l((0, c.useState)(null === (t = null === w || void 0 === w ? void 0 : w.chatDonationRankingExposure) || void 0 === t || t), 2),
+-                    G = H[0],
+-                    X = H[1],
+-                    Z = l((0, c.useState)(null === (n = null === w || void 0 === w ? void 0 : w.logPowerRankingExposure) || void 0 === n || n), 2),
+-                    K = Z[0],
+-                    Q = Z[1],
+-                    Y = l((0, c.useState)(null !== (r = null === w || void 0 === w ? void 0 : w.chatEmojiMode) && void 0 !== r && r), 2),
+-                    J = Y[0],
+-                    $ = Y[1],
+-                    ee = l((0, c.useState)(null !== (i = null === w || void 0 === w ? void 0 : w.chatSlowModeSec) && void 0 !== i ? i : 0), 2),
+-                    te = ee[0],
+-                    ne = ee[1];
++                    y = sr(ub),
++                    g = sr(mi),
++                    b = l(cr(ei), 2),
++                    _ = b[0],
++                    x = b[1],
++                    A = l(cr(yr), 2),
++                    k = A[0],
++                    M = A[1],
++                    O = sr(ti),
++                    E = EL("live", m).ageRestriction,
++                    w = N6("live", m).geoRestriction,
++                    C = sr(gr),
++                    S = l(cr(tb("LIVE_END")), 2),
++                    T = S[0],
++                    z = S[1],
++                    L = sr(kr),
++                    I = sr(Mr),
++                    R = l(cr(Rr), 2),
++                    P = R[0],
++                    N = R[1],
++                    D = l(cr(qr), 2),
++                    j = D[0],
++                    B = D[1],
++                    F = l((0, c.useState)(!1), 2),
++                    q = F[0],
++                    W = F[1],
++                    U = l((0, c.useState)(), 2),
++                    V = U[0],
++                    H = U[1],
++                    G = l((0, c.useState)(null === (t = null === C || void 0 === C ? void 0 : C.chatDonationRankingExposure) || void 0 === t || t), 2),
++                    X = G[0],
++                    Z = G[1],
++                    K = l((0, c.useState)(null === (n = null === C || void 0 === C ? void 0 : C.logPowerRankingExposure) || void 0 === n || n), 2),
++                    Q = K[0],
++                    Y = K[1],
++                    J = l((0, c.useState)(null !== (r = null === C || void 0 === C ? void 0 : C.chatEmojiMode) && void 0 !== r && r), 2),
++                    $ = J[0],
++                    ee = J[1],
++                    te = l((0, c.useState)(null !== (i = null === C || void 0 === C ? void 0 : C.chatSlowModeSec) && void 0 !== i ? i : 0), 2),
++                    ne = te[0],
++                    re = te[1];
+
+-                    X(null === (e = null === w || void 0 === w ? void 0 : w.chatDonationRankingExposure) || void 0 === e || e), $(null !== (t = null === w || void 0 === w ? void 0 : w.chatEmojiMode) && void 0 !== t && t), ne(null !== (n = null === w || void 0 === w ? void 0 : w.chatSlowModeSec) && void 0 !== n ? n : 0), Q(null !== (r = null === w || void 0 === w ? void 0 : w.logPowerRankingExposure) && void 0 !== r && r)
+-                }), [w]);
+-                var re = function() {
++                    Z(null === (e = null === C || void 0 === C ? void 0 : C.chatDonationRankingExposure) || void 0 === e || e), ee(null !== (t = null === C || void 0 === C ? void 0 : C.chatEmojiMode) && void 0 !== t && t), re(null !== (n = null === C || void 0 === C ? void 0 : C.chatSlowModeSec) && void 0 !== n ? n : 0), Y(null !== (r = null === C || void 0 === C ? void 0 : C.logPowerRankingExposure) && void 0 !== r && r)
++                }), [C]);
++                var ie = function() {
+
+-                                        return e.next = 9, Y$(m);
++                                        return e.next = 9, m0(m, !(null === y || void 0 === y || !y.subscribing));
+
+-                                        return e.next = 9, Y$(m);
++                                        return e.next = 9, m0(m, !(null === y || void 0 === y || !y.subscribing));
+
+-                                        $(!J), _(!1);
++                                        ee(!$), x(!1);
+
+-            T9 = c.memo(S9),
+-            z9 = "restrict_container__FymGY",
+-            L9 = "restrict_content__9Zxi2",
+-            I9 = "restrict_text__yhMvk",
+-            R9 = "restrict_nickname__a4BSh",
+-            P9 = "restrict_has_mark__eyfiF",
+-            N9 = "restrict_description__3iRk9",
+-            D9 = "restrict_wrapper__wY6jq",
+-            j9 = "restrict_label__RcPAh",
+-            B9 = "restrict_warning__ahsEq",
+-            F9 = "restrict_input_area__C5iy7",
+-            q9 = "restrict_is_focused__JGfFn",
+-            W9 = "restrict_is_error__pJb3v",
+-            U9 = "restrict_text_area__SVWA5",
+-            V9 = "restrict_limit__IZdJ4",
+-            H9 = "restrict_count__DUwT9",
+-            G9 = "restrict_over__CSbok",
+-            X9 = {
++            K9 = c.memo(Z9),
++            Q9 = "restrict_container__FymGY",
++            Y9 = "restrict_content__9Zxi2",
++            J9 = "restrict_text__yhMvk",
++            $9 = "restrict_nickname__a4BSh",
++            eee = "restrict_has_mark__eyfiF",
++            tee = "restrict_description__3iRk9",
++            nee = "restrict_wrapper__wY6jq",
++            ree = "restrict_label__RcPAh",
++            iee = "restrict_warning__ahsEq",
++            aee = "restrict_input_area__C5iy7",
++            oee = "restrict_is_focused__JGfFn",
++            see = "restrict_is_error__pJb3v",
++            lee = "restrict_text_area__SVWA5",
++            cee = "restrict_limit__IZdJ4",
++            uee = "restrict_count__DUwT9",
++            dee = "restrict_over__CSbok",
++            pee = {
+
+-            Z9 = ["title", "titleId"];
++            hee = ["title", "titleId"];
+
+-        function K9() {
+-            return K9 = Object.assign ? Object.assign.bind() : function(e) {
++        function fee() {
++            return fee = Object.assign ? Object.assign.bind() : function(e) {
+
+-            }, K9.apply(null, arguments)
++            }, fee.apply(null, arguments)
+
+-        function Q9(e, t) {
++        function vee(e, t) {
+
+-                }(e, Z9);
+-            return c.createElement("svg", K9({
++                }(e, hee);
++            return c.createElement("svg", fee({
+
+-        var Y9, J9, $9, eee = c.forwardRef(Q9),
+-            tee = (__webpack_require__.p, function(e) {
++        var mee, yee, gee, bee = c.forwardRef(vee),
++            _ee = (__webpack_require__.p, function(e) {
+
+-                    className: ht()(X9.container, (0, dt.A)((0, dt.A)({}, X9.is_small, t), X9.is_restrict, n)),
++                    className: ht()(pee.container, (0, dt.A)((0, dt.A)({}, pee.is_small, t), pee.is_restrict, n)),
+
+-                        className: X9.component,
++                        className: pee.component,
+
+-                            className: X9.inner,
++                            className: pee.inner,
+
+-                                className: X9.name,
++                                className: pee.name,
+
+-                                className: X9.icon_arrow
+-                            }) : (0, nn.jsx)(eee, {
+-                                className: X9.icon_arrow
++                                className: pee.icon_arrow
++                            }) : (0, nn.jsx)(bee, {
++                                className: pee.icon_arrow
+
+-                        className: X9.layer,
++                        className: pee.layer,
+
+-                                className: X9.item,
++                                className: pee.item,
+
+-                                    className: X9.option,
++                                    className: pee.option,
+
+-                            className: ht()(R9, (0, dt.A)({}, P9, null === t || void 0 === t ? void 0 : t.verifiedMark)),
++                            className: ht()($9, (0, dt.A)({}, eee, null === t || void 0 === t ? void 0 : t.verifiedMark)),
+
+-                        className: N9,
++                        className: tee,
+
+-                        className: D9,
++                        className: nee,
+
+-                            className: j9,
++                            className: ree,
+
+-                            className: B9,
++                            className: iee,
+
+-                        className: D9,
++                        className: nee,
+
+-                            className: j9,
++                            className: ree,
+
+-                            className: ht()(F9, (0, dt.A)((0, dt.A)({}, q9, x || M > 0), W9, M > 100)),
++                            className: ht()(aee, (0, dt.A)((0, dt.A)({}, oee, x || M > 0), see, M > 100)),
+
+-                                className: U9,
++                                className: lee,
+
+-                                className: V9,
++                                className: cee,
+
+-                                    className: G9,
++                                    className: dee,
+
+-                                    className: H9,
++                                    className: uee,
+
+-            }, Y9 || (Y9 = c.createElement("path", {
++            }, mee || (mee = c.createElement("path", {
+
+-            })), J9 || (J9 = c.createElement("path", {
++            })), yee || (yee = c.createElement("path", {
+
+-            }))), $9 || ($9 = c.createElement("g", {
++            }))), gee || (gee = c.createElement("g", {
+
+-            Sge = c.memo(Cge),
+-            Tge = function() {
+-                return (0, nn.jsx)(Sge, {})
+-            },
+-            zge = __webpack_require__(49588),
+-            Lge = __webpack_require__.n(zge),
+-            Ige = __webpack_require__(87946),
+-            Rge = __webpack_require__.n(Ige),
+-            Pge = function() {
+-                var e = (new Ige.UAParser).getDevice().type;
+-                return "mobile" === e || "tablet" === e
+-            }(),
+-            Nge = function() {
+-                return (new Ige.UAParser).getBrowser()
++            Zge = c.memo(Xge),
++            Kge = function() {
++                return (0, nn.jsx)(Zge, {})
+
+-            Dge = function() {
+-                var e = function() {
+-                    var e = "";
+-                    try {
+-                        var t = document.createElement("canvas"),
+-                            n = t.getContext("experimental-webgl", {
+-                                stencil: !0
+-                            });
+-                        if (n) {
+-                            var r = n.getExtension("WEBGL_debug_renderer_info");
+-                            r && (e = n.getParameter(r.UNMASKED_RENDERER_WEBGL))
+-                        }
+-                        e || (n = t.getContext("webgl")) && (e = n.getParameter(n.RENDERER))
+-                    } catch (i) {
+-                        e = "error"
+-                    }
+-                    return e
+-                }();
+-                return e.includes(" Direct3D") || e.includes("(WDDM)") || e.includes("Microsoft Basic Render Driver")
+-            },
+-            jge = function() {
+-                return (navigator.userAgent || navigator.vendor).includes("Macintosh")
+-            },
+-            Bge = function(e) {
+-                return e.play().catch((function(t) {
+-                    if ("AbortError" !== t.name) return console.error(t), e.muted = !0, e.play()
+-                })).catch((function(e) {
+-                    e.name
+-                }))
+-            },
+-            Fge = function() {
+-                var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : null,
+-                    t = arguments.length > 1 ? arguments[1] : void 0,
+-                    n = arguments.length > 2 ? arguments[2] : void 0,
+-                    r = new MutationObserver((function() {
+-                        null !== e && void 0 !== e && e.classList.contains(t) ? n(!0) : n(!1)
+-                    }));
+-                return e && r.observe(e, {
+-                    attributes: !0,
+-                    childList: !1,
+-                    subtree: !1
+-                }), r
+-            },
+-            qge = function(e, t) {
+-                var n = e.querySelector("pzp-pc-setting-playbackrate-pane");
+-                n && (n.playbackRates = t)
+-            },
+-            Wge = function(e) {
+-                var t = +e._corePlayer.getStartDate();
+-                return Math.floor(t + 1e3 * e.currentTime)
+-            },
+-            Uge = function(e, t, n) {
+-                var r = [];
+-                if (!e.cues || 0 === e.cues.length) return r;
+-                for (var i = e.cues, a = 0, o = i.length - 1, s = -1; a <= o;) {
+-                    var l = Math.floor((a + o) / 2);
+-                    i[l].startTime <= t ? (s = l, a = l + 1) : o = l - 1
+-                }
+-                if (-1 === s) return r;
+-                for (var c = s; c >= 0; c--) {
+-                    var u = i[c];
+-                    if (t - u.startTime > n) break;
+-                    r.unshift(u)
+-                }
+-                return r
+-            },
+-            Vge = function(e) {
+-                for (var t = 0, n = Array.from(e.textTracks); t < n.length; t++) {
+-                    var r = n[t];
+-                    if ("metadata" === r.kind)
+-                        if (r.cues) {
+-                            for (var i = !1, a = 0; a < r.cues.length; ++a) {
+-                                var o = r.cues[a].value;
+-                                if (o && "com.navercorp.nmss.timestamp" === o.info) {
+-                                    i = !0;
+-                                    break
+-                                }
+-                            }
+-                            if (i) {
+-                                var s = [];
+-                                if (0 !== (s = "Apple Computer, Inc." === navigator.vendor ? Uge(r, e.currentTime, 1) : r.activeCues ? Array.from(r.activeCues) : []).length) {
+-                                    var l = new Uint8Array(s[0].value.data);
+-                                    return JSON.parse(String.fromCharCode.apply(null, l).trim())["current-utc"]
+-                                }
+-                            }
+-                        } else "disabled" === r.mode && (r.mode = "hidden")
+-                }
+-                return null
+-            },
+-            Hge = function() {
+-                vh({
+-                    chrome: 142,
+-                    edge: 143
+-                }) && navigator.permissions.query({
+-                    name: "local-network-access"
+-                }).then((function(e) {
+-                    var t = "";
+-                    if ("prompt" === e.state) t = "이 버전의 브라우저에서 영상을 재생하려면 권한이 필요합니다.\n\n좌상단의 권한 팝업에서\n[로컬 네트워크 액세스] 권한을 허용해주세요.\n\n만약, 팝업이 보이지 않는다면 도움말을 확인해주세요.";
+-                    else {
+-                        if ("denied" !== e.state) return;
+-                        t = "이 버전의 브라우저에서 영상을 재생하려면 권한이 필요합니다.\n\n주소창 > 좌측 아이콘 클릭 > [로컬 네트워크 액세스]\n권한을 ON으로 변경해주세요.\n\n자세한 내용은 도움말에서 확인할 수 있습니다."
+-                    }
+-                    Cm({
+-                        title: "브라우저 권한 설정 안내",
+-                        message: t,
+-                        confirm: !0,
+-                        okHandler: function(e) {
+-                            e()
+-                        },
+-                        cancelHandler: function(e) {
+-                            window.open("https://naver.me/FUQnxJ08", "_blank")
+-                        },
+-                        cancelText: "도움말 보러가기",
+-                        okText: "확인"
+-                    })
+-                })).catch((function(e) {}))
+-            },
+-            Gge = Eu,
+-            Xge = "real",
+-            Zge = {
++            Qge = {
+
+-            Kge = function(e) {
+-                var t = (0, lt.A)((0, lt.A)({}, Zge), e);
+-                return !!t.real
+-            },
+-            Qge = function(e) {
+-                Kge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.info("%c[INFO]%c " + e, "color: #2248bb", "color: inherit")
+-            },
+
+
+-                Kge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.warn("%c[WARN]%c " + e, "color: #faad15", "color: inherit")
++                var t = (0, lt.A)((0, lt.A)({}, Qge), e);
++                return !!t.real
+
+-                Kge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.error("%c[ERROR]%c " + e, "color: #f84302", "color: inherit")
++                Yge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.info("%c[INFO]%c " + e, "color: #2248bb", "color: inherit")
+
+-                Kge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.debug("%c[DEBUG]%c " + e, "color: #1bb373", "color: inherit")
++                Yge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.warn("%c[WARN]%c " + e, "color: #faad15", "color: inherit")
++            },
++            ebe = function(e) {
++                Yge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.error("%c[ERROR]%c " + e, "color: #f84302", "color: inherit")
+
+-            ebe = (0, c.createContext)(null),
+
+
+
++                Yge(arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}) && console.debug("%c[DEBUG]%c " + e, "color: #1bb373", "color: inherit")
++            },
++            nbe = (0, c.createContext)(null),
++            rbe = function(e) {
+
+-                    h(new zge.CorePlayer)
++                    h(new J$.CorePlayer)
+
+-                        return p.srcObject = zge.LiveProvider.fromJSON(e, {
+-                                devt: Pge ? "HTML5_MO" : "HTML5_PC",
+-                                serviceId: Gge,
++                        return p.srcObject = J$.LiveProvider.fromJSON(e, {
++                                devt: e0 ? "HTML5_MO" : "HTML5_PC",
++                                serviceId: d0,
+
+-                            p.muted = !0, o || Bge(p), Array.from(p.videoTracks).find((function(e) {
++                            p.muted = !0, o || i0(p), Array.from(p.videoTracks).find((function(e) {
+
+-                        var n = new zge.CorePlayer;
++                        var n = new J$.CorePlayer;
+
+-                    a && (a.srcObject = new zge.VODTrailerProvider({
++                    a && (a.srcObject = new J$.VODTrailerProvider({
+
+-                            sid: Gge
++                            sid: d0
+
+-                    }), a.muted = !0, Bge(a).then((function() {
++                    }), a.muted = !0, i0(a).then((function() {
+
+-                    u(new zge.CorePlayer)
++                    u(new J$.CorePlayer)
+
+-                        return s.srcObject = zge.LiveProvider.fromJSON(e, {
++                        return s.srcObject = J$.LiveProvider.fromJSON(e, {
+
+-                                serviceId: Gge,
++                                serviceId: d0,
+
+-                            s.muted = !0, Bge(s).then((function() {
++                            s.muted = !0, i0(s).then((function() {
+
+-                    a(new zge.CorePlayer)
++                    a(new J$.CorePlayer)
+
+-                        return i.srcObject = zge.LiveProvider.fromJSON(e, {
++                        return i.srcObject = J$.LiveProvider.fromJSON(e, {
+
+-                                serviceId: Gge,
++                                serviceId: d0,
+
+-                            i.muted = !0, Bge(i).then((function() {
++                            i.muted = !0, i0(i).then((function() {
+
+-            Vwe = function(e) {
+-                return "\n  The item has returned to its starting position\n  of " + qwe(e.index) + "\n"
+-            },
+-            Hwe = "\n  Press space bar to start a drag.\n  When dragging you can use the arrow keys to move the item around and escape to cancel.\n  Some screen readers may require you to be in focus mode or to use your pass through key\n",
+
+
+-                return "\n  You have lifted an item in position " + qwe(e.source.index) + "\n"
++                return "\n  The item has returned to its starting position\n  of " + Uwe(e.index) + "\n"
+
+-            Xwe = function(e) {
++            Xwe = "\n  Press space bar to start a drag.\n  When dragging you can use the arrow keys to move the item around and escape to cancel.\n  Some screen readers may require you to be in focus mode or to use your pass through key\n",
++            Zwe = function(e) {
++                return "\n  You have lifted an item in position " + Uwe(e.source.index) + "\n"
++            },
++            Kwe = function(e) {
+
+-            jRe = c.memo(DRe),
+-            BRe = function() {
+-                return (0, nn.jsx)(jRe, {})
+-            },
+
+
+-                return (0, nn.jsx)(vpe, {
+-                    icon: (0, nn.jsx)(p5, {
++                return (0, nn.jsx)(FRe, {})
++            },
++            WRe = c.memo(qRe),
++            URe = function() {
++                return (0, nn.jsx)(Rpe, {
++                    icon: (0, nn.jsx)(z5, {
+
+-                        e.label === a.label && kPe(e) && (i = i && "low-latency-p2p" === i.kind ? i : e)
+-                    })), i && (i.selected = !0), i && APe(i) && Hge()
+-                } catch (VUt) {}
++                        e.label === a.label && OPe(e) && (i = i && "low-latency-p2p" === i.kind ? i : e)
++                    })), i && (i.selected = !0), i && MPe(i) && u0()
++                } catch (GUt) {}
+
+-                                i && (t.currentTime = i), r && (t.muted = !0), n && Bge(t), _Pe(bPe.READY)
++                                i && (t.currentTime = i), r && (t.muted = !0), n && i0(t), APe(xPe.READY)
+
+-                                    t.removeEventListener("loadedmetadata", e)
++                                    window.__player = null, t.removeEventListener("loadedmetadata", e)
+
+-                        Lge().enableDebugLog({
++                        $$().enableDebugLog({
+
+-                        var e = Lge().upgrade(u.current);
+-                        f(e), uh() || (SPe(e, "EMBED"), zPe(e, "EMBED"))
++                        var e = $$().upgrade(u.current);
++                        f(e), uh() || (zPe(e, "EMBED"), IPe(e, "EMBED"))
+
+-                            t = Fge(e, "pzp-pc--controls", (function(e) {
++                            t = a0(e, "pzp-pc--controls", (function(e) {
+
+-                    zge.CorePlayer.use(function(e) {
++                    J$.CorePlayer.use(function(e) {
+
+-                    }(rDe)), zge.CorePlayer.use(function(e) {
++                    }(aDe)), J$.CorePlayer.use(function(e) {
+
+-                    }(fDe)), zge.CorePlayer.use(zge.DASH2HLSPlugin)
++                    }(mDe)), J$.CorePlayer.use(J$.DASH2HLSPlugin)
+
+-            iqe = "overlay_donation_alarm__yLpLJ",
+-            aqe = "overlay_donation_animation__Wz4tt",
+-            oqe = "overlay_donation_contents__2Dz7i",
+-            sqe = "overlay_donation_play_video__CBWMd",
+-            lqe = "overlay_donation_icon_cheese__Q9CzS",
+-            cqe = "overlay_donation_video_title__2xNHP",
+-            uqe = "overlay_donation_play_video_large__206wS",
+-            dqe = "overlay_donation_wrapper__AmlxV",
+-            pqe = "overlay_donation_text__NP9sM",
+-            hqe = "overlay_donation_default__Jx9Ar",
+-            fqe = "overlay_donation_participants__CLWAT",
+-            vqe = "overlay_donation_ellipsis__xJH9x",
+-            mqe = "overlay_donation_word__F5BGF",
+-            yqe = "overlay_donation_money__90Tz4",
+-            gqe = "overlay_donation_message__YD352",
+-            bqe = "overlay_donation_result__hirMT",
+-            _qe = "overlay_donation_succeed__ZGDNr",
+-            xqe = "overlay_donation_fail__WRxx3",
+-            Aqe = "overlay_donation_description__EnR8T",
+-            kqe = "overlay_donation_is_short__n-1mj",
+-            Mqe = "overlay_donation_is_medium__BYjWR",
+-            Oqe = "overlay_donation_is_long__NusYI",
+-            Eqe = "overlay_donation_is_longest__Oat9M",
+-            wqe = __webpack_require__.p + "static/media/gift_tier1.d3edb00de1043228fce6.gif",
+-            Cqe = __webpack_require__.p + "static/media/gift_tier2.2ce7b2a48c495a08f30b.gif",
+-            Sqe = [],
+-            Tqe = [],
++            oqe = "overlay_donation_alarm__yLpLJ",
++            sqe = "overlay_donation_animation__Wz4tt",
++            lqe = "overlay_donation_contents__2Dz7i",
++            cqe = "overlay_donation_play_video__CBWMd",
++            uqe = "overlay_donation_icon_cheese__Q9CzS",
++            dqe = "overlay_donation_video_title__2xNHP",
++            pqe = "overlay_donation_play_video_large__206wS",
++            hqe = "overlay_donation_wrapper__AmlxV",
++            fqe = "overlay_donation_text__NP9sM",
++            vqe = "overlay_donation_default__Jx9Ar",
++            mqe = "overlay_donation_participants__CLWAT",
++            yqe = "overlay_donation_ellipsis__xJH9x",
++            gqe = "overlay_donation_word__F5BGF",
++            bqe = "overlay_donation_money__90Tz4",
++            _qe = "overlay_donation_message__YD352",
++            xqe = "overlay_donation_result__hirMT",
++            Aqe = "overlay_donation_succeed__ZGDNr",
++            kqe = "overlay_donation_fail__WRxx3",
++            Mqe = "overlay_donation_description__EnR8T",
++            Oqe = "overlay_donation_is_short__n-1mj",
++            Eqe = "overlay_donation_is_medium__BYjWR",
++            wqe = "overlay_donation_is_long__NusYI",
++            Cqe = "overlay_donation_is_longest__Oat9M",
++            Sqe = __webpack_require__.p + "static/media/gift_tier1.d3edb00de1043228fce6.gif",
++            Tqe = __webpack_require__.p + "static/media/gift_tier2.2ce7b2a48c495a08f30b.gif",
+
+-            Iqe = function() {
+-                var e, t, n = l((0, c.useState)(new rqe), 1)[0],
++            Iqe = [],
++            Rqe = [],
++            Pqe = function() {
++                var e, t, n = l((0, c.useState)(new aqe), 1)[0],
+
+-            YXe = (0, c.memo)(QXe),
+-            JXe = function() {
+-                return (0, nn.jsx)(YXe, {})
+-            },
+
+
+
++                return (0, nn.jsx)($Xe, {})
++            },
++            tZe = (0, c.memo)(eZe),
++            nZe = function() {
+
+-            A0e = c.memo(x0e),
+-            k0e = Zn(!1),
+-            M0e = Zn([]),
++            M0e = c.memo(k0e),
+
+-            E0e = Zn(null),
++            E0e = Zn([]),
+
+-            C0e = {
++            C0e = Zn(null),
++            S0e = Zn(!1),
++            T0e = {
+
+-                    return zge.LiveProvider[zge.LIVE_PROVIDER_EXPERIMENTAL_USER_AGENT_STRING] = !0,
++                    return J$.LiveProvider[J$.LIVE_PROVIDER_EXPERIMENTAL_USER_AGENT_STRING] = !0,
+
+-                                        return e.next = 2, zge.LiveProvider.getP2PState().then((function(e) {
++                                        return e.next = 2, J$.LiveProvider.getP2PState().then((function(e) {
+
+-                                                case zge.P2PState.INSTALLED:
++                                                case J$.P2PState.INSTALLED:
+
+-                                                case zge.P2PState.EXT_NOT_INSTALLED:
+-                                                    v(zge.P2PState.EXT_NOT_INSTALLED), s(t), p(!1);
++                                                case J$.P2PState.EXT_NOT_INSTALLED:
++                                                    v(J$.P2PState.EXT_NOT_INSTALLED), s(t), p(!1);
+
+-                                                case zge.P2PState.CLIENT_NOT_INSTALLED:
+-                                                    v(zge.P2PState.CLIENT_NOT_INSTALLED), s(t), p(!1);
++                                                case J$.P2PState.CLIENT_NOT_INSTALLED:
++                                                    v(J$.P2PState.CLIENT_NOT_INSTALLED), s(t), p(!1);
+
+-                                        }, !Dge() || zge.LiveProvider.p2pConnectorProtocolType !== zge.LiveConnectorProtocol.URL_SCHEME) {
++                                        }, !n0() || J$.LiveProvider.p2pConnectorProtocolType !== J$.LiveConnectorProtocol.URL_SCHEME) {
+
+-                                    return n = zge.LiveProvider.p2pClientDownloadUrl(), window.open(n, "_blank"), e.abrupt("return", t((function() {
+-                                        return zge.LiveProvider.getP2PState().then((function(e) {
+-                                            return m(!1), e >= zge.P2PState.INSTALLED
++                                    return n = J$.LiveProvider.p2pClientDownloadUrl(), window.open(n, "_blank"), e.abrupt("return", t((function() {
++                                        return J$.LiveProvider.getP2PState().then((function(e) {
++                                            return m(!1), e >= J$.P2PState.INSTALLED
+
+-                                    return e.next = 7, zge.LiveProvider.getP2PState().catch(console.error);
++                                    return e.next = 7, J$.LiveProvider.getP2PState().catch(console.error);
+
+-                                    r = e.sent, e.t0 = r, e.next = e.t0 === zge.P2PState.INSTALLED ? 11 : e.t0 === zge.P2PState.EXT_NOT_INSTALLED ? 12 : e.t0 === zge.P2PState.CLIENT_NOT_INSTALLED ? 15 : 18;
++                                    r = e.sent, e.t0 = r, e.next = e.t0 === J$.P2PState.INSTALLED ? 11 : e.t0 === J$.P2PState.EXT_NOT_INSTALLED ? 12 : e.t0 === J$.P2PState.CLIENT_NOT_INSTALLED ? 15 : 18;
+
+-                                    return i = zge.LiveProvider.extensionStoreUrl, window.open(i, "_blank"), e.abrupt("return", t((function() {
+-                                        return zge.LiveProvider.getP2PState().then((function(e) {
+-                                            return m(!1), e > zge.P2PState.EXT_NOT_INSTALLED
++                                    return i = J$.LiveProvider.extensionStoreUrl, window.open(i, "_blank"), e.abrupt("return", t((function() {
++                                        return J$.LiveProvider.getP2PState().then((function(e) {
++                                            return m(!1), e > J$.P2PState.EXT_NOT_INSTALLED
+
+-                                    return a = zge.LiveProvider.p2pClientDownloadUrl(), window.open(a, "_blank"), e.abrupt("return", t((function() {
+-                                        return zge.LiveProvider.getP2PState().then((function(e) {
+-                                            return m(!1), e >= zge.P2PState.INSTALLED
++                                    return a = J$.LiveProvider.p2pClientDownloadUrl(), window.open(a, "_blank"), e.abrupt("return", t((function() {
++                                        return J$.LiveProvider.getP2PState().then((function(e) {
++                                            return m(!1), e >= J$.P2PState.INSTALLED
+
+-                                                clearTimeout(b0e), zge.LiveProvider.getP2PState().then((function(t) {
+-                                                    m(!1), t === zge.P2PState.CLIENT_NOT_INSTALLED ? b0e = setTimeout(e, 1e3) : t === zge.P2PState.INSTALLED && (p(!0), v(null))
++                                                clearTimeout(x0e), J$.LiveProvider.getP2PState().then((function(t) {
++                                                    m(!1), t === J$.P2PState.CLIENT_NOT_INSTALLED ? x0e = setTimeout(e, 1e3) : t === J$.P2PState.INSTALLED && (p(!0), v(null))
+
+-                                            b0e = setTimeout(e, 1e3)
+-                                        }, e.next = 6, zge.LiveProvider.getP2PState().then((function(e) {
++                                            x0e = setTimeout(e, 1e3)
++                                        }, e.next = 6, J$.LiveProvider.getP2PState().then((function(e) {
+
+-                                                case zge.P2PState.INSTALLED:
++                                                case J$.P2PState.INSTALLED:
+
+-                                                case zge.P2PState.CLIENT_NOT_INSTALLED:
++                                                case J$.P2PState.CLIENT_NOT_INSTALLED:
+
+-                                    if (!Dge() || y.current.includes(Nge().name || "")) {
++                                    if (!n0() || y.current.includes(t0().name || "")) {
+
+-                                    Dge() && zge.LiveProvider.p2pConnectorProtocolType === zge.LiveConnectorProtocol.URL_SCHEME ? O(n) : k(n);
++                                    n0() && J$.LiveProvider.p2pConnectorProtocolType === J$.LiveConnectorProtocol.URL_SCHEME ? O(n) : k(n);
+
+-                                    if (!Dge() || y.current.includes(Nge().name || "")) {
++                                    if (!n0() || y.current.includes(t0().name || "")) {
+
+-                                    if (!Dge() || zge.LiveProvider.p2pConnectorProtocolType !== zge.LiveConnectorProtocol.URL_SCHEME) {
++                                    if (!n0() || J$.LiveProvider.p2pConnectorProtocolType !== J$.LiveConnectorProtocol.URL_SCHEME) {
+
+-                                    return v(d ? null : zge.P2PState.CLIENT_NOT_INSTALLED), e.abrupt("return");
++                                    return v(d ? null : J$.P2PState.CLIENT_NOT_INSTALLED), e.abrupt("return");
+
+-                                    return e.next = 11, zge.LiveProvider.getP2PState().then((function(e) {
+-                                        e === zge.P2PState.INSTALLED ? p(!0) : e !== zge.P2PState.EXT_NOT_INSTALLED && e !== zge.P2PState.CLIENT_NOT_INSTALLED || v(e)
++                                    return e.next = 11, J$.LiveProvider.getP2PState().then((function(e) {
++                                        e === J$.P2PState.INSTALLED ? p(!0) : e !== J$.P2PState.EXT_NOT_INSTALLED && e !== J$.P2PState.CLIENT_NOT_INSTALLED || v(e)
+
+-                            pdt: Math.floor(Wge(t) / 1e3),
+-                            metadataCurrentUTC: Math.floor(Vge(t) / 1e3)
++                            pdt: Math.floor(s0(t) / 1e3),
++                            metadataCurrentUTC: Math.floor(c0(t) / 1e3)
+
+-                        return t.addEventListener("play", n), t.adsController.addEventListener(zge.AdEventTypes.AdStarted, e),
++                        return t.addEventListener("play", n), t.adsController.addEventListener(J$.AdEventTypes.AdStarted, e),
+
+-                                t.removeEventListener("play", n), t.adsController.removeEventListener(zge.AdEventTypes.AdStarted, e)
++                                t.removeEventListener("play", n), t.adsController.removeEventListener(J$.AdEventTypes.AdStarted, e)
+
+-                            var e = Math.floor(Vge(t) / 1e3);
++                            var e = Math.floor(c0(t) / 1e3);
+
+-                                adPlayerType: Pge ? "HTML5_MO" : "HTML5_PC",
++                                adPlayerType: e0 ? "HTML5_MO" : "HTML5_PC",
+
+-                                    ac: Pge ? "HTML5_MO" : "HTML5_PC",
++                                    ac: e0 ? "HTML5_MO" : "HTML5_PC",
+
+-                                    pcmo: Pge ? "mw" : "pc"
++                                    pcmo: e0 ? "mw" : "pc"
+
+-                        return t.adsController.addEventListener(zge.AdEventTypes.AdStopped, e),
++                        return t.adsController.addEventListener(J$.AdEventTypes.AdStopped, e),
+
+-                                t.adsController.removeEventListener(zge.AdEventTypes.AdStopped, e)
++                                t.adsController.removeEventListener(J$.AdEventTypes.AdStopped, e)
+
+-                                APe(i) && Hge(), R || I.includes(null === (r = i.dataset) || void 0 === r ? void 0 : r.encodingTrackId) && (e.preventDefault(), IPe(e.detail.track), L())
++                                MPe(i) && u0(), R || I.includes(null === (r = i.dataset) || void 0 === r ? void 0 : r.encodingTrackId) && (e.preventDefault(), PPe(e.detail.track), L())
+
+-                                return e.next = 2, TPe(t, r, i, a).then((function() {
+-                                    S5e(t, n, r, i, !1, !0), Bge(t)
++                                return e.next = 2, LPe(t, r, i, a).then((function() {
++                                    z5e(t, n, r, i, !1, !0), i0(t)
+
+-                        s = !(r || !jge()) || EPe,
++                        s = !(r || !r0()) || CPe,
+
+-                    h = !(i || !jge()) || EPe;
++                    h = !(i || !r0()) || CPe;
+
+-                    var f = T5e(1 / 0, d, r, i);
+-                    f && f !== l && (f.selected = !0, f && APe(f) && Hge())
++                    var f = L5e(1 / 0, d, r, i);
++                    f && f !== l && (f.selected = !0, f && MPe(f) && u0())
+
+-                        var y = T5e(u, d, r, i);
+-                        if (y && y !== l && (y.selected = !0, APe(y) && Hge()), !y) d.reduce((function(e, t) {
+-                            return e ? MPe(t) < MPe(e) ? t : e : t
++                        var y = L5e(u, d, r, i);
++                        if (y && y !== l && (y.selected = !0, MPe(y) && u0()), !y) d.reduce((function(e, t) {
++                            return e ? EPe(t) < EPe(e) ? t : e : t
+
+-                            return Wge(m)
++                            return s0(m)
+
+-                        Lge().enableDebugLog({
++                        $$().enableDebugLog({
+
+-                        var e = Lge().upgrade(f.current);
++                        var e = $$().upgrade(f.current);
+
+-                            }(e), RPe(e), qge(e, [.25, .5, .75, 1, 1.25, 1.5, 1.75, 2])
++                            }(e), NPe(e), o0(e, [.25, .5, .75, 1, 1.25, 1.5, 1.75, 2])
+
+-                        zge.LiveProvider[zge.LIVE_PROVIDER_EXPERIMENTAL_PLUGOUT_JS_LOG] = "P13ae18_webplayer-p2p-connector", zge.HlsPlugin.config.experimental["hls.js"].liveSyncDuration = 2;
++                        J$.LiveProvider[J$.LIVE_PROVIDER_EXPERIMENTAL_PLUGOUT_JS_LOG] = "P13ae18_webplayer-p2p-connector", J$.HlsPlugin.config.experimental["hls.js"].liveSyncDuration = 2;
+
+-                        if (r.timeMachineState === R4e.AVAILABLE || !S0e(null === e || void 0 === e ? void 0 : e.live, "t")) return m.srcObject = zge.LiveProvider.fromJSON(e, {
+-                                devt: Pge ? "HTML5_MO" : "HTML5_PC",
+-                                serviceId: Gge,
++                        if (r.timeMachineState === N4e.AVAILABLE || r.playbackJsonError || !z0e(null === e || void 0 === e ? void 0 : e.live, "t")) return m.srcObject = J$.LiveProvider.fromJSON(e, {
++                                devt: e0 ? "HTML5_MO" : "HTML5_PC",
++                                serviceId: d0,
+
+-                            zge.AdsPlayer.registerAdsSourceFactory("glad:", c1e(t, zge.AdsPlayerManager.getDefaultInstance()), !0);
+-                            var n = new l1e(t),
++                            J$.AdsPlayer.registerAdsSourceFactory("glad:", d1e(t, J$.AdsPlayerManager.getDefaultInstance()), !0);
++                            var n = new u1e(t),
+
+-                                    ac: Pge ? "HTML5_MO" : "HTML5_PC",
++                                    ac: e0 ? "HTML5_MO" : "HTML5_PC",
+
+-                                    pcmo: Pge ? "mw" : "pc"
++                                    pcmo: e0 ? "mw" : "pc"
+
+-                                adPlayerType: Pge ? "HTML5_MO" : "HTML5_PC",
++                                adPlayerType: e0 ? "HTML5_MO" : "HTML5_PC",
+
+-                        return m.adsController.addEventListener(zge.AdEventTypes.ContentPauseRequested, e), m.adsController.addEventListener(zge.AdEventTypes.ContentResumeRequested, t),
++                        return m.adsController.addEventListener(J$.AdEventTypes.ContentPauseRequested, e), m.adsController.addEventListener(J$.AdEventTypes.ContentResumeRequested, t),
+
+-                                m.adsController.removeEventListener(zge.AdEventTypes.ContentPauseRequested, e), m.adsController.removeEventListener(zge.AdEventTypes.ContentResumeRequested, t)
++                                m.adsController.removeEventListener(J$.AdEventTypes.ContentPauseRequested, e), m.adsController.removeEventListener(J$.AdEventTypes.ContentResumeRequested, t)
+
+-                        return m.adsController.addEventListener(zge.AdEventTypes.AdStarted, e), m.adsController.addEventListener(zge.AdEventTypes.AdSkipped, t),
++                        return m.adsController.addEventListener(J$.AdEventTypes.AdStarted, e), m.adsController.addEventListener(J$.AdEventTypes.AdSkipped, t),
+
+-                                m.adsController.removeEventListener(zge.AdEventTypes.AdStarted, e), m.adsController.removeEventListener(zge.AdEventTypes.AdSkipped, t)
++                                m.adsController.removeEventListener(J$.AdEventTypes.AdStarted, e), m.adsController.removeEventListener(J$.AdEventTypes.AdSkipped, t)
+
+-                        return m.adsController.addEventListener(zge.AdEventTypes.AdSkipped, e),
++                        return m.adsController.addEventListener(J$.AdEventTypes.AdSkipped, e),
+
+-                                m.adsController.removeEventListener(zge.AdEventTypes.AdSkipped, e)
++                                m.adsController.removeEventListener(J$.AdEventTypes.AdSkipped, e)
+
+-                                m.removeEventListener("loadedmetadata", e)
++                                window.__player = null, m.removeEventListener("loadedmetadata", e)
+
+
++                    var e, t;
++                    if (m && r.timeMachineState === N4e.AVAILABLE) {
++                        var n = null === (e = (t = m._corePlayer).createStreamingProfile) || void 0 === e ? void 0 : e.call(t);
++                        try {
++                            n.set("maxMaxBufferLength", 15)
++                        } catch (VUt) {
++                            ebe(VUt)
++                        }
++                        var i = function() {
++                            try {
++                                m._corePlayer.applyStreamingProfile(n)
++                            } catch (VUt) {
++                                ebe(VUt)
++                            }
++                        };
++                        return m._corePlayer.addEventListener("canplay", i), i(),
++                            function() {
++                                m._corePlayer.removeEventListener("canplay", i)
++                            }
++                    }
++                }), [m, r.timeMachineState]), (0, c.useEffect)((function() {
+
+-                        var e = Fge(document.querySelector(".pzp-pc"), "pzp-pc--controls", (function(e) {
++                        var e = a0(document.querySelector(".pzp-pc"), "pzp-pc--controls", (function(e) {
+
+-                    f !== zge.P2PState.EXT_NOT_INSTALLED && f !== zge.P2PState.CLIENT_NOT_INSTALLED && "NOT_SUPPORT_BROWSER" !== f || Kt()
++                    f !== J$.P2PState.EXT_NOT_INSTALLED && f !== J$.P2PState.CLIENT_NOT_INSTALLED && "NOT_SUPPORT_BROWSER" !== f || Kt()
+
+-                        className: t4e,
+-                        children: [f === zge.P2PState.EXT_NOT_INSTALLED && (0, nn.jsxs)(nn.Fragment, {
++                        className: r4e,
++                        children: [f === J$.P2PState.EXT_NOT_INSTALLED && (0, nn.jsxs)(nn.Fragment, {
+
+-                        }), f === zge.P2PState.CLIENT_NOT_INSTALLED && (0, nn.jsxs)("p", {
+-                            className: n4e,
++                        }), f === J$.P2PState.CLIENT_NOT_INSTALLED && (0, nn.jsxs)("p", {
++                            className: i4e,
+
+-                        }), (f === zge.P2PState.CLIENT_NOT_INSTALLED || f === zge.P2PState.EXT_NOT_INSTALLED) && (0, nn.jsxs)(nn.Fragment, {
++                        }), (f === J$.P2PState.CLIENT_NOT_INSTALLED || f === J$.P2PState.EXT_NOT_INSTALLED) && (0, nn.jsxs)(nn.Fragment, {
+
+-                                    contents: f === zge.P2PState.EXT_NOT_INSTALLED ? "확장 프로그램 설치" : "설치하고 고화질 시청",
++                                    contents: f === J$.P2PState.EXT_NOT_INSTALLED ? "확장 프로그램 설치" : "설치하고 고화질 시청",
+
+-                    O = l((0, c.useState)(0), 2),
+-                    E = O[0],
+-                    w = O[1],
+-                    C = lr(Zqt),
+-                    S = sr(cb),
+-                    T = sr(ub),
+-                    z = sr(E1),
+-                    L = l((0, c.useState)(), 2),
+-                    I = L[0],
+-                    R = L[1],
+-                    P = l((0, c.useState)(), 2),
+-                    N = P[0],
+-                    D = P[1],
+-                    j = (0, c.useContext)(xke),
+-                    B = (0, c.useRef)(null),
+-                    F = l((0, c.useState)(null), 2),
+-                    q = F[0],
+-                    W = F[1],
+-                    U = l((0, c.useState)(!1), 2),
+-                    V = U[0],
+-                    H = U[1],
+-                    G = T0e({
++                    O = (0, c.useRef)(!1),
++                    E = l((0, c.useState)(0), 2),
++                    w = E[0],
++                    C = E[1],
++                    S = lr(Qqt),
++                    T = sr(cb),
++                    z = sr(ub),
++                    L = sr(H1),
++                    I = l((0, c.useState)(), 2),
++                    R = I[0],
++                    P = I[1],
++                    N = l((0, c.useState)(), 2),
++                    D = N[0],
++                    j = N[1],
++                    B = (0, c.useContext)(kke),
++                    F = (0, c.useRef)(null),
++                    q = l((0, c.useState)(null), 2),
++                    W = q[0],
++                    U = q[1],
++                    V = l((0, c.useState)(!1), 2),
++                    H = V[0],
++                    G = V[1],
++                    X = L0e({
+
+-                }), [Z, K]), (0, c.useEffect)((function() {
+-                    ut(st().mark((function e() {
++                }), [K, Q]), (0, c.useEffect)((function() {
++                    f0().then((function(e) {
++                        k(e)
++                    }))
++                }), []);
++                var Y = (0, c.useCallback)(function() {
++                    var e = ut(st().mark((function e(t, r, i) {
++                        var a;
+
+-                                    return e.prev = 0, e.next = 3, Lge().requestMediaKeySystemAccess("com.naver.lip.smp", [{
+-                                        initDataTypes: ["uri-redirect"],
+-                                        videoCapabilities: [{
+-                                            contentType: "application/x-mpegURL"
+-                                        }]
+-                                    }]);
++                                    return e.prev = 0, e.next = 3, b0(t);
+
+-                                    k(!0), e.next = 9;
+-                                    break;
+-                                case 6:
+-                                    e.prev = 6, e.t0 = e.catch(0), k(!1);
+-                                case 9:
+-                                case "end":
+-                                    return e.stop()
+-                            }
+-                        }), e, null, [
+-                            [0, 6]
+-                        ])
+-                    })))()
+-                }), []), (0, c.useEffect)((function() {
+-                    null !== A && (null !== s && void 0 !== s && s.channelId && s.channelId === (null === u || void 0 === u ? void 0 : u.channel.channelId) ? s.timeMachineActive ? A ? null !== T && void 0 !== T && T.subscribing ? _(R4e.AVAILABLE) : _(R4e.NOT_AVAILABLE_USER) : _(R4e.NOT_AVAILABLE_BROWSER) : _(R4e.NOT_AVAILABLE_LIVE) : _(null))
+-                }), [null === s || void 0 === s ? void 0 : s.channelId, null === s || void 0 === s ? void 0 : s.timeMachineActive, null === u || void 0 === u ? void 0 : u.channel.channelId, null === T || void 0 === T ? void 0 : T.subscribing, A]), (0, c.useEffect)((function() {
+-                    u && u.liveId && null !== b ? ut(st().mark((function e() {
+-                        var t, r;
+-                        return st().wrap((function(e) {
+-                            for (;;) switch (e.prev = e.next) {
+-                                case 0:
+-                                    if (t = u.livePlaybackJson, b !== R4e.AVAILABLE) {
+-                                        e.next = 16;
+-                                        break
+-                                    }
+-                                    return e.prev = 2, e.next = 5, e0(u.channel.channelId);
+-                                case 5:
+-                                    if ((r = e.sent).tmp) {
+-                                        e.next = 11;
++                                    if (a = e.sent, r !== N4e.AVAILABLE || a.tmp) {
++                                        e.next = 7;
+
+-                                    return _(R4e.ERROR_STATE), e.abrupt("return");
+-                                case 11:
+-                                    t = r.playbackJson;
+-                                case 12:
+-                                    e.next = 16;
++                                    return n((0, lt.A)((0, lt.A)({}, i), {}, {
++                                        timeMachineState: N4e.ERROR_STATE
++                                    })), e.abrupt("return");
++                                case 7:
++                                    n((0, lt.A)((0, lt.A)({}, i), {}, {
++                                        livePlaybackJson: a.playbackJson,
++                                        timeMachineState: r
++                                    })), e.next = 13;
+
+-                                case 14:
+-                                    e.prev = 14, e.t0 = e.catch(2);
++                                case 10:
++                                    e.prev = 10, e.t0 = e.catch(0), n((0, lt.A)((0, lt.A)({}, i), {}, {
++                                        playbackJsonError: !0
++                                    }));
++                                case 13:
++                                    return e.prev = 13, O.current = !1, e.finish(13);
+
+-                                    n({
+-                                        channelId: u.channel.channelId,
+-                                        liveId: u.liveId,
+-                                        livePlaybackJson: t,
+-                                        openDate: u.openDate,
+-                                        paidPromotion: !!u.paidPromotion,
+-                                        adParameter: u.adParameter,
+-                                        timeMachineState: b
+-                                    });
+-                                case 17:
+
+
+-                            [2, 14]
++                            [0, 10, 13, 16]
+
+-                    })))() : n(void 0)
+-                }), [u, b]), (0, c.useEffect)((function() {
+-                    null !== t && void 0 !== t && t.timeMachineState && (M.current === R4e.AVAILABLE && t.timeMachineState === R4e.NOT_AVAILABLE_LIVE ? (C({
++                    })));
++                    return function(t, n, r) {
++                        return e.apply(this, arguments)
++                    }
++                }(), []);
++                (0, c.useEffect)((function() {
++                    null !== A && (null !== s && void 0 !== s && s.channelId && s.channelId === (null === u || void 0 === u ? void 0 : u.channel.channelId) ? s.timeMachineActive ? A ? null !== z && void 0 !== z && z.subscribing || null !== u && void 0 !== u && u.timeMachinePlayback ? _(N4e.AVAILABLE) : _(N4e.NOT_AVAILABLE_USER) : _(N4e.NOT_AVAILABLE_BROWSER) : _(N4e.NOT_AVAILABLE_LIVE) : _(null))
++                }), [null === s || void 0 === s ? void 0 : s.channelId, null === s || void 0 === s ? void 0 : s.timeMachineActive, null === u || void 0 === u ? void 0 : u.channel.channelId, null === u || void 0 === u ? void 0 : u.timeMachinePlayback, null === z || void 0 === z ? void 0 : z.subscribing, A]), (0, c.useEffect)((function() {
++                    if (!u || !u.liveId || null === b) return n(void 0), void(O.current = !1);
++                    if (t) t.timeMachineState !== b && t.timeMachineState !== N4e.ERROR_STATE && (t.timeMachineState !== N4e.AVAILABLE && b !== N4e.AVAILABLE || Y(u.channel.channelId, b, t));
++                    else {
++                        var e = {
++                            channelId: u.channel.channelId,
++                            liveId: u.liveId,
++                            livePlaybackJson: u.livePlaybackJson,
++                            openDate: u.openDate,
++                            paidPromotion: !!u.paidPromotion,
++                            adParameter: u.adParameter,
++                            timeMachineState: b
++                        };
++                        if (b !== N4e.AVAILABLE || u.timeMachinePlayback) n(e);
++                        else {
++                            if (O.current) return;
++                            O.current = !0, Y(u.channel.channelId, b, e)
++                        }
++                    }
++                }), [u, b, t, Y]), (0, c.useEffect)((function() {
++                    null !== t && void 0 !== t && t.timeMachineState && (M.current === N4e.AVAILABLE && t.timeMachineState === N4e.NOT_AVAILABLE_LIVE ? (S({
+
+-                    }), [j, q]),
+-                    J = (0, c.useCallback)((function() {
+-                        if (null !== j && void 0 !== j && j.current) {
+-                            var e = j.current;
+-                            null !== q && (e.setMuted(q), W(null))
++                    }), [B, W]),
++                    ee = (0, c.useCallback)((function() {
++                        if (null !== B && void 0 !== B && B.current) {
++                            var e = B.current;
++                            null !== W && (e.setMuted(W), U(null))
+
+-                    }), [j, q]),
+-                    $ = (0, c.useCallback)((function() {
+-                        var e = "CHEAT_KEY_POPUP:".concat(S.userIdHash);
++                    }), [B, W]),
++                    te = (0, c.useCallback)((function() {
++                        var e = "CHEAT_KEY_POPUP:".concat(T.userIdHash);
+
+-                                    playerReloadFlag: E,
+-                                    clickClipHandler: Q,
+-                                    preAdSkipHandler: $,
+-                                    midAdCompleteHandler: $
+-                                }), V && (0, nn.jsx)(Q5e, {
++                                    playerReloadFlag: w,
++                                    clickClipHandler: J,
++                                    preAdSkipHandler: te,
++                                    midAdCompleteHandler: te
++                                }), H && (0, nn.jsx)(J5e, {
+
+-                        openClipEditorHandler: Y,
+-                        closeClipEditorHandler: J
+-                    }), (0, nn.jsx)(o4e, {}), v && (0, nn.jsx)(v4e, {})]
++                        openClipEditorHandler: $,
++                        closeClipEditorHandler: ee
++                    }), (0, nn.jsx)(l4e, {}), v && (0, nn.jsx)(y4e, {})]
+
+-                    pe = lr(txe),
+-                    he = lr(nxe),
+-                    fe = vC().registerPaymentListener,
+-                    ve = (0, c.useRef)(null),
+-                    me = ke("/live/:channelId/*"),
+-                    ye = (null === me || void 0 === me ? void 0 : me.params.channelId) || null,
+-                    ge = (0, c.useCallback)(ut(st().mark((function e() {
++                    pe = sr(ub),
++                    he = lr(rxe),
++                    fe = lr(ixe),
++                    ve = vC().registerPaymentListener,
++                    me = (0, c.useRef)(null),
++                    ye = ke("/live/:channelId/*"),
++                    ge = (null === ye || void 0 === ye ? void 0 : ye.params.channelId) || null,
++                    be = (0, c.useCallback)(ut(st().mark((function e() {
+
+-                                                        return Yqt("프라임 콘텐츠 구매가 완료되었어요."), Y(!1), e.next = 4, Y$(x.channelId);
++                                                        return $qt("프라임 콘텐츠 구매가 완료되었어요."), Y(!1), e.next = 4, m0(x.channelId, !(null === pe || void 0 === pe || !pe.subscribing));
+
+-                    H = sr(O1),
+-                    G = sr(E1),
+-                    X = ST(r).fetchCampaigns;
++                    H = sr(V1),
++                    G = sr(H1),
++                    X = sr(ub),
++                    Z = ST(r).fetchCampaigns;
+
+-                                                        return e.prev = 0, e.next = 3, i(r, t);
++                                                        return e.prev = 0, e.next = 3, i(r, !(null === X || void 0 === X || !X.subscribing), t);
+
+-                                        W7e = setTimeout((function() {
+-                                            $()
++                                        V7e = setTimeout((function() {
++                                            ee()
+
+-                    $ = function() {
++                    ee = function() {
+
+-                        Lge().enableDebugLog({
++                        $$().enableDebugLog({
+
+-                        var e = Lge().upgrade(m.current);
++                        var e = $$().upgrade(m.current);
+
+-                        t && (t.sizeType = "large"), SPe(e), PPe(e), zPe(e), RPe(e), qge(e, [.25, .5, .75, 1, 1.25, 1.5, 1.75, 2])
++                        t && (t.sizeType = "large"), zPe(e), DPe(e), IPe(e), NPe(e), o0(e, [.25, .5, .75, 1, 1.25, 1.5, 1.75, 2])
+
+-                            g.srcObject = zge.LiveProvider.fromJSON(e, {
+-                                devt: Pge ? "HTML5_MO" : "HTML5_PC",
+-                                serviceId: Gge,
++                            g.srcObject = J$.LiveProvider.fromJSON(e, {
++                                devt: e0 ? "HTML5_MO" : "HTML5_PC",
++                                serviceId: d0,
+
+-                            var t = Gge,
+-                                r = Xge,
++                            var t = d0,
++                                r = p0,
+
+-                            zge.AdsPlayer.registerAdsSourceFactory("glad:", c1e(t, zge.AdsPlayerManager.getDefaultInstance()), !0);
+-                            var r = new l1e(t),
++                            J$.AdsPlayer.registerAdsSourceFactory("glad:", d1e(t, J$.AdsPlayerManager.getDefaultInstance()), !0);
++                            var r = new u1e(t),
+
+-                                    ac: Pge ? "HTML5_MO" : "HTML5_PC",
++                                    ac: e0 ? "HTML5_MO" : "HTML5_PC",
+
+-                                    pcmo: Pge ? "mw" : "pc"
++                                    pcmo: e0 ? "mw" : "pc"
+
+-                                adPlayerType: Pge ? "HTML5_MO" : "HTML5_PC",
++                                adPlayerType: e0 ? "HTML5_MO" : "HTML5_PC",
+
+-                        return g.adsController.addEventListener(zge.AdEventTypes.ContentPauseRequested, e), g.adsController.addEventListener(zge.AdEventTypes.ContentResumeRequested, t),
++                        return g.adsController.addEventListener(J$.AdEventTypes.ContentPauseRequested, e), g.adsController.addEventListener(J$.AdEventTypes.ContentResumeRequested, t),
+
+-                                g.adsController.removeEventListener(zge.AdEventTypes.ContentPauseRequested, e), g.adsController.removeEventListener(zge.AdEventTypes.ContentResumeRequested, t)
++                                g.adsController.removeEventListener(J$.AdEventTypes.ContentPauseRequested, e), g.adsController.removeEventListener(J$.AdEventTypes.ContentResumeRequested, t)
+
+-                        return g.adsController.addEventListener(zge.AdEventTypes.AdStarted, e), g.adsController.addEventListener(zge.AdEventTypes.AdSkipped, t),
++                        return g.adsController.addEventListener(J$.AdEventTypes.AdStarted, e), g.adsController.addEventListener(J$.AdEventTypes.AdSkipped, t),
+
+-                                g.adsController.removeEventListener(zge.AdEventTypes.AdStarted, e), g.adsController.removeEventListener(zge.AdEventTypes.AdSkipped, t)
++                                g.adsController.removeEventListener(J$.AdEventTypes.AdStarted, e), g.adsController.removeEventListener(J$.AdEventTypes.AdSkipped, t)
+
+-                        return g.adsController.addEventListener(zge.AdEventTypes.AdSkipped, e),
++                        return g.adsController.addEventListener(J$.AdEventTypes.AdSkipped, e),
+
+-                                g.adsController.removeEventListener(zge.AdEventTypes.AdSkipped, e)
++                                g.adsController.removeEventListener(J$.AdEventTypes.AdSkipped, e)
+
+-                        return g.adsController.addEventListener(zge.AdEventTypes.AdStarted, e), g.adsController.addEventListener(zge.AdEventTypes.AdSkipped, t),
++                        return g.adsController.addEventListener(J$.AdEventTypes.AdStarted, e), g.adsController.addEventListener(J$.AdEventTypes.AdSkipped, t),
+
+-                                g.adsController.removeEventListener(zge.AdEventTypes.AdStarted, e), g.adsController.removeEventListener(zge.AdEventTypes.AdSkipped, t)
++                                g.adsController.removeEventListener(J$.AdEventTypes.AdStarted, e), g.adsController.removeEventListener(J$.AdEventTypes.AdSkipped, t)
+
+-                                "mid" === g.adsController.currentAd.adPlacementType && g.adsController.addEventListener(zge.AdEventTypes.ContentResumeRequested, e)
++                                "mid" === g.adsController.currentAd.adPlacementType && g.adsController.addEventListener(J$.AdEventTypes.ContentResumeRequested, e)
+
+-                        return g.adsController.addEventListener(zge.AdEventTypes.ContentPauseRequested, t),
++                        return g.adsController.addEventListener(J$.AdEventTypes.ContentPauseRequested, t),
+
+-                                g.adsController.removeEventListener(zge.AdEventTypes.ContentPauseRequested, t), g.adsController.removeEventListener(zge.AdEventTypes.ContentResumeRequested, e)
++                                g.adsController.removeEventListener(J$.AdEventTypes.ContentPauseRequested, t), g.adsController.removeEventListener(J$.AdEventTypes.ContentResumeRequested, e)
+
+-                            })), Bge(g)
++                            })), i0(g)
+
+-                                g.removeEventListener("loadedmetadata", e)
++                                window.__player = null, g.removeEventListener("loadedmetadata", e)
+
+-                        var e = Fge(document.querySelector(".pzp-pc"), "pzp-pc--controls", (function(e) {
++                        var e = a0(document.querySelector(".pzp-pc"), "pzp-pc--controls", (function(e) {
+
+-            art = (0, c.memo)(irt),
+-            ort = __webpack_require__(24901),
+-            srt = __webpack_require__.n(ort),
+-            lrt = __webpack_require__(10949),
++            srt = (0, c.memo)(ort),
++            lrt = __webpack_require__(24901),
+
+-            prt = ["children"],
+-            hrt = ["children"],
+-            frt = function(e) {
++            prt = __webpack_require__(40403),
++            hrt = __webpack_require__.n(prt),
++            frt = ["children"],
++            vrt = ["children"],
++            mrt = function(e) {
+
+-            Eot = c.memo(Oot),
+-            wot = function() {
+-                return (0, nn.jsx)(Eot, {})
+-            },
+
+
+-            Sot = "twitchzzk_logo__i9DRP",
+-            Tot = "twitchzzk_title__KF5o-",
+-            zot = "twitchzzk_image__lbk9E",
+-            Lot = "twitchzzk_text__NbWNN",
+-            Iot = "twitchzzk_description__4iYZr",
+-            Rot = "twitchzzk_guide_item__Jo9Fm",
+-            Pot = "twitchzzk_button_close__Eru+D",
+-            Not = "twitchzzk_list__+rEyQ",
+-            Dot = "twitchzzk_item__3Uizn",
+-            jot = "twitchzzk_container__iXjl6",
+-            Bot = "twitchzzk_header__PYjBs",
+-            Fot = "twitchzzk_inner__5tGzx",
+-            qot = "twitchzzk_link__LgF2P",
+-            Wot = "twitchzzk_icon__Ln2GQ",
+-            Uot = "twitchzzk_button__n0oqs",
+-            Vot = "twitchzzk_main__dnHTz",
+-            Hot = "twitchzzk_apply__cFAsC",
+-            Got = "twitchzzk_area__Z1n9t",
+-            Xot = "twitchzzk_box__+GjPm",
+-            Zot = "twitchzzk_process__W6ZlT",
+-            Kot = "twitchzzk_second__pU9PA",
+-            Qot = "twitchzzk_third__yAQCJ",
+-            Yot = "twitchzzk_guide__8o36g",
+-            Jot = "twitchzzk_guide_list__UZMHz",
+-            $ot = "twitchzzk_next__aIiDq",
+-            est = "twitchzzk_footer__ARZZd",
+-            tst = "twitchzzk_footer_item__CRJWN",
+-            nst = "twitchzzk_dimmed__LSgXl",
+-            rst = "twitchzzk_layer__TM+5Y",
+-            ist = "twitchzzk_layer_header__j3N5I",
+-            ast = "twitchzzk_section__FQlUb",
+-            ost = ["title", "titleId"];
+-
+-        function sst() {
+-            return sst = Object.assign ? Object.assign.bind() : function(e) {
++            Sot = function() {
++                return (0, nn.jsx)(Cot, {})
++            },
++            Tot = c.memo(Sot),
++            zot = "twitchzzk_logo__i9DRP",
++            Lot = "twitchzzk_title__KF5o-",
++            Iot = "twitchzzk_image__lbk9E",
++            Rot = "twitchzzk_text__NbWNN",
++            Pot = "twitchzzk_description__4iYZr",
++            Not = "twitchzzk_guide_item__Jo9Fm",
++            Dot = "twitchzzk_button_close__Eru+D",
++            jot = "twitchzzk_list__+rEyQ",
++            Bot = "twitchzzk_item__3Uizn",
++            Fot = "twitchzzk_container__iXjl6",
++            qot = "twitchzzk_header__PYjBs",
++            Wot = "twitchzzk_inner__5tGzx",
++            Uot = "twitchzzk_link__LgF2P",
++            Vot = "twitchzzk_icon__Ln2GQ",
++            Hot = "twitchzzk_button__n0oqs",
++            Got = "twitchzzk_main__dnHTz",
++            Xot = "twitchzzk_apply__cFAsC",
++            Zot = "twitchzzk_area__Z1n9t",
++            Kot = "twitchzzk_box__+GjPm",
++            Qot = "twitchzzk_process__W6ZlT",
++            Yot = "twitchzzk_second__pU9PA",
++            Jot = "twitchzzk_third__yAQCJ",
++            $ot = "twitchzzk_guide__8o36g",
++            est = "twitchzzk_guide_list__UZMHz",
++            tst = "twitchzzk_next__aIiDq",
++            nst = "twitchzzk_footer__ARZZd",
++            rst = "twitchzzk_footer_item__CRJWN",
++            ist = "twitchzzk_dimmed__LSgXl",
++            ast = "twitchzzk_layer__TM+5Y",
++            ost = "twitchzzk_layer_header__j3N5I",
++            sst = "twitchzzk_section__FQlUb",
++            lst = ["title", "titleId"];
++
++        function cst() {
++            return cst = Object.assign ? Object.assign.bind() : function(e) {
+
+-            vst = (0, c.memo)(fst),
+-            mst = function() {
+-                return (0, nn.jsx)(vst, {})
+-            },
+
+
+-            gst = "twitchzzk_result_container__-gD3Y",
+-            bst = "twitchzzk_result_header__OFZGZ",
+-            _st = "twitchzzk_result_link__LT6gL",
+-            xst = "twitchzzk_result_logo__Jp2Ui",
+-            Ast = "twitchzzk_result_title__dtpry",
+-            kst = "twitchzzk_result_section__tq00U",
+-            Mst = "twitchzzk_result_name__Cs3Mf",
+-            Ost = "twitchzzk_result_default__oZhNB",
+-            Est = "twitchzzk_result_item__tNMMr",
+-            wst = "twitchzzk_result_text__pItXN",
+-            Cst = "twitchzzk_result_ellipsis__T+SwM",
+-            Sst = "twitchzzk_result_word__4-wFv",
+-            Tst = "twitchzzk_result_primary__GcFVT",
+-            zst = "twitchzzk_result_secondary__3rvld",
+-            Lst = "twitchzzk_result_area__oyrjO",
+-            Ist = "twitchzzk_result_button_confirm__X1MpX",
+-            Rst = "twitchzzk_result_button_close__uMNkA",
+-            Pst = function() {
++            gst = function() {
++                return (0, nn.jsx)(yst, {})
++            },
++            bst = (0, c.memo)(gst),
++            _st = "twitchzzk_result_container__-gD3Y",
++            xst = "twitchzzk_result_header__OFZGZ",
++            Ast = "twitchzzk_result_link__LT6gL",
++            kst = "twitchzzk_result_logo__Jp2Ui",
++            Mst = "twitchzzk_result_title__dtpry",
++            Ost = "twitchzzk_result_section__tq00U",
++            Est = "twitchzzk_result_name__Cs3Mf",
++            wst = "twitchzzk_result_default__oZhNB",
++            Cst = "twitchzzk_result_item__tNMMr",
++            Sst = "twitchzzk_result_text__pItXN",
++            Tst = "twitchzzk_result_ellipsis__T+SwM",
++            zst = "twitchzzk_result_word__4-wFv",
++            Lst = "twitchzzk_result_primary__GcFVT",
++            Ist = "twitchzzk_result_secondary__3rvld",
++            Rst = "twitchzzk_result_area__oyrjO",
++            Pst = "twitchzzk_result_button_confirm__X1MpX",
++            Nst = "twitchzzk_result_button_close__uMNkA",
++            Dst = function() {
+
+-            Cct = (0, c.memo)(wct),
+-            Sct = function() {
+-                return (0, nn.jsx)(Cct, {})
+-            },
+
+
+-            zct = "ewc_2025_body__IK-3h",
+-            Lct = "ewc_2025_header__AWexK",
+-            Ict = "ewc_2025_link__d3zTg",
+-            Rct = "ewc_2025_title__TDna1",
+-            Pct = "ewc_2025_text__r93GR",
+-            Nct = "ewc_2025_chzzk__AkHVs",
+-            Dct = "ewc_2025_icon__Bnj6S",
+-            jct = "ewc_2025_ewc__GRxMZ",
+-            Bct = "ewc_2025_share__oS2Ng",
+-            Fct = "ewc_2025_icon_share__C440D",
+-            qct = "ewc_2025_container__mH4EO",
+-            Wct = "ewc_2025_main__BnrVd",
+-            Uct = "ewc_2025_section__Oodmx",
+-            Vct = "ewc_2025_inner__wOSSH",
+-            Hct = "ewc_2025_schedule__h9Gq6",
+-            Gct = "ewc_2025_table__ICEoP",
+-            Xct = "ewc_2025_wrapper__IA6Nv",
+-            Zct = "ewc_2025_description__Uic5w",
+-            Kct = "ewc_2025_event__T75Ft",
+-            Qct = "ewc_2025_list__IQfQM",
+-            Yct = "ewc_2025_item__RDiYy",
+-            Jct = "ewc_2025_image__bAhba",
+-            $ct = "ewc_2025_reward__a3QjK",
+-            eut = "ewc_2025_stamp__HSBFW",
+-            tut = "ewc_2025_reward_list__g4C40",
+-            nut = "ewc_2025_stamp_list__GQhXM",
+-            rut = "ewc_2025_stamp_item__xLxyS",
+-            iut = "ewc_2025_button__24xrX",
+-            aut = "ewc_2025_today__reAkD",
+-            out = "ewc_2025_bonus__GtD5E",
+-            sut = "ewc_2025_content__seVCZ",
+-            lut = "ewc_2025_guide__FZRL7",
+-            cut = "ewc_2025_subtitle__lhwjh",
+-            uut = "ewc_2025_footer__5x0k+",
+-            dut = "ewc_2025_row__O53oX",
+-            put = __webpack_require__(25045),
+-            hut = __webpack_require__.n(put),
+-            fut = ["title", "titleId"];
+-
+-        function vut() {
+-            return vut = Object.assign ? Object.assign.bind() : function(e) {
++            zct = function() {
++                return (0, nn.jsx)(Tct, {})
++            },
++            Lct = (0, c.memo)(zct),
++            Ict = "ewc_2025_body__IK-3h",
++            Rct = "ewc_2025_header__AWexK",
++            Pct = "ewc_2025_link__d3zTg",
++            Nct = "ewc_2025_title__TDna1",
++            Dct = "ewc_2025_text__r93GR",
++            jct = "ewc_2025_chzzk__AkHVs",
++            Bct = "ewc_2025_icon__Bnj6S",
++            Fct = "ewc_2025_ewc__GRxMZ",
++            qct = "ewc_2025_share__oS2Ng",
++            Wct = "ewc_2025_icon_share__C440D",
++            Uct = "ewc_2025_container__mH4EO",
++            Vct = "ewc_2025_main__BnrVd",
++            Hct = "ewc_2025_section__Oodmx",
++            Gct = "ewc_2025_inner__wOSSH",
++            Xct = "ewc_2025_schedule__h9Gq6",
++            Zct = "ewc_2025_table__ICEoP",
++            Kct = "ewc_2025_wrapper__IA6Nv",
++            Qct = "ewc_2025_description__Uic5w",
++            Yct = "ewc_2025_event__T75Ft",
++            Jct = "ewc_2025_list__IQfQM",
++            $ct = "ewc_2025_item__RDiYy",
++            eut = "ewc_2025_image__bAhba",
++            tut = "ewc_2025_reward__a3QjK",
++            nut = "ewc_2025_stamp__HSBFW",
++            rut = "ewc_2025_reward_list__g4C40",
++            iut = "ewc_2025_stamp_list__GQhXM",
++            aut = "ewc_2025_stamp_item__xLxyS",
++            out = "ewc_2025_button__24xrX",
++            sut = "ewc_2025_today__reAkD",
++            lut = "ewc_2025_bonus__GtD5E",
++            cut = "ewc_2025_content__seVCZ",
++            uut = "ewc_2025_guide__FZRL7",
++            dut = "ewc_2025_subtitle__lhwjh",
++            put = "ewc_2025_footer__5x0k+",
++            hut = "ewc_2025_row__O53oX",
++            fut = __webpack_require__(25045),
++            vut = __webpack_require__.n(fut),
++            mut = ["title", "titleId"];
++
++        function yut() {
++            return yut = Object.assign ? Object.assign.bind() : function(e) {
+
+-            Cut = (0, c.memo)(wut),
+-            Sut = function() {
+-                return (0, nn.jsx)(Cut, {})
+-            },
+
+
+-            zut = {
++            zut = function() {
++                return (0, nn.jsx)(Tut, {})
++            },
++            Lut = (0, c.memo)(zut),
++            Iut = {
+
+
++                timemachine: "lck_2026_timemachine__uoazt",
++                data: "lck_2026_data__hFsY7",
++                streamer: "lck_2026_streamer__KWf2E",
+
+
++                timemachine_link: "lck_2026_timemachine_link__ZM8SE",
+
+
++                streamer_list: "lck_2026_streamer_list__uBP8I",
+
+-                }(e, adt);
+-            return c.createElement("svg", odt({
+-                xmlns: "http://www.w3.org/2000/svg",
++                }(e, sdt);
++            return c.createElement("svg", ldt({
+
+-                fill: "none",
+
+
+
++                fill: "none",
++                xmlns: "http://www.w3.org/2000/svg",
+
+-            }, n) : null, qut || (qut = c.createElement("g", {
+-                fill: "#fff",
+-                clipPath: "url(#a)"
+-            }, c.createElement("path", {
+-                d: "M13.745 3.283v7.798h12.381V8.35h-9.65V3.283h9.65V.553h-12.38zM2.73.553H0V11.08h12.38V8.35H2.73zM37.474.565l-2.047 3.887h-5.206v-3.9h-2.73v10.529h2.73v-3.9h5.205l2.047 3.887h3.04l-2.77-5.251 2.77-5.252z"
+-            }))), Wut || (Wut = c.createElement("g", {
+-                clipPath: "url(#b)"
++            }, n) : null, Uut || (Uut = c.createElement("g", {
++                clipPath: "url(#clip0_10949_8165)"
+
+-                fill: "#fff",
+-                d: "M69.88.054 69.805 0 58.607 2.609l-2.026 3.847-2.026-3.847L43.358 0l-.075.054 12.05 8.771-1.446 2.747.084.062 2.61-1.901 2.611 1.9.084-.06-1.447-2.748z"
+-            }))), Uut || (Uut = c.createElement("defs", null, c.createElement("clipPath", {
+-                id: "a"
++                d: "M26.5966 0.0543996L26.522 0L15.3242 2.60852L13.298 6.45596L11.2719 2.60852L0.0746662 0L0 0.0543996L12.0506 8.82501L10.6042 11.5722L10.6874 11.6335L13.298 9.73274L15.9092 11.6335L15.9924 11.5722L14.546 8.82501L26.5966 0.0543996Z",
++                fill: "white"
++            }))), Vut || (Vut = c.createElement("g", {
++                clipPath: "url(#clip1_10949_8165)"
+
+-                fill: "#fff",
+-                d: "M0 .553h40.513V11.08H0z"
++                d: "M43.1123 3.28273V8.35057V11.0806H55.4934V8.35057H45.8435V3.28273H55.4934V0.552734H43.1123V3.28273Z",
++                fill: "white"
++            }), c.createElement("path", {
++                d: "M32.0972 0.552734H29.3672V8.35057V11.0806H32.0972H41.7471V8.35057H32.0972V0.552734Z",
++                fill: "white"
++            }), c.createElement("path", {
++                d: "M66.8412 0.565223L64.7944 4.45165H59.5879V0.552734H56.8579V11.0806H59.5879V7.18164H64.7931L66.84 11.0681H69.8797L67.111 5.81665L69.8797 0.565223H66.8412Z",
++                fill: "white"
++            }))), Hut || (Hut = c.createElement("defs", null, c.createElement("clipPath", {
++                id: "clip0_10949_8165"
++            }, c.createElement("rect", {
++                width: 26.5966,
++                height: 11.6335,
++                fill: "white"
+
+-                id: "b"
+-            }, c.createElement("path", {
+-                fill: "#fff",
+-                d: "M43.283 0H69.88v11.633H43.283z"
++                id: "clip1_10949_8165"
++            }, c.createElement("rect", {
++                width: 40.5128,
++                height: 10.5278,
++                fill: "white",
++                transform: "translate(29.3672 0.552734)"
+
+-                    }), []),
+-                    a = (0, c.useCallback)((function(e) {
+-                        e.preventDefault(), Om("1월 중에 공개될 예정입니다.", (function(e) {
+-                            return e()
+-                        }), void 0, !0)
+
+
+
++                (0, c.useCallback)((function(e) {
++                    e.preventDefault(), Om("1월 중에 공개될 예정입니다.", (function(e) {
++                        return e()
++                    }), void 0, !0)
++                }), []);
+
+-                                    to: "/",
+-                                    onClick: a,
+-                                    className: ht()(idt.channel_link_schedule, idt.lck),
++                                    to: "https://game.naver.com/esports/League_of_Legends/schedule/lck",
++                                    target: "_blank",
++                                    className: ht()(odt.channel_link_schedule, odt.lck),
+
+-                                    to: "/",
+-                                    onClick: a,
+-                                    className: ht()(idt.channel_link_schedule, idt.lpl),
++                                    to: "https://game.naver.com/esports/League_of_Legends/schedule/lpl",
++                                    target: "_blank",
++                                    className: ht()(odt.channel_link_schedule, odt.lpl),
+
+-                                    to: "/",
+-                                    onClick: a,
+-                                    className: ht()(idt.channel_link_schedule, idt.lec),
++                                    to: "https://game.naver.com/esports/League_of_Legends/schedule/lec",
++                                    target: "_blank",
++                                    className: ht()(odt.channel_link_schedule, odt.lec),
+
+-                                    to: "/",
+-                                    onClick: a,
+-                                    className: ht()(idt.channel_link_schedule, idt.lcs),
++                                    to: "https://game.naver.com/esports/League_of_Legends/schedule/lcs",
++                                    target: "_blank",
++                                    className: ht()(odt.channel_link_schedule, odt.lcs),
+
+-                                    to: "/",
+-                                    onClick: a,
+-                                    className: ht()(idt.channel_link_schedule, idt.lcp),
++                                    to: "https://game.naver.com/esports/League_of_Legends/schedule/lcp",
++                                    target: "_blank",
++                                    className: ht()(odt.channel_link_schedule, odt.lcp),
+
+-                                    to: "/",
+-                                    onClick: a,
+-                                    className: ht()(idt.channel_link_schedule, idt.cblol),
++                                    to: "https://game.naver.com/esports/League_of_Legends/schedule/cblol",
++                                    target: "_blank",
++                                    className: ht()(odt.channel_link_schedule, odt.cblol),
+
+-                    }), (0, nn.jsxs)(kdt, {
++                    }), (0, nn.jsxs)(Odt, {
++                        type: "timemachine",
++                        children: [(0, nn.jsx)("h3", {
++                            className: "blind",
++                            children: "보고 싶은 장면은 언제든 바로"
++                        }), (0, nn.jsx)("p", {
++                            className: "blind",
++                            children: "생중계부터 다시보기까지, 원하는 장면은 언제든 바로 확인하세요."
++                        }), (0, nn.jsxs)("div", {
++                            children: [(0, nn.jsx)("strong", {
++                                className: "blind",
++                                children: "LCK 공식채널 타임머신 무료"
++                            }), (0, nn.jsx)(rt, {
++                                to: "https://game.naver.com/lounge/chzzk/temp/277126",
++                                target: "_blank",
++                                rel: "noopener noreferrer",
++                                className: odt.timemachine_link,
++                                children: (0, nn.jsx)("span", {
++                                    className: "blind",
++                                    children: "자세히 보기"
++                                })
++                            })]
++                        }), (0, nn.jsx)("div", {
++                            className: "blind",
++                            children: "AI 챕터로 다시보기도 원하는 장면 바로 확인. 곧 만나요!"
++                        })]
++                    }), (0, nn.jsx)(Odt, {
++                        type: "data",
++                        children: (0, nn.jsxs)("div", {
++                            className: "blind",
++                            children: [(0, nn.jsx)("h3", {
++                                children: "한 층 더 몰입되는 시청 경험"
++                            }), (0, nn.jsx)("p", {
++                                children: "더더욱 업그레이드된 네이버 e스포츠 데이터로 경기 흐름을 확인하고, 응원의 순간은 치지직 이모지로 남겨보세요."
++                            }), (0, nn.jsx)("div", {
++                                children: "경기별 실시간 승리확률 데이터. LCK 정규 시즌에 만나요!"
++                            }), (0, nn.jsx)("div", {
++                                children: "치지직만의 이모지 라인업. 지금 바로 만나요!"
++                            })]
++                        })
++                    }), (0, nn.jsxs)(Odt, {
++                        type: "streamer",
++                        children: [(0, nn.jsx)("h3", {
++                            className: "blind",
++                            children: "리그별 전문 스트리머와 같이보기"
++                        }), (0, nn.jsx)("p", {
++                            className: "blind",
++                            children: "각 리그를 가장 잘 아는 스트리머들과 함께 글로벌 LoL e스포츠를 더 깊게 즐겨보세요."
++                        }), (0, nn.jsxs)("ul", {
++                            className: odt.streamer_list,
++                            children: [(0, nn.jsx)("li", {
++                                children: (0, nn.jsx)(rt, {
++                                    to: "https://chzzk.naver.com/1a1dd9ce56fb61a37ffb6f69f6d5b978",
++                                    target: "_blank",
++                                    rel: "noopener noreferrer",
++                                    children: (0, nn.jsx)("span", {
++                                        className: "blind",
++                                        children: "강퀴88"
++                                    })
++                                })
++                            }), (0, nn.jsx)("li", {
++                                children: (0, nn.jsx)(rt, {
++                                    to: "https://chzzk.naver.com/f20881fce506174330ecb58342c4c70d",
++                                    target: "_blank",
++                                    rel: "noopener noreferrer",
++                                    children: (0, nn.jsx)("span", {
++                                        className: "blind",
++                                        children: "노페"
++                                    })
++                                })
++                            }), (0, nn.jsx)("li", {
++                                children: (0, nn.jsx)(rt, {
++                                    to: "https://chzzk.naver.com/bad6d7da33aec001343a51b85a70fcdb",
++                                    target: "_blank",
++                                    rel: "noopener noreferrer",
++                                    children: (0, nn.jsx)("span", {
++                                        className: "blind",
++                                        children: "와디드"
++                                    })
++                                })
++                            }), (0, nn.jsx)("li", {
++                                children: (0, nn.jsx)(rt, {
++                                    to: "https://chzzk.naver.com/0b33823ac81de48d5b78a38cdbc0ab94",
++                                    target: "_blank",
++                                    rel: "noopener noreferrer",
++                                    children: (0, nn.jsx)("span", {
++                                        className: "blind",
++                                        children: "울프"
++                                    })
++                                })
++                            }), (0, nn.jsx)("li", {
++                                children: (0, nn.jsx)(rt, {
++                                    to: "https://chzzk.naver.com/26ae7850ad5b6b09ca864d482dc7fa50",
++                                    target: "_blank",
++                                    rel: "noopener noreferrer",
++                                    children: (0, nn.jsx)("span", {
++                                        className: "blind",
++                                        children: "큐베"
++                                    })
++                                })
++                            })]
++                        })]
++                    }), (0, nn.jsxs)(Odt, {
+
+-                                    children: "LCK 2026 시작 전, 치지직이 준비한 특별한 혜택!"
++                                    children: "2026 LCK 맞이하여 치지직이 준비한 특별한 혜택!"
+
+-                                children: ["EVENT", (0, nn.jsx)("strong", {
++                                children: ["EVENT 01", (0, nn.jsx)("strong", {
+
+
++                        }), (0, nn.jsx)("p", {
++                            className: "blind",
++                            children: "※ 이번 아트는 시즌 컬렉션 이벤트와도 연계될 예정이니, 꼭 받아가세요!"
+
+-                            children: [(0, nn.jsx)("p", {
+-                                children: "※ 이번 아트는 시즌 컬렉션 이벤트와도 연계될 예정이니, 꼭 받아가세요!"
+-                            }), (0, nn.jsx)("h4", {
+-                                children: "MORE COMING SOON"
++                            children: [(0, nn.jsxs)("h4", {
++                                children: ["EVENT 02", (0, nn.jsx)("strong", {
++                                    children: "구독권 선물 이벤트"
++                                })]
++                            }), (0, nn.jsxs)("p", {
++                                children: ["LCK CUP 결승전을 LCK 채널에서 시청하고 랜덤으로 구독권 선물 받아가세요! 구독권 선물은 결승전 진행 중 깜짝 등장할 예정이니 놓치지 마세요! 네이버 X LCK 파트너십 체결 기념으로 준비한 라이엇게임즈의 깜짝 선물!", (0, nn.jsx)("strong", {
++                                    children: "랜덤 당첨. LCK 채널 구독권"
++                                })]
+
+
++                            }), (0, nn.jsx)("h4", {
++                                children: "타임머신 관련 안내"
++                            }), (0, nn.jsx)("p", {
++                                children: "본 서비스에서 제공되는 타임머신 무료 이용 혜택의 세부 제공 방식, 조건 및 범위는 서비스 운영 정책에 따라 변경될 수 있습니다."
+
+-                            initial: bpt,
+-                            loop: _pt,
+-                            staticImage: "https://ssl.pstatic.net/static/nng/glive/image/01_basic_a.png"
+-                        }, {
+
+
+
++                            staticImage: "https://ssl.pstatic.net/static/nng/glive/image/01_basic_b.png"
++                        }, {
++                            initial: Opt,
++                            loop: Ept,
+
+-            Jpt = (0, c.memo)(Ypt),
+-            $pt = function() {
+-                return (0, nn.jsx)(Jpt, {})
+-            },
+
+
+
++                return (0, nn.jsx)(eht, {})
++            },
++            nht = (0, c.memo)(tht),
++            rht = function() {
+
+-            }(f_t),
+-            O_t = M_t,
+-            E_t = Symbol(),
+-            w_t = Symbol(),
++            }(m_t),
++            w_t = E_t,
+
+-            S_t = function() {
++            S_t = Symbol(),
++            T_t = Symbol(),
++            z_t = function() {
+
+-            dOt || (dOt = new(Rge())(navigator.userAgent));
+-            var v = null !== (o = null !== n && void 0 !== n ? n : null === (a = dOt.getOS()) || void 0 === a ? void 0 : a.name) && void 0 !== o ? o : "",
+-                m = null !== (l = null !== r && void 0 !== r ? r : null === (s = dOt.getOS()) || void 0 === s ? void 0 : s.version) && void 0 !== l ? l : "",
+-                y = null !== (u = null !== i && void 0 !== i ? i : null === (c = dOt.getBrowser()) || void 0 === c ? void 0 : c.name) && void 0 !== u ? u : "",
++            hOt || (hOt = new(Y$())(navigator.userAgent));
++            var v = null !== (o = null !== n && void 0 !== n ? n : null === (a = hOt.getOS()) || void 0 === a ? void 0 : a.name) && void 0 !== o ? o : "",
++                m = null !== (l = null !== r && void 0 !== r ? r : null === (s = hOt.getOS()) || void 0 === s ? void 0 : s.version) && void 0 !== l ? l : "",
++                y = null !== (u = null !== i && void 0 !== i ? i : null === (c = hOt.getBrowser()) || void 0 === c ? void 0 : c.name) && void 0 !== u ? u : "",
+
+-        var UOt, VOt = c.forwardRef(WOt),
+-            HOt = (__webpack_require__.p, Gge),
+-            GOt = 1080,
+-            XOt = Xge;
++        var HOt, GOt = c.forwardRef(VOt),
++            XOt = (__webpack_require__.p, d0),
++            ZOt = 1080,
++            KOt = p0;
+
+-                        var e = zge.CorePlayer.unwrap(n),
++                        var e = J$.CorePlayer.unwrap(n),
+
+-                            case g4e:
+-                                r.push(new yvt(e)), L.updateViewSize(rCt.height, rCt.width), L.appendChild(r[0], 1);
+-                                break;
+-                            case b4e:
+-                                r.push(new yvt(e)), r.push(new yvt(e)), L.updateViewSize(rCt.height, rCt.width), L.appendChild(r[0], 1), L.appendChild(r[1], 2);
+-                                break;
+
+
+-                                r.push(new yvt(e)), r.push(new yvt(e)), L.updateViewSize(rCt.height, rCt.width), L.appendChild(r[0], 1), L.appendChild(r[1], 1);
++                                r.push(new bvt(e)), L.updateViewSize(aCt.height, aCt.width), L.appendChild(r[0], 1);
+
+-                                r.push(new yvt(e)), L.updateViewSize(rCt.height, rCt.width), L.appendChild(r[0], 1);
++                                r.push(new bvt(e)), r.push(new bvt(e)), L.updateViewSize(aCt.height, aCt.width), L.appendChild(r[0], 1), L.appendChild(r[1], 2);
+
+-                                r.push(new yvt(e)), L.updateViewSize(rCt.width, rCt.height), L.appendChild(r[0], 1)
++                                r.push(new bvt(e)), r.push(new bvt(e)), L.updateViewSize(aCt.height, aCt.width), L.appendChild(r[0], 1), L.appendChild(r[1], 1);
++                                break;
++                            case k4e:
++                                r.push(new bvt(e)), L.updateViewSize(aCt.height, aCt.width), L.appendChild(r[0], 1);
++                                break;
++                            case M4e:
++                                r.push(new bvt(e)), L.updateViewSize(aCt.width, aCt.height), L.appendChild(r[0], 1)
+
+-                                var e = new zge.CorePlayer;
+-                                e.preload = KOt.AUTO, e.autoplay = !1, e.loop = !0, e.muted = !0, e.volume = 0, e.srcObject = n, window.clipPlayer = e, u(e)
++                                var e = new J$.CorePlayer;
++                                e.preload = YOt.AUTO, e.autoplay = !1, e.loop = !0, e.muted = !0, e.volume = 0, e.srcObject = n, window.clipPlayer = e, u(e)
+
+-                                var e = zge.CorePlayer.unwrap(s),
++                                var e = J$.CorePlayer.unwrap(s),
+
+-                                    selected: p === _4e,
+-                                    type: _4e,
+-                                    clickButtonHandler: ue
+-                                }), (0, nn.jsx)(sCt, {
+-                                    text: "가로형",
+
+
+
++                                }), (0, nn.jsx)(cCt, {
++                                    text: "가로형",
++                                    selected: p === M4e,
++                                    type: M4e,
++                                    clickButtonHandler: ue
+
+-            ISt = (0, c.memo)(LSt),
+-            RSt = function() {
+-                return (0, nn.jsx)(ISt, {})
+-            },
+
+
+-            NSt = "clip_viewer_container__t8clN",
+-            DSt = "clip_viewer_viewer_area__CG2-w",
+-            jSt = "clip_viewer_section__Z3FbJ",
+-            BSt = "clip_viewer_comment__L7J0c",
+-            FSt = "clip_viewer_show__HOvKr",
+-            qSt = "clip_viewer_close_button__ehE5-",
+-            WSt = Object.defineProperty,
+-            USt = Object.defineProperties,
+-            VSt = Object.getOwnPropertyDescriptors,
+-            HSt = Object.getOwnPropertySymbols,
+-            GSt = Object.prototype.hasOwnProperty,
+-            XSt = Object.prototype.propertyIsEnumerable,
+-            ZSt = function(e, t, n) {
+-                return t in e ? WSt(e, t, {
++            NSt = function() {
++                return (0, nn.jsx)(PSt, {})
++            },
++            DSt = (0, c.memo)(NSt),
++            jSt = "clip_viewer_container__t8clN",
++            BSt = "clip_viewer_viewer_area__CG2-w",
++            FSt = "clip_viewer_section__Z3FbJ",
++            qSt = "clip_viewer_comment__L7J0c",
++            WSt = "clip_viewer_show__HOvKr",
++            USt = "clip_viewer_close_button__ehE5-",
++            VSt = Object.defineProperty,
++            HSt = Object.defineProperties,
++            GSt = Object.getOwnPropertyDescriptors,
++            XSt = Object.getOwnPropertySymbols,
++            ZSt = Object.prototype.hasOwnProperty,
++            KSt = Object.prototype.propertyIsEnumerable,
++            QSt = function(e, t, n) {
++                return t in e ? VSt(e, t, {
+
+-                            return Wge(u)
++                            return s0(u)
+
+-                        var e = Lge().upgrade(a.current);
++                        var e = $$().upgrade(a.current);
+
+-                        zge.LiveProvider[zge.LIVE_PROVIDER_EXPERIMENTAL_PLUGOUT_JS_LOG] = "P13ae18_webplayer-p2p-connector", zge.HlsPlugin.config.experimental["hls.js"].liveSyncDuration = 2;
++                        J$.LiveProvider[J$.LIVE_PROVIDER_EXPERIMENTAL_PLUGOUT_JS_LOG] = "P13ae18_webplayer-p2p-connector", J$.HlsPlugin.config.experimental["hls.js"].liveSyncDuration = 2;
+
+-                        return u.srcObject = zge.LiveProvider.fromJSON(e, {
+-                                devt: Pge ? "HTML5_MO" : "HTML5_PC",
+-                                serviceId: Gge,
++                        return u.srcObject = J$.LiveProvider.fromJSON(e, {
++                                devt: e0 ? "HTML5_MO" : "HTML5_PC",
++                                serviceId: d0,
+
+-            Tzt = c.memo(Szt),
+-            zzt = function() {
+-                return (0, nn.jsx)(Tzt, {})
+-            },
+
+
+
++                return (0, nn.jsx)(Lzt, {})
++            },
++            Rzt = c.memo(Izt),
++            Pzt = function() {
+
+-            qRt = (0, c.memo)(FRt),
+-            WRt = function() {
+-                return (0, nn.jsx)(qRt, {})
+-            },
+
+
+-            VRt = "schedule_popup_title__WBfO4",
+-            HRt = "schedule_popup_highlight__L6TTC",
+-            GRt = "schedule_popup_word__OHLMU",
+-            XRt = "schedule_popup_icon__f-2h7",
+-            ZRt = "schedule_popup_list__UIp7q",
+-            KRt = "schedule_popup_item__XWxFK",
+-            QRt = "schedule_popup_wrapper__o1-ln",
+-            YRt = "schedule_popup_has_circle__f3etl",
+-            JRt = "schedule_popup_time__N-3Hq",
+-            $Rt = "schedule_popup_area__ADKxg",
+-            ePt = "schedule_popup_text__WuFZx",
+-            tPt = "schedule_popup_box__YVc7z",
+-            nPt = ["title", "titleId"];
+-
+-        function rPt() {
+-            return rPt = Object.assign ? Object.assign.bind() : function(e) {
++            VRt = function() {
++                return (0, nn.jsx)(URt, {})
++            },
++            HRt = (0, c.memo)(VRt),
++            GRt = "schedule_popup_title__WBfO4",
++            XRt = "schedule_popup_highlight__L6TTC",
++            ZRt = "schedule_popup_word__OHLMU",
++            KRt = "schedule_popup_icon__f-2h7",
++            QRt = "schedule_popup_list__UIp7q",
++            YRt = "schedule_popup_item__XWxFK",
++            JRt = "schedule_popup_wrapper__o1-ln",
++            $Rt = "schedule_popup_has_circle__f3etl",
++            ePt = "schedule_popup_time__N-3Hq",
++            tPt = "schedule_popup_area__ADKxg",
++            nPt = "schedule_popup_text__WuFZx",
++            rPt = "schedule_popup_box__YVc7z",
++            iPt = ["title", "titleId"];
++
++        function aPt() {
++            return aPt = Object.assign ? Object.assign.bind() : function(e) {
+
+-            Wqt = c.memo(qqt),
+-            Uqt = function() {
+-                return (0, nn.jsx)(Wqt, {})
+-            },
+-            Vqt = (0, c.memo)(Uqt),
++            Vqt = c.memo(Uqt),
+
+
++                return (0, nn.jsx)(Vqt, {})
++            },
++            Gqt = (0, c.memo)(Hqt),
++            Xqt = function() {
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+097e951f 9148c911 8d89b86e
++4d80b234 738d50d5 ba95b3cf
+
+-                                        children: "본인 소유 콘텐츠 여부"
+-                                    }) : "본인 소유 콘텐츠 여부"
++                                        children: "본인 소유 콘텐츠 혹은 원 저작자가 허가한 콘텐츠 여부"
++                                    }) : "본인 소유 콘텐츠 혹은 원 저작자가 허가한 콘텐츠 여부"
+
+-                                        children: "내가 직접 방송, 촬영을 통해 제작한 영상입니다."
++                                        children: "내가 직접 방송, 촬영을 통해 제작한 영상 혹은 원 저작자가 허가하여 직접 제작한 콘텐츠 입니다."
+
+-                                    list: [(0, Lt.jsxs)(Lt.Fragment, {
+-                                        children: ["클립 업로드 베타 기간 동안에는 ", (0, Lt.jsx)("em", {
+-                                            children: "본인 소유 콘텐츠만 업로드"
+-                                        }), " 할 수 있습니다."]
+-                                    }), "‘원본 영상’의 본질적 내용을 왜곡하거나, 권리자나 제3자 등 타인의 권리를 침해하는 내용을 포함한 ‘치지직 클립’의 제작 및 사용은 금지되며, 타인의 요청 또는 네이버의 모니터링에 따라 추천 제외, 비노출, 삭제될 수 있습니다."]
++                                    list: ["‘원본 영상’의 본질적 내용을 왜곡하거나, 권리자나 제3자 등 타인의 권리를 침해하는 내용을 포함한 ‘치지직 클립’의 제작 및 사용은 금지되며, 타인의 요청 또는 네이버의 모니터링에 따라 추천 제외, 비노출, 삭제될 수 있습니다."]
+
+-                                                            return Sy("본인 소유 콘텐츠 여부를 확인헤주세요."), t.abrupt("return");
++                                                            return Sy("본인 소유 콘텐츠 혹은 원 저작자가 허가한 콘텐츠 여부를 확인해주세요."), t.abrupt("return");
 
