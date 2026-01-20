@@ -1,8 +1,3 @@
--                    for (var p = a.value, h = p.textContent || "", f = h.length, v = 0, m = 0; v <= f;) {
--                        if (n.setStart(p, v), v < f - 1 && n.setEnd(p, v + 1), o = n.getBoundingClientRect().right, null === l) l = o, u = n.cloneRange();
-+                    for (var p = a.value, h = p.textContent || "", f = h.length, v = 0, m = 0; v < f;) {
-+                        if (n.setStart(p, v), n.setEnd(p, v + 1), o = n.getBoundingClientRect().right, null === l) l = o, u = n.cloneRange();
-
 -f464abb3 2e5a576d 47bcbdf5
 
 
