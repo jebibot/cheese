@@ -26308,81 +26308,6 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   top: 7px;
   z-index: 1;
 }
-.player_guide_description__-qE1B {
-  color: var(--Content-Neutral-Cool-Stronger);
-}
-.player_guide_description__-qE1B em {
-  color: var(--Content-Brand-Base);
-}
-.player_guide_area__hjWP2 {
-  background-color: var(--Surface-Neutral-Weak);
-  border-radius: 8px;
-  margin-top: 15px;
-  padding: 15px;
-}
-.player_guide_area_title__OxK70 {
-  color: var(--Content-Neutral-Cool-Stronger);
-  display: block;
-  font-weight: 700;
-  line-height: 17px;
-}
-.player_guide_list__GnUNy {
-  margin-top: 15px;
-}
-.player_guide_item__c3Ir8 {
-  -webkit-column-gap: 12px;
-  -moz-column-gap: 12px;
-  column-gap: 12px;
-  display: -ms-flexbox;
-  display: flex;
-}
-.player_guide_item__c3Ir8 + .player_guide_item__c3Ir8 {
-  margin-top: 12px;
-}
-.player_guide_item_thumbnail__GgQNq {
-  background: var(--Surface-Neutral-Weaker) no-repeat center/contain;
-  border-radius: 8px;
-  -ms-flex: none;
-  flex: none;
-  height: 48px;
-  position: relative;
-  width: 48px;
-}
-.player_guide_item_thumbnail__GgQNq > img {
-  border-radius: inherit;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-.player_guide_item_information__bR4-f {
-  -ms-flex-pack: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex: 1 1;
-  flex: 1 1;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 0;
-  row-gap: 6px;
-}
-.player_guide_item_title__ugkhg {
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  color: var(--Content-Neutral-Cool-Stronger);
-  display: block;
-  display: -webkit-box;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 16px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.player_guide_item_description__K1l7C {
-  color: var(--Content-Neutral-Cool-Base);
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-}
 .live_chatting_watch_party_plus_message_container__jcmWZ {
   background-color: var(--Surface-Neutral-Weak);
   border-radius: 8px;
@@ -26659,6 +26584,81 @@ button.emoticon_emoticon__q2Sw6:hover .emoticon_label__KtRDX {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+.player_guide_description__-qE1B {
+  color: var(--Content-Neutral-Cool-Stronger);
+}
+.player_guide_description__-qE1B em {
+  color: var(--Content-Brand-Base);
+}
+.player_guide_area__hjWP2 {
+  background-color: var(--Surface-Neutral-Weak);
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 15px;
+}
+.player_guide_area_title__OxK70 {
+  color: var(--Content-Neutral-Cool-Stronger);
+  display: block;
+  font-weight: 700;
+  line-height: 17px;
+}
+.player_guide_list__GnUNy {
+  margin-top: 15px;
+}
+.player_guide_item__c3Ir8 {
+  -webkit-column-gap: 12px;
+  -moz-column-gap: 12px;
+  column-gap: 12px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.player_guide_item__c3Ir8 + .player_guide_item__c3Ir8 {
+  margin-top: 12px;
+}
+.player_guide_item_thumbnail__GgQNq {
+  background: var(--Surface-Neutral-Weaker) no-repeat center/contain;
+  border-radius: 8px;
+  -ms-flex: none;
+  flex: none;
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+.player_guide_item_thumbnail__GgQNq > img {
+  border-radius: inherit;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.player_guide_item_information__bR4-f {
+  -ms-flex-pack: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  row-gap: 6px;
+}
+.player_guide_item_title__ugkhg {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: var(--Content-Neutral-Cool-Stronger);
+  display: block;
+  display: -webkit-box;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.player_guide_item_description__K1l7C {
+  color: var(--Content-Neutral-Cool-Base);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
 }
 .pagination_container__Q23XO {
   -ms-flex-align: center;
@@ -56379,7 +56379,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_title__Ndw37 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -949px -2185px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -56419,7 +56419,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_highlight__0rI-o {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px -439px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -56430,7 +56430,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 }
 @media screen and (min-width: 768px) {
   .lol_kespa_cup_2024_highlight__0rI-o {
-    background-position: -1814px -1917px;
+    background-position: -1212px -1917px;
     height: 74px;
     margin-top: 30px;
     width: 315px;
@@ -56484,7 +56484,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_schedule__VUf6\+ .lol_kespa_cup_2024_image__5zTqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px -634px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -56493,14 +56493,14 @@ a.twitchzzk_footer_item__CRJWN:hover {
 }
 @media screen and (min-width: 768px) {
   .lol_kespa_cup_2024_schedule__VUf6\+ .lol_kespa_cup_2024_image__5zTqs {
-    background-position: -949px -2263px;
+    background-position: -1250px -2185px;
     height: 60px;
     width: 230px;
   }
 }
 .lol_kespa_cup_2024_schedule_text__EQz\+s {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -1789px -1832px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -2081px -1615px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 17px;
@@ -56509,7 +56509,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 }
 @media screen and (min-width: 768px) {
   .lol_kespa_cup_2024_schedule_text__EQz\+s {
-    background-position: -1762px -1532px;
+    background-position: -1271px -1729px;
     height: 31px;
     width: 536px;
   }
@@ -56821,8 +56821,8 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_subtitle__ojrGO
   .lol_kespa_cup_2024_image__5zTqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -2246px -1441px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -1528px -1917px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 69px;
@@ -56866,8 +56866,8 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -1250px -2185px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -914px -2066px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 60px;
@@ -56877,7 +56877,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   .lol_kespa_cup_2024_streamer__Qwh0j
     .lol_kespa_cup_2024_box__PxjPx:first-child
     .lol_kespa_cup_2024_item_title__cWr4l {
-    background-position: -279px -1778px;
+    background-position: -1271px -1637px;
     height: 91px;
     width: 380px;
   }
@@ -56885,7 +56885,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2104px -1234px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -56915,8 +56915,8 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -914px -2066px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -1212px -1992px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 60px;
@@ -56926,7 +56926,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   .lol_kespa_cup_2024_streamer__Qwh0j
     .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
     .lol_kespa_cup_2024_item_title__cWr4l {
-    background-position: -1582px -1637px;
+    background-position: -2073px -1441px;
     height: 90px;
     width: 398px;
   }
@@ -56934,7 +56934,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_streamer__Qwh0j
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -914px -1917px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -57012,7 +57012,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_subtitle__ojrGO
   .lol_kespa_cup_2024_image__5zTqs {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px -376px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -57023,7 +57023,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   .lol_kespa_cup_2024_viewer__8xQnd
     .lol_kespa_cup_2024_subtitle__ojrGO
     .lol_kespa_cup_2024_image__5zTqs {
-    background-position: -1271px -1637px;
+    background-position: -1762px -1441px;
     height: 124px;
     width: 310px;
   }
@@ -57051,8 +57051,8 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -1173px -2066px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -1471px -1992px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 59px;
@@ -57062,7 +57062,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   .lol_kespa_cup_2024_viewer__8xQnd
     .lol_kespa_cup_2024_box__PxjPx:first-child
     .lol_kespa_cup_2024_item_title__cWr4l {
-    background-position: -1981px -1637px;
+    background-position: -1652px -1637px;
     height: 76px;
     width: 379px;
   }
@@ -57070,7 +57070,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:first-child
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -743px -2185px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -57091,8 +57091,8 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -2130px -1917px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -1787px -1917px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 55px;
@@ -57102,7 +57102,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
   .lol_kespa_cup_2024_viewer__8xQnd
     .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
     .lol_kespa_cup_2024_item_title__cWr4l {
-    background-position: -1762px -1441px;
+    background-position: -1959px -1130px;
     height: 90px;
     width: 484px;
   }
@@ -57110,7 +57110,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(2)
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -536px -2185px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -57150,8 +57150,8 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
   .lol_kespa_cup_2024_item_title__cWr4l {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -660px -1778px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -881px -1778px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 90px;
@@ -57169,7 +57169,7 @@ a.twitchzzk_footer_item__CRJWN:hover {
 .lol_kespa_cup_2024_viewer__8xQnd
   .lol_kespa_cup_2024_box__PxjPx:nth-child(3)
   .lol_kespa_cup_2024_thumbnail__enbeM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px 0;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -57220,8 +57220,8 @@ a.twitchzzk_footer_item__CRJWN:hover {
   }
 }
 .lol_kespa_cup_2024_finish_title__wGCsM {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -1212px -1917px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -279px -1778px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 98px;
@@ -60028,7 +60028,7 @@ a.lck_2026_item__zhkDk:hover {
 }
 .chzzk_sports_2026_popup_container__KikdY.chzzk_sports_2026_popup_winner__BHPCu
   .chzzk_sports_2026_popup_title__t\+le6 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px -761px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -60046,14 +60046,14 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 1024px) {
   .chzzk_sports_2026_popup_container__KikdY.chzzk_sports_2026_popup_winner__BHPCu
     .chzzk_sports_2026_popup_title__t\+le6 {
-    background-position: -2274px -1778px;
+    background-position: -2083px -1917px;
     height: 41px;
     width: 221px;
   }
 }
 .chzzk_sports_2026_popup_container__KikdY.chzzk_sports_2026_popup_complete__9OmW3
   .chzzk_sports_2026_popup_title__t\+le6 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px -818px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -60078,7 +60078,7 @@ a.lck_2026_item__zhkDk:hover {
 }
 .chzzk_sports_2026_popup_container__KikdY.chzzk_sports_2026_popup_fail__7Q7Xe
   .chzzk_sports_2026_popup_title__t\+le6 {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2631px -818px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -60743,7 +60743,7 @@ a.lck_2026_item__zhkDk:hover {
   }
 }
 .chzzk_sports_2026_main__0Fer2:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -285px -1917px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -60885,7 +60885,7 @@ a.lck_2026_item__zhkDk:hover {
   }
 }
 .chzzk_sports_2026_my_ticket__8JANO .chzzk_sports_2026_title__mlOlC {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px -842px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -61316,8 +61316,8 @@ a.lck_2026_item__zhkDk:hover {
 }
 .chzzk_sports_2026_section__x03he.chzzk_sports_2026_ticket__HlPkW
   .chzzk_sports_2026_title__mlOlC {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -279px -1870px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -1936px -1778px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 21px;
@@ -61326,7 +61326,7 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 768px) {
   .chzzk_sports_2026_section__x03he.chzzk_sports_2026_ticket__HlPkW
     .chzzk_sports_2026_title__mlOlC {
-    background-position: -1979px -1728px;
+    background-position: -1808px -1729px;
     height: 30px;
     width: 350px;
   }
@@ -61334,7 +61334,7 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 1024px) {
   .chzzk_sports_2026_section__x03he.chzzk_sports_2026_ticket__HlPkW
     .chzzk_sports_2026_title__mlOlC {
-    background-position: -956px -1778px;
+    background-position: -2031px -1637px;
     height: 53px;
     width: 466px;
   }
@@ -61914,8 +61914,8 @@ a.lck_2026_item__zhkDk:hover {
 }
 .chzzk_sports_2026_section__x03he.chzzk_sports_2026_emoticon__tQktQ
   .chzzk_sports_2026_title__mlOlC {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -519px -1870px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -2176px -1778px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 21px;
@@ -61932,7 +61932,7 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 1024px) {
   .chzzk_sports_2026_section__x03he.chzzk_sports_2026_emoticon__tQktQ
     .chzzk_sports_2026_title__mlOlC {
-    background-position: -1423px -1778px;
+    background-position: -1177px -1778px;
     height: 53px;
     width: 454px;
   }
@@ -62621,167 +62621,6 @@ a.lck_2026_item__zhkDk:hover {
     margin-top: 20px;
   }
 }
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB {
-  background-color: #002b35;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB {
-    padding: 69px 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB {
-    padding: 80px 0;
-  }
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_inner__i7e7B {
-  max-width: 774px;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_inner__i7e7B {
-    padding: 0 35px;
-  }
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_inner__i7e7B:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -2081px -1572px;
-  background-repeat: no-repeat;
-  background-size: 2727px 2465px;
-  content: "";
-  display: block;
-  height: 59px;
-  margin: 0 auto;
-  width: 308px;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_inner__i7e7B:before {
-    background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-    background-position: -1959px -1130px;
-    background-repeat: no-repeat;
-    background-size: 2727px 2465px;
-    height: 98px;
-    width: 513px;
-  }
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_list__JyFsa {
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
-  align-items: center;
-  background-color: #003947;
-  border-radius: 6px;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: space-between;
-  margin: 27px auto 0;
-  padding: 11px 21px;
-  width: 345px;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_list__JyFsa {
-    border-radius: 8px;
-    margin-top: 52px;
-    padding: 30px 58px;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_list__JyFsa {
-    margin-top: 60px;
-    padding: 32px 76px;
-  }
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_item__KWuLT {
-  -ms-flex: none;
-  flex: none;
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_link__22G3V {
-  display: block;
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_logo_naver__5ygnS {
-  height: 13px;
-  width: 65px;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_naver__5ygnS {
-    height: 23px;
-    width: 120px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_naver__5ygnS {
-    height: 25px;
-    width: 130px;
-  }
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_logo_chzzk__l52tU {
-  height: 17px;
-  width: 57px;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_chzzk__l52tU {
-    height: 32px;
-    width: 106px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_chzzk__l52tU {
-    height: 34px;
-    width: 113px;
-  }
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_logo_nsports__dbxDX {
-  height: 14px;
-  width: 56px;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_nsports__dbxDX {
-    height: 25px;
-    width: 105px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_nsports__dbxDX {
-    height: 27px;
-    width: 112px;
-  }
-}
-.chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-  .chzzk_sports_2026_logo_npay__XM9Jc {
-  height: 19px;
-  width: 60px;
-}
-@media screen and (min-width: 768px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_npay__XM9Jc {
-    height: 36px;
-    width: 113px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chzzk_sports_2026_section__x03he.chzzk_sports_2026_support__WYHZB
-    .chzzk_sports_2026_logo_npay__XM9Jc {
-    height: 40px;
-    width: 125px;
-  }
-}
 .chzzk_sports_2026_number__1B0iU {
   -ms-flex-align: center;
   -ms-flex-pack: center;
@@ -63387,7 +63226,7 @@ a.lck_2026_item__zhkDk:hover {
   }
 }
 .chzzk_sports_2026_fixed_button__w6Be3:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: -2529px -785px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -63399,7 +63238,7 @@ a.lck_2026_item__zhkDk:hover {
 }
 @media screen and (min-width: 1024px) {
   .chzzk_sports_2026_fixed_button__w6Be3:before {
-    background-position: -1260px -1832px;
+    background-position: -2159px -1729px;
     height: 27px;
     width: 258px;
   }
@@ -63724,7 +63563,7 @@ a.lck_2026_item__zhkDk:hover {
   }
 }
 .winter_olympics_2026_main__qFpuO:before {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
   background-position: 0 -1917px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
@@ -63920,8 +63759,8 @@ a.lck_2026_item__zhkDk:hover {
 }
 .winter_olympics_2026_section__J6X-P.winter_olympics_2026_lineup__ESvUl
   .winter_olympics_2026_title__EpMDn {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -1519px -1832px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -2031px -1691px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 22px;
@@ -63930,7 +63769,7 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 768px) {
   .winter_olympics_2026_section__J6X-P.winter_olympics_2026_lineup__ESvUl
     .winter_olympics_2026_title__EpMDn {
-    background-position: -1582px -1728px;
+    background-position: -2073px -1532px;
     height: 31px;
     width: 396px;
   }
@@ -63938,7 +63777,7 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 1024px) {
   .winter_olympics_2026_section__J6X-P.winter_olympics_2026_lineup__ESvUl
     .winter_olympics_2026_title__EpMDn {
-    background-position: -1513px -1917px;
+    background-position: -580px -1778px;
     height: 93px;
     width: 300px;
   }
@@ -63948,8 +63787,8 @@ a.lck_2026_item__zhkDk:hover {
 }
 .winter_olympics_2026_section__J6X-P.winter_olympics_2026_milano__bXhYk
   .winter_olympics_2026_title__EpMDn {
-  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.e919d7439027707cd912.png);
-  background-position: -2298px -1532px;
+  background-image: url(https://ssl.pstatic.net/static/nng/glive/resource/p/static/media/sp_event.83fbe39caa861c8bf87e.png);
+  background-position: -1177px -1832px;
   background-repeat: no-repeat;
   background-size: 2727px 2465px;
   height: 22px;
@@ -63958,7 +63797,7 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 768px) {
   .winter_olympics_2026_section__J6X-P.winter_olympics_2026_milano__bXhYk
     .winter_olympics_2026_title__EpMDn {
-    background-position: -956px -1832px;
+    background-position: -1632px -1778px;
     height: 32px;
     width: 303px;
   }
@@ -63966,7 +63805,7 @@ a.lck_2026_item__zhkDk:hover {
 @media screen and (min-width: 1024px) {
   .winter_olympics_2026_section__J6X-P.winter_olympics_2026_milano__bXhYk
     .winter_olympics_2026_title__EpMDn {
-    background-position: -1878px -1778px;
+    background-position: -2081px -1572px;
     height: 42px;
     width: 395px;
   }
