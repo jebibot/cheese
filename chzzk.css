@@ -63111,36 +63111,20 @@ a.lck_2026_item__zhkDk:hover {
 }
 .chzzk_sports_2026_footer__OBAUB {
   background-color: #1c1d1f;
-  border-top: 1px solid hsla(0, 0%, 100%, 0.06);
-  padding: 26px 0 84px;
+  padding: 26px 0 80px;
 }
 @media screen and (min-width: 1024px) {
   .chzzk_sports_2026_footer__OBAUB {
-    -ms-flex-pack: center;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 164px;
+    padding-bottom: 90px;
   }
-  .chzzk_sports_2026_footer_row__51O8I {
-    -ms-flex: none;
-    flex: none;
-  }
-  .chzzk_sports_2026_footer_row__51O8I + .chzzk_sports_2026_footer_row__51O8I {
-    padding-left: 1px;
-    position: relative;
-  }
-  .chzzk_sports_2026_footer_row__51O8I
-    + .chzzk_sports_2026_footer_row__51O8I:before {
-    background-color: rgba(var(--color-content-04-fixed-rgb), 0.15);
-    content: "";
-    height: 11px;
-    left: 0;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 1px;
+}
+.chzzk_sports_2026_footer__OBAUB.chzzk_sports_2026_has_button__-0UKC {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.06);
+  padding-bottom: 133px;
+}
+@media screen and (min-width: 1024px) {
+  .chzzk_sports_2026_footer__OBAUB.chzzk_sports_2026_has_button__-0UKC {
+    padding-bottom: 170px;
   }
 }
 .chzzk_sports_2026_footer__OBAUB .chzzk_sports_2026_item__KWuLT {
@@ -63156,7 +63140,7 @@ a.lck_2026_item__zhkDk:hover {
   .chzzk_sports_2026_footer__OBAUB .chzzk_sports_2026_item__KWuLT {
     font-size: 12px;
     line-height: 15px;
-    padding: 5px 10px;
+    padding: 4px 10px;
   }
 }
 .chzzk_sports_2026_footer__OBAUB .chzzk_sports_2026_item__KWuLT strong {
@@ -63191,6 +63175,45 @@ a.lck_2026_item__zhkDk:hover {
 .chzzk_sports_2026_footer__OBAUB a.chzzk_sports_2026_item__KWuLT:active,
 .chzzk_sports_2026_footer__OBAUB a.chzzk_sports_2026_item__KWuLT:hover {
   text-decoration: underline;
+}
+@media screen and (min-width: 1024px) {
+  .chzzk_sports_2026_row__VPLIT {
+    -ms-flex-pack: center;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+  }
+  .chzzk_sports_2026_cell__cQu50 {
+    -ms-flex: none;
+    flex: none;
+  }
+  .chzzk_sports_2026_cell__cQu50 + .chzzk_sports_2026_cell__cQu50 {
+    padding-left: 1px;
+    position: relative;
+  }
+  .chzzk_sports_2026_cell__cQu50 + .chzzk_sports_2026_cell__cQu50:before {
+    background-color: rgba(var(--color-content-04-fixed-rgb), 0.15);
+    content: "";
+    height: 11px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+  }
+}
+.chzzk_sports_2026_logo__9TEKD {
+  height: 41px;
+  margin-top: 26px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .chzzk_sports_2026_logo__9TEKD {
+    height: 57px;
+    margin-top: 36px;
+    width: 140px;
+  }
 }
 .chzzk_sports_2026_fixed_button__w6Be3 {
   -ms-flex-align: center;
@@ -64109,90 +64132,6 @@ a.lck_2026_item__zhkDk:hover {
     line-height: 30px;
     width: 39px;
   }
-}
-.winter_olympics_2026_footer__FQOot {
-  background-color: #1c1d1f;
-  border-top: 1px solid hsla(0, 0%, 100%, 0.06);
-  padding: 26px 0 84px;
-}
-@media screen and (min-width: 1024px) {
-  .winter_olympics_2026_footer__FQOot {
-    -ms-flex-pack: center;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 164px;
-  }
-  .winter_olympics_2026_footer_row__6zt2- {
-    -ms-flex: none;
-    flex: none;
-  }
-  .winter_olympics_2026_footer_row__6zt2-
-    + .winter_olympics_2026_footer_row__6zt2- {
-    padding-left: 1px;
-    position: relative;
-  }
-  .winter_olympics_2026_footer_row__6zt2-
-    + .winter_olympics_2026_footer_row__6zt2-:before {
-    background-color: rgba(var(--color-content-04-fixed-rgb), 0.15);
-    content: "";
-    height: 11px;
-    left: 0;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 1px;
-  }
-}
-.winter_olympics_2026_footer__FQOot .winter_olympics_2026_item__XzyHm {
-  color: hsla(0, 0%, 100%, 0.5);
-  display: inline-block;
-  font-size: 13px;
-  letter-spacing: -0.3px;
-  line-height: 16px;
-  padding: 4px 8px;
-  vertical-align: top;
-}
-@media screen and (min-width: 1024px) {
-  .winter_olympics_2026_footer__FQOot .winter_olympics_2026_item__XzyHm {
-    font-size: 12px;
-    line-height: 15px;
-    padding: 5px 10px;
-  }
-}
-.winter_olympics_2026_footer__FQOot .winter_olympics_2026_item__XzyHm strong {
-  font-weight: 700;
-}
-.winter_olympics_2026_footer__FQOot
-  .winter_olympics_2026_item__XzyHm
-  + .winter_olympics_2026_item__XzyHm {
-  padding-left: 9px;
-  position: relative;
-}
-@media screen and (min-width: 1024px) {
-  .winter_olympics_2026_footer__FQOot
-    .winter_olympics_2026_item__XzyHm
-    + .winter_olympics_2026_item__XzyHm {
-    padding-left: 11px;
-  }
-}
-.winter_olympics_2026_footer__FQOot
-  .winter_olympics_2026_item__XzyHm
-  + .winter_olympics_2026_item__XzyHm:before {
-  background-color: hsla(0, 0%, 100%, 0.075);
-  content: "";
-  height: 11px;
-  left: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 1px;
-}
-.winter_olympics_2026_footer__FQOot a.winter_olympics_2026_item__XzyHm:active,
-.winter_olympics_2026_footer__FQOot a.winter_olympics_2026_item__XzyHm:hover {
-  text-decoration: underline;
 }
 @media screen and (min-width: 768px) {
   .winter_olympics_2026_hidden_tablet__-YESJ {
