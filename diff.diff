@@ -1,6 +1,31 @@
+-                        target_user: i
++                        target_user: i,
++                        abt_bucket: arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : null,
++                        session_id: arguments.length > 6 && void 0 !== arguments[6] ? arguments[6] : null,
++                        airs_session_id: arguments.length > 7 && void 0 !== arguments[7] ? arguments[7] : null,
++                        airs_extra: arguments.length > 8 && void 0 !== arguments[8] ? arguments[8] : null
+
+-                        target_user: r
++                        target_user: r,
++                        abt_bucket: arguments.length > 4 && void 0 !== arguments[4] ? arguments[4] : null,
++                        session_id: arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : null,
++                        airs_session_id: arguments.length > 6 && void 0 !== arguments[6] ? arguments[6] : null,
++                        airs_extra: arguments.length > 7 && void 0 !== arguments[7] ? arguments[7] : null
+
+-                    var e, r = t[f];
+-                    r && sAe(null === (e = r.channel) || void 0 === e ? void 0 : e.channelId, r.liveId, f, n)
++                    var e, r, i, a, o, s, l, c, u, d = t[f];
++                    d && sAe(null === (e = d.channel) || void 0 === e ? void 0 : e.channelId, d.liveId, f, n, null !== (r = null === (i = d.trackingParams) || void 0 === i ? void 0 : i.abtBucket) && void 0 !== r ? r : null, null !== (a = null === (o = d.trackingParams) || void 0 === o ? void 0 : o.sessionId) && void 0 !== a ? a : null, null !== (s = null === (l = d.trackingParams) || void 0 === l ? void 0 : l.airsSessionId) && void 0 !== s ? s : null, null !== (c = null === (u = d.trackingParams) || void 0 === u ? void 0 : u.airsExtra) && void 0 !== c ? c : null)
+
+-                                    var e = t.findIndex((function(e) {
++                                    var r, i, a, o, s, u, d, p, h = t.findIndex((function(e) {
+
+-                                    oAe(null === l || void 0 === l ? void 0 : l.channelId, "live", c, e < 0 ? null : e, n)
++                                    oAe(null === l || void 0 === l ? void 0 : l.channelId, "live", c, h < 0 ? null : h, n, null !== (r = null === (i = e.trackingParams) || void 0 === i ? void 0 : i.abtBucket) && void 0 !== r ? r : null, null !== (a = null === (o = e.trackingParams) || void 0 === o ? void 0 : o.sessionId) && void 0 !== a ? a : null, null !== (s = null === (u = e.trackingParams) || void 0 === u ? void 0 : u.airsSessionId) && void 0 !== s ? s : null, null !== (d = null === (p = e.trackingParams) || void 0 === p ? void 0 : p.airsExtra) && void 0 !== d ? d : null)
+
 -f464abb3 2e5a576d 47bcbdf5
 
 
 
-+82d3f509 49f5f2c1 66f4d227
++d1981061 49f5f2c1 66f4d227
 
