@@ -25,7 +25,7 @@ async function getCSS(url, name) {
 
 const scripts = await Promise.all([
   getScript("https://chzzk.naver.com/", "chzzk.js"),
-  getScript("https://studio.chzzk.naver.com/", "studio.js"),
+  // getScript("https://studio.chzzk.naver.com/", "studio.js"),
   getCSS("https://chzzk.naver.com/", "chzzk.css"),
 ]);
 await fs.promises.writeFile("message.txt", scripts.join(" "));
